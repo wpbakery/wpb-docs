@@ -1,14 +1,12 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
 
 # wpb_ai_tone_of_voice_list
 
-This filter is handy if you want to change the ‘Tone of voice’ dropdown for a particular element param type in a WPBakery AI popup.
+Since 8.3
 
-:::info
-Available Since 8.3
-:::
+This filter is handy if you want to change the ‘Tone of voice’ dropdown for a particular element param type in a WPBakery AI popup.
 
 ```php
 <?php

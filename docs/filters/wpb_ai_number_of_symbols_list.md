@@ -1,16 +1,14 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # wpb_ai_number_of_symbols_list
 
+Since 8.3
+
 This filter is handy if you want to change the 'Length' dropdown for a particular param type of element in a WPBakery AI popup.
 
 Please note: If you want to process a new merge interval some other way in the default endpoint, you need to specify it in [`wpb_module_ai_type_response_route_lib`](/docs/filters/wpb_module_ai_type_response_route_lib/).
-
-:::info
-Available Since 8.3
-:::
 
 ```php
 <?php

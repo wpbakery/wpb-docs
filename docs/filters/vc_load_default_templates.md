@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # vc_load_default_templates

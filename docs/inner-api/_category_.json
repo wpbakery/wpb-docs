@@ -1,8 +1,6 @@
 {
   "label": "Inner API",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "During the development process, we always receive some quality feedback from our users and developers and based on that feedback we are adding new features to the WPBakery Page Builder. One of that features was Inner API, which lets you modify vc_map() array right within your theme functions.php file."
-  }
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true
 }

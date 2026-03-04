@@ -1,8 +1,10 @@
 ---
-sidebar_position: 7
+sidebar_position: 10
 ---
 
 # wpb_ai_content_type_list
+
+Since 8.3
 
 This filter is handy if you want to change the 'Content type' dropdown for a particular element param type in a WPBakery AI popup.
 Please note. Right now, we support only the following content types:
@@ -10,10 +12,6 @@ Please note. Right now, we support only the following content types:
 * `new_content`
 * `improve_existing`
 * `translate`
-
-:::info
-Available Since 8.3
-:::
 
 ```php
 <?php

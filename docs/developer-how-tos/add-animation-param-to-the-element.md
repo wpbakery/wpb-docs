@@ -1,5 +1,10 @@
 ---
+id: add-animation-param-to-the-element
+title: Add Animation Param to the Element
+sidebar_label: Add Animation Param to the Element
 sidebar_position: 1
+hide_table_of_contents: true
+slug: /developers-how-tos/add-animation-param-to-the-element
 ---
 
 # Add Animation Param to the Element
