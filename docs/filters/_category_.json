@@ -1,8 +1,6 @@
 {
   "label": "Filters",
   "position": 11,
-  "link": {
-    "type": "generated-index",
-    "description": "WPBakery Page Builder comes with a range of handy filters for your use.\n\n"
-  }
+  "collapsible": true,
+  "collapsed": false
 }

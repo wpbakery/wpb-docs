@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://kb.wpbakery.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -52,6 +52,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Sidebar configuration - allow collapsing
+          sidebarCollapsible: true, // Allow categories to be collapsible
+          sidebarCollapsed: false, // Start with sidebar itself expanded
         },
         blog: {
           showReadingTime: true,
@@ -80,6 +83,22 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      algolia: {
+        // Application ID from Algolia
+        appId: 'I4BZ3VIOZE',
+        // Search-only API key (safe to expose)
+        apiKey: 'c8a06f55e31e2534400364d71aa03db3',
+        // Index name with prefix
+        indexName: 'wp_kb',
+        // Disable contextual search for now
+        contextualSearch: false,
+        // Optional: Algolia search parameters
+        searchParameters: {
+          facetFilters: []
+        },
+        // Optional: path for search page
+        searchPagePath: 'search',
+      },
       navbar: {
         title: '',
         logo: {
@@ -94,64 +113,18 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/wpbakery/',
-            label: 'GitHub',
-            position: 'right',
+            href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
+            label: 'Customer Center',
+            position: 'left',
+            target: '_blank',
+          },
+          {
+            href: 'https://wpbakery.com',
+            label: 'Get WPBakery Page Builder',
+            position: 'left',
+            target: '_blank',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Facebook',
-                href: 'https://facebook.com/wpbakery',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/wpbakery',
-              },
-              {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/@WPBakeryPageBuilder',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Homepage',
-                to: 'https://wpbakery.com/',
-              },
-              {
-                label: 'Knowledge Base',
-                to: 'https://kb.wpbakery.com/',
-              },
-              {
-                label: 'Support Center',
-                to: 'https://support.wpbakery.com/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/wpbakery/',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} WPBakery. Built with Built with <a href="https://docusaurus.io/" target="_blank" rel="noreferrer noopener">Docusaurus</a>.`,
       },
       prism: {
         theme: prismThemes.github,

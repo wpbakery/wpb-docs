@@ -1,17 +1,17 @@
-# Website
+# WPBakery Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This documentation site is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
 ## Local Development
 
 ```bash
-yarn start
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -19,10 +19,37 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Search (Algolia)
+
+### Setup
+
+1. Copy `.env.example` to `.env.local`:
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. Add your Algolia Admin API key to `.env.local` (never commit this file!)
+
+### Indexing Documentation
+
+After making changes to documentation:
+
+```bash
+npm run index-algolia
+```
+
+Or build and index together:
+
+```bash
+npm run build-and-index
+```
+
+**Security Note:** The Admin API key should only be stored in `.env.local` (gitignored) or as a CI/CD secret. Never commit it to the repository.
 
 ## Deployment
 
