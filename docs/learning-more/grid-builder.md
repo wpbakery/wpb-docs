@@ -20,7 +20,7 @@ WPBakery Page Builder Grid Builder has a native WPBakery Page Builder interface 
 - **Animation Presets *(dropdown)*** – by default set to "Single block" which means there is no "Hover" state for your grid element. Selecting animation preset adds "Hover" tab, next to "Normal" tab in Grid Builder layout.
 - **Preview and Save options**.
 
-![Grid Builder Top Menu](https://kb.wpbakery.com/wp-content/uploads/2018/01/image2015-1-19-16_12_45.png)
+![Grid Builder Top Menu](/img/screenshots/image2015-1-19-16_12_45.png)
 
 ### Builder Layout and Zones
 
@@ -30,7 +30,7 @@ Grid Builder has a WPBakery Page Builder Backend style layout with defined block
 - **"Hover" zone** – similar to "Normal" zone, but defines layout on "Hover" state. **Note:** this zone is visible only if "Animation preset" is selected different from "Single block". Depending on animation chosen "Hover" zone may appear on top of "Normal", replace "Normal" or partly replace "Normal" zone.
 - **"Additional" zone** – places for additional zone are located around "Normal" and "Hover" zones. **Note:** "Additional" zone can not be animated with "Animation Presets" and only one "Additional" zone can be added at the time.
 
-![Grid Builder Layout](https://kb.wpbakery.com/wp-content/uploads/2018/01/image2015-1-19-16_21_44.png)
+![Grid Builder Layout](/img/screenshots/image2015-1-19-16_21_44.png)
 
 ## Settings
 
@@ -76,7 +76,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Text Block](https://kb.wpbakery.com/wp-content/uploads/2018/01/text-1.png) | "Text block" allows you to insert paragraph type text and format it using WYSIWYG editor. Moreover text block allows adding media(images and videos). |
+| ![Text Block](/img/elements/text-1.png) | "Text block" allows you to insert paragraph type text and format it using WYSIWYG editor. Moreover text block allows adding media(images and videos). |
 
 | Param name | Description |
 |------------|-------------|
@@ -89,7 +89,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Separator](https://kb.wpbakery.com/wp-content/uploads/2018/01/separator.png) | "Separator" add separator line to your page. |
+| ![Separator](/img/elements/separator.png) | "Separator" add separator line to your page. |
 
 | Param name | Description |
 |------------|-------------|
@@ -105,7 +105,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Separator with Text](https://kb.wpbakery.com/wp-content/uploads/2018/01/separator_text.png) | "Separator with Text" add separator line to your page together with text which can be positioned in the centre, left or right sides of line. |
+| ![Separator with Text](/img/elements/separator_text.png) | "Separator with Text" add separator line to your page together with text which can be positioned in the centre, left or right sides of line. |
 
 | Param name | Description |
 |------------|-------------|
@@ -123,7 +123,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Icon](https://kb.wpbakery.com/wp-content/uploads/2018/01/icon_icon.png) | With WPBakery Page Builder you can easily add icons from following libraries:<br/>- Font Awesome<br/>- Open icons<br/>- Typicons<br/>- Entypo<br/>- Linecons<br/>- Mono Social<br/>- Material |
+| ![Icon](/img/elements/icon_icon.png) | With WPBakery Page Builder you can easily add icons from following libraries:<br/>- Font Awesome<br/>- Open icons<br/>- Typicons<br/>- Entypo<br/>- Linecons<br/>- Mono Social<br/>- Material |
 
 | Param name | Description |
 |------------|-------------|
@@ -144,7 +144,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Single Image](https://kb.wpbakery.com/wp-content/uploads/2018/01/single_image.png) | Add simple image to your layout and style it. Add CSS animation or apply Design Options. |
+| ![Single Image](/img/elements/single_image.png) | Add simple image to your layout and style it. Add CSS animation or apply Design Options. |
 
 | Param name | Description |
 |------------|-------------|
@@ -164,7 +164,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Button](https://kb.wpbakery.com/wp-content/uploads/2018/01/button.png) | Add button with multiple color and styling options. |
+| ![Button](/img/elements/button.png) | Add button with multiple color and styling options. |
 
 | Param name | Description |
 |------------|-------------|
@@ -187,7 +187,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Custom Heading](https://kb.wpbakery.com/wp-content/uploads/2018/01/custom_heading.png) | Create custom heading with Google Fonts, choose one of predefined fonts and apply styling.<br/><br/>**Important:** If you are using non-latin characters be sure to activate them under Settings/WPBakery Page Builder/General Settings. |
+| ![Custom Heading](/img/elements/custom_heading.png) | Create custom heading with Google Fonts, choose one of predefined fonts and apply styling.<br/><br/>**Important:** If you are using non-latin characters be sure to activate them under Settings/WPBakery Page Builder/General Settings. |
 
 | Param name | Description |
 |------------|-------------|
@@ -208,7 +208,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Empty Space](https://kb.wpbakery.com/wp-content/uploads/2018/01/empty_space.png) | Insert empty space between elements with custom height. |
+| ![Empty Space](/img/elements/empty_space.png) | Insert empty space between elements with custom height. |
 
 | Param name | Description |
 |------------|-------------|
@@ -220,7 +220,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Title](https://kb.wpbakery.com/wp-content/uploads/2018/01/post_title_ico.png) | Post title element adds title of post, page or custom post types. In case of media grid it will add media title. |
+| ![Post Title](/img/elements/post_title_ico.png) | Post title element adds title of post, page or custom post types. In case of media grid it will add media title. |
 
 | Param name | Description |
 |------------|-------------|
@@ -235,7 +235,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Excerpt](https://kb.wpbakery.com/wp-content/uploads/2018/01/excerpt_icon.png) | Post excerpt element adds excerpt of post, page or custom post types. In case of media grid it will add media description. |
+| ![Post Excerpt](/img/elements/excerpt_icon.png) | Post excerpt element adds excerpt of post, page or custom post types. In case of media grid it will add media description. |
 
 | Param name | Description |
 |------------|-------------|
@@ -250,7 +250,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Date](https://kb.wpbakery.com/wp-content/uploads/2018/01/post_date_ico.png) | This element adds post data to your grid element template. |
+| ![Post Date](/img/elements/post_date_ico.png) | This element adds post data to your grid element template. |
 
 | Param name | Description |
 |------------|-------------|
@@ -265,7 +265,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Author](https://kb.wpbakery.com/wp-content/uploads/2018/01/Author_Icon.png) | This element adds post author to your grid element template. |
+| ![Post Author](/img/elements/Author_Icon.png) | This element adds post author to your grid element template. |
 
 | Param name | Description |
 |------------|-------------|
@@ -280,7 +280,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Categories](https://kb.wpbakery.com/wp-content/uploads/2018/01/Category_icon.png) | This element adds post category or categories to your grid element template. |
+| ![Post Categories](/img/elements/Category_icon.png) | This element adds post category or categories to your grid element template. |
 
 | Param name | Description |
 |------------|-------------|
@@ -295,7 +295,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Post Image](https://kb.wpbakery.com/wp-content/uploads/2018/01/featured_image_ico.png) | This element allows adding "Featured image' or point to placeholder for media image from post, custom post types or media library. |
+| ![Post Image](/img/elements/featured_image_ico.png) | This element allows adding "Featured image' or point to placeholder for media image from post, custom post types or media library. |
 
 | Param name | Description |
 |------------|-------------|
@@ -309,7 +309,7 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Custom Fields](https://kb.wpbakery.com/wp-content/uploads/2018/01/custom_fields_ico.png) | Helps to retrieve custom field data from meta values of the post or custom post types. |
+| ![Custom Fields](/img/elements/custom_fields_ico.png) | Helps to retrieve custom field data from meta values of the post or custom post types. |
 
 | Param name | Description |
 |------------|-------------|
@@ -322,13 +322,13 @@ Grid Builder offers content elements which can be used to build and style your g
 
 | | |
 |-|-|
-| ![Woo Elements](https://kb.wpbakery.com/wp-content/uploads/2018/01/woo_icon.png) | If you have Woo Commerce installed on your WordPress site - you will see list of Woo elements available for use in your grid template.<br/>**Note:** It will add also option to choose "Add to Cart" in link settings of linkable elements. |
+| ![Woo Elements](/img/elements/woo_icon.png) | If you have Woo Commerce installed on your WordPress site - you will see list of Woo elements available for use in your grid template.<br/>**Note:** It will add also option to choose "Add to Cart" in link settings of linkable elements. |
 
 ### Advanced Custom Fields
 
 | | |
 |-|-|
-| ![ACF](https://kb.wpbakery.com/wp-content/uploads/2018/01/acf_ico.png) | If you have Advanced Custom Fields installed on your WordPress site - you will see ACF element available for use in your grid template. Using this element you can refer to a specific custom field. |
+| ![ACF](/img/elements/acf_ico.png) | If you have Advanced Custom Fields installed on your WordPress site - you will see ACF element available for use in your grid template. Using this element you can refer to a specific custom field. |
 
 ## Video Tutorial
 

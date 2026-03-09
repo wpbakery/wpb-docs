@@ -18,7 +18,7 @@ The SEO feature allows you to take control of the content SEO from within the pa
 
 The SEO feature can be accessed directly from the toolbar in the frontend or backend editor.
 
-![wpbakery page builder toolbar](https://kb.wpbakery.com/wp-content/uploads/2024/01/wpbakery-page-builder-toolbar-1024x64.png)
+![wpbakery page builder toolbar](/img/screenshots/wpbakery-page-builder-toolbar-1024x64.png)
 
 It has three tabs:
 

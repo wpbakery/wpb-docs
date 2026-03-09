@@ -27,7 +27,7 @@ Clicking `Templates` button in WPBakery Page Builder Editor will open panel with
 
 You can save separate rows and sections as templates directly from your post layout.
 
-![Save row or section as template](https://kb.wpbakery.com/wp-content/uploads/2018/01/row-section-save-as-template-1.png)
+![Save row or section as template](/img/elements/row-section-save-as-template-1.png)
 
 To save row or section as a template, open row or section param window and select settings menu on the top right corner. Click **'Save as template'** and name your new template. The template will appear under Templates window **'My Templates'**.
 

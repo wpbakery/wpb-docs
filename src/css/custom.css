@@ -228,7 +228,7 @@ body {
   display: block;
   width: 200px;
   height: 30px;
-  background: url('https://kb.wpbakery.com/wp-content/uploads/2023/08/wpbakery-logo-horizontal.png') no-repeat left center;
+  background: url('/img/logos/wpbakery-logo-horizontal.png') no-repeat left center;
   background-size: auto 30px;
 }
 

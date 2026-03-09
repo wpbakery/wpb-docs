@@ -19,9 +19,9 @@ We also add a custom taxonomy for tour types, and some custom fields for the pri
 
 | | |
 |---|---|
-| **Custom Post Types**<br />Tours | ![CPTs Tours](https://kb.wpbakery.com/wp-content/uploads/2018/01/CPTs-Tours.png) |
-| **Custom Taxonomies**<br />Tour types: Family Friendly, | ![Custom Taxonomies](https://kb.wpbakery.com/wp-content/uploads/2018/01/Custom-Taxonomies.png) |
-| **Custom Fields**<br />Price, duration, gallery, description of the tour, highlights, special offer etc. | ![Custom Fields](https://kb.wpbakery.com/wp-content/uploads/2018/01/Custom-Fields.png) |
+| **Custom Post Types**<br />Tours | ![CPTs Tours](/img/elements/CPTs-Tours.png) |
+| **Custom Taxonomies**<br />Tour types: Family Friendly, | ![Custom Taxonomies](/img/screenshots/Custom-Taxonomies.png) |
+| **Custom Fields**<br />Price, duration, gallery, description of the tour, highlights, special offer etc. | ![Custom Fields](/img/screenshots/Custom-Fields.png) |
 
 ## 2. Build templates for custom post types
 
@@ -29,11 +29,11 @@ To display custom post types on the front-end you need to create a content templ
 
 Integrated with Toolset, you can use the WPBakery Page Builder to design one template for all "Tours". Insert the custom fields you just created, display them on your page. This includes the price, type of tour, city, gallery, description of the tour and any other fields.
 
-![Toolset shortcode](https://kb.wpbakery.com/wp-content/uploads/2018/01/Toolset-shortcode.png)
+![Toolset shortcode](/img/screenshots/Toolset-shortcode.png)
 
 This is how template for Tours looks like in the end.
 
-![CPT Template](https://kb.wpbakery.com/wp-content/uploads/2018/01/CPT-Template-1.png)
+![CPT Template](/img/templates/CPT-Template-1.png)
 
 We have built one single template and all your custom post types will have the same design, with their own information.
 
@@ -43,7 +43,7 @@ We have built one single template and all your custom post types will have the s
 - Build advanced search with custom filters and display results on a map;
 - Create a front-end submission form and insert it in a page;
 
-![Google Maps Search](https://kb.wpbakery.com/wp-content/uploads/2018/01/Google-Maps-Search.png)
+![Google Maps Search](/img/screenshots/Google-Maps-Search.png)
 
 Toolset lets you build custom searches for any custom post type, this includes inputs by custom fields, taxonomy, relationship and text searches. A good custom search allows visitors to find exactly what they need. You can easily style the search and the map according to the theme you are using.
 

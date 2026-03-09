@@ -13,7 +13,7 @@ const DocSidebarMobileSecondaryMenu = ({sidebar, path}) => {
     <div className="wpb-sidebar-wrapper-mobile">
       <a href="/" className="sidebar-logo" onClick={() => mobileSidebar.toggle()}>
         <img
-          src="https://kb.wpbakery.com/wp-content/uploads/2023/08/wpbakery-logo-horizontal.png"
+          src="/img/logos/wpbakery-logo-horizontal.png"
           alt="WPBakery"
         />
       </a>

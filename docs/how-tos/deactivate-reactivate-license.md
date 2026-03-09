@@ -11,4 +11,4 @@ You can deactivate WPBakery Page Builder license under WP Dashboard -> WPBakery 
 
 If you have activated WPBakery Page Builder on your server and deleted all files afterward. You can deactivate your license in the Customer Portal License Management section – [support.wpbakery.com](http://support.wpbakery.com/)
 
-![Deactivate WPBakery](https://kb.wpbakery.com/wp-content/uploads/2018/01/wpbakery-deactivate.png)
+![Deactivate WPBakery](/img/ui/wpbakery-deactivate.png)

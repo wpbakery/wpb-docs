@@ -44,7 +44,7 @@ In order delete preset:
 </div>
 <div style={{flex: 1}}>
 
-![Save as element in element settings](https://kb.wpbakery.com/wp-content/uploads/2018/01/save-as-element-1.png)
+![Save as element in element settings](/img/templates/save-as-element-1.png)
 
 </div>
 </div>

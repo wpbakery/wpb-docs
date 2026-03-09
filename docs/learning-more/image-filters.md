@@ -32,7 +32,7 @@ In order to insert image filter:
 </div>
 <div style={{flex: 1}}>
 
-![Image Filter Screenshot](https://kb.wpbakery.com/wp-content/uploads/2018/01/Image_Filter_Screenshot.png)
+![Image Filter Screenshot](/img/screenshots/Image_Filter_Screenshot.png)
 
 </div>
 </div>

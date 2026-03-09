@@ -27,4 +27,4 @@ Here you can find materials that can be used for marketing purposes in your Word
 
 **WPBakery Page Builder Materials:**
 
-[WPB-Materials](https://kb.wpbakery.com/wp-content/uploads/2023/09/wpb-logo-media.zip)
+[WPB-Materials](/img/logos/wpb-logo-media.zip)

@@ -6,7 +6,7 @@ sidebar_position: 3
 
 This is a list of 40+ available content elements that can be placed on the working canvas or inside of the columns. Think of them as bricks. With those bricks, you are building your layout. Most of the content elements have options to set them click pencil icon. To save changes click save button.
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/add_row-e1691491172917.png" alt="Row Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Row
+## <img src="/img/elements/add_row-e1691491172917.png" alt="Row Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Row
 
 "Row" is the main content element of WPBakery Page Builder. Rows are used to divide your page into the logic blocks with columns, columns later will hold your content blocks. Rows can be divided into the layouts (eg. 1/2 + 1/2, 1/3 + 1/3 + 1/3, and so on). Your page can have an unlimited number of rows. To change row's position, click and drag row's drag handler (top left row's corner) and drag row around (vertical axis).
 
@@ -46,7 +46,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Design Options | Control borders, background and other styling options. |
 | Width & Responsiveness | Control width, offset and visibility of element on different devices. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/Section-Element-Icon-1.png" alt="Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Section
+## <img src="/img/elements/Section-Element-Icon-1.png" alt="Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Section
 
 "Section" is root type container element that allows you to 'group' several rows. You can insert section into root canvas only (section element can not be inserted into any other element, including row). Section element can contain only row elements.
 
@@ -66,7 +66,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/text.png" alt="Text Block Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Text Block
+## <img src="/img/elements/text.png" alt="Text Block Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Text Block
 
 "Text block" allows you to insert paragraph type text and format it using WYSIWYG editor. Moreover text block allows adding media(images and videos).
 
@@ -78,7 +78,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/separator.png" alt="Separator Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Separator
+## <img src="/img/elements/separator.png" alt="Separator Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Separator
 
 "Separator" add separator line to your page.
 
@@ -94,7 +94,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/separator_text.png" alt="Separator with Text Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Separator with Text
+## <img src="/img/elements/separator_text.png" alt="Separator with Text Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Separator with Text
 
 "Separator with Text" add separator line to your page together with text which can be positioned in the centre, left or right sides of line.
 
@@ -113,7 +113,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/zigzag-icon.png" alt="ZigZag Separator Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> ZigZag Separator
+## <img src="/img/elements/zigzag-icon.png" alt="ZigZag Separator Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> ZigZag Separator
 
 "ZigZag separator" add separator line in form of zig zag. It uses SVG graphics to form the line and can be positioned in the centre, left or right sides of line.
 
@@ -128,7 +128,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/message_box.png" alt="Message Box Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Message Box
+## <img src="/img/elements/message_box.png" alt="Message Box Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Message Box
 
 "Message Box" add noticeable message to your website in order to show success, error, warning etc.
 
@@ -146,7 +146,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/facebook.png" alt="Facebook Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Facebook 'Like'
+## <img src="/img/elements/facebook.png" alt="Facebook Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Facebook 'Like'
 
 "Facebook Like" add social 'Like' button.
 
@@ -158,7 +158,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/twitter.png" alt="Twitter Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tweetmeme Button
+## <img src="/img/elements/twitter.png" alt="Twitter Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tweetmeme Button
 
 "Tweetmeme button" add default social 'Tweet' button.
 
@@ -172,7 +172,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/pinterest.png" alt="Pinterest Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pinterest
+## <img src="/img/elements/pinterest.png" alt="Pinterest Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pinterest
 
 "Pinterest" add social 'Pinit' button.
 
@@ -184,7 +184,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/faq.png" alt="FAQ Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> FAQ (Toggle)
+## <img src="/img/elements/faq.png" alt="FAQ Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> FAQ (Toggle)
 
 "FAQ" add collapsible toggle to your page.
 
@@ -201,7 +201,7 @@ This is a list of 40+ available content elements that can be placed on the worki
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/single_image.png" alt="Single Image Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Single Image
+## <img src="/img/elements/single_image.png" alt="Single Image Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Single Image
 
 Add simple image to your layout and style it. Add CSS animation or apply Design Options.
 
@@ -223,7 +223,7 @@ Add simple image to your layout and style it. Add CSS animation or apply Design 
 | Element ID | Add unique element ID (Note: make sure it is unique and valid according to [w3c specification](http://www.w3schools.com/tags/att_global_id.asp)). |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/gallery.png" alt="Image Gallery Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Image Gallery
+## <img src="/img/elements/gallery.png" alt="Image Gallery Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Image Gallery
 
 Add responsive Image gallery. Choose your gallery type from Flex Slider, Nivo Slider or Image grid.
 
@@ -243,7 +243,7 @@ Add responsive Image gallery. Choose your gallery type from Flex Slider, Nivo Sl
 | Element ID | Add unique element ID (Note: make sure it is unique and valid according to [w3c specification](http://www.w3schools.com/tags/att_global_id.asp)). |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/image_carrousel.png" alt="Image Carousel Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Image Carousel
+## <img src="/img/elements/image_carrousel.png" alt="Image Carousel Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Image Carousel
 
 Add fixed size animated image carousel.
 
@@ -267,7 +267,7 @@ Add fixed size animated image carousel.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/pageable_content_icon.png" alt="Pageable Container Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pageable Container
+## <img src="/img/elements/pageable_content_icon.png" alt="Pageable Container Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pageable Container
 
 Pageable Container is Tab based complex element which consists of inner section collections(tabs) and its structure is similar to row and column hierarchy. You can create as many inner sections within the element as you wish and then place any type of content within.
 
@@ -284,7 +284,7 @@ Pageable Container is Tab based complex element which consists of inner section 
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/pageable_content_icon.png" alt="Pageable Container Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pageable Container Section
+## <img src="/img/elements/pageable_content_icon.png" alt="Pageable Container Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pageable Container Section
 
 Pageable container section is an instance of Pageable Container element and controls one specific section. It is similar to principe row and column.
 
@@ -295,7 +295,7 @@ Pageable container section is an instance of Pageable Container element and cont
 | Add icon | Add icon to button from icon library. |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tabs.png" alt="Tabs Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tabs
+## <img src="/img/elements/tabs.png" alt="Tabs Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tabs
 
 Tabs is a complex element which consists of inner section collections(tabs) and its structure is similar to row and column hierarchy. You can create as many inner sections within element as you wish and then place any type of content within.
 
@@ -318,7 +318,7 @@ Tabs is a complex element which consists of inner section collections(tabs) and 
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tabs.png" alt="Tabs Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tabs Section
+## <img src="/img/elements/tabs.png" alt="Tabs Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tabs Section
 
 Tabs section is an instance of Tabs element and controls one specific tab/section. It is similar to principe row and column.
 
@@ -329,7 +329,7 @@ Tabs section is an instance of Tabs element and controls one specific tab/sectio
 | Add icon | Add icon to button from icon library. |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tours.png" alt="Tours Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tours
+## <img src="/img/elements/tours.png" alt="Tours Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tours
 
 Tours is a complex element which consists of inner section collections and its structure is similar to row and column hierarchy. You can create as many inner sections within element as you wish and then place any type of content within.
 
@@ -354,7 +354,7 @@ Tours is a complex element which consists of inner section collections and its s
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tours.png" alt="Tours Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tours Section
+## <img src="/img/elements/tours.png" alt="Tours Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Tours Section
 
 Tours section is an instance of Tours element and controls one specific section. It is similar to principe row and column.
 
@@ -365,7 +365,7 @@ Tours section is an instance of Tours element and controls one specific section.
 | Add icon | Add icon to button from icon library. |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tours.png" alt="Accordion Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Accordion
+## <img src="/img/elements/tours.png" alt="Accordion Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Accordion
 
 Accordion is a complex element which consists of inner section collections and its structure is similar to row and column hierarchy. You can create as many inner sections within element as you wish and then place any type of content within.
 
@@ -389,7 +389,7 @@ Accordion is a complex element which consists of inner section collections and i
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/tours.png" alt="Accordion Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Accordion Section
+## <img src="/img/elements/tours.png" alt="Accordion Section Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Accordion Section
 
 Accordion section is an instance of Accordion element and controls one specific section. It is similar to principe row and column.
 
@@ -400,7 +400,7 @@ Accordion section is an instance of Accordion element and controls one specific 
 | Add icon | Add icon to button from icon library. |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/post_grid.png" alt="Post Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Post Grid
+## <img src="/img/elements/post_grid.png" alt="Post Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Post Grid
 
 Add posts of your WordPress site in grid view. Choose posts type, build your own unique query and define what kind of information to display.
 
@@ -444,7 +444,7 @@ Add posts of your WordPress site in grid view. Choose posts type, build your own
 | Animation Out | Pagination | Select "animation out" for page transition. |
 | Design Options |  | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/masonry_post_grid_ico.png" alt="Masonry Post Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Masonry Post Grid
+## <img src="/img/elements/masonry_post_grid_ico.png" alt="Masonry Post Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Masonry Post Grid
 
 Add posts of your WordPress site in masonry grid view. Choose posts type, build your own unique query and define what kind of information to display.
 
@@ -479,7 +479,7 @@ Add posts of your WordPress site in masonry grid view. Choose posts type, build 
 | Button icon | Load more button | Add icon to "Load more" button. |
 | Design Options |  | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/media_grid_ico.png" alt="Media Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Media Grid
+## <img src="/img/elements/media_grid_ico.png" alt="Media Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Media Grid
 
 Add media from Media library to your WordPress site in grid view.
 
@@ -517,7 +517,7 @@ Add media from Media library to your WordPress site in grid view.
 | Animation Out | Pagination | Select "animation out" for page transition. |
 | Design Options |  | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/masonry_media_grid_ico.png" alt="Masonry Media Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Masonry Media Grid
+## <img src="/img/elements/masonry_media_grid_ico.png" alt="Masonry Media Grid Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Masonry Media Grid
 
 Add media from Media library to your WordPress site in masonry grid view.
 
@@ -546,7 +546,7 @@ Add media from Media library to your WordPress site in masonry grid view.
 | Button icon | Load more button | Add icon to "Load more" button. |
 | Design Options |  | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/posts_slider.png" alt="Post Slider Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Post Slider
+## <img src="/img/elements/posts_slider.png" alt="Post Slider Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Post Slider
 
 Create slider from your WordPress site posts, pages or custom posts. Display featured images and take full control over their settings and styling.
 
@@ -569,7 +569,7 @@ Create slider from your WordPress site posts, pages or custom posts. Display fea
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/widget_sidebar.png" alt="Widgetised Sidebar Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Witgetised Sidebar
+## <img src="/img/elements/widget_sidebar.png" alt="Widgetised Sidebar Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Witgetised Sidebar
 
 "Widgetised Sidebar" add widget area created before.
 
@@ -581,7 +581,7 @@ Create slider from your WordPress site posts, pages or custom posts. Display fea
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/button.png" alt="Button Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Button
+## <img src="/img/elements/button.png" alt="Button Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Button
 
 Add button with multiple color and styling options:
 
@@ -611,7 +611,7 @@ Add button with multiple color and styling options:
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/call_to_action.png" alt="Call to Action Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Call to Action
+## <img src="/img/elements/call_to_action.png" alt="Call to Action Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Call to Action
 
 Create call to action block with heading, text, button and control its styling.
 
@@ -636,7 +636,7 @@ Create call to action block with heading, text, button and control its styling.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/hover-box-icon.png" alt="Hover Box Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Hover Box
+## <img src="/img/elements/hover-box-icon.png" alt="Hover Box Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Hover Box
 
 Add interactive hover box with image and paragraph content and active state control.
 
@@ -661,7 +661,7 @@ Add interactive hover box with image and paragraph content and active state cont
 | Background color | Hover Block | Select background color for the hover block. (Note: Select Custom to choose a color with the color picker) |
 | Add button? | Hover Block | Adds option to set button at the bottom of the hover block. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/video.png" alt="Video Player Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Video Player
+## <img src="/img/elements/video.png" alt="Video Player Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Video Player
 
 Insert video in your layout. Choose from multiple formats accepted by WordPress.
 
@@ -677,7 +677,7 @@ Insert video in your layout. Choose from multiple formats accepted by WordPress.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/google_map.png" alt="Google Maps Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Google Maps
+## <img src="/img/elements/google_map.png" alt="Google Maps Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Google Maps
 
 Insert Google Maps within your iframe.
 
@@ -691,7 +691,7 @@ Insert Google Maps within your iframe.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/html.png" alt="Raw HTML Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Raw HTML
+## <img src="/img/elements/html.png" alt="Raw HTML Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Raw HTML
 
 Insert your custom HTML content if necessary
 
@@ -702,7 +702,7 @@ Insert your custom HTML content if necessary
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/js.png" alt="Raw JS Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Raw JS
+## <img src="/img/elements/js.png" alt="Raw JS Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Raw JS
 
 Insert your custom JS code if necessary
 
@@ -713,7 +713,7 @@ Insert your custom JS code if necessary
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/flickr.png" alt="Flickr Widget Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Flickr Widget
+## <img src="/img/elements/flickr.png" alt="Flickr Widget Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Flickr Widget
 
 Display your photo stream from Flickr on your WordPress site with Flickr Widget. In order to place images you will need to determine your Flickr ID - which you can retrieve here: [http://idgettr.com/](http://idgettr.com/)
 
@@ -729,7 +729,7 @@ Display your photo stream from Flickr on your WordPress site with Flickr Widget.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/progress_bar.png" alt="Progress Bar Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Progress Bar
+## <img src="/img/elements/progress_bar.png" alt="Progress Bar Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Progress Bar
 
 Display progress bar with custom values. Style your whole progress bar or separate values according to your needs.
 
@@ -748,7 +748,7 @@ Display progress bar with custom values. Style your whole progress bar or separa
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/piechart.png" alt="Pie Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pie Chart
+## <img src="/img/elements/piechart.png" alt="Pie Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pie Chart
 
 Display pie chart with your custom value and styling parameters.
 
@@ -764,7 +764,7 @@ Display pie chart with your custom value and styling parameters.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/Doughnut_icon.png" alt="Round Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Round Chart
+## <img src="/img/elements/Doughnut_icon.png" alt="Round Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Round Chart
 
 Display chart with your custom value and styling parameters in following formats:
 
@@ -790,7 +790,7 @@ Display chart with your custom value and styling parameters in following formats
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/Linechart_Icon.png" alt="Line Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Line Chart
+## <img src="/img/elements/Linechart_Icon.png" alt="Line Chart Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Line Chart
 
 Display chart with your custom value and styling parameters in following formats:
 
@@ -817,7 +817,7 @@ Display chart with your custom value and styling parameters in following formats
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/empty_space.png" alt="Empty Space Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Empty Space
+## <img src="/img/elements/empty_space.png" alt="Empty Space Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Empty Space
 
 Insert empty space between elements with custom height.
 
@@ -828,7 +828,7 @@ Insert empty space between elements with custom height.
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/custom_heading.png" alt="Custom Heading Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Custom Heading
+## <img src="/img/elements/custom_heading.png" alt="Custom Heading Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Custom Heading
 
 Create custom heading with Google Fonts, choose one of predefined fonts and apply styling.**Important:** If you are using non-latin characters be sure to activate them under Settings/WPBakery Page Builder/General Settings.
 
@@ -849,7 +849,7 @@ Create custom heading with Google Fonts, choose one of predefined fonts and appl
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/icon_icon.png" alt="Icon Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Icon Element
+## <img src="/img/elements/icon_icon.png" alt="Icon Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Icon Element
 
 With WPBakery Page Builder you can easily add icons from following libraries:
 
@@ -874,11 +874,11 @@ With WPBakery Page Builder you can easily add icons from following libraries:
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/woo_icon.png" alt="Woo Elements Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Woo Elements
+## <img src="/img/elements/woo_icon.png" alt="Woo Elements Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Woo Elements
 
 Starting from version 4.4.0 WPBakery Page Builder offers all Woo Commerce shortcodes automatically mapped within your 'Add Element' window once you have Woo Commerce and WPBakery Page Builder installed on your WordPress site.
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/wp.png" alt="WP Widgets Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Default Widgets of WP
+## <img src="/img/elements/wp.png" alt="WP Widgets Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Default Widgets of WP
 
 With WPBakery Page Builder you can easily add all existing default WP widgets. All widgets are listed within WPBakery Page Builder element list.
 
@@ -888,7 +888,7 @@ With WPBakery Page Builder you can easily add all existing default WP widgets. A
 | Element ID | Add unique element ID (Note: make sure it is unique and valid according to [w3c specification](http://www.w3schools.com/tags/att_global_id.asp)). |
 | Extra class name | Add class name in order to refer to this element in CSS. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/gutenberg_icon.png" alt="Gutenberg Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Gutenberg Element
+## <img src="/img/elements/gutenberg_icon.png" alt="Gutenberg Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Gutenberg Element
 
 Insert Gutenberg editor in your layout
 
@@ -900,7 +900,7 @@ Insert Gutenberg editor in your layout
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/toggle.png" alt="Toggle Container Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Toggle Container
+## <img src="/img/elements/toggle.png" alt="Toggle Container Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Toggle Container
 
 Pageable Content Container
 
@@ -914,7 +914,7 @@ Pageable Content Container
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/pricing.png" alt="Pricing Table Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pricing Table
+## <img src="/img/elements/pricing.png" alt="Pricing Table Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Pricing Table
 
 Output Pricing table on your page
 
@@ -946,7 +946,7 @@ Output Pricing table on your page
 | Extra class name | Add class name in order to refer to this element in CSS. |
 | Design Options | Control borders, background and other styling options. |
 
-## <img src="https://kb.wpbakery.com/wp-content/uploads/2024/11/copyright.png" alt="Copyright Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Copyright Element
+## <img src="/img/ui/copyright.png" alt="Copyright Element Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Copyright Element
 
 Insert copyright with dynamic year
 
@@ -961,7 +961,7 @@ Insert copyright with dynamic year
 
 ## DEPRECATED Elements
 
-### <img src="https://kb.wpbakery.com/wp-content/uploads/2018/01/google_plus.png" alt="Google+ Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Google +
+### <img src="/img/elements/google_plus.png" alt="Google+ Icon" style={{width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '10px'}} /> Google +
 
 **DEPRECATED**
 

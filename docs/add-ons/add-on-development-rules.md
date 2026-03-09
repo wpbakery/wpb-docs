@@ -24,7 +24,7 @@ In order to get your addon to be listed on our website there are few simple rule
 - Addon must be exclusive to WPBakery Page Builder
 - Item description on CodeCanyon for your addon must contain text (with link as in example): This plugin is addon for [WPBakery Page Builder](https://wpbakery.com/)
 
-![WPBakery Page Builder Addon Badge](https://kb.wpbakery.com/wp-content/uploads/2018/01/addon-badge.png)
+![WPBakery Page Builder Addon Badge](/img/ui/addon-badge.png)
 
 Adding newly created add-ons take some time, this is why we again ask you to provide information in order to fasten up this process, plus, in such way you are able to have some control over information which is displayed about your add-ons. Please send us following information:
 

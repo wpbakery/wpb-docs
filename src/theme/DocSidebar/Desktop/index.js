@@ -23,7 +23,7 @@ function DocSidebarDesktop({path, sidebar, onCollapse, isHidden}) {
       )}>
       <a href="/" className="sidebar-logo">
         <img
-          src="https://kb.wpbakery.com/wp-content/uploads/2023/08/wpbakery-logo-horizontal.png"
+          src="/img/logos/wpbakery-logo-horizontal.png"
           alt="WPBakery"
         />
       </a>

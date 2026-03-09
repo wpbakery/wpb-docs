@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Blank Page Wizard
 
-![Blank page interface introduced in 7.0 update](https://kb.wpbakery.com/wp-content/uploads/2023/08/blank-page-interface.png)
+![Blank page interface introduced in 7.0 update](/img/screenshots/blank-page-interface.png)
 
 In the 7.0 release, the WPBakery Page Builder introduced an interface that allows you to select two types of pages before any content is added:
 

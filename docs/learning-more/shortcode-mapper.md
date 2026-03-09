@@ -20,7 +20,7 @@ In order to add your own or any third party shortcode to the element list of WPB
 
 ## Parsing Shortcodes
 
-![Shortcode parsing](https://kb.wpbakery.com/wp-content/uploads/2018/01/Shortcode_parse.png)
+![Shortcode parsing](/img/screenshots/Shortcode_parse.png)
 
 First, you need to parse your shortcode. Under "My Shortcodes" tab choose Map Shortcode in order to open parse window. In the input field you will need to copy sample of your shortcode. For example, you have a shortcode:
 
@@ -32,7 +32,7 @@ All you need to do is paste this shortcode into input field and press "Parse sho
 
 ## Changing Values of Your Shortcode
 
-![Shortcode parameters](https://kb.wpbakery.com/wp-content/uploads/2018/01/Shortcode_param.png)
+![Shortcode parameters](/img/screenshots/Shortcode_param.png)
 
 Now when you have parsed your shortcode you can edit params and values according to necessary standards. First part of the shortcode description is **General information** which contains main **shortcode tag**, **category** which states where your shortcode will be displayed in element menu (default "My Shortcodes") and **description**.
 

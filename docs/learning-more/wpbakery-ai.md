@@ -15,7 +15,7 @@ hide_table_of_contents: true
 The WPBakery Page Builder AI represents a transformative advancement in website development. An **active support tenure** allows access to AI which is designed to empower you with the ability to effortlessly generate and enhance text and custom code. Whether you need to create compelling textual content or fine-tune intricate custom code, such as HTML, Custom CSS, and JS, the WPBakery Page Builder AI is your partner in streamlining website development.
 
 Any element field that supports AI generation will have the following icon next to it:
-![AI icon visible on element fields](https://kb.wpbakery.com/wp-content/uploads/2023/11/wpb-AI-icon.png)
+![AI icon visible on element fields](/img/elements/wpb-AI-icon.png)
 
 Once that icon is clicked, it will open the WPBakery AI window. The Code generation window available in Custom CSS, Custom JS, Raw HTML, and RAW JS has only one field take query input for code generation The Content generation window has three content types:
 
