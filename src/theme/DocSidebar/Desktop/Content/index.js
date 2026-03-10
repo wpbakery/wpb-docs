@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import clsx from 'clsx';
 import {ThemeClassNames} from '@docusaurus/theme-common';
 import {
@@ -23,8 +23,36 @@ function useShowAnnouncementBar() {
 }
 export default function DocSidebarDesktopContent({path, sidebar, className}) {
   const showAnnouncementBar = useShowAnnouncementBar();
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    if (navRef.current) {
+      const activeLinks = navRef.current.querySelectorAll('.menu__link--active');
+      let activeLink = null;
+
+      for (const link of activeLinks) {
+        if (!link.classList.contains('menu__link--sublist')) {
+          activeLink = link;
+          break;
+        }
+      }
+
+      if (!activeLink && activeLinks.length > 0) {
+        activeLink = activeLinks[activeLinks.length - 1];
+      }
+
+      if (activeLink) {
+        activeLink.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        });
+      }
+    }
+  }, [path]);
+
   return (
     <nav
+      ref={navRef}
       aria-label={translate({
         id: 'theme.docs.sidebar.navAriaLabel',
         message: 'Docs sidebar',

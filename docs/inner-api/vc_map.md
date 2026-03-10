@@ -79,28 +79,35 @@ array(
 
 There are multiple attribute types available, this field is used to "tell" WPBakery Page Builder how to handle your attribute in content element edit screen.
 
-| Value | Description |
-|-------|-------------|
-| textarea_html | Text area with default WordPress WYSIWYG Editor. **Important:** only one html textarea is permitted per shortcode and it should have "content" as a param_name |
-| textfield | Simple input field |
-| textarea | Simple textarea field |
-| dropdown | Dropdown input field with set of available options. Array containing the drop down values (either should be a normal array, or an associative array) |
-| attach_image | Single image selection |
-| attach_images | Multiple images selection |
-| posttypes | Checkboxes with available post types |
-| colorpicker | Color picker |
-| exploded_textarea | Text area, where each line will be imploded with comma (,) |
-| widgetised_sidebars | Dropdown element with set of available widget regions, that are registered in the active wp theme |
-| textarea_raw_html | Text area, its content will be coded into base64 (this allows you to store raw js or raw html code) |
-| vc_link | Link selection. Then in shortcodes html output, use $href = vc_build_link( $href ); to parse link attribute |
-| checkbox | Creates checkboxes, can have 1 or multiple checkboxes within one attribute |
-| loop | Loop builder. Lets your users to construct loop which can later be used during the shortcode's output |
-| css_editor | Basic CSS style editor for your content element. Check "[Add "Design Options" Tab with CSS Editor to Your Element](/docs/developer-how-tos/add-design-options-tab)" page for more details |
-| autocomplete | Used to create input field with predefined or ajax value suggestions. |
-| href | Use it to create url link button that lets the user insert additional url attributes. |
-| iconpicker | Use it to create a set of fields that let users pick icons from predefined icon libraries. |
-| param_group | Use it to simplify input for multiple grouped values. Check [Use Param Group in Elements](/docs/developer-how-tos/use-param-group) for more details. |
-| ... | attribute types can be extended with new custom types. Tutorial: [Create new param type](/docs/developer-how-tos/create-new-param-type) |
+**📚 For detailed documentation of each parameter type, see the [Parameter Types Reference](/docs/inner-api/vc-map-params/).**
+
+### Quick Reference
+
+| Type | Description | Documentation |
+|------|-------------|---------------|
+| [textfield](/docs/inner-api/vc-map-params/textfield) | Simple text input field | [View Details](/docs/inner-api/vc-map-params/textfield) |
+| [textarea](/docs/inner-api/vc-map-params/textarea) | Multi-line text input area | [View Details](/docs/inner-api/vc-map-params/textarea) |
+| [textarea_html](/docs/inner-api/vc-map-params/textarea_html) | WYSIWYG editor (**one per element**) | [View Details](/docs/inner-api/vc-map-params/textarea_html) |
+| [dropdown](/docs/inner-api/vc-map-params/dropdown) | Dropdown select with options | [View Details](/docs/inner-api/vc-map-params/dropdown) |
+| [checkbox](/docs/inner-api/vc-map-params/checkbox) | Single or multiple checkboxes | [View Details](/docs/inner-api/vc-map-params/checkbox) |
+| [attach_image](/docs/inner-api/vc-map-params/attach_image) | Single image from media library | [View Details](/docs/inner-api/vc-map-params/attach_image) |
+| [attach_images](/docs/inner-api/vc-map-params/attach_images) | Multiple images from media library | [View Details](/docs/inner-api/vc-map-params/attach_images) |
+| [colorpicker](/docs/inner-api/vc-map-params/colorpicker) | Color picker for hex values | [View Details](/docs/inner-api/vc-map-params/colorpicker) |
+| [iconpicker](/docs/inner-api/vc-map-params/iconpicker) | Icon picker from icon libraries | [View Details](/docs/inner-api/vc-map-params/iconpicker) |
+| [param_group](/docs/inner-api/vc-map-params/param_group) | Repeatable parameter groups | [View Details](/docs/inner-api/vc-map-params/param_group) |
+| [css_editor](/docs/inner-api/vc-map-params/css_editor) | Visual CSS editor (Design Options) | [View Details](/docs/inner-api/vc-map-params/css_editor) |
+| [vc_link](/docs/inner-api/vc-map-params/vc_link) | Link builder with URL, title, target | [View Details](/docs/inner-api/vc-map-params/vc_link) |
+| [autocomplete](/docs/inner-api/vc-map-params/autocomplete) | Input with autocomplete suggestions | [View Details](/docs/inner-api/vc-map-params/autocomplete) |
+| [loop](/docs/inner-api/vc-map-params/loop) | WordPress query builder | [View Details](/docs/inner-api/vc-map-params/loop) |
+| ... | **40+ parameter types available** | [View All Types](/docs/inner-api/vc-map-params/) |
+
+:::tip
+Each parameter type has its own dedicated documentation page with detailed examples, options, and best practices. Visit the [Parameter Types Reference](/docs/inner-api/vc-map-params/) to explore all available types.
+:::
+
+### Creating Custom Parameter Types
+
+Attribute types can be extended with new custom types. Tutorial: [Create new param type](/docs/developer-how-tos/create-new-param-type)
 
 ## Param Dependencies
 
