@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Introduction
 
+TODO: Update structure of the docs.
+
 WPBakery Page Builder (formerly Visual Composer) is a powerful drag-and-drop WordPress plugin that allows users to build complex layouts with ease.
 
 While it provides a visual interface for users, developers can extend its functionality by registering custom elements, integrating custom controls, and tweaking rendering logic on both backend and frontend.
