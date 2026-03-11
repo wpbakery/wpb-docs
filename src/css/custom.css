@@ -298,6 +298,7 @@ body > nav.navbar {
   position: sticky;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Main doc layout */
@@ -597,7 +598,6 @@ li {
   margin-bottom: 0.25rem;
 }
 
-/* Keep categories expanded by default but with working toggle */
 .menu__list-item--collapsed .menu__list {
   overflow: hidden;
   height: 0;
@@ -705,6 +705,11 @@ td {
 .navbar__items--right > :nth-child(2) {
   order: 1; /* Search bar */
   margin-right: 1rem;
+}
+
+/* Color mode toggle icon hover state */
+.colorModeToggle_DEke button:hover svg {
+  color: white !important;
 }
 
 /* TOC on the right */
