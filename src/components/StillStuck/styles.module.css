@@ -1,0 +1,33 @@
+.stillStuck {
+  margin: 2rem 0 2rem;
+  padding: 1.5rem 2rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid #557cbf;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.stillStuckIcon {
+  margin-right: 0.5rem;
+  font-size: 1.2em;
+}
+
+.stillStuck a {
+  color: #557cbf;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.stillStuck a:hover {
+  border-bottom-color: #557cbf;
+}
+
+@media (max-width: 768px) {
+  .stillStuck {
+    padding: 1rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}

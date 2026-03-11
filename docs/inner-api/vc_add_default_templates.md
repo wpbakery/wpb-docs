@@ -54,7 +54,7 @@ function my_custom_template_for_vc() {
     <div class="wpb_single_image wpb_content_element vc_align_left">
     
     <figure class="wpb_wrapper vc_figure">
-      <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_img-placeholder vc_single_image-img" src="https://kb.wpbakery.com/wp-content/plugins/js_composer/assets/vc/no_image.png"></div>
+      <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_img-placeholder vc_single_image-img" src="/img/ui/no_image.png"></div>
     </figure>
     </div>
     <div class="wpb_text_column wpb_content_element ">
@@ -101,7 +101,7 @@ function my_custom_template_at_first_position( $data ) {
     <div class="wpb_single_image wpb_content_element vc_align_left">
     
     <figure class="wpb_wrapper vc_figure">
-      <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_img-placeholder vc_single_image-img" src="https://kb.wpbakery.com/wp-content/plugins/js_composer/assets/vc/no_image.png"></div>
+      <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_img-placeholder vc_single_image-img" src="/img/ui/no_image.png"></div>
     </figure>
     </div>
     <div class="wpb_text_column wpb_content_element ">

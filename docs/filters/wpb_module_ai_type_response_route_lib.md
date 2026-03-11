@@ -1,14 +1,12 @@
 ---
-sidebar_position: 10
+sidebar_position: 13
 ---
 
 # wpb_module_ai_type_response_route_lib
 
-This filter is handy if you want to change the way a particular element param type is processed by the WPBakery AI API.
+Since 8.3
 
-:::info
-Available Since 8.3
-:::
+This filter is handy if you want to change the way a particular element param type is processed by the WPBakery AI API.
 
 ```php
 <?php

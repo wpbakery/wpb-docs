@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* Your original brand colors - keeping them intact */
   --ifm-color-primary: #0772ce;
   --ifm-color-primary-dark: #00447f;
   --ifm-color-primary-darker: #277148;
@@ -13,11 +14,80 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+
+  /* Typography - Ionic exact match */
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Base font size */
+  --ifm-font-size-base: 100%; /* 16px browser default */
+  --ifm-code-font-size: 0.875em; /* 14px */
+
+  /* Heading sizes - matching Ionic exactly */
+  --ifm-h1-font-size: 3rem; /* 48px */
+  --ifm-h2-font-size: 2rem; /* 32px */
+  --ifm-h3-font-size: 1.5rem; /* 24px */
+  --ifm-h4-font-size: 1.25rem; /* 20px */
+  --ifm-h5-font-size: 1rem; /* 16px */
+  --ifm-h6-font-size: 0.875rem; /* 14px */
+
+  /* Line heights */
+  --ifm-line-height-base: 1.6;
+  --ifm-heading-line-height: 1.2;
+
+  /* Font weights */
+  --ifm-font-weight-normal: 400;
+  --ifm-font-weight-semibold: 600;
+  --ifm-font-weight-bold: 700;
+  --ifm-heading-font-weight: 700;
+
+  /* Spacing */
+  --ifm-paragraph-margin-bottom: 1rem;
+  --ifm-spacing-vertical: 1rem;
+  --ifm-global-spacing: 1rem;
+
+  /* Sidebar */
+  --doc-sidebar-width: 300px;
+  --doc-sidebar-hidden-width: 30px;
+  --sidebar-spacing-horizontal: 1rem;
+
+  /* Sidebar category colors */
+  --sidebar-category-c: #03060b;
+
+  /* Dropdown icon variables */
+  --dropdown-icon-width: 10px;
+  --dropdown-icon-height: 10px;
+  --dropdown-icon-gap: 0.625rem;
+
+  /* Navbar settings */
+  --ifm-navbar-height: 60px;
+  --ifm-navbar-padding-vertical: 0.7rem;
+  --ifm-navbar-item-padding-horizontal: 0.75rem;
+
+  /* Menu/Sidebar colors */
+  --ifm-menu-color: #5c5f62;
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-menu-color-background-active: rgba(7, 114, 206, 0.1); /* Light blue background for active items */
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.03);
+
+  /* Menu icon */
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04Ljk5OTg4IDVMNC45OTk4OCAxTDAuOTk5ODc4IDUiIHN0cm9rZT0iIzAzMDYwQiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K');
+
+  /* TOC */
+  --ifm-toc-border-color: #e8e8e9;
+
+  /* Backgrounds */
+  --ifm-background-color: #fff;
+  --ifm-background-surface-color: #fff;
+  --ifm-dropdown-background-color: #fff;
+
+  /* Links */
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-decoration: none;
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+
+  /* Code */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-navbar-background-color: var(--ifm-color-primary);
-  --ifm-navbar-link-color: #fff;
-  --ifm-navbar-link-hover-color: #fff;
   --ifm-color-emphasis-200: var(--ifm-color-primary-dark);
 }
 
@@ -32,9 +102,702 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-menu-color-active: var(--ifm-color-primary);
-  --ifm-navbar-background-color: var(--ifm-color-primary-dark);
+
+  /* Dark mode specific */
+  --ifm-background-color: #1b1b1d;
+  --ifm-background-surface-color: #242526;
+  --ifm-font-color-base: #e3e3e3;
+  --ifm-menu-color: #c9c9ca;
+  --ifm-menu-color-background-active: rgba(28, 150, 255, 0.15); /* Light blue background for active items in dark mode */
+  --ifm-toc-border-color: #3e3e42;
+  --sidebar-category-c: #f6f6f6;
 }
 
+/* Global resets */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ifm-font-family-base);
+  font-size: 1rem;
+  line-height: var(--ifm-line-height-base);
+  color: var(--ifm-font-color-base);
+  background-color: var(--ifm-background-color);
+}
+
+/* Navbar - remove background, add border */
 .navbar {
-  color: #fff;
+  background-color: transparent !important;
+  background: none !important;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Navbar items styling */
+.navbar__inner {
+  padding: 0;
+  height: var(--ifm-navbar-height);
+}
+
+.navbar__items {
+  color: var(--ifm-font-color-base);
+  height: 100%;
+}
+
+.navbar__item {
+  color: var(--ifm-font-color-base) !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.navbar__link {
+  color: var(--ifm-font-color-base) !important;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 var(--ifm-navbar-item-padding-horizontal);
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+}
+
+/* Active indicator underline */
+#__docusaurus .navbar__items:not(.navbar__items--right) :not(.cta).navbar__link:after {
+  background: transparent;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: var(--ifm-navbar-item-padding-horizontal);
+  position: absolute;
+  right: var(--ifm-navbar-item-padding-horizontal);
+  transition: background-color 0.2s ease-out;
+}
+
+#__docusaurus .navbar__items:not(.navbar__items--right) :not(.cta).navbar__link--active:after {
+  background: var(--ifm-link-color);
+}
+
+/* Hide external link icons in navbar */
+.navbar .iconExternalLink_nPIU,
+.navbar svg[class*="iconExternalLink"] {
+  display: none !important;
+}
+
+/* Navbar brand/logo styling */
+.navbar__brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--ifm-navbar-item-padding-horizontal);
+}
+
+/* Replace navbar logo with horizontal WPBakery logo on homepage */
+.navbar__logo {
+  height: 30px;
+  width: auto;
+}
+
+.navbar__logo img {
+  display: none; /* Hide the default SVG logo */
+}
+
+.navbar__logo::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 30px;
+  background: url('/img/logos/wpbakery-logo-horizontal.png') no-repeat left center;
+  background-size: auto 30px;
+}
+
+/* When navbar is at the top level (full width) */
+body > nav.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+}
+
+/* When navbar is inside docs (should be contained in content area) */
+.docRoot_UBD9 ~ .navbar,
+.docsWrapper_hBAB .navbar {
+  position: relative !important;
+}
+
+
+/* Sidebar adjustments for Ionic-like behavior */
+.theme-doc-sidebar-container {
+  border-inline-end: 1px solid #f3f3f3;
+  clip-path: none !important;
+  margin-top: 0 !important;
+  will-change: auto !important;
+  position: relative; /* For the logo positioning */
+}
+
+/* Custom sidebar wrapper classes */
+.wpb-sidebar-wrapper {
+  position: relative;
+  padding: 0;
+}
+
+.wpb-sidebar-wrapper-mobile {
+  position: relative;
+}
+
+/* Logo styles for sidebar */
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  height: var(--ifm-navbar-height);
+  padding: 30px var(--sidebar-spacing-horizontal);
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.sidebar-logo:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.sidebar-logo img {
+  height: 30px;
+  width: auto;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-inline-end-color: var(--ifm-toc-border-color);
+}
+
+/* Sidebar viewport styling */
+.sidebarViewport_aRkj {
+  top: 0;
+  position: sticky;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Main doc layout */
+.docRoot_UBD9 {
+  display: flex;
+}
+
+.docMainContainer_TBSr {
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+
+/* Sidebar menu styling */
+.sidebar_njMd {
+  padding-top: 0 !important;
+  height: 100%;
+}
+
+/* Sidebar viewport anchor tag styling */
+#__docusaurus .theme-doc-sidebar-container [class^=sidebarViewport]>a,
+#__docusaurus [class^=sidebar_] {
+  padding-inline-end: var(--sidebar-spacing-horizontal);
+  padding-inline-start: var(--sidebar-spacing-horizontal);
+}
+
+#__docusaurus .theme-doc-sidebar-container [class^=sidebarViewport]>a {
+  align-items: center;
+  display: flex;
+  height: var(--ifm-navbar-height);
+}
+
+/* Desktop sidebar - always visible and sticky */
+@media (min-width: 997px) {
+  /* Sidebar container */
+  .theme-doc-sidebar-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    height: 100vh;
+    width: var(--doc-sidebar-width);
+    overflow-y: auto;
+    z-index: 100;
+  }
+
+  /* Make navbar NOT fixed - should scroll with content */
+  .navbar--fixed-top {
+    position: relative !important;
+  }
+
+  /* Push navbar to the right when sidebar exists - ONLY in docs pages */
+  .docs-wrapper .navbar,
+  [class*="docRoot"] ~ .navbar,
+  [class*="docsWrapper"] .navbar {
+    margin-left: var(--doc-sidebar-width);
+    width: calc(100% - var(--doc-sidebar-width));
+  }
+
+  /* Main content container - ONLY in docs pages */
+  .docs-wrapper .main-wrapper,
+  [class*="docRoot"] ~ .main-wrapper,
+  [class*="docsWrapper"] .main-wrapper {
+    margin-left: var(--doc-sidebar-width);
+    width: calc(100% - var(--doc-sidebar-width));
+  }
+
+  /* Doc main container adjustments */
+  .docMainContainer_TBSr {
+    max-width: 100%;
+  }
+
+  /* Hide logo in navbar ONLY when in docs pages */
+  .docs-wrapper .navbar__brand,
+  [class*="docRoot"] ~ .navbar .navbar__brand,
+  [class*="docsWrapper"] .navbar__brand {
+    display: none;
+  }
+}
+
+/* Menu styles */
+.menu {
+  font-weight: var(--ifm-font-weight-normal);
+  font-size: 0.875rem; /* 14px */
+  padding: 0.5rem;
+}
+
+.menu__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Nested lists - indentation for child items */
+.menu__list .menu__list {
+  padding-left: 0.75rem;
+}
+
+.menu__list-item {
+  margin: 0.125rem 0;
+}
+
+/* Root level items spacing */
+.theme-doc-sidebar-item-category-level-1,
+.theme-doc-sidebar-item-link-level-1 {
+  margin: 0.5rem 0;
+}
+
+/* Category level 1 - parent menu items (like "Getting Started") */
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible .menu__link {
+  color: var(--sidebar-category-c);
+  font-size: 0.938rem; /* 15px */
+  font-weight: 600;
+  line-height: 100%;
+}
+
+/* Direct link items at root level (like "Outro", "Become a WPB Tester") */
+.theme-doc-sidebar-item-link-level-1 .menu__link {
+  color: var(--sidebar-category-c);
+  font-size: 0.938rem; /* 15px */
+  font-weight: 600;
+  line-height: 100%;
+}
+
+/* Sublist link specific styles - only for categories with children */
+.menu__link--sublist {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-block-end: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  padding: 0.5rem 0;
+}
+
+/* Regular menu links */
+.menu__link {
+  display: flex;
+  align-items: center;
+  font-size: 0.813rem; /* 13px */
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 16px;
+  color: var(--ifm-menu-color);
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  transition: opacity 0.2s ease-out;
+}
+
+/* Child items inside categories - add proper indentation */
+.menu__list-item .menu__list .menu__link {
+  padding-inline-start: calc(var(--dropdown-icon-width) + var(--dropdown-icon-gap));
+}
+
+/* Level 2 items specifically */
+.theme-doc-sidebar-item-link-level-2 .menu__link {
+  font-size: 0.813rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 16px;
+}
+
+.menu__link:not(.menu__link--active):not(.menu__link--sublist) {
+  background: initial;
+}
+
+.menu__link:hover {
+  opacity: 0.8;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.menu__link--active {
+  color: var(--ifm-menu-color-active);
+  font-weight: 500;
+}
+
+.menu__link--active:hover {
+  color: var(--ifm-menu-color-active);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+/* Dropdown arrow/caret icon - only for categories */
+.menu__link--sublist:after,
+.menu__link--sublist-caret:after {
+  content: '';
+  background: var(--ifm-menu-link-sublist-icon) center / var(--dropdown-icon-width) var(--dropdown-icon-height);
+  background-repeat: no-repeat;
+  height: var(--dropdown-icon-height);
+  width: var(--dropdown-icon-width);
+  margin-block-end: 0;
+  margin-inline-end: var(--dropdown-icon-gap);
+  margin-inline-start: unset;
+  margin-left: unset;
+  min-width: auto;
+  transition: transform var(--ifm-transition-fast, 200ms) linear;
+  transform: rotate(90deg); /* Point right when collapsed */
+  filter: var(--ifm-menu-link-sublist-icon-filter);
+}
+
+.menu__link--sublist[aria-expanded='true']:after,
+.menu__link--sublist-caret[aria-expanded='true']:after {
+  transform: rotate(180deg); /* Point down when expanded */
+}
+
+/* Hide arrow for non-category items */
+.theme-doc-sidebar-item-link .menu__link:after {
+  display: none;
+}
+
+/* Hide separate caret button if it exists - we use the arrow in the link */
+.menu__caret {
+  display: none;
+}
+
+/* Headings */
+h1 {
+  font-size: var(--ifm-h1-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  font-size: var(--ifm-h2-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-size: var(--ifm-h3-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: 1.5rem 0 0.75rem;
+}
+
+h4, h5, h6 {
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: 1rem 0 0.5rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 var(--ifm-paragraph-margin-bottom);
+}
+
+/* Code */
+code {
+  font-size: var(--ifm-code-font-size);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  background: var(--ifm-code-background, rgba(0, 0, 0, 0.05));
+  font-family: var(--ifm-font-family-monospace);
+}
+
+/* Links */
+a {
+  color: var(--ifm-link-color);
+  text-decoration: var(--ifm-link-decoration);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-link-hover-color);
+  text-decoration: none;
+}
+
+/* Main content container */
+.docMainContainer_TBSr,
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 100%;
+}
+
+article {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+.menu__list-item--collapsed .menu__list {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.menu__list-item:not(.menu__list-item--collapsed) .menu__list {
+  height: auto;
+  overflow: visible;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin: 0 0 1rem;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: var(--ifm-font-weight-bold);
+  text-align: left;
+  border-bottom: 2px solid var(--ifm-toc-border-color);
+  padding: 0.75rem;
+}
+
+td {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding: 0.75rem;
+}
+
+/* Fix spacing in doc pages */
+.theme-doc-markdown {
+  margin-top: 0 !important;
+}
+
+.markdown > h1:first-child {
+  margin-top: 0;
+}
+
+/* Content typography - matching your specifications */
+.markdown .tabs-container,
+.markdown li,
+.markdown p {
+  line-height: 200%;
+}
+
+.markdown li,
+.markdown p,
+.markdown td,
+.markdown tr {
+  font-size: 1rem;
+}
+
+/* Search Bar Customization */
+.DocSearch-Button {
+  width: 280px !important;
+  height: 40px !important;
+  border-radius: 8px !important;
+  padding: 0 12px 0 12px !important;
+  font-size: 0.9rem !important;
+  background: var(--ifm-background-surface-color) !important;
+  border: 1px solid var(--ifm-toc-border-color) !important;
+}
+
+.DocSearch-Button:hover {
+  box-shadow: 0 0 0 1px var(--ifm-color-primary) !important;
+  border-color: var(--ifm-color-primary) !important;
+}
+
+.DocSearch-Button-Container {
+  flex-grow: 1;
+}
+
+.DocSearch-Button-Placeholder {
+  font-size: 0.9rem !important;
+}
+
+.DocSearch-Button-Keys {
+  display: flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+}
+
+.DocSearch-Button-Key {
+  padding: 2px 6px !important;
+  font-size: 0.75rem !important;
+}
+
+.DocSearch-Search-Icon {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Position search bar in navbar - left of dark mode toggle */
+.navbar__items--right {
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure search bar appears before (to the left of) dark mode toggle */
+.navbar__items--right > :nth-child(1) {
+  order: 2; /* Dark mode toggle */
+}
+
+.navbar__items--right > :nth-child(2) {
+  order: 1; /* Search bar */
+  margin-right: 1rem;
+}
+
+/* Color mode toggle icon hover state */
+.colorModeToggle_DEke button:hover svg {
+  color: white !important;
+}
+
+/* TOC on the right */
+.tableOfContents_bqdL {
+  font-size: 0.8rem;
+  padding-left: 0;
+}
+
+.table-of-contents {
+  font-size: 0.8rem;
+}
+
+.table-of-contents__link {
+  color: var(--ifm-menu-color);
+  padding: 0.25rem 0;
+  display: block;
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+/* Category items specific adjustments */
+.menu__list-item-collapsible {
+  display: block;
+}
+
+.menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+.breadcrumbs {
+  padding: 0;
+}
+/* Topic Cards Grid - Ionic Style */
+.topic-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.topic-card {
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.topic-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+[data-theme='dark'] .topic-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.topic-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  line-height: 1.4;
+}
+
+.topic-card:hover h3 {
+  color: var(--ifm-color-primary-dark);
+}
+
+.topic-card p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .topic-cards {
+    grid-template-columns: 1fr;
+  }
 }
