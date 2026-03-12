@@ -78,6 +78,22 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devs',
+        path: 'devs',
+        routeBasePath: 'devs',
+        sidebarPath: './sidebars-devs.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        sidebarCollapsible: true,
+        sidebarCollapsed: false,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -110,7 +126,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Guide',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'devsSidebar',
+            docsPluginId: 'devs',
+            position: 'left',
+            label: 'Devs',
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
