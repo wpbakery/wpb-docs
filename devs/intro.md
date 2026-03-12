@@ -11,4 +11,6 @@ This section contains technical documentation for developers who want to extend 
 ## What's Inside
 
 - **Params**: Learn about all available parameter types for creating custom elements
-- More developer resources coming soon...
+- **Inner API**: Core API functions and methods for working with WPBakery Page Builder
+- **Filters**: WordPress filters available for customizing WPBakery behavior
+- **Developer How To's**: Step-by-step guides for common development tasks
