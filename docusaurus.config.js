@@ -107,13 +107,13 @@ const config = {
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
-            label: 'Customer Center',
+            label: 'Customer Center ↗',
             position: 'left',
             target: '_blank',
           },
           {
             href: 'https://wpbakery.com',
-            label: 'Get WPBakery Page Builder',
+            label: 'Get WPBakery Page Builder ↗',
             position: 'left',
             target: '_blank',
           },

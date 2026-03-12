@@ -23,9 +23,6 @@ Information about licenses, activation, and managing your WPBakery account.
 ### Add-ons
 Explore available add-ons and extensions to enhance your page building experience.
 
-### Theme Integration
-Guidelines for theme developers on integrating WPBakery Page Builder with WordPress themes.
-
 ### Learning More
 Deep dive into advanced features including custom CSS, templates, responsive settings, and more.
 

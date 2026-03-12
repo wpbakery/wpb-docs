@@ -30,10 +30,10 @@ To add your shortcode to the WPBakery Page Builder content elements list, *vc_ma
 | admin_enqueue_css | String\|Array | Absolute url to css file if you need to add custom css for element block in js_composer constructor mode |
 | front_enqueue_js | String\|Array | Absolute url to javascript file (useful for storing your custom backbone.js views), this js will be loaded in the js_composer frontend edit mode (it allows you to add more functionality to your shortcode in js_composer frontend edit mode). *(Available from WPBakery Page Builder 4.2.2)* |
 | front_enqueue_css | String\|Array | Absolute url to css file if you need to load custom css file in the frontend editing mode. *(Available from WPBakery Page Builder 4.2.2)* |
-| icon | String | URL or CSS class with icon image. More info [here](/docs/developer-how-tos/set-content-element-icon) |
+| icon | String | URL or CSS class with icon image. More info [here](/devs/developer-how-tos/set-content-element-icon) |
 | custom_markup | String | Custom html markup for representing shortcode in visual composer editor |
 | js_view | String | Set custom backbone.js view controller for this content element |
-| html_template | String | Path to shortcode template. This is useful if you want to reassign path of existing content elements through your plugin. Another way to [change html markup](/docs/developer-how-tos/change-shortcodes-html-output) |
+| html_template | String | Path to shortcode template. This is useful if you want to reassign path of existing content elements through your plugin. Another way to [change html markup](/devs/developer-how-tos/change-shortcodes-html-output) |
 | deprecated | String | Enter version number from which content element will be deprecated. It will be moved to the "Deprecated" tab in "Add element" window and notification message will be shown on elements edit page. To hide element from "Add element" all together use 'content_element'=>false *(Available from WPBakery Page Builder 4.5)* |
 | content_element | Boolean | If set to false, content element will be hidden from "Add element" window. It is handy to use this param in pair with 'deprecated' param *(Available from WPBakery Page Builder 4.5)* |
 | params | Array | List of shortcode attributes. Array which holds your shortcode params, these params will be editable in shortcode settings page |
@@ -79,35 +79,35 @@ array(
 
 There are multiple attribute types available, this field is used to "tell" WPBakery Page Builder how to handle your attribute in content element edit screen.
 
-**📚 For detailed documentation of each parameter type, see the [Parameter Types Reference](/docs/inner-api/vc-map-params/).**
+**📚 For detailed documentation of each parameter type, see the [Parameter Types Reference](/devs/params/overview).**
 
 ### Quick Reference
 
 | Type | Description | Documentation |
 |------|-------------|---------------|
-| [textfield](/docs/inner-api/vc-map-params/textfield) | Simple text input field | [View Details](/docs/inner-api/vc-map-params/textfield) |
-| [textarea](/docs/inner-api/vc-map-params/textarea) | Multi-line text input area | [View Details](/docs/inner-api/vc-map-params/textarea) |
-| [textarea_html](/docs/inner-api/vc-map-params/textarea_html) | WYSIWYG editor (**one per element**) | [View Details](/docs/inner-api/vc-map-params/textarea_html) |
-| [dropdown](/docs/inner-api/vc-map-params/dropdown) | Dropdown select with options | [View Details](/docs/inner-api/vc-map-params/dropdown) |
-| [checkbox](/docs/inner-api/vc-map-params/checkbox) | Single or multiple checkboxes | [View Details](/docs/inner-api/vc-map-params/checkbox) |
-| [attach_image](/docs/inner-api/vc-map-params/attach_image) | Single image from media library | [View Details](/docs/inner-api/vc-map-params/attach_image) |
-| [attach_images](/docs/inner-api/vc-map-params/attach_images) | Multiple images from media library | [View Details](/docs/inner-api/vc-map-params/attach_images) |
-| [colorpicker](/docs/inner-api/vc-map-params/colorpicker) | Color picker for hex values | [View Details](/docs/inner-api/vc-map-params/colorpicker) |
-| [iconpicker](/docs/inner-api/vc-map-params/iconpicker) | Icon picker from icon libraries | [View Details](/docs/inner-api/vc-map-params/iconpicker) |
-| [param_group](/docs/inner-api/vc-map-params/param_group) | Repeatable parameter groups | [View Details](/docs/inner-api/vc-map-params/param_group) |
-| [css_editor](/docs/inner-api/vc-map-params/css_editor) | Visual CSS editor (Design Options) | [View Details](/docs/inner-api/vc-map-params/css_editor) |
-| [vc_link](/docs/inner-api/vc-map-params/vc_link) | Link builder with URL, title, target | [View Details](/docs/inner-api/vc-map-params/vc_link) |
-| [autocomplete](/docs/inner-api/vc-map-params/autocomplete) | Input with autocomplete suggestions | [View Details](/docs/inner-api/vc-map-params/autocomplete) |
-| [loop](/docs/inner-api/vc-map-params/loop) | WordPress query builder | [View Details](/docs/inner-api/vc-map-params/loop) |
-| ... | **40+ parameter types available** | [View All Types](/docs/inner-api/vc-map-params/) |
+| [textfield](/devs/params/textfield) | Simple text input field | [View Details](/devs/params/textfield) |
+| [textarea](/devs/params/textarea) | Multi-line text input area | [View Details](/devs/params/textarea) |
+| [textarea_html](/devs/params/textarea_html) | WYSIWYG editor (**one per element**) | [View Details](/devs/params/textarea_html) |
+| [dropdown](/devs/params/dropdown) | Dropdown select with options | [View Details](/devs/params/dropdown) |
+| [checkbox](/devs/params/checkbox) | Single or multiple checkboxes | [View Details](/devs/params/checkbox) |
+| [attach_image](/devs/params/attach_image) | Single image from media library | [View Details](/devs/params/attach_image) |
+| [attach_images](/devs/params/attach_images) | Multiple images from media library | [View Details](/devs/params/attach_images) |
+| [colorpicker](/devs/params/colorpicker) | Color picker for hex values | [View Details](/devs/params/colorpicker) |
+| [iconpicker](/devs/params/iconpicker) | Icon picker from icon libraries | [View Details](/devs/params/iconpicker) |
+| [param_group](/devs/params/param_group) | Repeatable parameter groups | [View Details](/devs/params/param_group) |
+| [css_editor](/devs/params/css_editor) | Visual CSS editor (Design Options) | [View Details](/devs/params/css_editor) |
+| [vc_link](/devs/params/vc_link) | Link builder with URL, title, target | [View Details](/devs/params/vc_link) |
+| [autocomplete](/devs/params/autocomplete) | Input with autocomplete suggestions | [View Details](/devs/params/autocomplete) |
+| [loop](/devs/params/loop) | WordPress query builder | [View Details](/devs/params/loop) |
+| ... | **40+ parameter types available** | [View All Types](/devs/params/overview) |
 
 :::tip
-Each parameter type has its own dedicated documentation page with detailed examples, options, and best practices. Visit the [Parameter Types Reference](/docs/inner-api/vc-map-params/) to explore all available types.
+Each parameter type has its own dedicated documentation page with detailed examples, options, and best practices. Visit the [Parameter Types Reference](/devs/params/overview) to explore all available types.
 :::
 
 ### Creating Custom Parameter Types
 
-Attribute types can be extended with new custom types. Tutorial: [Create new param type](/docs/developer-how-tos/create-new-param-type)
+Attribute types can be extended with new custom types. Tutorial: [Create new param type](/devs/developer-how-tos/create-new-param-type)
 
 ## Param Dependencies
 
@@ -123,7 +123,7 @@ It is possible to link param with another param by defining dependency param. De
 
 ## Nested Content Elements
 
-If you are looking for a way to create content elements with "nested" structure, [have a look at this example](/docs/developer-how-tos/nested-shortcodes-container).
+If you are looking for a way to create content elements with "nested" structure, [have a look at this example](/devs/developer-how-tos/nested-shortcodes-container).
 
 ## Example
 
