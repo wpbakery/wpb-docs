@@ -7,7 +7,7 @@ slug: /faq/i-cannot-update-my-license-after-site-has-been-migrated-to-live
 
 # I cannot update my license after site has been migrated to live
 
-In order to update be able to update your license after the site has been migrated to live, you need to manually update the plugin to the latest version, and then [reactivate the license](/docs/how-tos/deactivate-reactivate-license) on the live site:
+In order to update be able to update your license after the site has been migrated to live, you need to manually update the plugin to the latest version, and then [reactivate the license](/docs/wpbakery-page-builder-how-tos/how-to-deactivate-and-reactivate-license) on the live site:
 
 1. Open the live site and navigate to WP Dashboard -> Plugins;
 2. Locate WPBakery Page Builder and click the 'Update now' link;

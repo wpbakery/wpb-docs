@@ -25,7 +25,7 @@ When you purchase a WPBakery Page Builder license, you can get Support Plus from
 
 For existing licenses, you can purchase Support Plus subscription for a year with an automatic renewal.
 
-The subscription provides additional benefits like priority support, access to the [WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus/#loyalty-program), which grants you an additional 5% discount on your Support Plus renewal each year, and access to upcoming features we will add to make the offer even more valuable for subscribers.
+The subscription provides additional benefits like priority support, access to the [WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus#loyalty-program-for-support-plus-subscribers), which grants you an additional 5% discount on your Support Plus renewal each year, and access to upcoming features we will add to make the offer even more valuable for subscribers.
 
 To renew your access to Support Plus, log in to your account, navigate to the Licenses section, and follow the instructions there.
 

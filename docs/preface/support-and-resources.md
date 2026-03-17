@@ -28,7 +28,7 @@ Use your WPBakery account (usually your email address) and password that you set
 
 ### How to renew support?
 
-You can renew your access automatically through a subscription (recommended) or manually. The subscription provides additional benefits like priority support, keeps you on track for the WPBakery [Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus/#loyalty-program) discount rewards (5% per year up to 50%), and upcoming features we will add to make the offer even more valuable for subscribers. To renew your access to [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus/), log in to your account, navigate to the Licenses section, and follow the instructions there.
+You can renew your access automatically through a subscription (recommended) or manually. The subscription provides additional benefits like priority support, keeps you on track for the WPBakery [Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus#loyalty-program-for-support-plus-subscribers) discount rewards (5% per year up to 50%), and upcoming features we will add to make the offer even more valuable for subscribers. To renew your access to [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus/), log in to your account, navigate to the Licenses section, and follow the instructions there.
 
 ### Purchased WPBakery Page Builder on CodeCanyon?
 

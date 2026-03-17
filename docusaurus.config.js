@@ -12,11 +12,11 @@ const config = {
     v4: true,
   },
 
-  url: 'https://kb.wpbakery.com',
+  url: 'https://kb-new.wpbakery.com',
   baseUrl: '/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'wpbakery',
+  projectName: 'wpb-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,6 +55,23 @@ const config = {
     ],
   ],
 
+  clientModules: ['./src/clientModules/routeWatcher.js'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devs',
+        path: 'devs',
+        routeBasePath: 'devs',
+        sidebarPath: './sidebars-devs.js',
+        editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
+        sidebarCollapsible: true,
+        sidebarCollapsed: false,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -80,18 +97,32 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Guide',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'devsSidebar',
+            docsPluginId: 'devs',
+            position: 'left',
+            label: 'Devs',
+          },
+          {
+            href: 'https://github.com/wpbakery/dev-example',
+            label: 'Dev Example Boilerplate ↗',
+            position: 'right',
+            target: '_blank',
+            className: 'devs-only-nav-item',
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
-            label: 'Customer Center',
-            position: 'left',
+            label: 'Customer Center ↗',
+            position: 'right',
             target: '_blank',
           },
           {
             href: 'https://wpbakery.com',
-            label: 'Get WPBakery Page Builder',
-            position: 'left',
+            label: 'Get WPBakery Page Builder ↗',
+            position: 'right',
             target: '_blank',
           },
         ],
