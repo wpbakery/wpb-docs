@@ -6,7 +6,7 @@ sidebar_position: 11
 
 Since 8.3
 
-This filter is handy if you want to change element param types on which the AI icon is shown. Please note that simply attaching the AI icon does not guarantee that the popup can process AI properly. You should configure it with [`wpb_module_ai_type_response_route_lib`](/docs/filters/wpb_module_ai_type_response_route_lib/).
+This filter is handy if you want to change element param types on which the AI icon is shown. Please note that simply attaching the AI icon does not guarantee that the popup can process AI properly. You should configure it with [`wpb_module_ai_type_response_route_lib`](/devs/filters/wpb_module_ai_type_response_route_lib/).
 
 ```php
 <?php

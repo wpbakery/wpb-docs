@@ -24,7 +24,7 @@ $shortcode = 'my_shortcode';
 ### $attribute_name
 
 * Type - String
-* Description - Name of the [parameter](/docs/element-development/parameter-types) that should be removed from content element.
+* Description - Name of the [parameter](/devs/element-development/parameter-types) that should be removed from content element.
 * Example:
 ```php
 $attribute_name = 'custom_param';

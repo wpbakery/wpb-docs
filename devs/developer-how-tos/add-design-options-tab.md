@@ -9,9 +9,9 @@ slug: /developers-how-tos/add-design-options-tab-with-css-editor-to-your-element
 
 # Add "Design Options" Tab with CSS Editor to Your Element
 
-Adding CSS editor to your content element is very easy and it is a two steps process. First, map your attribute in [vc_map()](/docs/inner-api/vc_map) function call, then make sure you output it in your content element template file.
+Adding CSS editor to your content element is very easy and it is a two steps process. First, map your attribute in [vc_map()](/devs/inner-api/vc_map) function call, then make sure you output it in your content element template file.
 
-Map "css" param in your [vc_map()](/docs/inner-api/vc_map) function call:
+Map "css" param in your [vc_map()](/devs/inner-api/vc_map) function call:
 
 ## CSS param mapping
 

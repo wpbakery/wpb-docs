@@ -20,7 +20,7 @@ Get the settings of the mapped shortcode.
 
 ### Example
 
-You can return the shortcode settings previously mapped with [vc_map()](/docs/inner-api/vc_map) function. For example, it can be useful if you want to create a new element with the same parameters that already exist, but with some modified settings.
+You can return the shortcode settings previously mapped with [vc_map()](/devs/inner-api/vc_map) function. For example, it can be useful if you want to create a new element with the same parameters that already exist, but with some modified settings.
 
 ```php
 <?php

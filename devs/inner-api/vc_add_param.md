@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # vc_add_param()
 
-To add new parameter to existing content element you can use `vc_add_param()` function. List of available [parameters](/docs/element-development/parameter-types).
+To add new parameter to existing content element you can use `vc_add_param()` function. List of available [parameters](/devs/element-development/parameter-types).
 
 Available SINCE 4.3
 
@@ -24,7 +24,7 @@ $shortcode = 'vc_message';
 ```
 ### $attributes
 * Type - Array
-* Description - Array should be defined according to [`vc_map()` available options](/docs/element-development/parameter-types).
+* Description - Array should be defined according to [`vc_map()` available options](/devs/element-development/parameter-types).
 * Example:
 ```php
 $attributes = array(

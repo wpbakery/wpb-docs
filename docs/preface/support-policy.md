@@ -32,7 +32,7 @@ All information provided is confidential and will not be provided to any third p
 
 ## Extending Access To Support Plus
 
-You can extend access to [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus/) by renewing it under your [account](https://support.wpbakery.com/). You can either opt for automatic or manual renewal. We recommend automatic renewal as the subscription provides additional benefits like priority support, access to the [WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus/#loyalty-program), which grants you an additional 5% discount on your Support Plus renewal each year, and access to upcoming features we will add to make the offer even more valuable for subscribers.
+You can extend access to [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus/) by renewing it under your [account](https://support.wpbakery.com/). You can either opt for automatic or manual renewal. We recommend automatic renewal as the subscription provides additional benefits like priority support, access to the [WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus#loyalty-program-for-support-plus-subscribers), which grants you an additional 5% discount on your Support Plus renewal each year, and access to upcoming features we will add to make the offer even more valuable for subscribers.
 
 Please note that we will send you a reminder to extend your access to Support Plus before it expires. If you miss it or wish to extend it later, don't worry – you can extend it at any time!
 

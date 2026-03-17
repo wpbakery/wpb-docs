@@ -10,7 +10,7 @@ To meet new [theme submission requirements](https://help.market.envato.com/hc/en
 
 1. Include TGM Activation class into your theme PHP files (ex. in functions.php file)
 2. Add settings for TGM Activation class and hook them to the `tgmpa_register` action
-3. Call [`vc_set_as_theme()`](/docs/inner-api/vc_set_as_theme) function to initialize WPBakery Page Builder as a part of your theme
+3. Call [`vc_set_as_theme()`](/devs/inner-api/vc_set_as_theme) function to initialize WPBakery Page Builder as a part of your theme
 
 ```php
 <?php

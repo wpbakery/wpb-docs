@@ -8,7 +8,7 @@ This helper function is similar to `vc_add_param()`, but it can accept multiple 
 
 Available SINCE 4.3
 
-Basically this function will use a foreach loop for all the attributes and then `vc_add_param()` will be called for each single param. List of available [parameters](/docs/element-development/parameter-types).
+Basically this function will use a foreach loop for all the attributes and then `vc_add_param()` will be called for each single param. List of available [parameters](/devs/element-development/parameter-types).
 
 
 ```php
@@ -27,7 +27,7 @@ $shortcode = 'vc_message';
 ```
 ### $attributes
 * Type - Array
-* Description - Multidimensional array should be defined according to [`vc_map()` available options](/docs/element-development/parameter-types).
+* Description - Multidimensional array should be defined according to [`vc_map()` available options](/devs/element-development/parameter-types).
 * Example:
 ```php
 $attributes = array(

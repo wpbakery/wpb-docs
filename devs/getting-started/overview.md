@@ -25,7 +25,7 @@ This section covers the essential groundwork you need to start building with WPB
 
 ## Quick Start
 
-1. **Set up your environment** - Install WordPress, WPBakery Page Builder, and choose between a custom plugin or child theme approach
+1. **Set up your environment** - Install WordPress, WPBakery Page Builder, and choose between a custom plugin or child theme approach. You can use the [dev-example boilerplate](https://github.com/wpbakery/dev-example) to get started quickly.
 2. **Understand the structure** - Learn how to organize your files and folders for maintainability
 3. **Start building** - Move on to Element Development to create your first custom element
 

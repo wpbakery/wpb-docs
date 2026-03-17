@@ -17,7 +17,7 @@ You just need to remember that all elements in WPBakery are [WordPress shortcode
 
 WPBakery simply provides a convenient interface in its front/back editors to edit the attributes of these shortcodes.
 
-To add an existing shortcode as a new WPBakery element, you can use the helper function [vc_map()](/docs/inner-api/vc_map).
+To add an existing shortcode as a new WPBakery element, you can use the helper function [vc_map()](/devs/inner-api/vc_map).
 
 Below are the most common examples showing how to create a new custom WPBakery element, from the most basic to the advanced ones.
 
@@ -79,7 +79,7 @@ if ( ! function_exists( 'wpb_dev_example_basic_element' ) ) :
    *
    * Here we specify all the parameters that help us see and edit the element in WPBakery editors.
    *
-   * @see https://kb.wpbakery.com/docs/inner-api/vpb_map/ for all possible wpb_map parameters.
+   * @see https://kb.wpbakery.com/devs/inner-api/vpb_map/ for all possible wpb_map parameters.
    */
   function wpb_dev_example_basic_element() {
     wpb_map([
@@ -133,7 +133,7 @@ add_action( 'vc_before_init', function () {
    *
    * Here we specify all the parameters that help us see and edit the element in WPBakery editors.
    *
-   * @see https://kb.wpbakery.com/docs/inner-api/wpb_map/ for all possible wpb_map parameters.
+   * @see https://kb.wpbakery.com/devs/inner-api/wpb_map/ for all possible wpb_map parameters.
    */
   wpb_map([
     'name'        => __( 'With Custom Class', 'wpb-dev-example' ),
@@ -241,4 +241,4 @@ if ( class_exists( 'WPBakeryShortCode' ) ) {
 
 ## 3. Element Inside Another Element
 
-When you need one element inside another, you should use [nested shortcode techniques](https://codex.wordpress.org/Shortcode_API#Nested_Shortcodes). Please see [our article about container element](/docs/developer-how-tos/nested-shortcodes-container) which has an example of how to implement it.
+When you need one element inside another, you should use [nested shortcode techniques](https://codex.wordpress.org/Shortcode_API#Nested_Shortcodes). Please see [our article about container element](/devs/developers-how-tos/nested-shortcodes-container) which has an example of how to implement it.

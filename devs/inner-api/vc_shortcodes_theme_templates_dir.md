@@ -6,7 +6,7 @@ sidebar_position: 17
 
 This function returns path to the folder where WPBakery Page Builder is looking for content element templates.
 
-By default, it returns empty string, but if [`vc_set_shortcodes_templates_dir()`](/docs/inner-api/vc_set_shortcodes_templates_dir) was used previously, then custom directory path will be returned.
+By default, it returns empty string, but if [`vc_set_shortcodes_templates_dir()`](/devs/inner-api/vc_set_shortcodes_templates_dir) was used previously, then custom directory path will be returned.
 ```php
 <?php vc_shortcodes_theme_templates_dir( $template ); ?>
 ```

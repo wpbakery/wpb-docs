@@ -705,14 +705,23 @@ td {
   align-items: center;
 }
 
-/* Ensure search bar appears before (to the left of) dark mode toggle */
-.navbar__items--right > :nth-child(1) {
-  order: 2; /* Dark mode toggle */
+/* Navbar right side ordering: links → search → dark mode toggle */
+.navbar__items--right > [class*="colorModeToggle"] {
+  order: 20;
 }
 
-.navbar__items--right > :nth-child(2) {
-  order: 1; /* Search bar */
-  margin-right: 1rem;
+.navbar__items--right > [class*="navbarSearchContainer"] {
+  order: 10;
+  margin-right: 0.5rem;
+}
+
+/* Dev Example Boilerplate link - only visible on /devs/ pages */
+.devs-only-nav-item {
+  display: none !important;
+}
+
+body[data-section='devs'] .devs-only-nav-item {
+  display: flex !important;
 }
 
 /* Color mode toggle icon hover state */

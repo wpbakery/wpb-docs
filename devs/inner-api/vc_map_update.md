@@ -28,7 +28,7 @@ $shortcode = 'my_shortcode';
 ### $settings
 
 * Type - String
-* Description - Array with list of settings that should be updated for desired content element. List of [settings](docs/element-development/parameter-types) that can be changed.
+* Description - Array with list of settings that should be updated for desired content element. List of [settings](/devs/element-development/parameter-types) that can be changed.
 * Example:
 ```php
 $settings = array(

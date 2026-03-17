@@ -11,13 +11,13 @@ slug: /developers-how-tos/set-content-element-icon
 
 WPBakery Page Builder content element's icon is visible in the available content elements list and is shown when the user clicks "Add element" button in the WPBakery Page Builder interface.
 
-To add your icon you can simply pass icon url in "icon" attribute when you call [vc_map()](/docs/inner-api/vc_map) function. Another option is to assign class name for your item and then in your own css file add required css rules to style your element. Define "icon" param in the [vc_map()](/docs/inner-api/vc_map) function call ("mapping"). "icon" param should store CSS class name, which will be later used in your css file as a CSS selector (for targeting). Or another option is to simply provide URL of your icon.
+To add your icon you can simply pass icon url in "icon" attribute when you call [vc_map()](/devs/inner-api/vc_map) function. Another option is to assign class name for your item and then in your own css file add required css rules to style your element. Define "icon" param in the [vc_map()](/devs/inner-api/vc_map) function call ("mapping"). "icon" param should store CSS class name, which will be later used in your css file as a CSS selector (for targeting). Or another option is to simply provide URL of your icon.
 
 ## Creating your own icon with CSS
 
-For example, you have created a new custom content element and with help of [vc_map()](/docs/inner-api/vc_map) function added it to the WPBakery Page Builder editor. Now you may want your element to have a fancy custom icon (Note: Icon file format should be png or gif with transparent background). Save this icon somewhere in your theme's folder.
+For example, you have created a new custom content element and with help of [vc_map()](/devs/inner-api/vc_map) function added it to the WPBakery Page Builder editor. Now you may want your element to have a fancy custom icon (Note: Icon file format should be png or gif with transparent background). Save this icon somewhere in your theme's folder.
 
-Now open css file that you defined in "admin_enqueue_css" param in [vc_map()](/docs/inner-api/vc_map) function call, and add CSS rule for your content element.
+Now open css file that you defined in "admin_enqueue_css" param in [vc_map()](/devs/inner-api/vc_map) function call, and add CSS rule for your content element.
 
 ```php
 /*
@@ -44,7 +44,7 @@ This example will change icon of your content element in both: "Add element" win
 }
 ```
 
-In order to make 3) css snippet to work properly you should add "icon" param to the [vc_map()](/docs/inner-api/vc_map) function call and pass "my_bartag" as a value.
+In order to make 3) css snippet to work properly you should add "icon" param to the [vc_map()](/devs/inner-api/vc_map) function call and pass "my_bartag" as a value.
 
 ```php
 <?php

@@ -11,7 +11,7 @@ slug: /developers-how-tos/adding-icons-to-vc_icon
 
 It is possible to add your own icons to WPBakery Page Builder shortcode vc_icon by following these steps:
 
-1) Add icons param to [vc_map](/docs/inner-api/vc_map) with type **"iconpicker"**
+1) Add icons param to [vc_map](/devs/inner-api/vc_map) with type **"iconpicker"**
 
 ```php
 <?php

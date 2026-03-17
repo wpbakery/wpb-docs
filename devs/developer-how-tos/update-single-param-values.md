@@ -9,7 +9,7 @@ slug: /developers-how-tos/update-single-param-values
 
 # Update Single Param Values
 
-After [vc_map()](/docs/inner-api/vc_map) function call all mapping data is stored in memory, if you need to modify one of the existing parameters you can use this technique. This is useful if you want to make a simple change to the existing content elements. For example: Add more color options to the color drop down in the *"Call to Action"* content element.
+After [vc_map()](/devs/inner-api/vc_map) function call all mapping data is stored in memory, if you need to modify one of the existing parameters you can use this technique. This is useful if you want to make a simple change to the existing content elements. For example: Add more color options to the color drop down in the *"Call to Action"* content element.
 
 **Note:** Starting from WPBakery Page Builder 4.1 to update single param you should hook it to the WordPress "init" action.
 

@@ -50,7 +50,7 @@ The CSS Editor doesn't require additional parameters beyond the common ones.
 "group" => __("Custom Tab Name", "domain")
 ```
 
-See [Add Design Options Tab](/docs/developer-how-tos/add-design-options-tab) for implementation details.
+See [Add Design Options Tab](/devs/developers-how-tos/add-design-options-tab-with-css-editor-to-your-element) for implementation details.
 
 ## Complete Example
 

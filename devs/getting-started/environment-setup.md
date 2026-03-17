@@ -40,6 +40,10 @@ Ideal for reusable, portable element libraries or plugin-based projects.
 ```
 Structure it with a `my-wpbakery-extension.php` file and load your elements via `vc_before_init`.
 
+:::tip Kickstart with the Official Boilerplate
+Use the [WPBakery Dev Example](https://github.com/wpbakery/dev-example) plugin as a starting point. It includes working examples of custom elements covering common patterns like basic elements, custom PHP classes, and nested shortcodes.
+:::
+
 ### Option B: Add Code to a Child Theme
 Use this method when extending WPBakery as part of a theme project.
 

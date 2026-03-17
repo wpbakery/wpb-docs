@@ -9,7 +9,7 @@ slug: /developers-how-tos/create-new-param-type
 
 # Create New Param Type
 
-Sometimes you may need to add new attribute type for content element attributes. The vc_*add_shortcode_param()* function is used to register an attribute *type* handler which will form html markup for settings form in WPBakery Page Builder edit element form. It takes three parameters: the attribute type name (String used in [vc_map()](/docs/inner-api/vc_map) mapping function in type parameter), the callback function name and the javascript file absolute url.
+Sometimes you may need to add new attribute type for content element attributes. The vc_*add_shortcode_param()* function is used to register an attribute *type* handler which will form html markup for settings form in WPBakery Page Builder edit element form. It takes three parameters: the attribute type name (String used in [vc_map()](/devs/inner-api/vc_map) mapping function in type parameter), the callback function name and the javascript file absolute url.
 
 ```php
 <?php
@@ -20,7 +20,7 @@ vc_add_shortcode_param( $name , $form_field_callback, $script_url );
 
 | Param name | Type | Description |
 |------------|------|-------------|
-| $name | String | Required field.<br/>Param type name.<br/>Must contain only letters, digits and "_" symbol.<br/>Used in [vc_map()](/docs/inner-api/vc_map) mapping function in *type* parameter |
+| $name | String | Required field.<br/>Param type name.<br/>Must contain only letters, digits and "_" symbol.<br/>Used in [vc_map()](/devs/inner-api/vc_map) mapping function in *type* parameter |
 | $form_field_callback | String | Required field.<br/>The callback function name which will be called when settings form will be formed |
 | $script_url | String | Optional field.<br/>Absolute url to javascript file |
 
@@ -44,8 +44,8 @@ function my_param_settings_field( $settings, $value ) {
 
 | Param name | Type | Description |
 |------------|------|-------------|
-| $settings | String | [Array of param settings](/docs/inner-api/vc_map) for content element settings |
-| $value | String | Current attribute value.<br/>This maybe default value from [param Array](/docs/inner-api/vc_map) or user defined value |
+| $settings | String | [Array of param settings](/devs/inner-api/vc_map) for content element settings |
+| $value | String | Current attribute value.<br/>This maybe default value from [param Array](/devs/inner-api/vc_map) or user defined value |
 
 **Important:** your param html markup should have class name "wpb_vc_param_value". This class is used by WPBakery Page Builder to identify what should be parsed upon saving.
 
@@ -53,11 +53,11 @@ Callback function should return string with html markup, which will represent fo
 
 Form element requires two attributes:
 
-**name** – param_name of attribute from $settings array (which was passed to the [vc_map()](/docs/inner-api/vc_map) function)
+**name** – param_name of attribute from $settings array (which was passed to the [vc_map()](/devs/inner-api/vc_map) function)
 
 **value** – current shortcode attribute value
 
-To make sure that your custom param supports and works well with dependencies, that may be set by other params in [vc_map()](/docs/inner-api/vc_map) function call, make sure to call *vc_generate_dependencies_attributes( $settings )* function with the settings array. This is required to enable [Param Dependencies](/docs/inner-api/vc_map) for your attribute type.
+To make sure that your custom param supports and works well with dependencies, that may be set by other params in [vc_map()](/devs/inner-api/vc_map) function call, make sure to call *vc_generate_dependencies_attributes( $settings )* function with the settings array. This is required to enable [Param Dependencies](/devs/inner-api/vc_map) for your attribute type.
 
 ## Extending and customizing attribute functionality
 
@@ -100,7 +100,7 @@ To attach this script to the settings form, we should add new param to the vc_*a
 vc_add_shortcode_param('my_param', 'my_param_settings_field', get_template_directory_uri().'/vc_extend/flip.js');
 ```
 
-That it's! Now you can use this field in [vc_map()](/docs/inner-api/vc_map) function. Here is example with the new param added to the "params" array using our custom attribute type:
+That it's! Now you can use this field in [vc_map()](/devs/inner-api/vc_map) function. Here is example with the new param added to the "params" array using our custom attribute type:
 
 ```php
 <?php

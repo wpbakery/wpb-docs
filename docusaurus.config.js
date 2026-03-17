@@ -55,6 +55,8 @@ const config = {
     ],
   ],
 
+  clientModules: ['./src/clientModules/routeWatcher.js'],
+
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
@@ -106,15 +108,22 @@ const config = {
             label: 'Devs',
           },
           {
+            href: 'https://github.com/wpbakery/dev-example',
+            label: 'Dev Example Boilerplate ↗',
+            position: 'right',
+            target: '_blank',
+            className: 'devs-only-nav-item',
+          },
+          {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
             label: 'Customer Center ↗',
-            position: 'left',
+            position: 'right',
             target: '_blank',
           },
           {
             href: 'https://wpbakery.com',
             label: 'Get WPBakery Page Builder ↗',
-            position: 'left',
+            position: 'right',
             target: '_blank',
           },
         ],

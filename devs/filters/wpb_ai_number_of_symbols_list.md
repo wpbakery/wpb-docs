@@ -8,7 +8,7 @@ Since 8.3
 
 This filter is handy if you want to change the 'Length' dropdown for a particular param type of element in a WPBakery AI popup.
 
-Please note: If you want to process a new merge interval some other way in the default endpoint, you need to specify it in [`wpb_module_ai_type_response_route_lib`](/docs/filters/wpb_module_ai_type_response_route_lib/).
+Please note: If you want to process a new merge interval some other way in the default endpoint, you need to specify it in [`wpb_module_ai_type_response_route_lib`](/devs/filters/wpb_module_ai_type_response_route_lib/).
 
 ```php
 <?php

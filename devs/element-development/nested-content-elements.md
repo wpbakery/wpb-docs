@@ -65,7 +65,7 @@ As you can see it has an array of params. This list represents shortcode tag as 
 
 In params array we have only one element as array with list of params. `param_name` must be the same as your parameter name.
 
-Next most important attribute of params is `type`. There are a lot of predefined types (all of them you can see [here](/docs/element-development/params-array#available-type-values)). For foo attribute we'll use `textfield` which is simple input field. Add `heading` and `description` attributes for human friendly title and description of your param. Default attribute value can be added in param attribute `value`.
+Next most important attribute of params is `type`. There are a lot of predefined types (all of them you can see [here](/devs/element-development/params-array#available-type-values)). For foo attribute we'll use `textfield` which is simple input field. Add `heading` and `description` attributes for human friendly title and description of your param. Default attribute value can be added in param attribute `value`.
 
 After adding "mapping", you will see your shortcode inside content elements list in WPBakery Page Builder editing mode and ability to control access to this shortcode in WPBakery Page Builder settings.
 

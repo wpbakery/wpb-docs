@@ -12,4 +12,4 @@ At the moment WPBakery do not offer white label version. In terms of licensing t
 1. Regular/Single use license
 2. Extended license
 
-It is possible to make an adjustment to WPBakery Page Builder by using our [API for developers](/docs/inner-api/overview), but you can not claim any copyrights on WPBakery Page Builder or any part of it even after modifications.
+It is possible to make an adjustment to WPBakery Page Builder by using our [API for developers](/devs/inner-api), but you can not claim any copyrights on WPBakery Page Builder or any part of it even after modifications.

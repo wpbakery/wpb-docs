@@ -65,7 +65,7 @@ All param types support these common parameters:
 )
 ```
 
-See [Use Param Group in Elements](/docs/developer-how-tos/use-param-group) for detailed guide.
+See [Use Param Group in Elements](/devs/developers-how-tos/use-param-group-in-elements) for detailed guide.
 
 ## Complete Example
 

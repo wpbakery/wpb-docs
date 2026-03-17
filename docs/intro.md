@@ -40,7 +40,7 @@ Answers to frequently asked questions about WPBakery Page Builder.
 ## Quick Links
 
 - [System Requirements](/docs/preface/system-requirements)
-- [Installation Guide](/docs/getting-started/installation)
+- [Installation Guide](/docs/getting-started/plugin-installation)
 - [Support Center](https://support.wpbakery.com/)
 - [Knowledge Base](https://kb.wpbakery.com/)
 

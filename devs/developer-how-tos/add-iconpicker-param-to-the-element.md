@@ -36,7 +36,7 @@ First, you need to add a `dropdown` parameter to let users select which icon lib
 
 ## 2. Add Icon Picker Fields for Each Library
 
-For each icon library, define a separate `iconpicker` parameter. Use the [dependency option](/docs/inner-api/vc_map#param-dependencies) to show the relevant icon picker only when the corresponding icon library is selected.
+For each icon library, define a separate `iconpicker` parameter. Use the [dependency option](/devs/inner-api/vc_map#param-dependencies) to show the relevant icon picker only when the corresponding icon library is selected.
 
 This will output the icon picker button, which users will be able to click and select the icon from the list.
 
