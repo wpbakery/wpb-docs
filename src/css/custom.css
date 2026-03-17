@@ -232,6 +232,11 @@ body {
   background-size: auto 30px;
 }
 
+[data-theme='dark'] .navbar__logo::after {
+  background: url('/img/wpbakery-logo-light.svg') no-repeat left center;
+  background-size: auto 30px;
+}
+
 /* When navbar is at the top level (full width) */
 body > nav.navbar {
   position: fixed !important;
@@ -286,6 +291,10 @@ body > nav.navbar {
 .sidebar-logo img {
   height: 30px;
   width: auto;
+}
+
+[data-theme='dark'] .sidebar-logo img {
+  content: url('/img/wpbakery-logo-light.svg');
 }
 
 [data-theme='dark'] .theme-doc-sidebar-container {
