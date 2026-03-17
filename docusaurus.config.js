@@ -12,11 +12,11 @@ const config = {
     v4: true,
   },
 
-  url: 'https://kb.wpbakery.com',
+  url: 'https://kb-new.wpbakery.com',
   baseUrl: '/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'wpbakery',
+  projectName: 'wpb-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,8 +65,7 @@ const config = {
         path: 'devs',
         routeBasePath: 'devs',
         sidebarPath: './sidebars-devs.js',
-        editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
         sidebarCollapsible: true,
         sidebarCollapsed: false,
       },
