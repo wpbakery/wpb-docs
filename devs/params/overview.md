@@ -143,10 +143,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Simple URL input field.</p>
   </a>
 
-  <a href="/devs/params/href" className="topic-card">
-    <h3>Href</h3>
-    <p>URL with additional link attributes.</p>
-  </a>
 </div>
 
 ## WordPress Integration

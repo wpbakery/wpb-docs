@@ -12,6 +12,10 @@ sidebar_label: attach_images
 
 Multiple image selector from WordPress media library.
 
+## Screenshot
+
+![Attach Images](/img/params/attach-images.png)
+
 ## Basic Usage
 
 ```php

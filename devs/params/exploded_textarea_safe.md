@@ -12,6 +12,10 @@ sidebar_label: exploded_textarea_safe
 
 Safe version of exploded_textarea with HTML encoding.
 
+## Screenshot
+
+![Exploded Textarea Safe](/img/params/exploded_textarea.png)
+
 ## Basic Usage
 
 ```php

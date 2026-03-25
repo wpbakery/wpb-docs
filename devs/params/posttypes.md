@@ -12,6 +12,10 @@ sidebar_label: posttypes
 
 Checkbox list of available WordPress post types.
 
+## Screenshot
+
+![Post Types](/img/params/post-types.png)
+
 ## Basic Usage
 
 ```php

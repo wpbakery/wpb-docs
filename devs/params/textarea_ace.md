@@ -12,6 +12,10 @@ sidebar_label: textarea_ace
 
 Advanced code editor (ACE) for editing code with syntax highlighting.
 
+## Screenshot
+
+![Textarea Ace](/img/params/textarea-ace.png)
+
 ## Basic Usage
 
 ```php

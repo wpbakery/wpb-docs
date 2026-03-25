@@ -12,6 +12,10 @@ sidebar_label: attach_image
 
 Single image selector from WordPress media library.
 
+## Screenshot
+
+![Attach Image](/img/params/attach-image.png)
+
 ## Basic Usage
 
 ```php

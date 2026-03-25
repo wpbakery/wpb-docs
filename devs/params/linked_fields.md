@@ -12,6 +12,10 @@ sidebar_label: linked_fields
 
 Fields that are linked/dependent on other field values.
 
+## Screenshot
+
+![Linked Fields](/img/params/linked-fields.png)
+
 ## Basic Usage
 
 ```php

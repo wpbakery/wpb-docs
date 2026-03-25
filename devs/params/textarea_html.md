@@ -12,6 +12,10 @@ sidebar_label: textarea_html
 
 WYSIWYG editor for HTML content. Only one per element allowed with param_name "content".
 
+## Screenshot
+
+![Textarea HTML](/img/params/textarea-html.png)
+
 ## Basic Usage
 
 ```php

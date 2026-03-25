@@ -12,6 +12,10 @@ sidebar_label: textarea_raw_html
 
 Text area where content is encoded to base64 for storing raw HTML/JS.
 
+## Screenshot
+
+![Textarea Raw HTML](/img/params/textarea-raw-html.png)
+
 ## Basic Usage
 
 ```php

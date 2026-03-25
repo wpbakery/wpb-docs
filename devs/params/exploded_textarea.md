@@ -12,6 +12,10 @@ sidebar_label: exploded_textarea
 
 Textarea where each line is converted to comma-separated values.
 
+## Screenshot
+
+![Exploded Textarea](/img/params/exploded_textarea.png)
+
 ## Basic Usage
 
 ```php

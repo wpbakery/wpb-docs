@@ -12,6 +12,10 @@ sidebar_label: google_fonts
 
 Google Fonts selector with font family and style options.
 
+## Screenshot
+
+![Google Fonts](/img/params/google-fonts.png)
+
 ## Basic Usage
 
 ```php

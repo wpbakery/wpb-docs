@@ -4,9 +4,12 @@
  * work well for content-centric websites.
  */
 
+/* Google Fonts: Sora (headings) and Inter (body) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,500&family=Sora:wght@600&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
-  /* Your original brand colors - keeping them intact */
+  /* Brand colors */
   --ifm-color-primary: #0772ce;
   --ifm-color-primary-dark: #00447f;
   --ifm-color-primary-darker: #277148;
@@ -15,31 +18,37 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
 
-  /* Typography - Ionic exact match */
-  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Typography */
+  --wpb-font-heading: 'Sora', sans-serif;
+  --wpb-font-body: 'Inter', sans-serif;
+  --wpb-color-text: rgba(12, 38, 61, 1);
+  --ifm-font-color-base: var(--wpb-color-text);
+  --ifm-heading-color: var(--wpb-color-text);
+  --ifm-font-family-base: var(--wpb-font-body);
   --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   /* Base font size */
   --ifm-font-size-base: 100%; /* 16px browser default */
   --ifm-code-font-size: 0.875em; /* 14px */
 
-  /* Heading sizes - matching Ionic exactly */
-  --ifm-h1-font-size: 3rem; /* 48px */
-  --ifm-h2-font-size: 2rem; /* 32px */
-  --ifm-h3-font-size: 1.5rem; /* 24px */
-  --ifm-h4-font-size: 1.25rem; /* 20px */
+  /* Heading sizes */
+  --ifm-h1-font-size: 3.3125rem; /* 53px */
+  --ifm-h2-font-size: 2.0625rem; /* 33px */
+  --ifm-h3-font-size: 1.3125rem; /* 21px */
+  --ifm-h4-font-size: 1.125rem; /* 18px */
   --ifm-h5-font-size: 1rem; /* 16px */
   --ifm-h6-font-size: 0.875rem; /* 14px */
 
   /* Line heights */
-  --ifm-line-height-base: 1.6;
+  --ifm-line-height-base: 1.667;
   --ifm-heading-line-height: 1.2;
 
   /* Font weights */
   --ifm-font-weight-normal: 400;
+  --ifm-font-weight-medium: 500;
   --ifm-font-weight-semibold: 600;
   --ifm-font-weight-bold: 700;
-  --ifm-heading-font-weight: 700;
+  --ifm-heading-font-weight: 600;
 
   /* Spacing */
   --ifm-paragraph-margin-bottom: 1rem;
@@ -62,7 +71,7 @@
   /* Navbar settings */
   --ifm-navbar-height: 60px;
   --ifm-navbar-padding-vertical: 0.7rem;
-  --ifm-navbar-item-padding-horizontal: 0.75rem;
+  --ifm-navbar-item-padding-horizontal: 0.5rem;
 
   /* Menu/Sidebar colors */
   --ifm-menu-color: #5c5f62;
@@ -82,9 +91,10 @@
   --ifm-dropdown-background-color: #fff;
 
   /* Links */
-  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-color: #0772CE;
   --ifm-link-decoration: none;
-  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+  --ifm-link-hover-color: #0772CE;
+  --ifm-link-hover-decoration: underline;
 
   /* Code */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -104,6 +114,7 @@
   --ifm-menu-color-active: var(--ifm-color-primary);
 
   /* Dark mode specific */
+  --wpb-color-text: #e3e3e3;
   --ifm-background-color: #1b1b1d;
   --ifm-background-surface-color: #242526;
   --ifm-font-color-base: #e3e3e3;
@@ -127,11 +138,36 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--ifm-font-family-base);
-  font-size: 1rem;
+  font-family: var(--wpb-font-body);
+  font-size: 0.9375rem; /* 15px */
   line-height: var(--ifm-line-height-base);
-  color: var(--ifm-font-color-base);
+  color: var(--wpb-color-text);
   background-color: var(--ifm-background-color);
+}
+
+/* Override Docusaurus navbar breakpoint: collapse to mobile at 997px */
+@media (max-width: 996px) {
+  .navbar__items--right {
+    display: none !important;
+  }
+  .navbar__items:not(.navbar__items--right) .navbar__item {
+    display: none !important;
+  }
+  .navbar__toggle {
+    display: inherit !important;
+  }
+  .navbar__brand {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 997px) {
+  .navbar__toggle {
+    display: none !important;
+  }
+  .navbar-sidebar {
+    display: none !important;
+  }
 }
 
 /* Navbar - remove background, add border */
@@ -147,6 +183,7 @@ body {
 .navbar__inner {
   padding: 0;
   height: var(--ifm-navbar-height);
+  flex-wrap: nowrap;
 }
 
 .navbar__items {
@@ -166,11 +203,13 @@ body {
 .navbar__link {
   color: var(--ifm-font-color-base) !important;
   font-weight: 500;
+  white-space: nowrap;
   position: relative;
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0 var(--ifm-navbar-item-padding-horizontal);
+  font-size: 0.8125rem;
 }
 
 .navbar__link:hover {
@@ -279,7 +318,6 @@ body > nav.navbar {
   height: var(--ifm-navbar-height);
   padding: 30px var(--sidebar-spacing-horizontal);
   border-bottom: 1px solid var(--ifm-toc-border-color);
-  margin-bottom: 1rem;
   text-decoration: none;
 }
 
@@ -536,36 +574,60 @@ body > nav.navbar {
 }
 
 /* Headings */
-h1 {
-  font-size: var(--ifm-h1-font-size);
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--wpb-font-heading);
+  color: var(--wpb-color-text);
   font-weight: var(--ifm-heading-font-weight);
   line-height: var(--ifm-heading-line-height);
+}
+
+h1 {
+  font-size: var(--ifm-h1-font-size);
   margin: 0 0 1.5rem;
 }
 
 h2 {
   font-size: var(--ifm-h2-font-size);
-  font-weight: var(--ifm-heading-font-weight);
-  line-height: var(--ifm-heading-line-height);
   margin: 2rem 0 1rem;
 }
 
 h3 {
   font-size: var(--ifm-h3-font-size);
-  font-weight: var(--ifm-heading-font-weight);
-  line-height: var(--ifm-heading-line-height);
   margin: 1.5rem 0 0.75rem;
 }
 
-h4, h5, h6 {
-  font-weight: var(--ifm-heading-font-weight);
-  line-height: var(--ifm-heading-line-height);
+h4 {
+  font-size: var(--ifm-h4-font-size);
+  margin: 1rem 0 0.5rem;
+}
+
+h5 {
+  font-size: var(--ifm-h5-font-size);
+  margin: 1rem 0 0.5rem;
+}
+
+h6 {
+  font-size: var(--ifm-h6-font-size);
   margin: 1rem 0 0.5rem;
 }
 
 /* Paragraphs */
 p {
+  font-family: var(--wpb-font-body);
+  font-size: 0.9375rem; /* 15px */
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--wpb-color-text);
+  line-height: var(--ifm-line-height-base);
   margin: 0 0 var(--ifm-paragraph-margin-bottom);
+}
+
+/* Blockquotes */
+blockquote {
+  font-family: var(--wpb-font-body);
+  font-size: 1.125rem; /* 18px */
+  font-weight: var(--ifm-font-weight-medium);
+  font-style: italic;
+  color: var(--wpb-color-text);
 }
 
 /* Code */
@@ -580,13 +642,14 @@ code {
 /* Links */
 a {
   color: var(--ifm-link-color);
-  text-decoration: var(--ifm-link-decoration);
+  font-weight: var(--ifm-font-weight-semibold);
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
   color: var(--ifm-link-hover-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Main content container */
@@ -601,8 +664,9 @@ a:hover {
 }
 
 article {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-family: var(--wpb-font-body);
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.667;
 }
 
 /* Lists */
@@ -654,23 +718,26 @@ td {
   margin-top: 0;
 }
 
-/* Content typography - matching your specifications */
+/* Content typography */
 .markdown .tabs-container,
 .markdown li,
 .markdown p {
-  line-height: 200%;
+  line-height: 1.667;
 }
 
 .markdown li,
 .markdown p,
 .markdown td,
 .markdown tr {
-  font-size: 1rem;
+  font-family: var(--wpb-font-body);
+  font-size: 0.9375rem; /* 15px */
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--wpb-color-text);
 }
 
 /* Search Bar Customization */
 .DocSearch-Button {
-  width: 280px !important;
+  width: auto !important;
   height: 40px !important;
   border-radius: 8px !important;
   padding: 0 12px 0 12px !important;
@@ -724,13 +791,10 @@ td {
   margin-right: 0.5rem;
 }
 
-/* Dev Example Boilerplate link - only visible on /devs/ pages */
-.devs-only-nav-item {
-  display: none !important;
-}
 
-body[data-section='devs'] .devs-only-nav-item {
-  display: flex !important;
+/* Hide external link icon in sidebar */
+.menu__link svg.iconExternalLink_nPIU {
+  display: none;
 }
 
 /* Color mode toggle icon hover state */
@@ -821,9 +885,55 @@ body[data-section='devs'] .devs-only-nav-item {
   line-height: 1.5;
 }
 
+/* Hide individual hook pages from sidebar listing */
+.hidden-sidebar-item {
+  display: none !important;
+}
+
+/* Make category look like a direct link (no expand arrow, no children) */
+.single-link-category > .menu__list-item-collapsible .menu__link--sublist:after {
+  display: none !important;
+}
+
+.single-link-category > .menu__list {
+  display: none !important;
+}
+
+/* Disable the collapsible toggle so the link always navigates */
+.single-link-category > .menu__list-item-collapsible .menu__caret {
+  display: none !important;
+}
+
+.single-link-category > .menu__list-item-collapsible {
+  pointer-events: none;
+}
+
+.single-link-category > .menu__list-item-collapsible .menu__link {
+  pointer-events: auto;
+}
+
+
+/* Hide prev/next pagination at the bottom of doc pages */
+.pagination-nav {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .topic-cards {
     grid-template-columns: 1fr;
+  }
+
+  .navbar__brand {
+    padding: 0;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .navbar {
+    padding: 0 1rem !important;
+    background: white !important;
   }
 }

@@ -12,6 +12,10 @@ sidebar_label: css_editor
 
 Visual CSS editor for adding custom styles (Design Options tab).
 
+## Screenshot
+
+![CSS Editor](/img/params/css-editor.png)
+
 ## Basic Usage
 
 ```php

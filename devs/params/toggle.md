@@ -12,6 +12,10 @@ sidebar_label: toggle
 
 Toggle switch for boolean on/off values.
 
+## Screenshot
+
+![Toggle](/img/params/toggle.png)
+
 ## Basic Usage
 
 ```php

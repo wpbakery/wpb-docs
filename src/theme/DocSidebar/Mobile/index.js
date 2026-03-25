@@ -11,12 +11,6 @@ const DocSidebarMobileSecondaryMenu = ({sidebar, path}) => {
   const mobileSidebar = useNavbarMobileSidebar();
   return (
     <div className="wpb-sidebar-wrapper-mobile">
-      <a href="/" className="sidebar-logo" onClick={() => mobileSidebar.toggle()}>
-        <img
-          src="/img/logos/wpbakery-logo-horizontal.png"
-          alt="WPBakery"
-        />
-      </a>
       <ul className={clsx(ThemeClassNames.docs.docSidebarMenu, 'menu__list')}>
         <DocSidebarItems
           items={sidebar}

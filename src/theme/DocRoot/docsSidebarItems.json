@@ -1,0 +1,947 @@
+[
+  {
+    "type": "link",
+    "label": "Introduction",
+    "href": "/docs/intro",
+    "docId": "intro",
+    "unlisted": false
+  },
+  {
+    "type": "category",
+    "label": "Preface",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/preface",
+        "docId": "preface/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/preface/introduction",
+        "docId": "preface/introduction",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Pre-sales Questions",
+        "href": "/docs/preface/pre-sales-questions",
+        "docId": "preface/pre-sales-questions",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Support and Resources",
+        "href": "/docs/preface/support-and-resources",
+        "docId": "preface/support-and-resources",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Support Policy",
+        "href": "/docs/preface/support-policy",
+        "docId": "preface/support-policy",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Release Notes / Changelog",
+        "href": "/docs/preface/release-notes",
+        "docId": "preface/release-notes",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "System Requirements",
+        "href": "/docs/preface/system-requirements",
+        "docId": "preface/system-requirements",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Licensing",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/licensing",
+        "docId": "licensing/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Regular License",
+        "href": "/docs/licensing/regular-license",
+        "docId": "licensing/regular-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "5 Sites",
+        "href": "/docs/licensing/5-sites",
+        "docId": "licensing/five-sites",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "10 Sites",
+        "href": "/docs/licensing/10-sites",
+        "docId": "licensing/ten-sites",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Agency Program",
+        "href": "/docs/licensing/agency-program",
+        "docId": "licensing/agency-program",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Extended License (Theme Integration)",
+        "href": "/docs/licensing/extended-license",
+        "docId": "licensing/extended-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Support Plus",
+        "href": "/docs/licensing/support-plus",
+        "docId": "licensing/support-plus",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Getting Started",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/getting-started/overview",
+        "docId": "getting-started/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Plugin Installation",
+        "href": "/docs/getting-started/plugin-installation",
+        "docId": "getting-started/plugin-installation",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Activation",
+        "href": "/docs/getting-started/activation",
+        "docId": "getting-started/activation",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Update",
+        "href": "/docs/getting-started/update",
+        "docId": "getting-started/update",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Content Type",
+        "href": "/docs/getting-started/content-type",
+        "docId": "getting-started/content-type",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Add-ons",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/add-ons",
+        "docId": "add-ons/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Templatera",
+        "href": "/docs/add-ons/templatera",
+        "docId": "add-ons/templatera",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Easy Tables",
+        "href": "/docs/add-ons/easy-tables",
+        "docId": "add-ons/easy-tables",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add-on Development Rules",
+        "href": "/docs/add-ons/add-on-development-rules",
+        "docId": "add-ons/add-on-development-rules",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Learning More",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/learning-more",
+        "docId": "learning-more/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Basic Concept",
+        "href": "/docs/learning-more/basic-concept",
+        "docId": "learning-more/basic-concept",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Blank Page Wizard",
+        "href": "/docs/learning-more/blank-page-wizard",
+        "docId": "learning-more/blank-page-wizard",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Content Elements",
+        "href": "/docs/learning-more/content-elements",
+        "docId": "learning-more/content-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery Page Builder Settings",
+        "href": "/docs/learning-more/wpbakery-page-builder-settings",
+        "docId": "learning-more/wpbakery-page-builder-settings",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery AI",
+        "href": "/docs/learning-more/wpbakery-ai",
+        "docId": "learning-more/wpbakery-ai",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery SEO",
+        "href": "/docs/learning-more/wpbakery-seo",
+        "docId": "learning-more/wpbakery-seo",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Module Manager",
+        "href": "/docs/learning-more/module-manager",
+        "docId": "learning-more/module-manager",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Custom CSS",
+        "href": "/docs/learning-more/custom-css",
+        "docId": "learning-more/custom-css",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Custom JS",
+        "href": "/docs/learning-more/custom-js",
+        "docId": "learning-more/custom-js",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Copy/Paste",
+        "href": "/docs/learning-more/copy-paste",
+        "docId": "learning-more/copy-paste",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Typography",
+        "href": "/docs/learning-more/typography",
+        "docId": "learning-more/typography",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Element Design Options",
+        "href": "/docs/learning-more/element-design-options",
+        "docId": "learning-more/element-design-options",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Responsive Settings",
+        "href": "/docs/learning-more/responsive-settings",
+        "docId": "learning-more/responsive-settings",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Templates",
+        "href": "/docs/learning-more/templates",
+        "docId": "learning-more/templates",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Template Library",
+        "href": "/docs/learning-more/template-library",
+        "docId": "learning-more/template-library",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Shortcode Mapper",
+        "href": "/docs/learning-more/shortcode-mapper",
+        "docId": "learning-more/shortcode-mapper",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Grid Builder",
+        "href": "/docs/learning-more/grid-builder",
+        "docId": "learning-more/grid-builder",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Image Filters",
+        "href": "/docs/learning-more/image-filters",
+        "docId": "learning-more/image-filters",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Element Presets (My Elements)",
+        "href": "/docs/learning-more/element-presets-my-elements",
+        "docId": "learning-more/element-presets-my-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Keyboard Shortcuts",
+        "href": "/docs/learning-more/keyboard-shortcuts",
+        "docId": "learning-more/keyboard-shortcuts",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "WPBakery Page Builder \"How To's\"",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/how-tos",
+        "docId": "how-tos/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to deactivate and reactivate license?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-deactivate-and-reactivate-license",
+        "docId": "how-tos/how-to-deactivate-and-reactivate-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How do I reassign my license to another site?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-do-i-reassign-my-license-to-another-site",
+        "docId": "how-tos/how-do-i-reassign-my-license-to-another-site",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to change the email address for WPBakery Page Builder license?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-change-the-email-address-for-wpbakery-page-builder-license",
+        "docId": "how-tos/how-to-change-the-email-address-for-wpbakery-page-builder-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to apply for a refund?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-apply-for-a-refund",
+        "docId": "how-tos/how-to-apply-for-a-refund",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add and edit images?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-and-edit-images",
+        "docId": "how-tos/how-to-add-and-edit-images",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to Add Full Height Row and Video Background?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-full-height-row-and-video-background",
+        "docId": "how-tos/how-to-add-full-height-row-and-video-background",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to Add Image Filters?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-image-filters",
+        "docId": "how-tos/how-to-add-image-filters",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add Image Gallery?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-image-gallery",
+        "docId": "how-tos/how-to-add-image-gallery",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add old style post grid with Grid Builder?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-old-style-post-grid-with-grid-builder",
+        "docId": "how-tos/how-to-add-old-style-post-grid",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add parallax effect to row background?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-parallax-effect-to-row-background",
+        "docId": "how-tos/how-to-add-parallax-effect",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add Text Block?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-text-block",
+        "docId": "how-tos/how-to-add-text-block",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to check responsiveness?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-check-responsiveness",
+        "docId": "how-tos/how-to-check-responsiveness",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to clone elements?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-clone-elements",
+        "docId": "how-tos/how-to-clone-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to control elements on different devices?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-control-elements-on-different-devices",
+        "docId": "how-tos/how-to-control-elements-on-different-devices",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to create empty space between elements?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-create-empty-space-between-elements",
+        "docId": "how-tos/how-to-create-empty-space",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to drag and drop elements?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-drag-and-drop-elements",
+        "docId": "how-tos/how-to-drag-and-drop-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to edit post title?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-edit-post-title",
+        "docId": "how-tos/how-to-edit-post-title",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to edit headers and footers?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-edit-headers-and-footers",
+        "docId": "how-tos/how-to-edit-headers-and-footers",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to insert inner row?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-insert-inner-row",
+        "docId": "how-tos/how-to-insert-inner-row",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to minimize row?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-minimize-row",
+        "docId": "how-tos/how-to-minimize-row",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to use custom heading element?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-use-custom-heading-element",
+        "docId": "how-tos/how-to-use-custom-heading-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to work with tabs, tours and accordions?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-work-with-tabs-tours-and-accordions",
+        "docId": "how-tos/how-to-work-with-tabs-tours-and-accordions",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to insert Google Maps?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-insert-google-maps",
+        "docId": "how-tos/how-to-insert-google-maps",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to manage CSS with WPBakery Page Builder?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-manage-css-with-wpbakery-page-builder",
+        "docId": "how-tos/how-to-manage-css-with-wpbakery-page-builder",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to reduce vertical space between rows?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-reduce-vertical-space-between-rows",
+        "docId": "how-tos/how-to-reduce-vertical-space-between-rows",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to make full width or full height row?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-make-full-width-or-full-height-row",
+        "docId": "how-tos/how-to-make-full-width-or-full-height-row",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to make custom grid element?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-make-custom-grid-element",
+        "docId": "how-tos/how-to-make-custom-grid-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to modify predefined grid element?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-modify-predefined-grid-element",
+        "docId": "how-tos/how-to-modify-predefined-grid-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add post or media grid?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-post-or-media-grid",
+        "docId": "how-tos/how-to-add-post-or-media-grid",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to prevent tabs and tours becoming an accordion on mobile?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-prevent-tabs-and-tours-becoming-an-accordion-on-mobile",
+        "docId": "how-tos/how-to-prevent-tabs-and-tours-becoming-an-accordion-on-mobile",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to add custom color to dropdown?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-add-custom-color-to-dropdown",
+        "docId": "how-tos/how-to-add-custom-color-to-dropdown",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to set columns to equal height?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-set-columns-to-equal-height",
+        "docId": "how-tos/how-to-set-columns-to-equal-height",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to control element and column vertical alignment?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-control-element-and-column-vertical-alignment",
+        "docId": "how-tos/how-to-control-element-and-column-vertical-alignment",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to change gap between columns?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-to-change-gap-between-columns",
+        "docId": "how-tos/how-to-change-gap-between-columns",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How can I manually update WPBakery Page Builder if I don't have an active support?",
+        "href": "/docs/wpbakery-page-builder-how-tos/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support",
+        "docId": "how-tos/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "FAQ",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/faq",
+        "docId": "faq/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Is there a free version of the WPBakery Page Builder?",
+        "href": "/docs/faq/is-wpbakery-page-builder-free",
+        "docId": "faq/is-wpbakery-page-builder-free",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery Page Builder vs. Visual Composer Website Builder?",
+        "href": "/docs/faq/wpbakery-page-builder-visual-composer-page-builder",
+        "docId": "faq/wpbakery-vs-visual-composer",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "What are the benefits of direct license for WPBakery Page Builder?",
+        "href": "/docs/faq/what-are-the-benefits-of-direct-license-for-wpbakery-page-builder",
+        "docId": "faq/benefits-of-direct-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Does WPBakery Page Builder work with any WordPress theme?",
+        "href": "/docs/faq/does-wpbakery-page-builder-formerly-visual-composer-works-with-any-wordpress-theme",
+        "docId": "faq/works-with-any-theme",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Where Can I Get Official Support?",
+        "href": "/docs/faq/where-can-i-get-official-support",
+        "docId": "faq/where-can-i-get-official-support",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I keep getting this error during checkout while purchasing the plugin - Address fields can have a maximum length of 50 characters",
+        "href": "/docs/faq/i-keep-getting-this-error-during-checkout-while-purchasing-the-plugin-address-fields-can-have-a-maximum-length-of-50-characters",
+        "docId": "faq/checkout-error-address-length",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Where can I find my purchase code/license key?",
+        "href": "/docs/faq/where-can-i-find-my-purchase-code-license-key",
+        "docId": "faq/where-can-i-find-my-purchase-code",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Why can't I find my purchase confirmation email?",
+        "href": "/docs/faq/why-cant-i-find-my-purchase-confirmation-email",
+        "docId": "faq/cannot-find-purchase-confirmation-email",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I have purchased WPBakery Page Builder, but I'm unable to login into my account\u2026",
+        "href": "/docs/faq/i-have-purchased-wpbakery-page-builder-but-im-unable-to-login-into-my-account",
+        "docId": "faq/unable-to-login",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I have purchased WPBakery Page Builder, but I don\u2019t see my license\u2026",
+        "href": "/docs/faq/i-have-purchased-wpbakery-page-builder-but-i-dont-see-my-license",
+        "docId": "faq/dont-see-my-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I cannot update my license after site has been migrated to live",
+        "href": "/docs/faq/i-cannot-update-my-license-after-site-has-been-migrated-to-live",
+        "docId": "faq/cannot-update-license-after-migration",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Is there a separate license available for a staging site?",
+        "href": "/docs/faq/is-there-a-separate-license-available-for-a-staging-site",
+        "docId": "faq/license-for-staging-site",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Is there a license or plan available to use the plugin on multiple sites?",
+        "href": "/docs/faq/is-there-a-license-or-plan-available-to-use-the-plugin-on-multiple-sites",
+        "docId": "faq/license-for-multiple-sites",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Does WPBakery Page Builder work with Gutenberg?",
+        "href": "/docs/faq/does-wpbakery-page-builder-works-with-the-gutenberg",
+        "docId": "faq/works-with-gutenberg",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I keep getting this error: \u201cThe plugin does not have a valid header\u201d",
+        "href": "/docs/faq/i-keep-getting-this-error-the-plugin-does-not-have-a-valid-header",
+        "docId": "faq/error-invalid-header",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I\u2019m trying to install WPBakery Page Builder, but WordPress is saying \u201cThe package could not be installed. No valid plugins were found.\u201d",
+        "href": "/docs/faq/im-trying-to-install-wpbakery-page-builder-but-wordpress-is-saying-the-package-could-not-be-installed-no-valid-plugins-were-found",
+        "docId": "faq/error-no-valid-plugins-found",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "When installing WPBakery Page Builder I get error:\u201dFatal error: Cannot redeclare \u2026 (previously declared in \u2026)\u201d",
+        "href": "/docs/faq/when-installing-wpbakery-page-builder-i-get-errorfatal-error-cannot-redeclare-previously-declared-in",
+        "docId": "faq/error-cannot-redeclare",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "There\u2019s a new version of WPBakery Page Builder available, how can I get it and update it on my site?",
+        "href": "/docs/faq/theres-a-new-version-of-wpbakery-page-builder-available-how-can-i-get-it-and-update-it-on-my-site",
+        "docId": "faq/how-to-update",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "When trying to update I receive message \u2018Update Package not available\u2019",
+        "href": "/docs/faq/when-trying-to-update-i-receive-message-update-package-not-available",
+        "docId": "faq/error-update-package-not-available",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I update WPBakery Page Builder if I have purchased it in a theme?",
+        "href": "/docs/faq/can-i-update-wpbakery-page-builder-if-i-have-purchased-it-in-a-theme",
+        "docId": "faq/update-if-purchased-in-theme",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Who is applicable for support at support.wpbakery.com?",
+        "href": "/docs/faq/who-is-applicable-for-support-at-support-wpbakery-com",
+        "docId": "faq/who-is-applicable-for-support",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "After clicking WPBakery Page Builder button I see spinning icon for indefinite time\u2026",
+        "href": "/docs/faq/after-clicking-wpbakery-page-builder-button-i-see-spinning-icon-for-indefinite-time",
+        "docId": "faq/spinning-icon-indefinitely",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I can not use WPBakery Page Builder on Posts and Custom Posts",
+        "href": "/docs/faq/i-can-not-use-wpbakery-page-builder-on-posts-and-custom-posts",
+        "docId": "faq/cannot-use-on-posts",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I get white label version of WPBakery Page Builder?",
+        "href": "/docs/faq/can-i-get-white-label-version-of-wpbakery-page-builder",
+        "docId": "faq/white-label-version",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I include WPBakery Page Builder in my end-product?",
+        "href": "/docs/faq/can-i-include-wpbakery-page-builder-in-my-end-product",
+        "docId": "faq/include-in-end-product",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I include WPBakery Page Builder in my theme?",
+        "href": "/docs/faq/can-i-include-wpbakery-page-builder-in-my-theme",
+        "docId": "faq/include-in-theme",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I use WPBakery Page Builder on several WordPress sites (Multisite/Developers license)?",
+        "href": "/docs/faq/can-i-use-wpbakery-page-builder-on-several-wordpress-sites-multisite-developers-license",
+        "docId": "faq/multisite-license",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I insert 3rd party shortcodes?",
+        "href": "/docs/faq/can-i-insert-3rd-party-shortcodes",
+        "docId": "faq/insert-third-party-shortcodes",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I add my own shortcodes sets?",
+        "href": "/docs/faq/can-i-add-my-own-shortcodes-sets",
+        "docId": "faq/add-own-shortcodes",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "I have a layout that I created with WPBakery Page Builder and now I want to \"clone\" it for use on the other page/post, how can I do that?",
+        "href": "/docs/faq/i-have-a-layout-that-i-created-with-wpbakery-page-builder-and-now-i-want-to-clone-it-for-use-on-the-other-page-post-how-can-i-do-that",
+        "docId": "faq/clone-layout",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "When adding Image Filter I receive error: \"Error while applying filter to the image. Check your server and memory settings.\"",
+        "href": "/docs/faq/when-adding-image-filter-i-receive-error-error-while-applying-filter-to-the-image-check-your-server-and-memory-settings",
+        "docId": "faq/error-image-filter",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I link to specific row of my layout?",
+        "href": "/docs/faq/can-i-link-to-specific-row-of-my-layout",
+        "docId": "faq/link-to-specific-row",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I change element default values?",
+        "href": "/docs/faq/can-i-change-element-default-values",
+        "docId": "faq/change-element-defaults",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I link to external images?",
+        "href": "/docs/faq/can-i-link-to-external-images",
+        "docId": "faq/link-to-external-images",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I save part of the page as a template?",
+        "href": "/docs/faq/can-i-save-part-of-the-page-as-a-template",
+        "docId": "faq/save-as-template",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Where can I get my purchase invoice?",
+        "href": "/docs/faq/where-can-i-get-my-purchase-invoice",
+        "docId": "faq/get-purchase-invoice",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Does WPBakery Page Builder offer discounts?",
+        "href": "/docs/faq/does-wpbakery-page-builder-offer-discounts",
+        "docId": "faq/offer-discounts",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "What are the benefits of renewing support tenure?",
+        "href": "/docs/faq/what-are-the-benefits-of-renewing-support-tenure",
+        "docId": "faq/benefits-of-renewing-support",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "What is the AI credits usage limit?",
+        "href": "/docs/faq/what-is-the-ai-credits-usage-limit",
+        "docId": "faq/ai-credits-usage-limit",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How can I continue using the AI feature once my AI credits are exhausted?",
+        "href": "/docs/faq/how-can-i-continue-using-the-ai-feature-once-my-ai-credits-are-exhausted",
+        "docId": "faq/continue-using-ai-after-credits-exhausted",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Can I transfer the AI credits from one month to another?",
+        "href": "/docs/faq/can-i-transfer-the-ai-credits-from-one-month-to-another",
+        "docId": "faq/transfer-ai-credits",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Is there a way to control the image that appears on social media when a particular post is shared?",
+        "href": "/docs/faq/how-can-i-specify-the-image-to-be-displayed-on-social-media-when-a-post-link-is-shared-on-it",
+        "docId": "faq/social-media-image",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to fix \u201cThis page can not be edited with WPBakery since it is missing a WordPress default content area.\u201d?",
+        "href": "/docs/faq/how-to-fix-this-page-can-not-be-edited-with-wpbakery-since-it-is-missing-a-wordpress-default-content-area",
+        "docId": "faq/fix-missing-content-area",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "link",
+    "label": "Become a WPB Tester",
+    "href": "/docs/become-a-wpb-tester",
+    "docId": "become-a-wpb-tester",
+    "unlisted": false
+  },
+  {
+    "type": "link",
+    "label": "Outro",
+    "href": "/docs/outro",
+    "docId": "outro",
+    "unlisted": false
+  }
+]

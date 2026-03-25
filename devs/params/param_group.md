@@ -12,6 +12,10 @@ sidebar_label: param_group
 
 Repeatable group of parameters for creating multiple similar entries.
 
+## Screenshot
+
+![Param Group](/img/params/param-group.png)
+
 ## Basic Usage
 
 ```php

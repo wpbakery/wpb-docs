@@ -12,6 +12,10 @@ sidebar_label: animation_style
 
 CSS animation selector from predefined animation styles.
 
+## Screenshot
+
+![Animation Style](/img/params/animation-style.png)
+
 ## Basic Usage
 
 ```php

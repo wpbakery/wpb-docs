@@ -12,6 +12,10 @@ sidebar_label: custom_markup
 
 Custom HTML markup for element representation.
 
+## Screenshot
+
+![Custom Markup](/img/params/custom-markup.png)
+
 ## Basic Usage
 
 ```php

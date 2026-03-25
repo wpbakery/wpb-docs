@@ -12,6 +12,10 @@ sidebar_label: textarea
 
 Multi-line text input area for longer text content.
 
+## Screenshot
+
+![Textarea](/img/params/textarea.png)
+
 ## Basic Usage
 
 ```php

@@ -12,6 +12,10 @@ sidebar_label: number
 
 Numeric input field with optional min/max constraints.
 
+## Screenshot
+
+![Number](/img/params/number.png)
+
 ## Basic Usage
 
 ```php

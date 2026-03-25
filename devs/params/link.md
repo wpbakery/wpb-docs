@@ -12,6 +12,10 @@ sidebar_label: link
 
 Simple link input field.
 
+## Screenshot
+
+![Link](/img/params/link.png)
+
 ## Basic Usage
 
 ```php

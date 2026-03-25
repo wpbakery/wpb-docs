@@ -12,6 +12,10 @@ sidebar_label: colorpicker
 
 Color picker for selecting hex color values.
 
+## Screenshot
+
+![Colorpicker](/img/params/colorpicker.png)
+
 ## Basic Usage
 
 ```php

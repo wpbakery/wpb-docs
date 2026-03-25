@@ -12,6 +12,10 @@ sidebar_label: textfield
 
 Simple text input field for single-line text values.
 
+## Screenshot
+
+![Textfield](/img/params/textfield.png)
+
 ## Basic Usage
 
 ```php

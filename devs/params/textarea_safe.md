@@ -12,6 +12,10 @@ sidebar_label: textarea_safe
 
 Multi-line text input with HTML entity encoding for safe output.
 
+## Screenshot
+
+![Textarea Safe](/img/params/textarea-safe.png)
+
 ## Basic Usage
 
 ```php

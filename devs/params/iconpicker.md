@@ -12,6 +12,10 @@ sidebar_label: iconpicker
 
 Icon picker for selecting icons from predefined icon libraries.
 
+## Screenshot
+
+![Iconpicker](/img/params/iconpicker.png)
+
 ## Basic Usage
 
 ```php

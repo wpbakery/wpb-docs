@@ -12,6 +12,10 @@ sidebar_label: gutenberg
 
 Gutenberg block selector for WordPress Gutenberg integration.
 
+## Screenshot
+
+![Gutenberg](/img/params/gutenberg.png)
+
 ## Basic Usage
 
 ```php

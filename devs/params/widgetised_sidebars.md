@@ -12,6 +12,10 @@ sidebar_label: widgetised_sidebars
 
 Dropdown of registered widget areas/sidebars.
 
+## Screenshot
+
+![Widgetised Sidebars](/img/params/widgetised-sidebars.png)
+
 ## Basic Usage
 
 ```php

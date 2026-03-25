@@ -12,6 +12,10 @@ sidebar_label: font_container
 
 Typography settings including font family, size, color, and alignment.
 
+## Screenshot
+
+![Font Container](/img/params/font-container.png)
+
 ## Basic Usage
 
 ```php

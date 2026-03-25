@@ -12,6 +12,10 @@ sidebar_label: button_group
 
 Group of buttons for selecting one option from multiple choices.
 
+## Screenshot
+
+![Button Group](/img/params/button-group.png)
+
 ## Basic Usage
 
 ```php

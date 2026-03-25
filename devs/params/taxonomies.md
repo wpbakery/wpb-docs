@@ -12,6 +12,10 @@ sidebar_label: taxonomies
 
 Checkbox list of available WordPress taxonomies.
 
+## Screenshot
+
+![Taxonomies](/img/params/taxonomies.png)
+
 ## Basic Usage
 
 ```php

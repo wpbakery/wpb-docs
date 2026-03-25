@@ -12,6 +12,10 @@ sidebar_label: el_id
 
 Element ID field for setting custom HTML element IDs.
 
+## Screenshot
+
+![Element ID](/img/params/element-id.png)
+
 ## Basic Usage
 
 ```php

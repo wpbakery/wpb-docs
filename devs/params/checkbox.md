@@ -12,6 +12,10 @@ sidebar_label: checkbox
 
 Checkbox input allowing single or multiple selections.
 
+## Screenshot
+
+![Checkbox](/img/params/checkbox.png)
+
 ## Basic Usage
 
 ```php

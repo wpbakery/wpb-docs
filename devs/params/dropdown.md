@@ -12,6 +12,10 @@ sidebar_label: dropdown
 
 Dropdown select field with predefined options.
 
+## Screenshot
+
+![Dropdown](/img/params/dropdown.png)
+
 ## Basic Usage
 
 ```php

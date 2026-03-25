@@ -1,0 +1,3090 @@
+[
+  {
+    "type": "link",
+    "label": "Developer Documentation",
+    "href": "/devs/intro",
+    "docId": "intro",
+    "unlisted": false
+  },
+  {
+    "type": "category",
+    "label": "Getting Started",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/getting-started/overview",
+        "docId": "getting-started/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "File/folder structure",
+        "href": "/devs/getting-started/file-folder-structure",
+        "docId": "getting-started/file-folder-structure",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Environment Setup",
+        "href": "/devs/getting-started/environment-setup",
+        "docId": "getting-started/environment-setup",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Element Development",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/element-development/overview",
+        "docId": "element-development/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Registering Elements",
+        "href": "/devs/element-development/registering-elements",
+        "docId": "element-development/registering-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Parameter Types",
+        "href": "/devs/element-development/parameter-types",
+        "docId": "element-development/parameter-types",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "params array",
+        "href": "/devs/element-development/params-array",
+        "docId": "element-development/params-array",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Nested Content Elements",
+        "href": "/devs/element-development/nested-content-elements",
+        "docId": "element-development/nested-content-elements",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Params",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/params/overview",
+        "docId": "params/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "animation_style",
+        "href": "/devs/params/animation_style",
+        "docId": "params/animation_style",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "attach_image",
+        "href": "/devs/params/attach_image",
+        "docId": "params/attach_image",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "attach_images",
+        "href": "/devs/params/attach_images",
+        "docId": "params/attach_images",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "autocomplete",
+        "href": "/devs/params/autocomplete",
+        "docId": "params/autocomplete",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "button_group",
+        "href": "/devs/params/button_group",
+        "docId": "params/button_group",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "checkbox",
+        "href": "/devs/params/checkbox",
+        "docId": "params/checkbox",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "colorpicker",
+        "href": "/devs/params/colorpicker",
+        "docId": "params/colorpicker",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "css_editor",
+        "href": "/devs/params/css_editor",
+        "docId": "params/css_editor",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "custom_markup",
+        "href": "/devs/params/custom_markup",
+        "docId": "params/custom_markup",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "dropdown",
+        "href": "/devs/params/dropdown",
+        "docId": "params/dropdown",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "el_id",
+        "href": "/devs/params/el_id",
+        "docId": "params/el_id",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "exploded_textarea",
+        "href": "/devs/params/exploded_textarea",
+        "docId": "params/exploded_textarea",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "exploded_textarea_safe",
+        "href": "/devs/params/exploded_textarea_safe",
+        "docId": "params/exploded_textarea_safe",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "font_container",
+        "href": "/devs/params/font_container",
+        "docId": "params/font_container",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "google_fonts",
+        "href": "/devs/params/google_fonts",
+        "docId": "params/google_fonts",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "gutenberg",
+        "href": "/devs/params/gutenberg",
+        "docId": "params/gutenberg",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "iconpicker",
+        "href": "/devs/params/iconpicker",
+        "docId": "params/iconpicker",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "link",
+        "href": "/devs/params/link",
+        "docId": "params/link",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "linked_fields",
+        "href": "/devs/params/linked_fields",
+        "docId": "params/linked_fields",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "number",
+        "href": "/devs/params/number",
+        "docId": "params/number",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "param_group",
+        "href": "/devs/params/param_group",
+        "docId": "params/param_group",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "posttypes",
+        "href": "/devs/params/posttypes",
+        "docId": "params/posttypes",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "radio",
+        "href": "/devs/params/radio",
+        "docId": "params/radio",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "range",
+        "href": "/devs/params/range",
+        "docId": "params/range",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "tag_input",
+        "href": "/devs/params/tag_input",
+        "docId": "params/tag_input",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "taxonomies",
+        "href": "/devs/params/taxonomies",
+        "docId": "params/taxonomies",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textarea",
+        "href": "/devs/params/textarea",
+        "docId": "params/textarea",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textarea_ace",
+        "href": "/devs/params/textarea_ace",
+        "docId": "params/textarea_ace",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textarea_html",
+        "href": "/devs/params/textarea_html",
+        "docId": "params/textarea_html",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textarea_raw_html",
+        "href": "/devs/params/textarea_raw_html",
+        "docId": "params/textarea_raw_html",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textarea_safe",
+        "href": "/devs/params/textarea_safe",
+        "docId": "params/textarea_safe",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "textfield",
+        "href": "/devs/params/textfield",
+        "docId": "params/textfield",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "toggle",
+        "href": "/devs/params/toggle",
+        "docId": "params/toggle",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "widgetised_sidebars",
+        "href": "/devs/params/widgetised_sidebars",
+        "docId": "params/widgetised_sidebars",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Inner API",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/inner-api",
+        "docId": "inner-api/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_add_default_templates()",
+        "href": "/devs/inner-api/vc_add_default_templates",
+        "docId": "inner-api/vc_add_default_templates",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_add_param()",
+        "href": "/devs/inner-api/vc_add_param",
+        "docId": "inner-api/vc_add_param",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_add_params()",
+        "href": "/devs/inner-api/vc_add_params",
+        "docId": "inner-api/vc_add_params",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_disable_frontend()",
+        "href": "/devs/inner-api/vc_disable_frontend",
+        "docId": "inner-api/vc_disable_frontend",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_editor_post_types()",
+        "href": "/devs/inner-api/vc_editor_post_types",
+        "docId": "inner-api/vc_editor_post_types",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_enabled_frontend()",
+        "href": "/devs/inner-api/vc_enabled_frontend",
+        "docId": "inner-api/vc_enabled_frontend",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_is_as_theme()",
+        "href": "/devs/inner-api/vc_is_as_theme",
+        "docId": "inner-api/vc_is_as_theme",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_is_updater_disabled()",
+        "href": "/devs/inner-api/vc_is_updater_disabled",
+        "docId": "inner-api/vc_is_updater_disabled",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_lean_map()",
+        "href": "/devs/inner-api/vc_lean_map",
+        "docId": "inner-api/vc_lean_map",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map_update()",
+        "href": "/devs/inner-api/vc_map_update",
+        "docId": "inner-api/vc_map_update",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map()",
+        "href": "/devs/inner-api/vc_map",
+        "docId": "inner-api/vc_map",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_remove_element()",
+        "href": "/devs/inner-api/vc_remove_element",
+        "docId": "inner-api/vc_remove_element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_remove_param()",
+        "href": "/devs/inner-api/vc_remove_param",
+        "docId": "inner-api/vc_remove_param",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_set_as_theme()",
+        "href": "/devs/inner-api/vc_set_as_theme",
+        "docId": "inner-api/vc_set_as_theme",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_set_default_editor_post_types()",
+        "href": "/devs/inner-api/vc_set_default_editor_post_types",
+        "docId": "inner-api/vc_set_default_editor_post_types",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_set_shortcodes_templates_dir()",
+        "href": "/devs/inner-api/vc_set_shortcodes_templates_dir",
+        "docId": "inner-api/vc_set_shortcodes_templates_dir",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_shortcodes_theme_templates_dir()",
+        "href": "/devs/inner-api/vc_shortcodes_theme_templates_dir",
+        "docId": "inner-api/vc_shortcodes_theme_templates_dir",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_get_shortcode()",
+        "href": "/devs/inner-api/vc_get_shortcode",
+        "docId": "inner-api/vc_get_shortcode",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_update_shortcode_param()",
+        "href": "/devs/inner-api/vc_update_shortcode_param",
+        "docId": "inner-api/vc_update_shortcode_param",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map_get_attributes()",
+        "href": "/devs/inner-api/vc_map_get_attributes",
+        "docId": "inner-api/vc_map_get_attributes",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map_get_defaults()",
+        "href": "/devs/inner-api/vc_map_get_defaults",
+        "docId": "inner-api/vc_map_get_defaults",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_remove_all_elements()",
+        "href": "/devs/inner-api/vc_remove_all_elements",
+        "docId": "inner-api/vc_remove_all_elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_default_editor_post_types()",
+        "href": "/devs/inner-api/vc_default_editor_post_types",
+        "docId": "inner-api/vc_default_editor_post_types",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_editor_set_post_types()",
+        "href": "/devs/inner-api/vc_editor_set_post_types",
+        "docId": "inner-api/vc_editor_set_post_types",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map_integrate_shortcode()",
+        "href": "/devs/inner-api/vc_map_integrate_shortcode",
+        "docId": "inner-api/vc_map_integrate_shortcode",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_map_integrate_parse_atts()",
+        "href": "/devs/inner-api/vc_map_integrate_parse_atts",
+        "docId": "inner-api/vc_map_integrate_parse_atts",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "vc_add_shortcode_param()",
+        "href": "/devs/inner-api/vc_add_shortcode_param",
+        "docId": "inner-api/vc_add_shortcode_param",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Hooks",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "category",
+        "label": "Filters",
+        "collapsible": false,
+        "collapsed": false,
+        "className": "single-link-category",
+        "items": [
+          {
+            "type": "link",
+            "label": "vc_frontend_editor_iframe_url",
+            "href": "/devs/hooks/filters/vc_frontend_editor_iframe_url",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_frontend_editor_iframe_url",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcode_content_filter",
+            "href": "/devs/hooks/filters/vc_shortcode_content_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcode_content_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcode_content_filter_after",
+            "href": "/devs/hooks/filters/vc_shortcode_content_filter_after",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcode_content_filter_after",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcode_output",
+            "href": "/devs/hooks/filters/vc_shortcode_output",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcode_output",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_load_default_templates",
+            "href": "/devs/hooks/filters/vc_load_default_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_load_default_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcodes_css_class",
+            "href": "/devs/hooks/filters/vc_shortcodes_css_class",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcodes_css_class",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_widget_title",
+            "href": "/devs/hooks/filters/wpb_widget_title",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_widget_title",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_ai_number_of_symbols_list",
+            "href": "/devs/hooks/filters/wpb_ai_number_of_symbols_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_ai_number_of_symbols_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "get_lib_ai_icon_words",
+            "href": "/devs/hooks/filters/get_lib_ai_icon_words",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/get_lib_ai_icon_words",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_ai_tone_of_voice_list",
+            "href": "/devs/hooks/filters/wpb_ai_tone_of_voice_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_ai_tone_of_voice_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_ai_content_type_list",
+            "href": "/devs/hooks/filters/wpb_ai_content_type_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_ai_content_type_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_module_ai_element_param_types",
+            "href": "/devs/hooks/filters/wpb_module_ai_element_param_types",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_module_ai_element_param_types",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_module_ai_text_field_words",
+            "href": "/devs/hooks/filters/wpb_module_ai_text_field_words",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_module_ai_text_field_words",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb_module_ai_type_response_route_lib",
+            "href": "/devs/hooks/filters/wpb_module_ai_type_response_route_lib",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_module_ai_type_response_route_lib",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc-tta-get-params-tabs-list",
+            "href": "/devs/hooks/filters/vc-tta-get-params-tabs-list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc-tta-get-params-tabs-list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc-ui-pointers",
+            "href": "/devs/hooks/filters/vc-ui-pointers",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc-ui-pointers",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_add_element_box_buttons",
+            "href": "/devs/hooks/filters/vc_add_element_box_buttons",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_add_element_box_buttons",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_add_element_categories",
+            "href": "/devs/hooks/filters/vc_add_element_categories",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_add_element_categories",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_add_new_category_filter",
+            "href": "/devs/hooks/filters/vc_add_new_category_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_add_new_category_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_add_new_elements_to_box",
+            "href": "/devs/hooks/filters/vc_add_new_elements_to_box",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_add_new_elements_to_box",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_animation_style_render_filter",
+            "href": "/devs/hooks/filters/vc_animation_style_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_animation_style_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_autocomplete\\_\\{tag\\}\\_\\{param\\_name\\}\\_callback",
+            "href": "/devs/hooks/filters/vc_autocomplete_callback",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_autocomplete_callback",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_autocomplete_render_filter",
+            "href": "/devs/hooks/filters/vc_autocomplete_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_autocomplete_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_autoload_components_list",
+            "href": "/devs/hooks/filters/vc_autoload_components_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_autoload_components_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_autoload_components_manifest_file",
+            "href": "/devs/hooks/filters/vc_autoload_components_manifest_file",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_autoload_components_manifest_file",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_base_build_shortcodes\\_\\{type\\}\\_css",
+            "href": "/devs/hooks/filters/vc_base_build_shortcodes_type_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_base_build_shortcodes_type_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_base_save_post\\_\\{meta_name\\}",
+            "href": "/devs/hooks/filters/vc_base_save_post_meta_name",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_base_save_post_meta_name",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_filter_query_filters",
+            "href": "/devs/hooks/filters/vc_basic_grid_filter_query_filters",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_filter_query_filters",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_filter_query_suppress_filters",
+            "href": "/devs/hooks/filters/vc_basic_grid_filter_query_suppress_filters",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_filter_query_suppress_filters",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_find_post_shortcode",
+            "href": "/devs/hooks/filters/vc_basic_grid_find_post_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_find_post_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_items_per_page_all_max_items",
+            "href": "/devs/hooks/filters/vc_basic_grid_items_per_page_all_max_items",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_items_per_page_all_max_items",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_max_items",
+            "href": "/devs/hooks/filters/vc_basic_grid_max_items",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_max_items",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_basic_grid_template_filter",
+            "href": "/devs/hooks/filters/vc_basic_grid_template_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_basic_grid_template_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_before_update_post_data",
+            "href": "/devs/hooks/filters/vc_before_update_post_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_before_update_post_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_btn_a_href",
+            "href": "/devs/hooks/filters/vc_btn_a_href",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_btn_a_href",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_btn_a_title",
+            "href": "/devs/hooks/filters/vc_btn_a_title",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_btn_a_title",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_check_post_type_validation",
+            "href": "/devs/hooks/filters/vc_check_post_type_validation",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_check_post_type_validation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_clear_shortcode_suffix",
+            "href": "/devs/hooks/filters/vc_clear_shortcode_suffix",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_clear_shortcode_suffix",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor",
+            "href": "/devs/hooks/filters/vc_css_editor",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_background_image_control",
+            "href": "/devs/hooks/filters/vc_css_editor_background_image_control",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_background_image_control",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_background_style_options_data",
+            "href": "/devs/hooks/filters/vc_css_editor_background_style_options_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_background_style_options_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_border_radius_options_data",
+            "href": "/devs/hooks/filters/vc_css_editor_border_radius_options_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_border_radius_options_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_border_style_options_data",
+            "href": "/devs/hooks/filters/vc_css_editor_border_style_options_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_border_style_options_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_layer_controls",
+            "href": "/devs/hooks/filters/vc_css_editor_layer_controls",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_layer_controls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_css_editor_onion_layout",
+            "href": "/devs/hooks/filters/vc_css_editor_onion_layout",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_css_editor_onion_layout",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_custom_code_categories",
+            "href": "/devs/hooks/filters/vc_custom_code_categories",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_custom_code_categories",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_custom_code_templates",
+            "href": "/devs/hooks/filters/vc_custom_code_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_custom_code_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_custom_heading_template_use_wrapper",
+            "href": "/devs/hooks/filters/vc_custom_heading_template_use_wrapper",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_custom_heading_template_use_wrapper",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_custom_markup_render_filter",
+            "href": "/devs/hooks/filters/vc_custom_markup_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_custom_markup_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_class",
+            "href": "/devs/hooks/filters/vc_edit_form_class",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_class",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_css_class",
+            "href": "/devs/hooks/filters/vc_edit_form_css_class",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_css_class",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_enqueue_script",
+            "href": "/devs/hooks/filters/vc_edit_form_enqueue_script",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_enqueue_script",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_fields_attributes\\_\\{tag\\}",
+            "href": "/devs/hooks/filters/vc_edit_form_fields_attributes_tag",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_fields_attributes_tag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_fields_optional_params",
+            "href": "/devs/hooks/filters/vc_edit_form_fields_optional_params",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_fields_optional_params",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_edit_form_fields_render_field\\_\\{type\\}\\_before",
+            "href": "/devs/hooks/filters/vc_edit_form_fields_render_field_type_before",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_edit_form_fields_render_field_type_before",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_el_id_render_filter",
+            "href": "/devs/hooks/filters/vc_el_id_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_el_id_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_element_settings_filter",
+            "href": "/devs/hooks/filters/vc_element_settings_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_element_settings_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_enqueue_frontend_editor_js",
+            "href": "/devs/hooks/filters/vc_enqueue_frontend_editor_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_enqueue_frontend_editor_js",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_fe_render_shortcode",
+            "href": "/devs/hooks/filters/vc_fe_render_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_fe_render_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_font_container_get_allowed_tags",
+            "href": "/devs/hooks/filters/vc_font_container_get_allowed_tags",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_font_container_get_allowed_tags",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_font_container_get_fonts_filter",
+            "href": "/devs/hooks/filters/vc_font_container_get_fonts_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_font_container_get_fonts_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_font_container_output_data",
+            "href": "/devs/hooks/filters/vc_font_container_output_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_font_container_output_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_font_container_render_filter",
+            "href": "/devs/hooks/filters/vc_font_container_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_font_container_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_form_fields_render_field\\_\\{base\\}\\_\\{param_name\\}\\_param",
+            "href": "/devs/hooks/filters/vc_form_fields_render_field_param",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_form_fields_render_field_param",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_front_render_shortcodes",
+            "href": "/devs/hooks/filters/vc_front_render_shortcodes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_front_render_shortcodes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_frontend_editor_load_shortcode_ajax_output",
+            "href": "/devs/hooks/filters/vc_frontend_editor_load_shortcode_ajax_output",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_frontend_editor_load_shortcode_ajax_output",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_frontend_editor_new_post_data",
+            "href": "/devs/hooks/filters/vc_frontend_editor_new_post_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_frontend_editor_new_post_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_frontend_editor_to_string",
+            "href": "/devs/hooks/filters/vc_frontend_editor_to_string",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_frontend_editor_to_string",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_frontend_template_the_content",
+            "href": "/devs/hooks/filters/vc_frontend_template_the_content",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_frontend_template_the_content",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_all_templates",
+            "href": "/devs/hooks/filters/vc_get_all_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_all_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_editor_locale",
+            "href": "/devs/hooks/filters/vc_get_editor_locale",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_editor_locale",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_editor_wpb_data",
+            "href": "/devs/hooks/filters/vc_get_editor_wpb_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_editor_wpb_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_inline_url",
+            "href": "/devs/hooks/filters/vc_get_inline_url",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_inline_url",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_settings_locale",
+            "href": "/devs/hooks/filters/vc_get_settings_locale",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_settings_locale",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_settings_wpb_data",
+            "href": "/devs/hooks/filters/vc_get_settings_wpb_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_settings_wpb_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_user_templates",
+            "href": "/devs/hooks/filters/vc_get_user_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_user_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_get_vc_grid_data_response",
+            "href": "/devs/hooks/filters/vc_get_vc_grid_data_response",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_get_vc_grid_data_response",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_add_link_param",
+            "href": "/devs/hooks/filters/vc_gitem_add_link_param",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_add_link_param",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_add_link_target_param",
+            "href": "/devs/hooks/filters/vc_gitem_add_link_target_param",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_add_link_target_param",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_attribute_featured_image_img",
+            "href": "/devs/hooks/filters/vc_gitem_attribute_featured_image_img",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_attribute_featured_image_img",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_post_data_get_link_real_title",
+            "href": "/devs/hooks/filters/vc_gitem_post_data_get_link_real_title",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_post_data_get_link_real_title",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_post_data_get_link_rel",
+            "href": "/devs/hooks/filters/vc_gitem_post_data_get_link_rel",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_post_data_get_link_rel",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_post_data_get_link_title",
+            "href": "/devs/hooks/filters/vc_gitem_post_data_get_link_title",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_post_data_get_link_title",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_acf_value",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_acf_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_acf_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute\\_\\{name\\}",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_name",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_name",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_post_image_background_image_css_value",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_post_image_background_image_css_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_post_image_background_image_css_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_post_image_html",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_post_image_html",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_post_image_html",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_post_image_url_value",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_post_image_url_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_post_image_url_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_post_title",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_post_title",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_post_title",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_vc_btn",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_vc_btn",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_vc_btn",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_woocommerce_order_\\{field\\}",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_order_field",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_woocommerce_order_field",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_woocommerce_product_\\{field\\}",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_product_field",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_woocommerce_product_field",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_template_attribute_woocommerce_product_link_value",
+            "href": "/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_product_link_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_template_attribute_woocommerce_product_link_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_zone_grid_item_not_content_shortcodes",
+            "href": "/devs/hooks/filters/vc_gitem_zone_grid_item_not_content_shortcodes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_zone_grid_item_not_content_shortcodes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_gitem_zone_image_block_link",
+            "href": "/devs/hooks/filters/vc_gitem_zone_image_block_link",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_gitem_zone_image_block_link",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_global_js_data",
+            "href": "/devs/hooks/filters/vc_global_js_data",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_global_js_data",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_google_fonts_get_fonts_filter",
+            "href": "/devs/hooks/filters/vc_google_fonts_get_fonts_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_google_fonts_get_fonts_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_google_fonts_render_filter",
+            "href": "/devs/hooks/filters/vc_google_fonts_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_google_fonts_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_get_all_templates",
+            "href": "/devs/hooks/filters/vc_grid_get_all_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_get_all_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_get_grid_data_access",
+            "href": "/devs/hooks/filters/vc_grid_get_grid_data_access",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_get_grid_data_access",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_item_predefined_templates",
+            "href": "/devs/hooks/filters/vc_grid_item_predefined_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_item_predefined_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_item_preview_render_default_width_value",
+            "href": "/devs/hooks/filters/vc_grid_item_preview_render_default_width_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_item_preview_render_default_width_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_item_shortcodes",
+            "href": "/devs/hooks/filters/vc_grid_item_shortcodes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_item_shortcodes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_grid_request_url",
+            "href": "/devs/hooks/filters/vc_grid_request_url",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_grid_request_url",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_hooks_vc_post_settings",
+            "href": "/devs/hooks/filters/vc_hooks_vc_post_settings",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_hooks_vc_post_settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_iconpicker-type-\\{type\\}",
+            "href": "/devs/hooks/filters/vc_iconpicker-type",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_iconpicker-type",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_iconpicker_render_filter",
+            "href": "/devs/hooks/filters/vc_iconpicker_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_iconpicker_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_allow_fetch_attachments",
+            "href": "/devs/hooks/filters/vc_import_allow_fetch_attachments",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_allow_fetch_attachments",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_attachment_size_limit",
+            "href": "/devs/hooks/filters/vc_import_attachment_size_limit",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_attachment_size_limit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_post_data_processed",
+            "href": "/devs/hooks/filters/vc_import_post_data_processed",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_post_data_processed",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_post_data_raw",
+            "href": "/devs/hooks/filters/vc_import_post_data_raw",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_post_data_raw",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_post_meta",
+            "href": "/devs/hooks/filters/vc_import_post_meta",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_post_meta",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_post_meta_key",
+            "href": "/devs/hooks/filters/vc_import_post_meta_key",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_post_meta_key",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_import_posts",
+            "href": "/devs/hooks/filters/vc_import_posts",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_import_posts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_inline_template_content",
+            "href": "/devs/hooks/filters/vc_inline_template_content",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_inline_template_content",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_is_valid_post_type_be",
+            "href": "/devs/hooks/filters/vc_is_valid_post_type_be",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_is_valid_post_type_be",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_layerslider_shortcode",
+            "href": "/devs/hooks/filters/vc_layerslider_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_layerslider_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_load_default_templates_limit_total",
+            "href": "/devs/hooks/filters/vc_load_default_templates_limit_total",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_load_default_templates_limit_total",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_map_add_css_animation",
+            "href": "/devs/hooks/filters/vc_map_add_css_animation",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_map_add_css_animation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_map_get_attributes",
+            "href": "/devs/hooks/filters/vc_map_get_attributes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_map_get_attributes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_map_get_param_defaults",
+            "href": "/devs/hooks/filters/vc_map_get_param_defaults",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_map_get_param_defaults",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_mapper_attribute",
+            "href": "/devs/hooks/filters/vc_mapper_attribute",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_mapper_attribute",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_mapper\\_attribute\\_\\{type\\}",
+            "href": "/devs/hooks/filters/vc_mapper_attribute_type",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_mapper_attribute_type",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_nav_control_list",
+            "href": "/devs/hooks/filters/vc_nav_control_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_nav_control_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_nav_front_logo",
+            "href": "/devs/hooks/filters/vc_nav_front_logo",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_nav_front_logo",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_page-welcome-slugs-list",
+            "href": "/devs/hooks/filters/vc_page-welcome-slugs-list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_page-welcome-slugs-list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_param_animation_style_list",
+            "href": "/devs/hooks/filters/vc_param_animation_style_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_param_animation_style_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_param_group_render_filter",
+            "href": "/devs/hooks/filters/vc_param_group_render_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_param_group_render_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_path_filter",
+            "href": "/devs/hooks/filters/vc_path_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_path_filter",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_pointers_list",
+            "href": "/devs/hooks/filters/vc_pointers_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_pointers_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_popup_save_as_template_elements",
+            "href": "/devs/hooks/filters/vc_popup_save_as_template_elements",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_popup_save_as_template_elements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_post_custom_css",
+            "href": "/devs/hooks/filters/vc_post_custom_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_post_custom_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_post_custom_layout_name",
+            "href": "/devs/hooks/filters/vc_post_custom_layout_name",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_post_custom_layout_name",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_post_custom_layout_template",
+            "href": "/devs/hooks/filters/vc_post_custom_layout_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_post_custom_layout_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_post_meta_list",
+            "href": "/devs/hooks/filters/vc_post_meta_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_post_meta_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_raw_html_module_content",
+            "href": "/devs/hooks/filters/vc_raw_html_module_content",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_raw_html_module_content",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_render_settings_preset_popup",
+            "href": "/devs/hooks/filters/vc_render_settings_preset_popup",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_render_settings_preset_popup",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_render_settings_preset_title_prompt",
+            "href": "/devs/hooks/filters/vc_render_settings_preset_title_prompt",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_render_settings_preset_title_prompt",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_render_template_preview_include_template",
+            "href": "/devs/hooks/filters/vc_render_template_preview_include_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_render_template_preview_include_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_revslider_shortcode",
+            "href": "/devs/hooks/filters/vc_revslider_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_revslider_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_role_access_all_caps_role",
+            "href": "/devs/hooks/filters/vc_role_access_all_caps_role",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_role_access_all_caps_role",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_role\\_access\\_with\\_\\{part\\}\\_can",
+            "href": "/devs/hooks/filters/vc_role_access_with_part_can",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_role_access_with_part_can",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_role\\_access\\_with\\_\\{part\\}\\_can\\_\\{rule\\}",
+            "href": "/devs/hooks/filters/vc_role_access_with_part_can_rule",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_role_access_with_part_can_rule",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_roles_parts_list",
+            "href": "/devs/hooks/filters/vc_roles_parts_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_roles_parts_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_setting-tab-form-\\{tab\\}",
+            "href": "/devs/hooks/filters/vc_setting-tab-form-tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_setting-tab-form-tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings-less-variables",
+            "href": "/devs/hooks/filters/vc_settings-less-variables",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings-less-variables",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_settings-render-tab-\\{tab\\}",
+            "href": "/devs/hooks/filters/vc_settings-render-tab-tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings-render-tab-tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_settings-tab-submit-button-attributes-\\{tab\\}",
+            "href": "/devs/hooks/filters/vc_settings-tab-submit-button-attributes-tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings-tab-submit-button-attributes-tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings-tab-submit-button-attributes",
+            "href": "/devs/hooks/filters/vc_settings-tab-submit-button-attributes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings-tab-submit-button-attributes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings_exclude_post_type",
+            "href": "/devs/hooks/filters/vc_settings_exclude_post_type",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings_exclude_post_type",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings_page_show_color-picker-tab",
+            "href": "/devs/hooks/filters/vc_settings_page_show_color_picker_tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings_page_show_color_picker_tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings_page_show_design_tabs",
+            "href": "/devs/hooks/filters/vc_settings_page_show_design_tabs",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings_page_show_design_tabs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings_page_show_typography_tab",
+            "href": "/devs/hooks/filters/vc_settings_page_show_typography_tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings_page_show_typography_tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_settings_tabs",
+            "href": "/devs/hooks/filters/vc_settings_tabs",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_settings_tabs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shared_templates_import_shortcodes",
+            "href": "/devs/hooks/filters/vc_shared_templates_import_shortcodes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shared_templates_import_shortcodes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcode_prepare_atts",
+            "href": "/devs/hooks/filters/vc_shortcode_prepare_atts",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcode_prepare_atts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_shortcode\\_set\\_template\\_\\{shortcode\\}",
+            "href": "/devs/hooks/filters/vc_shortcode_set_template_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcode_set_template_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_shortcodes_is_admin",
+            "href": "/devs/hooks/filters/vc_shortcodes_is_admin",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcodes_is_admin",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_shortcodes\\_\\{type\\}\\_css",
+            "href": "/devs/hooks/filters/vc_shortcodes_type_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_shortcodes_type_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_show_button_fe",
+            "href": "/devs/hooks/filters/vc_show_button_fe",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_show_button_fe",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_show_user_templates",
+            "href": "/devs/hooks/filters/vc_show_user_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_show_user_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_single_param_edit",
+            "href": "/devs/hooks/filters/vc_single_param_edit",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_single_param_edit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_single_param_edit_holder_output",
+            "href": "/devs/hooks/filters/vc_single_param_edit_holder_output",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_single_param_edit_holder_output",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_site_attached_images_query_limit",
+            "href": "/devs/hooks/filters/vc_site_attached_images_query_limit",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_site_attached_images_query_limit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_template_custom_code",
+            "href": "/devs/hooks/filters/vc_template_custom_code",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_template_custom_code",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_templates_render_backend_template",
+            "href": "/devs/hooks/filters/vc_templates_render_backend_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_templates_render_backend_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_templates_render_backend_template_preview",
+            "href": "/devs/hooks/filters/vc_templates_render_backend_template_preview",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_templates_render_backend_template_preview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_templates_render_category",
+            "href": "/devs/hooks/filters/vc_templates_render_category",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_templates_render_category",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_templates_render_frontend_template",
+            "href": "/devs/hooks/filters/vc_templates_render_frontend_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_templates_render_frontend_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_templates_render_template",
+            "href": "/devs/hooks/filters/vc_templates_render_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_templates_render_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_third_party_modules_list",
+            "href": "/devs/hooks/filters/vc_third_party_modules_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_third_party_modules_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_translate_column_width_class",
+            "href": "/devs/hooks/filters/vc_translate_column_width_class",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_translate_column_width_class",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_tta_accordion_general_classes",
+            "href": "/devs/hooks/filters/vc_tta_accordion_general_classes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_tta_accordion_general_classes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_tta_container_classes",
+            "href": "/devs/hooks/filters/vc_tta_container_classes",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_tta_container_classes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_tta_section_param_heading_tag",
+            "href": "/devs/hooks/filters/vc_tta_section_param_heading_tag",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_tta_section_param_heading_tag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_ui-pointers-\\{screen\\_id\\}",
+            "href": "/devs/hooks/filters/vc_ui-pointers-screen_id",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_ui-pointers-screen_id",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_user_access_check-shortcode_all",
+            "href": "/devs/hooks/filters/vc_user_access_check_shortcode_all",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_user_access_check_shortcode_all",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_user\\_access\\_with\\_\\{part\\}\\_get\\_state",
+            "href": "/devs/hooks/filters/vc_user_access_with_part_get_state",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_user_access_with_part_get_state",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_vendor_layerslider_old",
+            "href": "/devs/hooks/filters/vc_vendor_layerslider_old",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_vendor_layerslider_old",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_vendor_qtranslate_enqueue_js_backend",
+            "href": "/devs/hooks/filters/vc_vendor_qtranslate_enqueue_js_backend",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_vendor_qtranslate_enqueue_js_backend",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_wp_text_widget_shortcode",
+            "href": "/devs/hooks/filters/vc_wp_text_widget_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_wp_text_widget_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_wpb_getimagesize",
+            "href": "/devs/hooks/filters/vc_wpb_getimagesize",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_wpb_getimagesize",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_wpbakery_shortcode_get_column_controls_modular_template",
+            "href": "/devs/hooks/filters/vc_wpbakery_shortcode_get_column_controls_modular_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_wpbakery_shortcode_get_column_controls_modular_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc_wpbakery_shortcode_get_controls_list",
+            "href": "/devs/hooks/filters/vc_wpbakery_shortcode_get_controls_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_wpbakery_shortcode_get_controls_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_wpbakeryshortcode\\_single\\_param\\_html\\_holder\\_value",
+            "href": "/devs/hooks/filters/vc_wpbakeryshortcode_single_param_html_holder_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/vc_wpbakeryshortcode_single_param_html_holder_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_ai\\_modal\\_type\\_dependency",
+            "href": "/devs/hooks/filters/wpb_ai_modal_type_dependency",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_ai_modal_type_dependency",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_cta\\_text",
+            "href": "/devs/hooks/filters/wpb_cta_text",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_cta_text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_custom\\_html\\_elements",
+            "href": "/devs/hooks/filters/wpb_custom_html_elements",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_custom_html_elements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_disable\\_local\\_fonts",
+            "href": "/devs/hooks/filters/wpb_disable_local_fonts",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_disable_local_fonts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_download\\_all\\_google\\_fonts",
+            "href": "/devs/hooks/filters/wpb_download_all_google_fonts",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_download_all_google_fonts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_enqueue\\_backend\\_editor\\_css",
+            "href": "/devs/hooks/filters/wpb_enqueue_backend_editor_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_enqueue_backend_editor_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_enqueue\\_backend\\_editor\\_js",
+            "href": "/devs/hooks/filters/wpb_enqueue_backend_editor_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_enqueue_backend_editor_js",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_enqueue\\_frontend\\_editor\\_css",
+            "href": "/devs/hooks/filters/wpb_enqueue_frontend_editor_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_enqueue_frontend_editor_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_get\\_ai\\_icon\\_template",
+            "href": "/devs/hooks/filters/wpb_get_ai_icon_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_get_ai_icon_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_is\\_post\\_custom\\_layout\\_blank",
+            "href": "/devs/hooks/filters/wpb_is_post_custom_layout_blank",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_is_post_custom_layout_blank",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_loop\\_query\\_build\\_args",
+            "href": "/devs/hooks/filters/wpb_loop_query_build_args",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_loop_query_build_args",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_navbar\\_getControlScreenSize",
+            "href": "/devs/hooks/filters/wpb_navbar_getControlScreenSize",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_navbar_getControlScreenSize",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_set\\_post\\_custom\\_meta",
+            "href": "/devs/hooks/filters/wpb_set_post_custom_meta",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_set_post_custom_meta",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_shortcode\\_acf\\_display\\_when\\_empty\\_value",
+            "href": "/devs/hooks/filters/wpb_shortcode_acf_display_when_empty_value",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_shortcode_acf_display_when_empty_value",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_toggle\\_heading",
+            "href": "/devs/hooks/filters/wpb_toggle_heading",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_toggle_heading",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_update\\_post\\_param\\_list",
+            "href": "/devs/hooks/filters/wpb_update_post_param_list",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_update_post_param_list",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_vc\\_js\\_status\\_filter",
+            "href": "/devs/hooks/filters/wpb_vc_js_status_filter",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/filters/wpb_vc_js_status_filter",
+            "unlisted": false
+          }
+        ],
+        "href": "/devs/hooks/filters"
+      },
+      {
+        "type": "category",
+        "label": "Actions",
+        "collapsible": false,
+        "collapsed": false,
+        "className": "single-link-category",
+        "items": [
+          {
+            "type": "link",
+            "label": "vc-render-templates-preview-template",
+            "href": "/devs/hooks/actions/vc-render-templates-preview-template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc-render-templates-preview-template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc-settings-render-tab-\\{tab\\}",
+            "href": "/devs/hooks/actions/vc-settings-render-tab-tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc-settings-render-tab-tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc-vendor-acf-load",
+            "href": "/devs/hooks/actions/vc-vendor-acf-load",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc-vendor-acf-load",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_activation\\_hook",
+            "href": "/devs/hooks/actions/vc_activation_hook",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_activation_hook",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_admin\\_inline\\_editor",
+            "href": "/devs/hooks/actions/vc_admin_inline_editor",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_admin_inline_editor",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init",
+            "href": "/devs/hooks/actions/vc_after_init",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_autoload",
+            "href": "/devs/hooks/actions/vc_after_init_autoload",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_autoload",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_automapper",
+            "href": "/devs/hooks/actions/vc_after_init_automapper",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_automapper",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_base",
+            "href": "/devs/hooks/actions/vc_after_init_base",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_base",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_config",
+            "href": "/devs/hooks/actions/vc_after_init_config",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_config",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_license",
+            "href": "/devs/hooks/actions/vc_after_init_license",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_license",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_modules",
+            "href": "/devs/hooks/actions/vc_after_init_modules",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_modules",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_settings",
+            "href": "/devs/hooks/actions/vc_after_init_settings",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_updater",
+            "href": "/devs/hooks/actions/vc_after_init_updater",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_updater",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_init\\_vc",
+            "href": "/devs/hooks/actions/vc_after_init_vc",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_init_vc",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_mapping",
+            "href": "/devs/hooks/actions/vc_after_mapping",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_mapping",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_after\\_set\\_mode",
+            "href": "/devs/hooks/actions/vc_after_set_mode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_after_set_mode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_backend\\_editor\\_enqueue\\_js\\_css",
+            "href": "/devs/hooks/actions/vc_backend_editor_enqueue_js_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_backend_editor_enqueue_js_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_backend\\_editor\\_footer\\_render",
+            "href": "/devs/hooks/actions/vc_backend_editor_footer_render",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_backend_editor_footer_render",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_backend\\_editor\\_render",
+            "href": "/devs/hooks/actions/vc_backend_editor_render",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_backend_editor_render",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_base\\_register\\_admin\\_css",
+            "href": "/devs/hooks/actions/vc_base_register_admin_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_base_register_admin_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_base\\_register\\_admin\\_js",
+            "href": "/devs/hooks/actions/vc_base_register_admin_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_base_register_admin_js",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_base\\_register\\_front\\_css",
+            "href": "/devs/hooks/actions/vc_base_register_front_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_base_register_front_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_base\\_register\\_front\\_js",
+            "href": "/devs/hooks/actions/vc_base_register_front_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_base_register_front_js",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init",
+            "href": "/devs/hooks/actions/vc_before_init",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_autoload",
+            "href": "/devs/hooks/actions/vc_before_init_autoload",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_autoload",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_automapper",
+            "href": "/devs/hooks/actions/vc_before_init_automapper",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_automapper",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_backend\\_editor",
+            "href": "/devs/hooks/actions/vc_before_init_backend_editor",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_backend_editor",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_base",
+            "href": "/devs/hooks/actions/vc_before_init_base",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_base",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_config",
+            "href": "/devs/hooks/actions/vc_before_init_config",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_config",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_frontend\\_editor",
+            "href": "/devs/hooks/actions/vc_before_init_frontend_editor",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_frontend_editor",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_license",
+            "href": "/devs/hooks/actions/vc_before_init_license",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_license",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_modules",
+            "href": "/devs/hooks/actions/vc_before_init_modules",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_modules",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_settings",
+            "href": "/devs/hooks/actions/vc_before_init_settings",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_updater",
+            "href": "/devs/hooks/actions/vc_before_init_updater",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_updater",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_init\\_vc",
+            "href": "/devs/hooks/actions/vc_before_init_vc",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_init_vc",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_before\\_mapping",
+            "href": "/devs/hooks/actions/vc_before_mapping",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_before_mapping",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_build\\_admin\\_page",
+            "href": "/devs/hooks/actions/vc_build_admin_page",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_build_admin_page",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_build\\_page",
+            "href": "/devs/hooks/actions/vc_build_page",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_build_page",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_edit\\_form\\_fields\\_after\\_render",
+            "href": "/devs/hooks/actions/vc_edit_form_fields_after_render",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_edit_form_fields_after_render",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_editor\\_footer",
+            "href": "/devs/hooks/actions/vc_editor_footer",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_editor_footer",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_enqueue\\_font\\_icon\\_element",
+            "href": "/devs/hooks/actions/vc_enqueue_font_icon_element",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_enqueue_font_icon_element",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_front\\_load\\_page\\_\\{action\\}",
+            "href": "/devs/hooks/actions/vc_front_load_page_action",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_front_load_page_action",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_frontend\\_editor\\_enqueue\\_js\\_css",
+            "href": "/devs/hooks/actions/vc_frontend_editor_enqueue_js_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_frontend_editor_enqueue_js_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_frontend\\_editor\\_hook\\_load\\_edit",
+            "href": "/devs/hooks/actions/vc_frontend_editor_hook_load_edit",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_frontend_editor_hook_load_edit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_frontend\\_editor\\_render",
+            "href": "/devs/hooks/actions/vc_frontend_editor_render",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_frontend_editor_render",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_frontend\\_editor\\_render\\_template",
+            "href": "/devs/hooks/actions/vc_frontend_editor_render_template",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_frontend_editor_render_template",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_end",
+            "href": "/devs/hooks/actions/vc_import_end",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_end",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_insert\\_post",
+            "href": "/devs/hooks/actions/vc_import_insert_post",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_insert_post",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_post\\_exists",
+            "href": "/devs/hooks/actions/vc_import_post_exists",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_post_exists",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_post\\_meta",
+            "href": "/devs/hooks/actions/vc_import_post_meta",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_post_meta",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_pre\\_end",
+            "href": "/devs/hooks/actions/vc_import_pre_end",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_pre_end",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_import\\_start",
+            "href": "/devs/hooks/actions/vc_import_start",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_import_start",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_inline\\_editor\\_page\\_view",
+            "href": "/devs/hooks/actions/vc_inline_editor_page_view",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_inline_editor_page_view",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_load\\_default\\_params",
+            "href": "/devs/hooks/actions/vc_load_default_params",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_load_default_params",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_load\\_default\\_templates\\_action",
+            "href": "/devs/hooks/actions/vc_load_default_templates_action",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_load_default_templates_action",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_load\\_iframe\\_jscss",
+            "href": "/devs/hooks/actions/vc_load_iframe_jscss",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_load_iframe_jscss",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_load\\_shortcode",
+            "href": "/devs/hooks/actions/vc_load_shortcode",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_load_shortcode",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_mapper\\_call\\_activities\\_before",
+            "href": "/devs/hooks/actions/vc_mapper_call_activities_before",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_mapper_call_activities_before",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_mapper\\_init\\_after",
+            "href": "/devs/hooks/actions/vc_mapper_init_after",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_mapper_init_after",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_mapper\\_init\\_before",
+            "href": "/devs/hooks/actions/vc_mapper_init_before",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_mapper_init_before",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_menu\\_page\\_build",
+            "href": "/devs/hooks/actions/vc_menu_page_build",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_menu_page_build",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_network\\_menu\\_page\\_build",
+            "href": "/devs/hooks/actions/vc_network_menu_page_build",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_network_menu_page_build",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_page\\_settings\\_build",
+            "href": "/devs/hooks/actions/vc_page_settings_build",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_page_settings_build",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_page\\_settings\\_render-\\{page\\}",
+            "href": "/devs/hooks/actions/vc_page_settings_render_page",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_page_settings_render_page",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_plugins\\_loaded",
+            "href": "/devs/hooks/actions/vc_plugins_loaded",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_plugins_loaded",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_settings\\_set\\_sections",
+            "href": "/devs/hooks/actions/vc_settings_set_sections",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_settings_set_sections",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_settings\\_tab-\\{tab\\}",
+            "href": "/devs/hooks/actions/vc_settings_tab_tab",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_settings_tab_tab",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_templates\\_delete\\_templates",
+            "href": "/devs/hooks/actions/vc_templates_delete_templates",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_templates_delete_templates",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_ui-template-preview",
+            "href": "/devs/hooks/actions/vc_ui-template-preview",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_ui-template-preview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_vc\\_grid\\_item\\_editor\\_render",
+            "href": "/devs/hooks/actions/vc_vc_grid_item_editor_render",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_vc_grid_item_editor_render",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "vc\\_vendor\\_yoastseo\\_filter\\_results",
+            "href": "/devs/hooks/actions/vc_vendor_yoastseo_filter_results",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/vc_vendor_yoastseo_filter_results",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_add\\_after\\_settings\\_form",
+            "href": "/devs/hooks/actions/wpb_add_after_settings_form",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_add_after_settings_form",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_add\\_before\\_closing\\_form\\_tag",
+            "href": "/devs/hooks/actions/wpb_add_before_closing_form_tag",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_add_before_closing_form_tag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_add\\_before\\_open\\_form\\_tag",
+            "href": "/devs/hooks/actions/wpb_add_before_open_form_tag",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_add_before_open_form_tag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_add\\_before\\_settings\\_form",
+            "href": "/devs/hooks/actions/wpb_add_before_settings_form",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_add_before_settings_form",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_add\\_element\\_controls",
+            "href": "/devs/hooks/actions/wpb_add_element_controls",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_add_element_controls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_after\\_enqueue\\_element\\_google\\_fonts",
+            "href": "/devs/hooks/actions/wpb_after_enqueue_element_google_fonts",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_after_enqueue_element_google_fonts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_after\\_register\\_backend\\_editor\\_css",
+            "href": "/devs/hooks/actions/wpb_after_register_backend_editor_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_after_register_backend_editor_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_after\\_register\\_backend\\_editor\\_js",
+            "href": "/devs/hooks/actions/wpb_after_register_backend_editor_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_after_register_backend_editor_js",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_after\\_register\\_frontend\\_editor\\_css",
+            "href": "/devs/hooks/actions/wpb_after_register_frontend_editor_css",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_after_register_frontend_editor_css",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "wpb\\_after\\_register\\_frontend\\_editor\\_js",
+            "href": "/devs/hooks/actions/wpb_after_register_frontend_editor_js",
+            "className": "hidden-sidebar-item",
+            "docId": "hooks/actions/wpb_after_register_frontend_editor_js",
+            "unlisted": false
+          }
+        ],
+        "href": "/devs/hooks/actions"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Developer How To's",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/developer-how-tos/overview",
+        "docId": "developer-how-tos/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add Animation Param to the Element",
+        "href": "/devs/developers-how-tos/add-animation-param-to-the-element",
+        "docId": "developer-how-tos/add-animation-param-to-the-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add Iconpicker Param to the Element",
+        "href": "/devs/developers-how-tos/add-iconpicker-param-to-the-element",
+        "docId": "developer-how-tos/add-iconpicker-param-to-the-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Custom Types Ready with Toolset",
+        "href": "/devs/developers-how-tos/custom-types-ready-with-toolset",
+        "docId": "developer-how-tos/custom-types-ready-with-toolset",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How To Create Custom Element",
+        "href": "/devs/developers-how-tos/how-to-create-custom-element",
+        "docId": "developer-how-tos/how-to-create-custom-element",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery Beta Testing Guide: Steps & Tips",
+        "href": "/devs/developers-how-tos/wpbakery-beta-testing-guide-steps-tips",
+        "docId": "developer-how-tos/wpbakery-beta-testing-guide-steps-tips",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add \"Design Options\" Tab with CSS Editor to Your Element",
+        "href": "/devs/developers-how-tos/add-design-options-tab-with-css-editor-to-your-element",
+        "docId": "developer-how-tos/add-design-options-tab",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add Custom Row Layouts (Presets)",
+        "href": "/devs/developers-how-tos/add-custom-row-layouts-presets",
+        "docId": "developer-how-tos/add-custom-row-layouts",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add Google Fonts parameter",
+        "href": "/devs/developers-how-tos/add-google-fonts-parameter",
+        "docId": "developer-how-tos/add-google-fonts-parameter",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Adding Custom Shortcode to Grid Builder",
+        "href": "/devs/developers-how-tos/adding-custom-shortcode-to-grid-builder",
+        "docId": "developer-how-tos/adding-custom-shortcode-to-grid-builder",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Adding Icons to vc_icon",
+        "href": "/devs/developers-how-tos/adding-icons-to-vc_icon",
+        "docId": "developer-how-tos/adding-icons-to-vc-icon",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Change CSS Class Names in Output",
+        "href": "/devs/developers-how-tos/change-css-class-names-in-output",
+        "docId": "developer-how-tos/change-css-class-names",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Change Default Value of Param",
+        "href": "/devs/developers-how-tos/change-default-value-of-param",
+        "docId": "developer-how-tos/change-default-value-of-param",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Change Shortcode\u2019s HTML Output",
+        "href": "/devs/developers-how-tos/change-shortcodes-html-output",
+        "docId": "developer-how-tos/change-shortcodes-html-output",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Control Default Presets in Content Elements",
+        "href": "/devs/developers-how-tos/control-default-presets-in-content-elements",
+        "docId": "developer-how-tos/control-default-presets",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Create New Param Type",
+        "href": "/devs/developers-how-tos/create-new-param-type",
+        "docId": "developer-how-tos/create-new-param-type",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Disable Instructional/Help Pointers",
+        "href": "/devs/developers-how-tos/disable-instructional-help-pointers",
+        "docId": "developer-how-tos/disable-help-pointers",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Examples pages",
+        "href": "/devs/developers-how-tos/examples-pages",
+        "docId": "developer-how-tos/examples-pages",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "How to Manage List of Google Fonts",
+        "href": "/devs/developers-how-tos/how-to-manage-list-of-google-fonts",
+        "docId": "developer-how-tos/manage-google-fonts-list",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Nested Shortcodes (container)",
+        "href": "/devs/developers-how-tos/nested-shortcodes-container",
+        "docId": "developer-how-tos/nested-shortcodes-container",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Param Position Control with vc_add_param",
+        "href": "/devs/developers-how-tos/param-position-control-with-vc_add_param",
+        "docId": "developer-how-tos/param-position-control",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Remove \"Edit with WPBakery Page Builder\" from WordPress Admin Bar",
+        "href": "/devs/developers-how-tos/remove-edit-with-wpbakery-page-builder-from-wordpress-admin-bar",
+        "docId": "developer-how-tos/remove-edit-from-admin-bar",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Remove Content Element from Grid Builder",
+        "href": "/devs/developers-how-tos/remove-content-element-from-grid-builder",
+        "docId": "developer-how-tos/remove-element-from-grid-builder",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Remove WooCommerce Mapped Content Elements",
+        "href": "/devs/developers-how-tos/remove-woocommerce-mapped-content-elements",
+        "docId": "developer-how-tos/remove-woocommerce-elements",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Save Param Values in Shortcode String",
+        "href": "/devs/developers-how-tos/save-param-values-in-shortcode-string",
+        "docId": "developer-how-tos/save-param-values-in-shortcode",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Set Content Element Icon",
+        "href": "/devs/developers-how-tos/set-content-element-icon",
+        "docId": "developer-how-tos/set-content-element-icon",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Update Single Param Values",
+        "href": "/devs/developers-how-tos/update-single-param-values",
+        "docId": "developer-how-tos/update-single-param-values",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Use Param Group in Elements",
+        "href": "/devs/developers-how-tos/use-param-group-in-elements",
+        "docId": "developer-how-tos/use-param-group",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Asset Management",
+        "href": "/devs/developers-how-tos/asset-management",
+        "docId": "developer-how-tos/asset-management",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Editor Events",
+        "href": "/devs/developers-how-tos/editor-events",
+        "docId": "developer-how-tos/editor-events",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Theme Integration",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/devs/theme-integration",
+        "docId": "theme-integration/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Theme Integration Marketing",
+        "href": "/devs/theme-integration/marketing",
+        "docId": "theme-integration/marketing",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Theme Integration Technical",
+        "href": "/devs/theme-integration/technical",
+        "docId": "theme-integration/technical",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "link",
+    "label": "Plugin Boilerplate \u2197",
+    "href": "https://github.com/wpbakery/dev-example"
+  }
+]

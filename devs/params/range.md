@@ -12,6 +12,10 @@ sidebar_label: range
 
 Range slider for selecting numeric values within a range.
 
+## Screenshot
+
+![Range](/img/params/range.png)
+
 ## Basic Usage
 
 ```php

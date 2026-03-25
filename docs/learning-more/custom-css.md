@@ -32,6 +32,6 @@ WPBakery Page Builder offers several ways for users to interact with CSS:
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/3-BW2YPTVZU?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to Add CSS to Element with WPBakery Page Builder for WordPress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-**Fifth:** To override class names that are applied to WPBakery Page Builder content elements you should use WordPress [add_filter("vc_shortcodes_css_class")](/devs/filters/vc_shortcodes_css_class).
+**Fifth:** To override class names that are applied to WPBakery Page Builder content elements you should use WordPress [add_filter("vc_shortcodes_css_class")](/devs/hooks/filters/vc_shortcodes_css_class).
 
 Since the 7.2 update, CSS code can be generated in Custom CSS using the [WPBakery AI](/docs/learning-more/wpbakery-ai) feature.

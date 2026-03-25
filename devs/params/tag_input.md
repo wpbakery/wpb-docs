@@ -12,6 +12,10 @@ sidebar_label: tag_input
 
 Tag input field with autocomplete and tag management.
 
+## Screenshot
+
+![Tag Input](/img/params/tag-input.png)
+
 ## Basic Usage
 
 ```php

@@ -12,6 +12,10 @@ sidebar_label: radio
 
 Radio button input for selecting one option from multiple choices.
 
+## Screenshot
+
+![Radio](/img/params/radio.png)
+
 ## Basic Usage
 
 ```php

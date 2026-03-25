@@ -308,15 +308,6 @@ There are multiple attribute types available, this field is used to "tell" WPBak
 'type' => 'autocomplete',
 ```
 
-### href
-
-* Type - String
-* Description - Use it to create url link button that lets the user insert additional url attributes.
-* Example:
-```php
-'type' => 'href',
-```
-
 ### iconpicker
 
 * Type - String

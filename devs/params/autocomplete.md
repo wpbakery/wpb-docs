@@ -12,6 +12,10 @@ sidebar_label: autocomplete
 
 Input field with autocomplete suggestions (AJAX or predefined).
 
+## Screenshot
+
+![Autocomplete](/img/params/autocomplete.png)
+
 ## Basic Usage
 
 ```php
