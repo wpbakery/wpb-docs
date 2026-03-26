@@ -96,9 +96,7 @@ There are multiple attribute types available, this field is used to "tell" WPBak
 | [iconpicker](/devs/params/iconpicker) | Icon picker from icon libraries | [View Details](/devs/params/iconpicker) |
 | [param_group](/devs/params/param_group) | Repeatable parameter groups | [View Details](/devs/params/param_group) |
 | [css_editor](/devs/params/css_editor) | Visual CSS editor (Design Options) | [View Details](/devs/params/css_editor) |
-| [vc_link](/devs/params/vc_link) | Link builder with URL, title, target | [View Details](/devs/params/vc_link) |
 | [autocomplete](/devs/params/autocomplete) | Input with autocomplete suggestions | [View Details](/devs/params/autocomplete) |
-| [loop](/devs/params/loop) | WordPress query builder | [View Details](/devs/params/loop) |
 | ... | **40+ parameter types available** | [View All Types](/devs/params/overview) |
 
 :::tip

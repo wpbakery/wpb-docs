@@ -133,11 +133,6 @@ This section provides detailed documentation for every parameter type available 
 ## Links & URLs
 
 <div className="topic-cards">
-  <a href="/devs/params/vc_link" className="topic-card">
-    <h3>VC Link</h3>
-    <p>Advanced link builder with multiple options.</p>
-  </a>
-
   <a href="/devs/params/link" className="topic-card">
     <h3>Link</h3>
     <p>Simple URL input field.</p>
@@ -163,10 +158,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Sidebar/widget area selector.</p>
   </a>
 
-  <a href="/devs/params/loop" className="topic-card">
-    <h3>Loop</h3>
-    <p>Query loop builder for content queries.</p>
-  </a>
 </div>
 
 ## Advanced Controls
@@ -192,11 +183,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Slider control for numeric values.</p>
   </a>
 
-  <a href="/devs/params/sorted_list" className="topic-card">
-    <h3>Sorted List</h3>
-    <p>Drag-and-drop sortable list control.</p>
-  </a>
-
   <a href="/devs/params/tag_input" className="topic-card">
     <h3>Tag Input</h3>
     <p>Comma-separated tags input field.</p>
@@ -207,10 +193,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Connected parameter values control.</p>
   </a>
 
-  <a href="/devs/params/options" className="topic-card">
-    <h3>Options</h3>
-    <p>Advanced option configurations.</p>
-  </a>
 </div>
 
 ## Utilities
@@ -219,16 +201,6 @@ This section provides detailed documentation for every parameter type available 
   <a href="/devs/params/el_id" className="topic-card">
     <h3>El ID</h3>
     <p>Element ID field for custom anchors.</p>
-  </a>
-
-  <a href="/devs/params/tab_id" className="topic-card">
-    <h3>Tab ID</h3>
-    <p>Tab identifier for tabbed content.</p>
-  </a>
-
-  <a href="/devs/params/params_preset" className="topic-card">
-    <h3>Params Preset</h3>
-    <p>Predefined parameter sets.</p>
   </a>
 
   <a href="/devs/params/custom_markup" className="topic-card">
