@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_autoload
+# vc_before_init_autoload
 
 Fires before the autoload manager is initialized. This hook runs inside the `Vc_Manager::autoload()` method, before the `Vc_Autoload_Manager` class is loaded and instantiated.
 
@@ -25,9 +25,3 @@ function wpb_before_autoload_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

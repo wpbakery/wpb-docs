@@ -29,9 +29,3 @@ function my_section_heading_tag( $heading_tag, $atts ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-tta-section.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.6 | Introduced. |

@@ -32,9 +32,3 @@ function my_override_admin_check( $is_admin ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc_base_build_shortcodes\_\{type\}\_css
+# vc_base_build_shortcodes_\{type\}_css
 
 Filters the parsed shortcode CSS for a specific type before it is saved as post meta. The dynamic portion of the hook name, `{type}`, refers to the CSS type (e.g., `custom`).
 
@@ -30,9 +30,3 @@ function my_custom_shortcodes_css( $css, $id ) {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -6,7 +6,6 @@ sidebar_label: colorpicker
 # Colorpicker
 
 **Type:** `colorpicker`
-**Category:** Media & Assets
 
 ## Description
 
@@ -19,13 +18,13 @@ Color picker for selecting hex color values.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "colorpicker",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "value" => "#FF0000", // Default color
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -50,21 +49,21 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_colorpicker');
-function my_element_with_colorpicker() {{
-    vc_map(array(
+function my_element_with_colorpicker() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "colorpicker",
                 "heading" => __("Background Color", "domain"),
                 "param_name" => "bg_color",
                 "value" => "#ffffff",
                 "description" => __("Select background color", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

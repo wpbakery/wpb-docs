@@ -32,9 +32,3 @@ function my_register_custom_meta( $meta_list ) {
 ## Source
 
 File: `include/classes/core/class-vc-post-admin.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

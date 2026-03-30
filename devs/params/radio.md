@@ -6,7 +6,6 @@ sidebar_label: radio
 # Radio
 
 **Type:** `radio`
-**Category:** Selection
 
 ## Description
 
@@ -19,12 +18,12 @@ Radio button input for selecting one option from multiple choices.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "radio",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -49,20 +48,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_radio');
-function my_element_with_radio() {{
-    vc_map(array(
+function my_element_with_radio() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "radio",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

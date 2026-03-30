@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_enqueue\_font\_icon\_element
+# vc_enqueue_font_icon_element
 
 Hook for custom enqueue of icon font stylesheets. This action fires when the requested icon font library is not one of the built-in sets (Font Awesome, Open Iconic, Typicons, Entypo, Linecons, Monosocial, Material). Use it to enqueue stylesheets for custom icon font libraries.
 
@@ -31,9 +31,3 @@ function wpb_enqueue_custom_icon_font( $font ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

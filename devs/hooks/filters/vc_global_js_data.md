@@ -30,9 +30,3 @@ function my_custom_js_data( $data ) {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -31,9 +31,3 @@ function my_custom_import_post_data( $postdata, $post, $importer ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

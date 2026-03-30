@@ -33,9 +33,3 @@ function my_custom_markup_render( $value, $settings, $tag ) {
 ## Source
 
 File: `include/params/custom_markup/custom_markup.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

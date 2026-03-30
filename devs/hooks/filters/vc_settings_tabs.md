@@ -30,9 +30,3 @@ function my_custom_settings_tabs( $tabs ) {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

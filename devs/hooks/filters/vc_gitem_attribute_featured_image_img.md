@@ -30,9 +30,3 @@ function wpb_modify_gitem_featured_image( $img ) {
 ## Source
 
 File: `include/templates/params/vc_grid_item/attributes/featured_image.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -32,9 +32,3 @@ function my_allow_custom_post_type_be( $valid, $type ) {
 ## Source
 
 File: `include/classes/editors/class-vc-backend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

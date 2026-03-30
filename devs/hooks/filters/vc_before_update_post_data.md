@@ -31,9 +31,3 @@ function my_before_update_post_data( $post ) {
 ## Source
 
 File: `include/classes/core/class-vc-post-admin.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

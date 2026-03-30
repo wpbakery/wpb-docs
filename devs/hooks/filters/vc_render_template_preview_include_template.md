@@ -28,9 +28,3 @@ function my_custom_preview_template( $template ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.0 | Introduced. |

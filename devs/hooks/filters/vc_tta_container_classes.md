@@ -33,9 +33,3 @@ function my_tta_container_classes( $classes, $atts ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-tta-accordion.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.6 | Introduced. |

@@ -33,9 +33,3 @@ function my_register_third_party_modules( $modules ) {
 ## Source
 
 File: `include/classes/modules/class-modules-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.0 | Introduced. |

@@ -30,9 +30,3 @@ function my_modify_wp_text_content( $content ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_wp_text.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

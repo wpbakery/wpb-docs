@@ -29,9 +29,3 @@ function my_add_template_save_elements( $elements ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.5 | Introduced. |

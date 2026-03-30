@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_vc
+# vc_before_init_vc
 
 Fires before the main VC instance is initialized. This hook runs before the `Vc_Base` class is instantiated and configured with its template editor and shared templates dependencies.
 
@@ -25,9 +25,3 @@ function wpb_before_vc_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_set\_post\_custom\_meta
+# wpb_set_post_custom_meta
 
 Filters the custom meta values associated with a post in the editor. This allows injecting additional custom meta data that WPBakery editor uses for the current post.
 
@@ -32,9 +32,3 @@ function my_custom_post_meta( $post_custom_meta, $post ) {
 ## Source
 
 File: `include/classes/editors/class-vc-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

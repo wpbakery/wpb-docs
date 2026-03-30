@@ -28,9 +28,3 @@ function my_enqueue_qtranslate_backend( $enqueue ) {
 ## Source
 
 File: `include/classes/vendors/plugins/class-vc-vendor-qtranslate.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

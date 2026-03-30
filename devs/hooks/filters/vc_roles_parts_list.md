@@ -29,9 +29,3 @@ function my_add_role_parts( $parts ) {
 ## Source
 
 File: `include/classes/settings/class-vc-roles.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

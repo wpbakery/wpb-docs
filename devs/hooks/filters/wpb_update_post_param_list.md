@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_update\_post\_param\_list
+# wpb_update_post_param_list
 
 Filters the list of post parameter names that WPBakery will update when saving a post from the editor. This allows adding or removing post fields from the save process.
 
@@ -29,9 +29,3 @@ function my_custom_post_params( $params ) {
 ## Source
 
 File: `include/classes/core/class-vc-post-admin.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 8.7 | Introduced. |

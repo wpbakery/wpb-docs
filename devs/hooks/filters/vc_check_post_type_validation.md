@@ -32,9 +32,3 @@ function my_post_type_validation( $valid, $type ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

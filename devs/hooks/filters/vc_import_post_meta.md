@@ -23,10 +23,10 @@ add_filter( 'vc_import_post_meta', 'my_custom_import_post_meta', 10, 3 );
 
 function my_custom_import_post_meta( $postmeta, $post_id, $post ) {
     // Add custom meta data to imported posts
-    $postmeta[] = array(
+    $postmeta[] = [
         'key' => '_imported_from',
         'value' => 'wpbakery_template',
-    );
+    ];
     return $postmeta;
 }
 ```
@@ -34,9 +34,3 @@ function my_custom_import_post_meta( $postmeta, $post_id, $post ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

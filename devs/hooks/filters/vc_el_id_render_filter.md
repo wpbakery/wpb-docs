@@ -28,9 +28,3 @@ function wpb_customize_el_id_field( $value_output ) {
 ## Source
 
 File: `include/params/el_id/el_id.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

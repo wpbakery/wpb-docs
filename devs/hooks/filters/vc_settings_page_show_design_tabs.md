@@ -28,9 +28,3 @@ function my_show_design_tabs( $show ) {
 ## Source
 
 File: `modules/design-options/class-vc-design-options-module-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

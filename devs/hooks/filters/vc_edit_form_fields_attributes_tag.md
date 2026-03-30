@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc_edit_form_fields_attributes\_\{tag\}
+# vc_edit_form_fields_attributes_\{tag\}
 
 Filters the shortcode attributes before they are used to populate the edit form fields. The dynamic portion of the hook name, `{tag}`, refers to the shortcode tag (e.g., `vc_column`, `vc_single_image`). This filter is useful for backward compatibility conversions or modifying attribute values before the edit form is rendered.
 
@@ -32,9 +32,3 @@ function my_custom_image_atts( $atts ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

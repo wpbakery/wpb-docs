@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_pre\_end
+# vc_import_pre_end
 
 Fires just before the import process ends. This hook runs after parent backfilling, attachment URL backfilling, and featured image remapping are complete, but before `import_end()` performs final cleanup. The importer instance is passed so you can access processed data.
 
@@ -27,9 +27,3 @@ function wpb_before_import_cleanup( $importer ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

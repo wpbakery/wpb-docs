@@ -6,29 +6,42 @@ sidebar_position: 8
 
 # wpb_ai_number_of_symbols_list
 
-Since 8.3
+Filters the list of content length options displayed in the "Length" dropdown of the WPBakery AI popup. Each parameter type can have its own set of length presets, which map word count ranges to human-readable labels.
 
-This filter is handy if you want to change the 'Length' dropdown for a particular param type of element in a WPBakery AI popup.
+## Parameters
 
-Please note: If you want to process a new merge interval some other way in the default endpoint, you need to specify it in [`wpb_module_ai_type_response_route_lib`](/devs/hooks/filters/wpb_module_ai_type_response_route_lib/).
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$list` | array | A multi-dimensional associative array keyed by parameter type (e.g., `textarea_html`, `textarea`, `textfield`). Each entry is an associative array where keys are word-count ranges in `[min,max]` format and values are display labels. |
+| `$ai_element_type` | string | The current element parameter type for which the AI popup is being rendered. |
+
+## Return
+
+`array` -- The filtered multi-dimensional array of length options, keyed by parameter type.
+
+## Usage
 
 ```php
 <?php
-add_filter('wpb_ai_number_of_symbols_list', 'add_custom_ai_wpb_processor', 10, 2);
+add_filter( 'wpb_ai_number_of_symbols_list', 'my_custom_ai_length_options', 10, 2 );
 
-function add_custom_ai_wpb_processor(array $list, string $wpb_ai_element_type): array {
-    if ($wpb_ai_element_type !== 'textarea_html') {
-        return $list;
-    }
-    unset($list['textarea_html']);
+function my_custom_ai_length_options( $list, $ai_element_type ) {
+    // Replace the textarea_html length options with a simplified set
     $list['textarea_html'] = [
-        '[10,15]' => 'Title (up to 15 words)',
-        '[15,25]' => 'Short description (up to 25 words)',
-        '[20,50]' => 'Description (up to 50 words)',
+        '[10,15]'   => 'Title (up to 15 words)',
+        '[15,25]'   => 'Short description (up to 25 words)',
+        '[20,50]'   => 'Description (up to 50 words)',
         '[200,300]' => 'Long description (up to 300 words)',
     ];
-    return $list;
 
+    return $list;
 }
-?>
 ```
+
+:::note
+If you add a new word-count range that should use a different API endpoint than the default, you must also configure it via the [`wpb_module_ai_type_response_route_lib`](/devs/hooks/filters/wpb_module_ai_type_response_route_lib/) filter by adding the range to the `endpoint > length` array for the corresponding parameter type.
+:::
+
+## Source
+
+File: `modules/ai/class-vc-ai-modal-controller.php`

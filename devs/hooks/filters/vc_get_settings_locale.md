@@ -27,9 +27,3 @@ function wpb_customize_settings_strings( $locale ) {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

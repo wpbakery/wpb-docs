@@ -32,9 +32,3 @@ function wpb_modify_frontend_editor_scripts( $dependencies ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_shortcodes\_\{type\}\_css
+# vc_shortcodes_\{type\}_css
 
 Filters stored shortcodes CSS for a given asset type. The dynamic portion of the hook name, `{type}`, refers to the CSS type (e.g., `custom`). This allows modifying the CSS string retrieved from post meta before it is output on the front end.
 
@@ -32,9 +32,3 @@ function my_filter_shortcodes_css( $shortcodes_css, $id ) {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.6 | Introduced. |

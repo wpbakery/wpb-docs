@@ -28,9 +28,3 @@ function my_change_default_templates_limit( $total ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

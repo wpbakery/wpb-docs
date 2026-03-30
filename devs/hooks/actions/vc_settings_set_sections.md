@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_settings\_set\_sections
+# vc_settings_set_sections
 
 Fires after all settings sections and tabs have been configured. Receives the `Vc_Settings` instance so you can register custom settings sections, fields, or tabs programmatically.
 
@@ -37,9 +37,3 @@ function wpb_render_my_custom_option() {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

@@ -29,9 +29,3 @@ function my_custom_grid_filter( $output, $attributes ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-basic-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -29,9 +29,3 @@ function my_custom_bg_styles( $styles ) {
 ## Source
 
 File: `include/params/css_editor/css_editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 9.0 | Introduced. |

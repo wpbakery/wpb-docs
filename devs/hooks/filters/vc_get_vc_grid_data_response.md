@@ -28,9 +28,3 @@ function wpb_modify_grid_ajax_response( $response ) {
 ## Source
 
 File: `include/autoload/hooks/hook-vc-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

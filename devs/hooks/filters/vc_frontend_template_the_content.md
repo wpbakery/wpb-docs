@@ -27,9 +27,3 @@ function wpb_modify_frontend_template_content( $content ) {
 ## Source
 
 File: `include/templates/editors/frontend_template.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

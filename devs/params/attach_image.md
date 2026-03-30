@@ -6,7 +6,6 @@ sidebar_label: attach_image
 # Attach Image
 
 **Type:** `attach_image`
-**Category:** Media & Assets
 
 ## Description
 
@@ -19,13 +18,13 @@ Single image selector from WordPress media library.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "attach_image",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "value" => "", // Default image ID
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -50,20 +49,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_attach_image');
-function my_element_with_attach_image() {{
-    vc_map(array(
+function my_element_with_attach_image() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "attach_image",
                 "heading" => __("Image", "domain"),
                 "param_name" => "image",
                 "description" => __("Select image from media library", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

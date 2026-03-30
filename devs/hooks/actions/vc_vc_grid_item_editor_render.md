@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_vc\_grid\_item\_editor\_render
+# vc_vc_grid_item_editor_render
 
 Fires when the WPBakery Grid Item editor is rendered. This hook runs after the backend editor render action within the grid item editor context, allowing you to add custom functionality specific to the grid item editing experience.
 
@@ -21,7 +21,7 @@ function wpb_on_grid_item_editor_render() {
     wp_enqueue_script(
         'my-grid-item-editor',
         plugins_url( 'js/grid-item-editor.js', __FILE__ ),
-        array( 'jquery' ),
+        [ 'jquery' ],
         '1.0.0',
         true
     );
@@ -31,9 +31,3 @@ function wpb_on_grid_item_editor_render() {
 ## Source
 
 File: `include/params/vc_grid_item/editor/class-vc-grid-item-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_page\_settings\_build
+# vc_page_settings_build
 
 Fires after the WPBakery settings page tabs have been built and their load callbacks registered. Use this hook to add custom settings tabs or extend the settings page with additional functionality.
 
@@ -36,9 +36,3 @@ function wpb_render_my_settings() {
 ## Source
 
 File: `include/autoload/vc-pages/settings-tabs.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

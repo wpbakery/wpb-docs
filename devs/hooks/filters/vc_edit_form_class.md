@@ -31,9 +31,3 @@ function my_custom_edit_form_class( $editor_css_classes, $atts, $params ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

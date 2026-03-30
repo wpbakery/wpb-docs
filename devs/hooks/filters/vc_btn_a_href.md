@@ -31,9 +31,3 @@ function my_custom_btn_href( $a_href ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_btn.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

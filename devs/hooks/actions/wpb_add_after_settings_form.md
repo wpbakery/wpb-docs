@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_add\_after\_settings\_form
+# wpb_add_after_settings_form
 
 Fires after the closing `</form>` tag on WPBakery settings pages. Use this hook to add custom HTML content or scripts after the settings form.
 
@@ -27,9 +27,3 @@ function wpb_custom_after_settings_form() {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

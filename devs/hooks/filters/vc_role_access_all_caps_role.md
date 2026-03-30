@@ -31,9 +31,3 @@ function my_modify_role_caps( $role ) {
 ## Source
 
 File: `include/classes/core/access/class-vc-role-access-controller.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.4 | Introduced. |

@@ -31,9 +31,3 @@ function wpb_modify_gitem_template_link_title( $title_attr, $atts ) {
 ## Source
 
 File: `include/autoload/params/vc-grid-item.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

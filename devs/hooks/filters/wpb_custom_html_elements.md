@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_custom\_html\_elements
+# wpb_custom_html_elements
 
 Filters the list of element shortcode tags that are considered to contain custom HTML. These elements receive special handling for their content (e.g., raw HTML, raw JS, Google Maps).
 
@@ -29,9 +29,3 @@ function my_custom_html_elements( $elements ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.8 | Introduced. |

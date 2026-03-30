@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_menu\_page\_build
+# vc_menu_page_build
 
 Fires after the main WPBakery Page Builder admin menu page has been registered. Use this hook to add submenu pages under the WPBakery menu in the WordPress admin dashboard.
 
@@ -35,9 +35,3 @@ function wpb_render_custom_page() {
 ## Source
 
 File: `include/autoload/vc-pages/pages.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

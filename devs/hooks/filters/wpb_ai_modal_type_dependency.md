@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_ai\_modal\_type\_dependency
+# wpb_ai_modal_type_dependency
 
 Filters the mapping between parameter types and their AI modal template paths. This allows adding or modifying which AI modal template is used for each parameter type.
 
@@ -29,9 +29,3 @@ function my_custom_ai_modal_types( $type_dependency ) {
 ## Source
 
 File: `modules/ai/class-vc-ai-modal-controller.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.2 | Introduced. |

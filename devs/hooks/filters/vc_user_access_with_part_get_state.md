@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_user\_access\_with\_\{part\}\_get\_state
+# vc_user_access_with_\{part\}_get_state
 
 Filters the access state for a specific part for the current user. The dynamic portion of the hook name, `{part}`, refers to the access part being checked (e.g., `backend_editor`, `frontend_editor`, `shortcodes`). This allows overriding the access state for the currently logged-in user.
 
@@ -32,9 +32,3 @@ function my_custom_user_access_state( $state, $part ) {
 ## Source
 
 File: `include/classes/core/access/class-vc-current-user-access-controller.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.4 | Introduced. |

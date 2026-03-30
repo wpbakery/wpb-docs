@@ -28,9 +28,3 @@ function my_custom_controls_template( $template_file ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

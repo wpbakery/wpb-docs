@@ -27,13 +27,13 @@ $shortcode = 'vc_message';
 * Description - Array should be defined according to [`vc_map()` available options](/devs/element-development/parameter-types).
 * Example:
 ```php
-$attributes = array(
+$attributes = [
     'type' => 'textfield',
     'heading' => __( 'Custom Heading', 'my-text-domain' ),
     'param_name' => 'custom_param',
     'value' => '',
     'description' => __( 'This is a custom parameter for the vc_row shortcode.', 'my-text-domain' ),
-);
+];
 ```
 
 ## Example
@@ -41,13 +41,13 @@ How to add new attribute to the default "Message box" content element:
 
 ```php
 <?php
-$attributes = array(
+$attributes = [
   'type' => 'dropdown',
   'heading' => "Style",
   'param_name' => 'style',
-  'value' => array( "one", "two", "three" ),
+  'value' => [ "one", "two", "three" ],
   'description' => __( "New style attribute", "my-text-domain" )
-);
+];
 vc_add_param( 'vc_message', $attributes ); // Note: 'vc_message' was used as a base for "Message box" element
 ?>
 ```

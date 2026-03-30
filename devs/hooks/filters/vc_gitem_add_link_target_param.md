@@ -28,9 +28,3 @@ function wpb_modify_gitem_link_target( $param ) {
 ## Source
 
 File: `include/params/vc_grid_item/shortcodes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

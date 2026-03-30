@@ -23,9 +23,3 @@ add_filter( 'vc_custom_heading_template_use_wrapper', '__return_true' );
 ## Source
 
 File: `include/templates/shortcodes/vc_custom_heading.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

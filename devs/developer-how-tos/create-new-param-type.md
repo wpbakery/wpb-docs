@@ -81,7 +81,7 @@ function my_param_settings_field( $settings, $value ) {
 
 Pay attention to the "flip-input-text" class name of our button. We will use it in our javascript function call. Create js file in *`{my_theme_path}/vc_extend/flip.js`*. Open *flip.js* file and place javascript code required for "flip" functionality there. For this example we will use jQuery library.
 
-```php
+```js
 !function($) {
  $('#vc_properties-panel .flip-input-text').click(function(e){
  e.preventDefault();
@@ -106,13 +106,13 @@ That it's! Now you can use this field in [vc_map()](/devs/inner-api/vc_map) func
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- vc_map( array(
+ vc_map( [
  "name" => __( "Bar tag test", "my-text-domain" ),
  "base" => "bartag",
  "class" => "",
  "category" => __( 'Content', 'my-text-domain' ),
- "params" => array(
- array(
+ "params" => [
+ [
  "type" => "my_param",
  "holder" => "div",
  "class" => "",
@@ -120,8 +120,8 @@ function your_name_integrateWithVC() {
  "param_name" => "fliping_text",
  "value" => '',
  "description" => __( "Enter text and flip it", 'my-text-domain' ),
- ),
- ),
- ) );
+ ],
+ ],
+ ] );
 }
 ```

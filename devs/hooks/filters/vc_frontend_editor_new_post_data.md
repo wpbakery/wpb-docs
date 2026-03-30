@@ -31,9 +31,3 @@ function wpb_modify_new_post_data( $post_data, $post ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 8.5 | Introduced. |

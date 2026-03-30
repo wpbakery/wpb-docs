@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_navbar\_getControlScreenSize
+# wpb_navbar_getControlScreenSize
 
 Filters the available screen sizes for the responsive preview control in the frontend editor navbar. This allows adding, removing, or modifying the screen size options.
 
@@ -32,9 +32,3 @@ function my_custom_screen_sizes( $screen_sizes ) {
 ## Source
 
 File: `include/classes/editors/navbar/class-vc-navbar-frontend.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

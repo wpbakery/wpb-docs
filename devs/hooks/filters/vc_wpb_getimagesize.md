@@ -34,9 +34,3 @@ function my_modify_image_data( $image_data, $attach_id, $params ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -34,9 +34,3 @@ function my_custom_function( $html, $atts, $content, $instance ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-tta-tabs.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

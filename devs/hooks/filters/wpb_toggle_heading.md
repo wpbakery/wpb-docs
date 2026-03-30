@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_toggle\_heading
+# wpb_toggle_heading
 
 Filters the heading HTML output of the Toggle (FAQ) element. This allows modifying the toggle heading markup before it is rendered.
 
@@ -30,9 +30,3 @@ function my_custom_toggle_heading( $heading_output, $args ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_toggle.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -21,10 +21,10 @@ add_filter( 'vc_grid_item_predefined_templates', 'my_custom_predefined_templates
 
 function my_custom_predefined_templates( $templates ) {
     // Add a custom predefined template
-    $templates[] = array(
+    $templates[] = [
         'name' => esc_html__( 'My Custom Template', 'my-theme' ),
         'template' => '[vc_gitem][vc_gitem_animated_block][vc_gitem_zone_a][vc_gitem_col width="1/1"][vc_gitem_row_inner][vc_gitem_col_inner width="1/1"]{{ post_title }}[/vc_gitem_col_inner][/vc_gitem_row_inner][/vc_gitem_col][/vc_gitem_zone_a][/vc_gitem_animated_block][/vc_gitem]',
-    );
+    ];
     return $templates;
 }
 ```
@@ -32,9 +32,3 @@ function my_custom_predefined_templates( $templates ) {
 ## Source
 
 File: `include/params/vc_grid_item/class-vc-grid-item.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

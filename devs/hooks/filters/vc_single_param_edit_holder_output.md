@@ -36,9 +36,3 @@ function my_modify_param_holder_output( $output, $param, $value, $settings, $att
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

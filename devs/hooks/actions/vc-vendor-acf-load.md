@@ -28,9 +28,3 @@ function wpb_extend_acf_integration( $vendor ) {
 ## Source
 
 File: `include/classes/vendors/plugins/class-vc-vendor-advanced-custom-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

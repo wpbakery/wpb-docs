@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_shortcode\_set\_template\_\{shortcode\}
+# vc_shortcode_set_template_\{shortcode\}
 
 Filters the template file path for a specific shortcode. The dynamic portion of the hook name, `{shortcode}`, refers to the shortcode base tag (e.g., `vc_column_text`, `vc_row`). This allows overriding the template used to render a specific element.
 
@@ -28,9 +28,3 @@ function my_custom_column_text_template( $template ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

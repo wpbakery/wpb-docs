@@ -29,9 +29,3 @@ function my_modify_welcome_tabs( $tabs ) {
 ## Source
 
 File: `include/autoload/vc-pages/welcome-screen.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

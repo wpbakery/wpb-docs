@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_settings
+# vc_before_init_settings
 
 Fires before the settings component is initialized. This hook runs before the `Vc_Settings` class is instantiated, allowing you to set up custom settings or modify behavior before the settings system is created.
 
@@ -28,9 +28,3 @@ function wpb_before_settings_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

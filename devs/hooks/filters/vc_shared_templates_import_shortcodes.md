@@ -30,9 +30,3 @@ function my_custom_import_shortcodes( $shortcodes ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wxr-parser-plugin.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.5 | Introduced. |

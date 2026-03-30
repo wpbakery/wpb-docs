@@ -29,9 +29,3 @@ function my_custom_invalid_shortcodes( $invalid_shortcodes ) {
 ## Source
 
 File: `include/autoload/hooks/vc-grid-item-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

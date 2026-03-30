@@ -33,9 +33,3 @@ function my_custom_column_class( $output, $width ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

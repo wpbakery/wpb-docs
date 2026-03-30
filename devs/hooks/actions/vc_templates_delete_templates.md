@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_templates\_delete\_templates
+# vc_templates_delete_templates
 
 Fires when a template deletion is requested for a non-default template type. This hook allows third-party code to handle deletion of custom template types that are not stored in the built-in options table.
 
@@ -31,9 +31,3 @@ function wpb_delete_custom_template( $template_id, $template_type ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.7 | Introduced. |

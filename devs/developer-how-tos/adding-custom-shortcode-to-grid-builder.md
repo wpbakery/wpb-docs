@@ -17,13 +17,13 @@ Simple shortcode example:
 <?php
 add_filter( 'vc_grid_item_shortcodes', 'my_module_add_grid_shortcodes' );
 function my_module_add_grid_shortcodes( $shortcodes ) {
- $shortcodes['vc_say_hello'] = array(
+ $shortcodes['vc_say_hello'] = [
  'name' => __( 'Say Hello', 'my-text-domain' ),
  'base' => 'vc_say_hello',
  'category' => __( 'Content', 'my-text-domain' ),
  'description' => __( 'Just outputs Hello World', 'my-text-domain' ),
  'post_type' => Vc_Grid_Item_Editor::postType(),
- );
+ ];
  return $shortcodes;
 }
 
@@ -43,13 +43,13 @@ There are predefined template variables available, example custom shortcode that
 <?php
 add_filter( 'vc_grid_item_shortcodes', 'my_module_add_grid_shortcodes' );
 function my_module_add_grid_shortcodes( $shortcodes ) {
- $shortcodes['vc_post_id'] = array(
+ $shortcodes['vc_post_id'] = [
  'name' => __( 'Post id', 'my-text-domain' ),
  'base' => 'vc_post_id',
  'category' => __( 'Content', 'my-text-domain' ),
  'description' => __( 'Show current post id', 'my-text-domain' ),
  'post_type' => Vc_Grid_Item_Editor::postType(),
- );
+ ];
 
 
  return $shortcodes;
@@ -67,7 +67,7 @@ function vc_post_id_render() {
 In **'vc_post_id_render'** function used template variable post_data:ID, it will be automatically replaced by current WP_Post $post object variable.
 
 ```php
-WP_Post::__set_state(array(
+WP_Post::__set_state([
  'ID' => 69,
  'post_author' => '1',
  'post_date' => '2015-04-29 14:15:56',
@@ -95,7 +95,7 @@ WP_Post::__set_state(array(
  'filter_terms' =>
  array (
  ),
-))
+]);
 ```
 
 ## Custom template variable
@@ -112,16 +112,16 @@ function vc_gitem_template_attribute_featured_image( $value, $data ) {
  * @var Wp_Post $post
  * @var string $data
  */
- extract( array_merge( array(
+ extract( array_merge( [
  'post' => null,
  'data' => ''
- ), $data ) );
+ ], $data ) );
 
  // return a template for featured_image variable
- return vc_include_template( 'params/vc_grid_item/attributes/featured_image.php', array(
+ return vc_include_template( 'params/vc_grid_item/attributes/featured_image.php', [
  'post' => $post,
  'data' => $data
- ) );
+ ] );
 }
 ```
 
@@ -129,11 +129,11 @@ And template content:
 
 ```php
 <?php
-$atts = array();
+$atts = [];
 parse_str( $data, $atts );
 $output = $el_class = $image = $img_size = $img_link = $img_link_target = $img_link_large = $title = $alignment = $css_animation = $css = '';
 $image_string = '';
-extract( shortcode_atts( array(
+extract( shortcode_atts( [
  'title' => '',
  'image' => $image,
  'img_size' => 'full',
@@ -145,19 +145,19 @@ extract( shortcode_atts( array(
  'style' => '',
  'border_color' => '',
  'css' => ''
-), $atts ) );
+], $atts ) );
 require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-single-image.php' );
-$img_class = new WPBakeryShortCode_VC_Single_image( array( 'base' => 'vc_single_image' ) );
+$img_class = new WPBakeryShortCode_VC_Single_image( [ 'base' => 'vc_single_image' ] );
 // similar logic as vc_single_image
 $style = ( $style != '' ) ? $style : '';
 $border_color = ( $border_color != '' ) ? ' vc_box_border_' . $border_color : '';
 
 $img_id = get_post_thumbnail_id( $post->ID );
-$img = wpb_getImageBySize( array(
+$img = wpb_getImageBySize( [
  'attach_id' => $img_id,
  'thumb_size' => $img_size,
  'class' => 'vc_single_image-img'
-) );
+] );
 $img = apply_filters( 'vc_gitem_attribute_featured_image_img', $img );
 if ( null === $img || false === $img ) {
  return $output;
@@ -179,6 +179,7 @@ $output .= "\n\t\t" . '</div> ' . $img_class->endBlockComment( '.wpb_wrapper' );
 $output .= "\n\t" . '</div> ' . $img_class->endBlockComment( '.wpb_single_image' );
 
 return $output;
+?>
 ```
 
 ## Featured Image shortcode
@@ -191,83 +192,83 @@ add_filter( 'vc_grid_item_shortcodes', 'my_module_add_grid_shortcodes' );
 function my_module_add_grid_shortcodes( $shortcodes ) {
  global $vc_gitem_add_link_param;
  global $vc_add_css_animation;
- $shortcodes['vc_gitem_image'] = array(
+ $shortcodes['vc_gitem_image'] = [
  'name' => __( 'Post Image', 'js_composer' ),
  'base' => 'vc_gitem_image',
  'icon' => 'vc_icon-vc-gitem-image',
  'category' => __( 'Post', 'js_composer' ),
  'description' => __( 'Featured image', 'js_composer' ),
- 'params' => array(
+ 'params' => [
  $vc_gitem_add_link_param,
- array(
+ [
  'type' => 'vc_link',
  'heading' => __( 'URL (Link)', 'js_composer' ),
  'param_name' => 'url',
- 'dependency' => array(
+ 'dependency' => [
  'element' => 'link',
- 'value' => array( 'custom' )
- ),
+ 'value' => [ 'custom' ]
+ ],
  'description' => __( 'Add custom link.', 'js_composer' ),
- ),
- array(
+ ],
+ [
  'type' => 'textfield',
  'heading' => __( 'Image size', 'js_composer' ),
  'param_name' => 'img_size',
  'description' => __( 'Enter image size (Example: "thumbnail", "medium", "large", "full" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)). Leave parameter empty to use "thumbnail" by default.', 'js_composer' )
- ),
- array(
+ ],
+ [
  'type' => 'dropdown',
  'heading' => __( 'Image alignment', 'js_composer' ),
  'param_name' => 'alignment',
- 'value' => array(
+ 'value' => [
  __( 'Left', 'js_composer' ) => '',
  __( 'Right', 'js_composer' ) => 'right',
  __( 'Center', 'js_composer' ) => 'center'
- ),
+ ],
  'description' => __( 'Select image alignment.', 'js_composer' )
- ),
- array(
+ ],
+ [
  'type' => 'dropdown',
  'heading' => __( 'Image style', 'js_composer' ),
  'param_name' => 'style',
  'value' => getVcShared( 'single image styles' ),
  'description' => __( 'Select image display style.', 'js_comopser' )
- ),
- array(
+ ],
+ [
  'type' => 'dropdown',
  'heading' => __( 'Border color', 'js_composer' ),
  'param_name' => 'border_color',
  'value' => getVcShared( 'colors' ),
  'std' => 'grey',
- 'dependency' => array(
+ 'dependency' => [
  'element' => 'style',
- 'value' => array(
+ 'value' => [
  'vc_box_border',
  'vc_box_border_circle',
  'vc_box_outline',
  'vc_box_outline_circle'
- )
- ),
+ ]
+ ],
  'description' => __( 'Border color.', 'js_composer' ),
  'param_holder_class' => 'vc_colored-dropdown'
- ),
+ ],
  $vc_add_css_animation,
- array(
+ [
  'type' => 'textfield',
  'heading' => __( 'Extra class name', 'js_composer' ),
  'param_name' => 'el_class',
  'description' => __( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' )
- ),
- array(
+ ],
+ [
  'type' => 'css_editor',
  'heading' => __( 'CSS box', 'js_composer' ),
  'param_name' => 'css',
  // 'description' => __( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
  'group' => __( 'Design Options', 'js_composer' )
- )
- ),
+ ]
+ ],
  'post_type' => Vc_Grid_Item_Editor::postType(),
- );
+ ];
  return $shortcodes;
 }
 
@@ -285,13 +286,13 @@ Example how to use Post meta with a template variable.
 <?php
 add_filter( 'vc_grid_item_shortcodes', 'my_module_add_grid_shortcodes' );
 function my_module_add_grid_shortcodes( $shortcodes ) {
- $shortcodes['vc_custom_post_meta'] = array(
+ $shortcodes['vc_custom_post_meta'] = [
  'name' => __( 'My Custom Post meta', 'my-text-domain' ),
  'base' => 'vc_custom_post_meta',
  'category' => __( 'Content', 'my-text-domain' ),
  'description' => __( 'Show custom post meta', 'my-text-domain' ),
  'post_type' => Vc_Grid_Item_Editor::postType(),
- );
+ ];
 
  return $shortcodes;
 }
@@ -307,10 +308,10 @@ function vc_gitem_template_attribute_custom_meta( $value, $data ) {
  * @var Wp_Post $post
  * @var string $data
  */
- extract( array_merge( array(
+ extract( array_merge( [
  'post' => null,
  'data' => '',
- ), $data ) );
+ ], $data ) );
 
  return var_export( get_post_meta( $post->ID, 'my_custom_key' ), true );
 }

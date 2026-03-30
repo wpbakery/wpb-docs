@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_init\_base
+# vc_after_init_base
 
 Fires after the base class initialization is complete. This hook runs at the end of the `Vc_Base::init()` method, after post admin initialization, body class filters, excerpt filters, meta data hooks, and admin or page initialization have all been set up.
 
@@ -26,9 +26,3 @@ function wpb_after_base_init() {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

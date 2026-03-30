@@ -27,9 +27,3 @@ function wpb_wrap_font_container( $output ) {
 ## Source
 
 File: `include/params/font_container/font_container.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

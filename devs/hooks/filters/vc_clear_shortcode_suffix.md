@@ -31,9 +31,3 @@ function my_clear_shortcode_suffix( $tag ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.0 | Introduced. |

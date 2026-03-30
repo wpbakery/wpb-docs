@@ -33,9 +33,3 @@ function my_custom_function( $output, $settings, $value, $tag ) {
 ## Source
 
 File: `include/params/animation_style/animation_style.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

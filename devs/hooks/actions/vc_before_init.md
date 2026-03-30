@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init
+# vc_before_init
 
 Fires at the very beginning of WPBakery Page Builder initialization. This hook runs as the first action inside the `Vc_Manager::init()` method, before the editor mode is set, components are loaded, or shortcodes are mapped. Use this hook for early setup tasks that need to run before any WPBakery component is initialized.
 
@@ -28,9 +28,3 @@ function wpb_early_setup() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

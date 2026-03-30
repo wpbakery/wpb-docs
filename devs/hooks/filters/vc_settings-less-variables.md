@@ -32,9 +32,3 @@ function my_add_less_variables( $variables ) {
 ## Source
 
 File: `modules/design-options/class-vc-design-options-module-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

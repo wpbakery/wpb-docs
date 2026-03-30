@@ -21,10 +21,10 @@ add_filter( 'vc_custom_code_templates', 'my_custom_code_templates' );
 
 function my_custom_code_templates( $templates ) {
     // Add a custom template for the code panel
-    $templates[] = array(
+    $templates[] = [
         'slug'     => 'custom_php',
         'template' => plugin_dir_path( __FILE__ ) . 'templates/custom-php-editor.php',
-    );
+    ];
     return $templates;
 }
 ```
@@ -32,9 +32,3 @@ function my_custom_code_templates( $templates ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-custom-code.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 8.0 | Introduced. |

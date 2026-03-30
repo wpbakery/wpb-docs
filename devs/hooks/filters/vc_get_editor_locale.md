@@ -29,9 +29,3 @@ function wpb_customize_editor_strings( $locale ) {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.8 | Introduced. |

@@ -32,9 +32,3 @@ function my_modify_element_attributes( $atts, $tag ) {
 ## Source
 
 File: `include/helpers/helpers_api.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

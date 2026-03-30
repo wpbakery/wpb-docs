@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_set\_mode
+# vc_after_set_mode
 
 Fires after the WPBakery Page Builder editor mode has been determined and set. This hook runs inside the `Vc_Manager::init()` method, immediately after `setMode()` is called. The mode determines whether WPBakery is operating in admin, frontend editor, or page view context.
 
@@ -30,9 +30,3 @@ function wpb_check_editor_mode() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

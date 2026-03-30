@@ -28,9 +28,3 @@ function my_hide_typography_tab( $show ) {
 ## Source
 
 File: `modules/typography/class-vc-typography-module-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 8.0 | Introduced. |

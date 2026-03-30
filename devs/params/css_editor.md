@@ -6,7 +6,6 @@ sidebar_label: css_editor
 # Css Editor
 
 **Type:** `css_editor`
-**Category:** Layout & Styling
 
 ## Description
 
@@ -19,12 +18,12 @@ Visual CSS editor for adding custom styles (Design Options tab).
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "css_editor",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -61,20 +60,20 @@ See [Add Design Options Tab](/devs/developers-how-tos/add-design-options-tab-wit
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_css_editor');
-function my_element_with_css_editor() {{
-    vc_map(array(
+function my_element_with_css_editor() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "css_editor",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

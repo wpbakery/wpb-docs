@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_is\_post\_custom\_layout\_blank
+# wpb_is_post_custom_layout_blank
 
 Filters whether the current post uses a blank custom layout. This is used in the page settings tab to determine if the layout should be treated as blank (no header/footer).
 
@@ -31,9 +31,3 @@ function my_force_blank_layout( $is_blank ) {
 ## Source
 
 File: `include/templates/editors/popups/page-settings/page-settings-tab.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

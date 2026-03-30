@@ -29,9 +29,3 @@ function my_custom_function( $output ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-add-element-box.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

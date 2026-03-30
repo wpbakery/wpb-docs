@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_activation\_hook
+# vc_activation_hook
 
 Fires during the WPBakery Page Builder plugin activation process. This hook allows you to run custom logic when the plugin is activated, such as setting default options, creating database tables, or flushing rewrite rules.
 
@@ -32,9 +32,3 @@ function wpb_on_plugin_activation( $networkWide ) {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

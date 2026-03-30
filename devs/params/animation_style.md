@@ -6,7 +6,6 @@ sidebar_label: animation_style
 # Animation Style
 
 **Type:** `animation_style`
-**Category:** Layout & Styling
 
 ## Description
 
@@ -19,12 +18,12 @@ CSS animation selector from predefined animation styles.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "animation_style",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -49,20 +48,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_animation_style');
-function my_element_with_animation_style() {{
-    vc_map(array(
+function my_element_with_animation_style() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "animation_style",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

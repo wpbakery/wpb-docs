@@ -31,9 +31,3 @@ function wpb_modify_gitem_link_rel( $rel, $atts ) {
 ## Source
 
 File: `include/autoload/params/vc-grid-item.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

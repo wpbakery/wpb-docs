@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_frontend\_editor\_render\_template
+# vc_frontend_editor_render_template
 
 Fires when rendering a template in the frontend editor. This hook runs inside the frontend editor template file after the WordPress editor is initialized and the `editor-expand` script is dequeued.
 
@@ -26,9 +26,3 @@ function wpb_on_frontend_template_render() {
 ## Source
 
 File: `include/templates/editors/frontend_editor.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

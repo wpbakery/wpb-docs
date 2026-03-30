@@ -31,9 +31,3 @@ function my_render_template_category( $category ) {
 ## Source
 
 File: `include/templates/editors/popups/vc_ui-panel-templates.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -28,9 +28,3 @@ function my_custom_preview_width( $default_width_value ) {
 ## Source
 
 File: `include/params/vc_grid_item/editor/class-vc-grid-item-preview.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

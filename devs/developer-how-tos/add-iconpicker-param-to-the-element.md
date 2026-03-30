@@ -16,6 +16,7 @@ WPBakery Page Builder allows you to add an `iconpicker` parameter type to your c
 First, you need to add a `dropdown` parameter to let users select which icon library they want to use. This will output the dropdown field with all the available options:
 
 ```php
+// Icon library dropdown param definition
 [
   'type' => 'dropdown',
   'heading' => esc_html__( 'Icon library', 'js_composer' ),
@@ -31,7 +32,7 @@ First, you need to add a `dropdown` parameter to let users select which icon lib
   'admin_label' => true,
   'param_name' => 'type',
   'description' => esc_html__( 'Select icon library.', 'js_composer' ),
-],
+]
 ```
 
 ## 2. Add Icon Picker Fields for Each Library
@@ -43,6 +44,7 @@ This will output the icon picker button, which users will be able to click and s
 Here's an example for Font Awesome:
 
 ```php
+// Iconpicker param definition for Font Awesome
 [
   'type' => 'iconpicker',
   'heading' => esc_html__( 'Icon', 'js_composer' ),
@@ -57,7 +59,7 @@ Here's an example for Font Awesome:
      'value' => 'fontawesome',
   ],
   'description' => esc_html__( 'Select icon from library.', 'js_composer' ),
-],
+]
 ```
 
 ## 3. Available icon libraries
@@ -79,7 +81,9 @@ Below, you will find all the available libraries within the WPBakey Page Builder
 The following code will create a library dropdown and a icon picker button, based on which library is selected from the dropdown. Add it to your params array.
 
 ```php
-[
+// Complete icon library dropdown and iconpicker params
+$params = [
+  [
   'type' => 'dropdown',
   'heading' => esc_html__( 'Icon library', 'js_composer' ),
   'value' => [
@@ -225,5 +229,6 @@ The following code will create a library dropdown and a icon picker button, base
      'value' => 'material',
   ],
   'description' => esc_html__( 'Select icon from library.', 'js_composer' ),
-],
+  ],
+];
 ```

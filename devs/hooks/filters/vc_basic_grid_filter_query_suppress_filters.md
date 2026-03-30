@@ -24,9 +24,3 @@ add_filter( 'vc_basic_grid_filter_query_suppress_filters', '__return_false' );
 ## Source
 
 File: `include/classes/shortcodes/vc-basic-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -28,9 +28,3 @@ function my_custom_grid_request_url( $url ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_basic_grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

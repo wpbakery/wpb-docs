@@ -28,9 +28,3 @@ function my_modify_param_group_output( $output ) {
 ## Source
 
 File: `include/params/param_group/param_group.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

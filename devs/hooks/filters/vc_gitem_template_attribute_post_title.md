@@ -29,9 +29,3 @@ function my_custom_post_title( $post_title, $data_default ) {
 ## Source
 
 File: `include/params/vc_grid_item/attributes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

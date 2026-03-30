@@ -41,9 +41,3 @@ function my_custom_animation_styles( $styles ) {
 ## Source
 
 File: `include/params/animation_style/animation_style.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

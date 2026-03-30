@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_autocomplete\_\{tag\}\_\{param\_name\}\_callback
+# vc_autocomplete_\{tag\}_\{param_name\}_callback
 
 Provides autocomplete suggestions for a specific shortcode parameter via AJAX. The filter name is dynamic — replace `{tag}` with the shortcode base and `{param_name}` with the parameter name.
 
@@ -23,14 +23,14 @@ add_filter( 'vc_autocomplete_my_shortcode_my_param_callback', 'my_custom_functio
 
 function my_custom_function( $query, $tag, $param_name ) {
     // Provide custom suggestions for a param
-    $suggestions = array();
-    $posts = get_posts( array( 's' => $query, 'posts_per_page' => 10 ) );
+    $suggestions = [];
+    $posts = get_posts( [ 's' => $query, 'posts_per_page' => 10 ] );
 
     foreach ( $posts as $post ) {
-        $suggestions[] = array(
+        $suggestions[] = [
             'value' => $post->ID,
             'label' => $post->post_title,
-        );
+        ];
     }
 
     return $suggestions;
@@ -40,9 +40,3 @@ function my_custom_function( $query, $tag, $param_name ) {
 ## Source
 
 File: `include/params/autocomplete/autocomplete.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

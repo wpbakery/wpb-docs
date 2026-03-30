@@ -31,9 +31,3 @@ function wpb_modify_shortcode_to_string( $shortcode, $shortcode_obj ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

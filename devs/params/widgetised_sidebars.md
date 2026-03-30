@@ -6,7 +6,6 @@ sidebar_label: widgetised_sidebars
 # Widgetised Sidebars
 
 **Type:** `widgetised_sidebars`
-**Category:** WordPress Integration
 
 ## Description
 
@@ -19,12 +18,12 @@ Dropdown of registered widget areas/sidebars.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "widgetised_sidebars",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -49,20 +48,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_widgetised_sidebars');
-function my_element_with_widgetised_sidebars() {{
-    vc_map(array(
+function my_element_with_widgetised_sidebars() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "widgetised_sidebars",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

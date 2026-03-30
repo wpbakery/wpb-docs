@@ -28,9 +28,3 @@ function my_modify_layerslider_output( $output ) {
 ## Source
 
 File: `include/templates/shortcodes/layerslider_vc.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

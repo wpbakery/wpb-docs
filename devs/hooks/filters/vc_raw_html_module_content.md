@@ -29,9 +29,3 @@ function my_filter_raw_html_content( $content ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_raw_html.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

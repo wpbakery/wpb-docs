@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_enqueue\_frontend\_editor\_css
+# wpb_enqueue_frontend_editor_css
 
 Filters the list of CSS stylesheet handles to enqueue in the frontend editor. This allows adding or removing stylesheets that are loaded when the WPBakery frontend editor is active.
 
@@ -30,9 +30,3 @@ function my_frontend_editor_css( $dependencies ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.0 | Introduced. |

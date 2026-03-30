@@ -32,9 +32,3 @@ function my_modify_mapper_attribute( $attribute, $name ) {
 ## Source
 
 File: `include/classes/core/class-wpb-map.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

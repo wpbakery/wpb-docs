@@ -28,9 +28,3 @@ function my_custom_manifest_file( $manifest_file_path ) {
 ## Source
 
 File: `include/classes/core/class-autoload-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.0 | Introduced. |

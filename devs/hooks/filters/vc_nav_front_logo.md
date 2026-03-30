@@ -30,9 +30,3 @@ function my_custom_frontend_logo( $output ) {
 ## Source
 
 File: `include/classes/editors/navbar/class-vc-navbar.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

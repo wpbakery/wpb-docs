@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_ui-template-preview
+# vc_ui-template-preview
 
 Fires during the template preview rendering in both the backend editor and the grid item editor. Use this hook to enqueue additional scripts or output custom markup needed for template previews.
 
@@ -21,7 +21,7 @@ function wpb_custom_template_preview_assets() {
     wp_enqueue_script(
         'my-template-preview',
         plugins_url( 'js/template-preview.js', __FILE__ ),
-        array( 'jquery' ),
+        [ 'jquery' ],
         '1.0.0',
         true
     );
@@ -31,9 +31,3 @@ function wpb_custom_template_preview_assets() {
 ## Source
 
 File: `include/templates/editors/vc_ui-template-preview.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.7 | Introduced. |

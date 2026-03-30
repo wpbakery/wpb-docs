@@ -31,9 +31,3 @@ function my_custom_post_settings( $settings, $post_id, $post ) {
 ## Source
 
 File: `include/classes/core/class-vc-post-admin.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4.3 | Introduced. |

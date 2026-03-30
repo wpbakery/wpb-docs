@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc_gitem_template_attribute\_\{name\}
+# vc_gitem_template_attribute_\{name\}
 
 Dynamic filter that allows modification of a specific grid item template attribute value. The `{name}` part is the attribute name being requested (e.g., a post field like `post_title`, `post_date`, or a custom attribute like `acf_value`, `woocommerce_product_price_value`).
 
@@ -39,9 +39,3 @@ function wpb_modify_gitem_acf_value( $value ) {
 ## Source
 
 File: `include/params/vc_grid_item/attributes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

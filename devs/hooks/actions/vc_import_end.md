@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_end
+# vc_import_end
 
 Fires at the end of a template import process. This hook runs after term counting and comment counting are re-enabled, signaling that the import has fully completed.
 
@@ -27,9 +27,3 @@ function wpb_after_import_complete() {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

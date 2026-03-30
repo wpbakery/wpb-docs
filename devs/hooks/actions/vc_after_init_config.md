@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_init\_config
+# vc_after_init_config
 
 Fires after the configuration library has been initialized. This hook runs inside the `Vc_Manager::config()` method, after the `Wpb_Config_Lib` instance has been created and stored in the factory.
 
@@ -25,9 +25,3 @@ function wpb_after_config_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

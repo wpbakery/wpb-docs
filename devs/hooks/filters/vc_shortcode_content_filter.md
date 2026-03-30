@@ -18,8 +18,8 @@ add_filter('vc_shortcode_content_filter', 'wpb_add_wrapper_to_shortcode_output',
  * Add a wrapper to the output of the vc_separator shortcode.
  *
  * @param string $output The output of the shortcode.
- * @param array $prepared_atts The prepared attributes for the shortcode.
  * @param string $shortcode_tag The shortcode tag.
+ * @param array $prepared_atts The prepared attributes for the shortcode.
  * @return string Modified output with a wrapper.
  */
 function wpb_add_wrapper_to_shortcode_output( $output, $shortcode_tag, $prepared_atts ) {

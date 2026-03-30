@@ -29,9 +29,3 @@ function my_modify_vc_pointers( $pointers ) {
 ## Source
 
 File: `include/autoload/hooks/vc-ui-pointers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

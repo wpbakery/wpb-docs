@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_insert\_post
+# vc_import_insert_post
 
 Fires after a post is inserted during a template import. This hook provides the new post ID, the original post ID from the import file, the prepared post data array, and the raw post data from the import source.
 
@@ -33,9 +33,3 @@ function wpb_after_import_insert_post( $post_id, $original_post_ID, $postdata, $
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -29,9 +29,3 @@ function wpb_add_allowed_font_container_tags( $allowed_tags ) {
 ## Source
 
 File: `include/params/font_container/font_container.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

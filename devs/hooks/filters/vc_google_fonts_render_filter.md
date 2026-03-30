@@ -28,9 +28,3 @@ function my_custom_google_fonts_render( $output ) {
 ## Source
 
 File: `include/params/google_fonts/google_fonts.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

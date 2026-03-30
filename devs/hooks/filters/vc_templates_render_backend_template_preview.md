@@ -33,9 +33,3 @@ function my_render_template_preview( $template_id, $template_type ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.7 | Introduced. |

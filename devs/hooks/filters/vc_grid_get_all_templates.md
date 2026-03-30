@@ -21,18 +21,18 @@ add_filter( 'vc_grid_get_all_templates', 'my_custom_grid_templates', 10, 1 );
 
 function my_custom_grid_templates( $data ) {
     // Add a custom template category
-    $data[] = array(
-        'category' => array(
+    $data[] = [
+        'category' => [
             'name' => esc_html__( 'My Templates', 'my-theme' ),
             'weight' => 100,
-        ),
-        'templates' => array(
-            array(
+        ],
+        'templates' => [
+            [
                 'name' => esc_html__( 'Custom Grid Layout', 'my-theme' ),
                 'template' => '[vc_gitem][vc_gitem_animated_block][vc_gitem_zone_a]...[/vc_gitem_zone_a][/vc_gitem_animated_block][/vc_gitem]',
-            ),
-        ),
-    );
+            ],
+        ],
+    ];
     return $data;
 }
 ```
@@ -40,9 +40,3 @@ function my_custom_grid_templates( $data ) {
 ## Source
 
 File: `include/params/vc_grid_item/editor/popups/class-vc-templates-editor-grid-item.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

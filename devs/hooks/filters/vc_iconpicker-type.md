@@ -21,13 +21,13 @@ Dynamic filter that provides the list of icons for a specific icon picker type. 
 add_filter( 'vc_iconpicker-type-my_custom_icons', 'my_custom_icon_library', 10, 1 );
 
 function my_custom_icon_library( $icons ) {
-    return array(
-        'My Icons' => array(
-            array( 'my-icon-home' => 'Home' ),
-            array( 'my-icon-user' => 'User' ),
-            array( 'my-icon-settings' => 'Settings' ),
-        ),
-    );
+    return [
+        'My Icons' => [
+            [ 'my-icon-home' => 'Home' ],
+            [ 'my-icon-user' => 'User' ],
+            [ 'my-icon-settings' => 'Settings' ],
+        ],
+    ];
 }
 
 // Modify an existing icon library (e.g., Font Awesome)
@@ -35,7 +35,7 @@ add_filter( 'vc_iconpicker-type-fontawesome', 'my_custom_fontawesome_icons', 10,
 
 function my_custom_fontawesome_icons( $icons ) {
     // Add custom icons to the Font Awesome list
-    $icons[] = array( 'fa fa-custom-icon' => 'Custom Icon' );
+    $icons[] = [ 'fa fa-custom-icon' => 'Custom Icon' ];
     return $icons;
 }
 ```
@@ -43,9 +43,3 @@ function my_custom_fontawesome_icons( $icons ) {
 ## Source
 
 File: `include/params/iconpicker/iconpicker.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

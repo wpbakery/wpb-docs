@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_modules
+# vc_before_init_modules
 
 Fires before the modules component is initialized. This hook runs before the `Vc_Modules_Manager` class is instantiated, allowing you to set up dependencies or run custom logic before feature modules are loaded.
 
@@ -25,9 +25,3 @@ function wpb_before_modules_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

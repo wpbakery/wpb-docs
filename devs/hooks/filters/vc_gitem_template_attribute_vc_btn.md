@@ -32,9 +32,3 @@ function my_custom_grid_btn( $value, $data ) {
 ## Source
 
 File: `include/classes/shortcodes/paginator/class-vc-pageable.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

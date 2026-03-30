@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_loop\_query\_build\_args
+# wpb_loop_query_build_args
 
 Filters the WP_Query arguments built by the loop parameter type before the query is executed. This allows modifying query arguments for elements that use the loop parameter (e.g., Post Grid).
 
@@ -29,9 +29,3 @@ function my_custom_loop_args( $args ) {
 ## Source
 
 File: `include/params/loop/loop.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -33,9 +33,3 @@ function wpb_modify_font_container_output( $data, $fields, $values, $settings ) 
 ## Source
 
 File: `include/params/font_container/font_container.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

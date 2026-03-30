@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_wpbakeryshortcode\_single\_param\_html\_holder\_value
+# vc_wpbakeryshortcode_single_param_html_holder_value
 
 Filters the parameter value used when rendering a single param HTML holder in the backend editor. This allows overriding the displayed value for any shortcode parameter before it is rendered in the editor UI.
 
@@ -34,9 +34,3 @@ function my_custom_param_holder_value( $value, $param, $settings, $atts ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

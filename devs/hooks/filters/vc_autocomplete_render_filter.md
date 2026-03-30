@@ -30,9 +30,3 @@ function my_custom_function( $output ) {
 ## Source
 
 File: `include/params/autocomplete/autocomplete.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

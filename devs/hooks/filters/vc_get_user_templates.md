@@ -37,9 +37,3 @@ function wpb_filter_user_templates( $templates ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.12 | Introduced. |

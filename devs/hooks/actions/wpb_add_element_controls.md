@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_add\_element\_controls
+# wpb_add_element_controls
 
 Fires after the element edit form panel body and footer are rendered, just before the modal wrapper closes. Use this hook to add custom controls or additional UI elements to the element editing panel.
 
@@ -28,9 +28,3 @@ function wpb_custom_element_controls() {
 ## Source
 
 File: `include/templates/editors/popups/vc_ui-panel-edit-element.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

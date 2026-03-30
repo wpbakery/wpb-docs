@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_init\_license
+# vc_after_init_license
 
 Fires after the license manager has been initialized. This hook runs inside the `Vc_Manager::license()` method, after the `Vc_License` instance has been created and stored in the factory.
 
@@ -25,9 +25,3 @@ function wpb_after_license_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

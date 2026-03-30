@@ -21,13 +21,13 @@ add_filter( 'vc_grid_item_shortcodes', 'my_custom_grid_item_shortcodes', 10, 1 )
 
 function my_custom_grid_item_shortcodes( $shortcodes ) {
     // Add a custom shortcode to the grid item editor
-    $shortcodes['my_grid_element'] = array(
+    $shortcodes['my_grid_element'] = [
         'name' => esc_html__( 'My Grid Element', 'my-theme' ),
         'base' => 'my_grid_element',
         'category' => esc_html__( 'Custom', 'my-theme' ),
         'description' => esc_html__( 'A custom element for grid items.', 'my-theme' ),
-        'params' => array(),
-    );
+        'params' => [],
+    ];
     return $shortcodes;
 }
 ```
@@ -35,9 +35,3 @@ function my_custom_grid_item_shortcodes( $shortcodes ) {
 ## Source
 
 File: `include/params/vc_grid_item/class-vc-grid-item.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

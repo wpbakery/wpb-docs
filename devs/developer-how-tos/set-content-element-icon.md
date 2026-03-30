@@ -19,7 +19,7 @@ For example, you have created a new custom content element and with help of [vc_
 
 Now open css file that you defined in "admin_enqueue_css" param in [vc_map()](/devs/inner-api/vc_map) function call, and add CSS rule for your content element.
 
-```php
+```css
 /*
 Change icon in the "Add element" content elements list
 Note: path to the icon file should be relative to the css file where you place your css rules (this file)
@@ -50,15 +50,15 @@ In order to make 3) css snippet to work properly you should add "icon" param to 
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- vc_map( array(
+ vc_map( [
  "name" => __( "Bar tag test", "my-text-domain" ),
  "base" => "bartag",
  "class" => "",
  "icon" => "my_bartag", // New param added
  "category" => __( "Content", "my-text-domain"),
- 'admin_enqueue_css' => array( get_template_directory_uri() . '/vc_extend/vc.css' ),
- "params" => array(
- array(
+ 'admin_enqueue_css' => [ get_template_directory_uri() . '/vc_extend/vc.css' ],
+ "params" => [
+ [
  "type" => "textfield",
  "holder" => "div",
  "class" => "",
@@ -66,9 +66,9 @@ function your_name_integrateWithVC() {
  "param_name" => "foo",
  "value" => __( "Default param value", "my-text-domain" ),
  "description" => __( "Description for foo param.", "my-text-domain" ),
- ),
- ),
- ) );
+ ],
+ ],
+ ] );
 }
 ```
 
@@ -80,15 +80,15 @@ Another way of adding an icon to your content element, doesn't require a CSS fil
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- vc_map( array(
+ vc_map( [
  "name" => __( "Bar tag test", "my-text-domain" ),
  "base" => "bartag",
  "class" => "",
  "icon" => get_template_directory_uri() . "/vc_extend/my_shortcode_icon.png", // Simply pass url to your icon here
  "category" => __( "Content", "my-text-domain"),
- 'admin_enqueue_css' => array( get_template_directory_uri() . '/vc_extend/vc.css' ),
- "params" => array(
- array(
+ 'admin_enqueue_css' => [ get_template_directory_uri() . '/vc_extend/vc.css' ],
+ "params" => [
+ [
  "type" => "textfield",
  "holder" => "div",
  "class" => "",
@@ -96,8 +96,8 @@ function your_name_integrateWithVC() {
  "param_name" => "foo",
  "value" => __( "Default param value", "my-text-domain" ),
  "description" => __( "Description for foo param.", "my-text-domain" ),
- ),
- ),
- ) );
+ ],
+ ],
+ ] );
 }
 ```

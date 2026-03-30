@@ -21,10 +21,10 @@ add_filter( 'vc_add_new_category_filter', 'my_custom_function', 10, 1 );
 
 function my_custom_function( $categories ) {
     // Add a custom category to the list
-    $categories[] = array(
+    $categories[] = [
         'name' => 'My Custom Category',
         'slug' => 'my-custom-category',
-    );
+    ];
     return $categories;
 }
 ```
@@ -32,9 +32,3 @@ function my_custom_function( $categories ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-add-element-box.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

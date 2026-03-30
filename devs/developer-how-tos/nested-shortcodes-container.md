@@ -23,7 +23,7 @@ Common examples include:
 
 **Simple examples in shortcode format:**
 
-```php
+```text
 [tabs]
  [tab title="Tab 1"]Content for Tab 1[/tab]
  [tab title="Tab 2"]Content for Tab 2[/tab]
@@ -122,29 +122,26 @@ return [
 ### as_parent Configuration Options
 
 ```php
+<?php
 // Option 1: Only specific elements allowed
-
-'as_parent' => [
- 'only' => 'content_tab' // Single element
-]
+$as_parent = [
+ 'only' => 'content_tab', // Single element
+];
 
 // Option 2: Multiple elements allowed
-
-'as_parent' => [
- 'only' => 'content_tab,another_element' // Comma-separated
-]
+$as_parent = [
+ 'only' => 'content_tab,another_element', // Comma-separated
+];
 
 // Option 3: All except specific elements
-
-'as_parent' => [
- 'except' => 'vc_row,vc_column' // Block these elements
-]
+$as_parent = [
+ 'except' => 'vc_row,vc_column', // Block these elements
+];
 
 // Option 4: No restrictions
-
-'as_parent' => [
- 'only' => '' // Allow all elements
-]
+$as_parent = [
+ 'only' => '', // Allow all elements
+];
 ```
 
 
@@ -310,20 +307,21 @@ return [
 ### as_child Configuration Options
 
 ```php
+<?php
 // Only specific parent(s)
-'as_child' => [
- 'only' => 'content_tabs' // Single parent
-]
+$as_child = [
+ 'only' => 'content_tabs', // Single parent
+];
 
 // Multiple parents
-'as_child' => [
- 'only' => 'content_tabs,another_container' // Comma-separated
-]
+$as_child = [
+ 'only' => 'content_tabs,another_container', // Comma-separated
+];
 
 // All except specific parents
-'as_child' => [
- 'except' => 'vc_column' // Block this parent
-]
+$as_child = [
+ 'except' => 'vc_column', // Block this parent
+];
 ```
 
 

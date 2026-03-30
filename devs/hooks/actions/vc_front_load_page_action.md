@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_front\_load\_page\_\{action\}
+# vc_front_load_page_\{action\}
 
 Dynamic hook fired when loading a frontend editor page action. The hook name is constructed dynamically using the `action` POST parameter value (e.g., `vc_front_load_page_my_custom_action`). This allows you to handle custom AJAX actions within the frontend editor context.
 
@@ -31,9 +31,3 @@ function wpb_handle_custom_frontend_action() {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -18,7 +18,7 @@ To enable WPBakery Page Builder for theme defined post types by default, you can
 * Description - An array of post types for which WPBakery Page Builder should be enabled by default.
 * Example:
 ```php
-$list = array( 'post', 'page', 'custom_post_type' );
+$list = [ 'post', 'page', 'custom_post_type' ];
 ```
 
 ## Example
@@ -26,10 +26,10 @@ How to add WPBakery Page Builder editing mode to your custom post type.
 
 ```php
 <?php
-$list = array(
+$list = [
   'page',
   'custom_post_type'
-);
+];
 vc_set_default_editor_post_types( $list );
 ?>
 ```

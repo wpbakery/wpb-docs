@@ -29,9 +29,3 @@ function my_custom_css_editor( $output ) {
 ## Source
 
 File: `include/params/css_editor/css_editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

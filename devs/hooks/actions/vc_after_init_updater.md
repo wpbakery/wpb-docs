@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_init\_updater
+# vc_after_init_updater
 
 Fires after the updater component has been initialized. This hook runs inside the `Vc_Manager::updater()` method, after the `Vc_Updater` and `Vc_Updating_Manager` instances have been created and configured.
 
@@ -25,9 +25,3 @@ function wpb_after_updater_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

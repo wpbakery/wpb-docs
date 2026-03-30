@@ -6,7 +6,6 @@ sidebar_label: autocomplete
 # Autocomplete
 
 **Type:** `autocomplete`
-**Category:** Advanced Input
 
 ## Description
 
@@ -19,12 +18,12 @@ Input field with autocomplete suggestions (AJAX or predefined).
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "autocomplete",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -57,39 +56,31 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`delay` | Integer | `500` | Delay in milliseconds before triggering autocomplete |
 | &nbsp;&nbsp;&nbsp;&nbsp;`auto_focus` | Boolean | `true` | Auto focus first suggestion |
 
-**Example:**
-```php
-array(
-    "type" => "autocomplete",
-    "param_name" => "post_ids",
-    "settings" => array(
-        "multiple" => true,
-        "min_length" => 2,
-        "delay" => 300,
-        "unique_values" => true,
-    ),
-)
-```
-
 ## Complete Example
 
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_autocomplete');
-function my_element_with_autocomplete() {{
-    vc_map(array(
+function my_element_with_autocomplete() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "autocomplete",
                 "heading" => __("Field Label", "domain"),
-                "param_name" => "param_name",
+                "param_name" => "post_ids",
+                "settings" => [
+                    "multiple" => true,
+                    "min_length" => 2,
+                    "delay" => 300,
+                    "unique_values" => true,
+                ],
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

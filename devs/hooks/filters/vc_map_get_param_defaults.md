@@ -32,9 +32,3 @@ function my_override_param_default( $value, $param ) {
 ## Source
 
 File: `include/helpers/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.6 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_get\_ai\_icon\_template
+# wpb_get_ai_icon_template
 
 Filters the template path used to render the AI icon for a given field. This allows replacing the default AI icon template with a custom one.
 
@@ -33,9 +33,3 @@ function my_custom_ai_icon_template( $template, $type, $field_id ) {
 ## Source
 
 File: `modules/ai/helpers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.4 | Introduced. |

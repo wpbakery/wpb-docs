@@ -31,9 +31,3 @@ function my_custom_grid_query( $query, $atts, $shortcode ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-basic-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.5 | Introduced. |

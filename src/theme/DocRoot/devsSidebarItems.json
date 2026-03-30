@@ -614,14 +614,6 @@
           },
           {
             "type": "link",
-            "label": "get_lib_ai_icon_words",
-            "href": "/devs/hooks/filters/get_lib_ai_icon_words",
-            "className": "hidden-sidebar-item",
-            "docId": "hooks/filters/get_lib_ai_icon_words",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "wpb_ai_tone_of_voice_list",
             "href": "/devs/hooks/filters/wpb_ai_tone_of_voice_list",
             "className": "hidden-sidebar-item",
@@ -1751,9 +1743,9 @@
           {
             "type": "link",
             "label": "vc_settings_page_show_color-picker-tab",
-            "href": "/devs/hooks/filters/vc_settings_page_show_color_picker_tab",
+            "href": "/devs/hooks/filters/vc_settings_page_show_color-picker-tab",
             "className": "hidden-sidebar-item",
-            "docId": "hooks/filters/vc_settings_page_show_color_picker_tab",
+            "docId": "hooks/filters/vc_settings_page_show_color-picker-tab",
             "unlisted": false
           },
           {
@@ -1959,9 +1951,9 @@
           {
             "type": "link",
             "label": "vc_user_access_check-shortcode_all",
-            "href": "/devs/hooks/filters/vc_user_access_check_shortcode_all",
+            "href": "/devs/hooks/filters/vc_user_access_check-shortcode_all",
             "className": "hidden-sidebar-item",
-            "docId": "hooks/filters/vc_user_access_check_shortcode_all",
+            "docId": "hooks/filters/vc_user_access_check-shortcode_all",
             "unlisted": false
           },
           {
@@ -2204,14 +2196,6 @@
             "href": "/devs/hooks/actions/vc_activation_hook",
             "className": "hidden-sidebar-item",
             "docId": "hooks/actions/vc_activation_hook",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "vc\\_admin\\_inline\\_editor",
-            "href": "/devs/hooks/actions/vc_admin_inline_editor",
-            "className": "hidden-sidebar-item",
-            "docId": "hooks/actions/vc_admin_inline_editor",
             "unlisted": false
           },
           {

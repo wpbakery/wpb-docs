@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_frontend\_editor\_enqueue\_js\_css
+# vc_frontend_editor_enqueue_js_css
 
 Fires when enqueueing JavaScript and CSS for the frontend editor. This hook runs after the frontend editor's built-in JS and CSS files have been enqueued, allowing you to add custom assets for the frontend editing experience.
 
@@ -37,9 +37,3 @@ function wpb_enqueue_custom_frontend_editor_assets() {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

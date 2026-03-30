@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_cta\_text
+# wpb_cta_text
 
 Filters the call-to-action text HTML output in the CTA Button element. This allows modifying the heading markup and content of the CTA text.
 
@@ -30,9 +30,3 @@ function my_custom_cta_text( $output, $args ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_cta_button.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

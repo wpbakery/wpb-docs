@@ -22,7 +22,7 @@ add_filter( 'vc_google_fonts_get_fonts_filter', 'my_custom_google_fonts', 10, 1 
 function my_custom_google_fonts( $fonts ) {
     // Remove fonts you don't need to reduce the list
     $fonts = array_filter( $fonts, function( $font ) {
-        return in_array( $font->font_family, array( 'Roboto', 'Open Sans', 'Lato' ), true );
+        return in_array( $font->font_family, [ 'Roboto', 'Open Sans', 'Lato' ], true );
     } );
     return array_values( $fonts );
 }
@@ -31,9 +31,3 @@ function my_custom_google_fonts( $fonts ) {
 ## Source
 
 File: `include/params/google_fonts/google_fonts.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |

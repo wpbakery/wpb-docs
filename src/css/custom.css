@@ -731,8 +731,21 @@ td {
 .markdown tr {
   font-family: var(--wpb-font-body);
   font-size: 0.9375rem; /* 15px */
-  font-weight: var(--ifm-font-weight-semibold);
+  font-weight: 400;
   color: var(--wpb-color-text);
+}
+
+.markdown td:last-child {
+  font-weight: 400;
+}
+
+
+.markdown td:last-child strong {
+  font-weight: 600;
+}
+
+[class*="backToTopButton"]::after {
+  color: white !important;
 }
 
 /* Search Bar Customization */

@@ -27,9 +27,3 @@ function wpb_custom_template_preview_setup() {
 File: `include/templates/editors/vc_ui-template-preview.tpl.php`
 
 File: `include/templates/params/vc_grid_item/editor/vc_ui-template-preview.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

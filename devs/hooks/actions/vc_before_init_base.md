@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_base
+# vc_before_init_base
 
 Fires before the base class initialization begins. This hook runs at the start of the `Vc_Base::init()` method, before post admin initialization and body class filters are set up.
 
@@ -26,9 +26,3 @@ function wpb_before_base_init() {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

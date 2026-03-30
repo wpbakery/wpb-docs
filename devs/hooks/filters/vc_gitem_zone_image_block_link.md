@@ -33,9 +33,3 @@ function my_custom_image_block_link( $image_block, $link, $css_class ) {
 ## Source
 
 File: `include/templates/shortcodes/vc_gitem_zone.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

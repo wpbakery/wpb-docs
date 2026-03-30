@@ -28,9 +28,3 @@ function my_force_old_layerslider( $use_old ) {
 ## Source
 
 File: `include/classes/vendors/plugins/class-vc-vendor-layerslider.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4.2 | Introduced. |

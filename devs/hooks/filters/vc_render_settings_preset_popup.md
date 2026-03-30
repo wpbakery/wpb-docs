@@ -28,9 +28,3 @@ function my_custom_preset_popup_template( $template ) {
 ## Source
 
 File: `include/classes/core/presets/class-vc-settings-presets.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.2 | Introduced. |

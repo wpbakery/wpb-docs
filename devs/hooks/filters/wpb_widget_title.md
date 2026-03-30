@@ -13,7 +13,7 @@ To output title for content elements WPBakery Page Builder is using `h2` tag, if
 <?php
 add_filter('wpb_widget_title', 'override_widget_title', 10, 2);
 
-function override_widget_title($output = '', $params = array('')) {
+function override_widget_title($output = '', $params = ['']) {
     $extraclass = (isset($params['extraclass'])) ? " ".$params['extraclass'] : "";
     return '<h3 class="entry-title'.$extraclass.'">'.$params['title'].'</h3>';
 }

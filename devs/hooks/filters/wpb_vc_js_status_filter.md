@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_vc\_js\_status\_filter
+# wpb_vc_js_status_filter
 
 Filters the WPBakery editor status for the current post. This determines whether the WPBakery editor is enabled or disabled for the post being edited.
 
@@ -31,9 +31,3 @@ function my_custom_editor_status( $status ) {
 ## Source
 
 File: `include/classes/editors/class-vc-backend-editor.php`, `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

@@ -39,7 +39,7 @@ Events are triggered on various objects:
 
 ### Document Ready Events
 
-```php
+```js
 /**
  * VC-specific ready event
  */
@@ -52,7 +52,7 @@ window.vc.events.on('app.render', function() {
 
 ### Editor Initialization
 
-```php
+```js
 /**
  * Fires before editor initializes
  */
@@ -82,7 +82,7 @@ jQuery(window).on('vc_frontend_editor_loaded', function() {
 
 ### Element Addition
 
-```php
+```js
 /**
  * Fires when any element is added to the page
  */
@@ -117,7 +117,7 @@ window.vc.events.on('shortcode:vc_custom_element:mounted', function($element) {
 
 ### Element Update
 
-```php
+```js
 /**
  * Fires when element parameters are updated
  */
@@ -153,7 +153,7 @@ window.vc.events.on('shortcode:content_changed', function(model) {
 
 ### Element Removal
 
-```php
+```js
 /**
  * Fires before element is removed
  */
@@ -179,7 +179,7 @@ window.vc.events.on('shortcode:vc_custom_element:destroy', function(model) {
 
 ### Element Clone
 
-```php
+```js
 /**
  * Fires when element is cloned
  */
@@ -193,7 +193,7 @@ window.vc.events.on('shortcodes:clone', function(model) {
 
 ### Element Move
 
-```php
+```js
 /**
  * Fires when element is moved/reordered
  */
@@ -207,7 +207,7 @@ window.vc.events.on('shortcodes:move', function(model) {
 
 ### Form Open/Close
 
-```php
+```js
 /**
  * Fires when element edit form opens
  */
@@ -237,7 +237,7 @@ window.vc.events.on('edit_form_rendered', function($form) {
 
 ### Form Field Changes
 
-```php
+```js
 /**
  * Fires when any parameter changes in edit form
  */
@@ -266,7 +266,7 @@ jQuery(document).on('change', '[data-vc-shortcode-param-name="style"]', function
 
 ### Window/Frame Events
 
-```php
+```js
 /**
  * Fires when frontend editor frame loads
  */
@@ -303,7 +303,7 @@ jQuery(window).on('vc_iframe_loaded', function() {
 
 ### Save Events
 
-```php
+```js
 /**
  * Fires before page content is saved
  */
@@ -335,7 +335,7 @@ window.vc.events.on('save:error', function(error) {
 
 ### Dropdown/Select Events
 
-```php
+```js
 /**
  * Dropdown changed
  */
@@ -351,7 +351,7 @@ jQuery(document).on('change', 'select.wpb_vc_param_value', function() {
 
 ### Color Picker Events
 
-```php
+```js
 /**
  * Color picker changed
  */
@@ -365,7 +365,7 @@ jQuery(document).on('change', '.vc_color-control', function() {
 
 ### Image Picker Events
 
-```php
+```js
 /**
  * Image selected
  */
@@ -403,7 +403,7 @@ jQuery(document).on('change', '.wpb_vc_param_value.attachment_id', function() {
 
 Element-specific events follow this pattern:
 
-```php
+```js
 // Pattern
 window.vc.events.on('shortcode:{element_base}:{event}', callback);
 
@@ -418,7 +418,7 @@ window.vc.events.on('shortcode:vc_custom_element:frontend_render', callback);
 
 ### From Model Object
 
-```php
+```js
 window.vc.events.on('shortcodes:add', function(model) {
  // Get element type
  var shortcode = model.get('shortcode');
@@ -451,7 +451,7 @@ window.vc.events.on('shortcodes:add', function(model) {
  
 ## Debugging Events
 
-```php
+```js
 // Log all VC events
 
 window.vc.events.on('all', function(eventName) {

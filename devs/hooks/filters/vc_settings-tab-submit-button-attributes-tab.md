@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_settings-tab-submit-button-attributes-\{tab\}
+# vc_settings-tab-submit-button-attributes-\{tab\}
 
 Filters the submit button attributes for a specific settings tab. The dynamic portion of the hook name, `{tab}`, refers to the settings tab slug (e.g., `general`, `color`, `custom_css`). This allows modifying the HTML attributes of the submit button on a per-tab basis.
 
@@ -30,9 +30,3 @@ function my_submit_button_attrs( $attributes, $tab ) {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

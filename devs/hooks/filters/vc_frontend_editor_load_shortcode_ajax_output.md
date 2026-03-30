@@ -28,9 +28,3 @@ function wpb_modify_ajax_shortcode_output( $output ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

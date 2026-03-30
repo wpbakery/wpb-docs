@@ -21,10 +21,10 @@ add_filter( 'vc_add_element_categories', 'my_custom_function', 10, 1 );
 
 function my_custom_function( $tabs ) {
     // Add a custom category tab
-    $tabs[] = array(
+    $tabs[] = [
         'name'   => 'My Custom Category',
         'active' => false,
-    );
+    ];
     return $tabs;
 }
 ```
@@ -32,9 +32,3 @@ function my_custom_function( $tabs ) {
 ## Source
 
 File: `include/templates/editors/partials/add_element_tabs.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

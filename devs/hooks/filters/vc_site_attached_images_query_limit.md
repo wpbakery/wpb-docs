@@ -28,10 +28,3 @@ function my_limit_attached_images( $limit ) {
 ## Source
 
 File: `include/classes/deprecated/helpers_deprecated.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.3 | Introduced. |
-| 8.8 | Deprecated along with `vc_siteAttachedImages()`. |

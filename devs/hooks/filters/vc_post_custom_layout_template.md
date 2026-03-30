@@ -35,9 +35,3 @@ function my_custom_layout_template( $template, $layout_name ) {
 ## Source
 
 File: `modules/post-custom-layout/module.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

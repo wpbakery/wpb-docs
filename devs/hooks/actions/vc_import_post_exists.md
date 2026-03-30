@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_post\_exists
+# vc_import_post_exists
 
 Fires when an imported post has an invalid post type. Despite its name, this hook fires when the post type specified in the import data does not exist on the current site, causing the post to be skipped during import.
 
@@ -32,9 +32,3 @@ function wpb_handle_skipped_import_post( $post ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

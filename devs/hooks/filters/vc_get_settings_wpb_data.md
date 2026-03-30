@@ -28,9 +28,3 @@ function wpb_add_custom_settings_data( $data ) {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.9 | Introduced. |

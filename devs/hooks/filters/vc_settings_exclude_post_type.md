@@ -29,9 +29,3 @@ function my_exclude_post_types( $post_types ) {
 ## Source
 
 File: `include/classes/settings/class-vc-roles.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

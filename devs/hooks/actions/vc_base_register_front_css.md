@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_base\_register\_front\_css
+# vc_base_register_front_css
 
 Fires after front-end CSS styles have been registered. This hook runs at the end of the `Vc_Base::frontCss()` method, after all default front-end stylesheets (Flexslider, Nivo Slider, PrettyPhoto, Isotope, Font Awesome, Animate.css, Lightbox2, and the main front-end CSS) have been registered with `wp_register_style`.
 
@@ -21,7 +21,7 @@ function wpb_register_custom_front_css() {
     wp_register_style(
         'my-vc-element-css',
         plugins_url( 'css/my-element.css', __FILE__ ),
-        array( 'js_composer_front' ),
+        [ 'js_composer_front' ],
         '1.0.0'
     );
 }
@@ -30,9 +30,3 @@ function wpb_register_custom_front_css() {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

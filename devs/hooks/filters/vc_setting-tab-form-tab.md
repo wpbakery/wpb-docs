@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_setting-tab-form-\{tab\}
+# vc_setting-tab-form-\{tab\}
 
 Filters additional form attributes for a specific settings tab. The dynamic portion of the hook name, `{tab}`, refers to the settings tab slug (e.g., `general`, `color`, `custom_css`). The filtered value is echoed directly inside the opening `<form>` tag.
 
@@ -28,9 +28,3 @@ function my_settings_form_attributes( $attributes ) {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

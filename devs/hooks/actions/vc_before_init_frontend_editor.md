@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_frontend\_editor
+# vc_before_init_frontend_editor
 
 Fires before the frontend editor component is initialized. Use this hook to run custom code or register dependencies before the `Vc_Frontend_Editor` class is instantiated.
 
@@ -26,9 +26,3 @@ function wpb_before_frontend_editor_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

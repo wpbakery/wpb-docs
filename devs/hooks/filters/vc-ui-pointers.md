@@ -21,14 +21,14 @@ add_filter( 'vc-ui-pointers', 'my_custom_function', 10, 1 );
 
 function my_custom_function( $pointers ) {
     // Register a custom UI pointer
-    $pointers[] = array(
+    $pointers[] = [
         'id'       => 'my_custom_pointer',
         'screen'   => 'post',
         'target'   => '#my-element',
         'title'    => 'My Custom Pointer',
         'content'  => 'This is a helpful tooltip for my custom feature.',
-        'position' => array( 'edge' => 'left', 'align' => 'middle' ),
-    );
+        'position' => [ 'edge' => 'left', 'align' => 'middle' ],
+    ];
     return $pointers;
 }
 ```
@@ -36,9 +36,3 @@ function my_custom_function( $pointers ) {
 ## Source
 
 File: `include/autoload/hooks/vc-ui-pointers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

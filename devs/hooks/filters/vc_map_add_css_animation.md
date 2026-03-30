@@ -30,9 +30,3 @@ function my_modify_css_animation_param( $data, $is_admin_label ) {
 ## Source
 
 File: `include/classes/editors/class-vc-config-lib.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 9.0 | Introduced. |

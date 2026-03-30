@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_load\_default\_templates\_action
+# vc_load_default_templates_action
 
 Fires after the default templates have been loaded and the `vc_load_default_templates` filter has been applied. Use this hook to perform additional actions once all default templates are available, such as logging or modifying global state.
 
@@ -26,9 +26,3 @@ function wpb_after_default_templates_loaded() {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -32,9 +32,3 @@ function my_custom_grid_access( $allowed, $tag ) {
 ## Source
 
 File: `include/autoload/hooks/hook-vc-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

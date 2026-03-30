@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_config
+# vc_before_init_config
 
 Fires before the config component is initialized. This hook runs before the `Wpb_Config_Lib` class is instantiated, allowing you to modify configuration behavior or register custom config handlers.
 
@@ -28,9 +28,3 @@ function wpb_before_config_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 9.0 | Introduced. |

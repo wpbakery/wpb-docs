@@ -39,9 +39,3 @@ function my_custom_import_meta_key( $key, $post_id, $post ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

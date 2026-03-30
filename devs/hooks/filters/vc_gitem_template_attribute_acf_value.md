@@ -28,9 +28,3 @@ function my_custom_acf_value( $value ) {
 ## Source
 
 File: `include/classes/vendors/plugins/acf/grid-item-attributes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

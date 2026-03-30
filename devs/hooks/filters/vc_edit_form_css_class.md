@@ -29,9 +29,3 @@ function my_custom_edit_form_panel_class( $css_class ) {
 ## Source
 
 File: `include/templates/editors/popups/panel_shortcode_edit_form.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

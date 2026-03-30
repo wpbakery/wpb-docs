@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_add\_before\_settings\_form
+# wpb_add_before_settings_form
 
 Fires before the opening `<form>` tag on WPBakery settings pages. Use this hook to output custom HTML content, notices, or UI elements before the settings form.
 
@@ -26,9 +26,3 @@ function wpb_custom_before_settings_form() {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

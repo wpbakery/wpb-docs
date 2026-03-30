@@ -33,9 +33,3 @@ function my_modify_controls_list( $controls_list, $shortcode ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

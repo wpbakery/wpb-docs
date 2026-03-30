@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_editor\_footer
+# vc_editor_footer
 
 Fires when rendering the editor footer partial. This hook runs at the end of the editor footer template and receives the current editor instance, which can be either the backend or frontend editor.
 
@@ -30,9 +30,3 @@ function wpb_custom_editor_footer( $editor ) {
 ## Source
 
 File: `include/templates/editors/partials/footer.tpl.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

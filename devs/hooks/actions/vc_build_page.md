@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_build\_page
+# vc_build_page
 
 Fires when building a frontend page. This hook runs at the start of `Vc_Base::initPage()`, before template redirect actions for frontend CSS and JavaScript are registered. Use it to add custom frontend page functionality.
 
@@ -25,9 +25,3 @@ function wpb_custom_frontend_page_setup() {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

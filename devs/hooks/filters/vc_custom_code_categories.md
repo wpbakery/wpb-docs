@@ -21,10 +21,10 @@ add_filter( 'vc_custom_code_categories', 'my_custom_code_category' );
 
 function my_custom_code_category( $categories ) {
     // Add a custom tab category to the code panel
-    $categories[] = array(
+    $categories[] = [
         'label' => 'Custom PHP',
         'slug'  => 'custom_php',
-    );
+    ];
     return $categories;
 }
 ```
@@ -32,9 +32,3 @@ function my_custom_code_category( $categories ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-custom-code.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 8.0 | Introduced. |

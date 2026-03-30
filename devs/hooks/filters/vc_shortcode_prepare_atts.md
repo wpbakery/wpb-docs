@@ -34,9 +34,3 @@ function my_modify_shortcode_atts( $attributes, $shortcode, $settings ) {
 ## Source
 
 File: `include/classes/shortcodes/core/class-wpbakeryshortcode.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

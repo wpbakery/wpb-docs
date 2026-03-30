@@ -35,9 +35,3 @@ function wpb_modify_element_settings( $settings, $tag ) {
 ## Source
 
 File: `include/classes/core/class-wpb-map.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

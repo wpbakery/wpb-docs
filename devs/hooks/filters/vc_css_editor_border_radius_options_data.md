@@ -31,9 +31,3 @@ function my_custom_border_radius( $radius_list ) {
 ## Source
 
 File: `include/params/css_editor/css_editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 9.0 | Introduced. |

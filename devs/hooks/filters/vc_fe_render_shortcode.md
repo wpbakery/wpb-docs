@@ -30,9 +30,3 @@ function wpb_modify_fe_shortcode_data( $shortcode ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

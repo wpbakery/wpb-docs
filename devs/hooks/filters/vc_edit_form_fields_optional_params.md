@@ -29,9 +29,3 @@ function my_optional_params( $optional_params ) {
 ## Source
 
 File: `include/params/params.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

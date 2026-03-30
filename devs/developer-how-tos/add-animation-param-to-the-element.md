@@ -16,6 +16,7 @@ To add an animation parameter to the element, please use the `vc_map_add_css_ani
 Here is an example:
 
 ```php
+// Example params array entries
 [
    // Example alignment parameter
     [

@@ -6,7 +6,6 @@ sidebar_label: param_group
 # Param Group
 
 **Type:** `param_group`
-**Category:** Complex Types
 
 ## Description
 
@@ -19,12 +18,12 @@ Repeatable group of parameters for creating multiple similar entries.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "param_group",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -55,18 +54,18 @@ All param types support these common parameters:
 ### Nested Parameters
 
 ```php
-"params" => array(
-    array(
+"params" => [
+    [
         "type" => "textfield",
         "heading" => __("Title", "domain"),
         "param_name" => "title",
-    ),
-    array(
+    ],
+    [
         "type" => "textarea",
         "heading" => __("Description", "domain"),
         "param_name" => "description",
-    ),
-)
+    ],
+]
 ```
 
 See [Use Param Group in Elements](/devs/developers-how-tos/use-param-group-in-elements) for detailed guide.
@@ -76,20 +75,20 @@ See [Use Param Group in Elements](/devs/developers-how-tos/use-param-group-in-el
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_param_group');
-function my_element_with_param_group() {{
-    vc_map(array(
+function my_element_with_param_group() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "param_group",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

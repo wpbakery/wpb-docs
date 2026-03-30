@@ -6,7 +6,6 @@ sidebar_label: linked_fields
 # Linked Fields
 
 **Type:** `linked_fields`
-**Category:** Special
 
 ## Description
 
@@ -19,12 +18,12 @@ Fields that are linked/dependent on other field values.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "linked_fields",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -49,20 +48,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_linked_fields');
-function my_element_with_linked_fields() {{
-    vc_map(array(
+function my_element_with_linked_fields() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "linked_fields",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

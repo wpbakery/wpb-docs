@@ -6,7 +6,6 @@ sidebar_label: textarea_safe
 # Textarea Safe
 
 **Type:** `textarea_safe`
-**Category:** Basic Input
 
 ## Description
 
@@ -19,12 +18,12 @@ Multi-line text input with HTML entity encoding for safe output.
 ## Basic Usage
 
 ```php
-array(
+[
     "type" => "textarea_safe",
     "heading" => __("Field Label", "your-text-domain"),
     "param_name" => "your_param_name",
     "description" => __("Field description", "your-text-domain"),
-)
+]
 ```
 
 ## Common Parameters
@@ -49,20 +48,20 @@ All param types support these common parameters:
 ```php
 <?php
 add_action('vc_before_init', 'my_element_with_textarea_safe');
-function my_element_with_textarea_safe() {{
-    vc_map(array(
+function my_element_with_textarea_safe() {
+    vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "textarea_safe",
                 "heading" => __("Field Label", "domain"),
                 "param_name" => "param_name",
                 "description" => __("Field description", "domain"),
-            ),
-        ),
-    ));
+            ],
+        ],
+    ]);
 }
 ```
 

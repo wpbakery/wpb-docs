@@ -32,9 +32,3 @@ function my_modify_submit_button( $submit_button_attributes, $tab ) {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

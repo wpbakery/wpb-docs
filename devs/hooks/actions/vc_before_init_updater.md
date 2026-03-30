@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_before\_init\_updater
+# vc_before_init_updater
 
 Fires before the updater component is initialized. This hook runs before the `Vc_Updater` and `Vc_Updating_Manager` classes are instantiated, allowing you to modify update behavior or set up custom update sources.
 
@@ -25,9 +25,3 @@ function wpb_before_updater_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

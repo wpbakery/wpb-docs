@@ -34,9 +34,3 @@ function my_hide_fe_button( $result, $post_id, $type ) {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.8 | Introduced. |

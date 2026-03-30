@@ -28,9 +28,3 @@ function wpb_custom_general_tab_render( $page ) {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# wpb\_add\_before\_open\_form\_tag
+# wpb_add_before_open_form_tag
 
 Fires inside the opening `<form>` tag on WPBakery settings pages, after the `action` attribute but before the `method` attribute. Use this hook to add custom HTML attributes to the settings form element.
 
@@ -25,9 +25,3 @@ function wpb_add_form_attributes() {
 ## Source
 
 File: `include/templates/pages/vc-settings/tab.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

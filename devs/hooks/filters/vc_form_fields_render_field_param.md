@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc_form_fields_render_field\_\{base\}\_\{param_name\}\_param
+# vc_form_fields_render_field_\{base\}\_\{param_name\}\_param
 
 Dynamic filters that allow modification of a specific parameter's configuration or value when rendering the element edit form. Two variants exist:
 
@@ -59,9 +59,3 @@ function wpb_modify_content_value( $value, $param, $settings, $atts ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_start
+# vc_import_start
 
 Fires at the start of a template import process. This hook runs after the import data has been parsed and the base URL has been set, and after term counting and comment counting are deferred for performance.
 
@@ -29,9 +29,3 @@ function wpb_on_import_start() {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

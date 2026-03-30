@@ -28,9 +28,3 @@ function my_custom_title_prompt( $template ) {
 ## Source
 
 File: `include/autoload/hooks/vc-settings-presets.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 5.2 | Introduced. |

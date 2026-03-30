@@ -29,9 +29,3 @@ function my_custom_layer_controls( $output ) {
 ## Source
 
 File: `include/params/css_editor/css_editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

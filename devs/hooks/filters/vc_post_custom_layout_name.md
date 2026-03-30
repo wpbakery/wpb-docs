@@ -31,9 +31,3 @@ function my_override_layout_name( $layout_name ) {
 ## Source
 
 File: `modules/post-custom-layout/module.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

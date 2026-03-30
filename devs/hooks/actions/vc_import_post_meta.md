@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_import\_post\_meta
+# vc_import_post_meta
 
 Fires when importing post meta during a template import. This hook runs after each post meta entry is added to the database via `add_post_meta()`, allowing you to perform additional processing on imported metadata.
 
@@ -32,9 +32,3 @@ function wpb_process_imported_meta( $post_id, $key, $value ) {
 ## Source
 
 File: `include/classes/core/shared-templates/importer/class-vc-wp-import.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

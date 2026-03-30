@@ -28,9 +28,3 @@ function my_custom_iconpicker_render( $output ) {
 ## Source
 
 File: `include/params/iconpicker/iconpicker.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

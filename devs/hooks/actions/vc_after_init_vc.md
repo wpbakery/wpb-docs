@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_after\_init\_vc
+# vc_after_init_vc
 
 Fires after the main WPBakery Page Builder instance has been initialized. This hook runs inside the `Vc_Manager::vc()` method, after the `Vc_Base` instance has been created and configured with its template panel editor, shared templates, edit form, and preset panel editor dependencies.
 
@@ -26,9 +26,3 @@ function wpb_after_vc_instance_init() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

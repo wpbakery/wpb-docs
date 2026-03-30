@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_inline\_editor\_page\_view
+# vc_inline_editor_page_view
 
 Fires when the inline (frontend) editor page view is loaded. This hook runs during the frontend editor's `buildEditablePage()` method, after editable content parsing is set up but before frontend JS/CSS assets are enqueued.
 
@@ -26,9 +26,3 @@ function wpb_on_inline_editor_page_view() {
 ## Source
 
 File: `include/classes/editors/class-vc-frontend-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

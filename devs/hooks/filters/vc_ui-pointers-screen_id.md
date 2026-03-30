@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_ui-pointers-\{screen\_id\}
+# vc_ui-pointers-\{screen_id\}
 
 Filters UI pointers for a specific admin screen. The dynamic portion of the hook name, `{screen_id}`, refers to the WordPress admin screen ID (e.g., `post`, `page`, `edit-post`). This allows adding custom admin pointers (tooltips) to specific screens.
 
@@ -37,9 +37,3 @@ function my_custom_admin_pointers( $pointers ) {
 ## Source
 
 File: `include/autoload/hooks/vc-ui-pointers.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

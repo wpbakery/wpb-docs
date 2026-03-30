@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_load\_default\_params
+# vc_load_default_params
 
 Fires after WPBakery registers its built-in parameter types (textfield, textarea, dropdown, etc.). Use this hook to register custom shortcode parameter types via `vc_add_shortcode_param()`.
 
@@ -33,9 +33,3 @@ function my_custom_param_field( $settings, $value ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

@@ -33,9 +33,3 @@ function my_custom_grid_shortcode( $shortcode, $page_id, $grid_id ) {
 ## Source
 
 File: `include/classes/shortcodes/vc-basic-grid.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

@@ -48,9 +48,3 @@ function my_custom_order_total_label( $label ) {
 ## Source
 
 File: `include/classes/vendors/plugins/woocommerce/grid-item-attributes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

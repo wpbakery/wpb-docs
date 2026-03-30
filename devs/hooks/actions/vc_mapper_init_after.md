@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_mapper\_init\_after
+# vc_mapper_init_after
 
 Fires after the WPBakery mapper has completed initialization, including loading parameter definitions, setting the init flag, loading the lean map configuration, and processing all queued activities. Use this hook to run code that depends on all elements being fully mapped and available.
 
@@ -28,9 +28,3 @@ function wpb_after_mapper_init() {
 ## Source
 
 File: `include/classes/core/class-vc-mapper.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

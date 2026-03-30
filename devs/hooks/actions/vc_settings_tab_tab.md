@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_settings\_tab-\{tab\}
+# vc_settings_tab-\{tab\}
 
 Dynamic action that fires for each registered settings tab during section initialization. The `{tab}` portion of the hook name is the tab slug with the `vc-` prefix removed (e.g., for tab `vc-general`, the hook is `vc_settings_tab-general`). Receives the `Vc_Settings` instance for adding fields to the specific tab.
 
@@ -37,9 +37,3 @@ function wpb_render_general_option() {
 ## Source
 
 File: `include/classes/settings/class-vc-settings.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

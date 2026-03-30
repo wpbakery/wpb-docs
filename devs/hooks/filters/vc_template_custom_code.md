@@ -33,9 +33,3 @@ function my_custom_code_data( $custom_code_data ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-custom-code.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 6.0 | Introduced. |

@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_plugins\_loaded
+# vc_plugins_loaded
 
 Fires when WPBakery Page Builder has finished loading during the WordPress `plugins_loaded` hook. Use this hook to run code that depends on WPBakery being fully loaded but before WordPress `init`.
 
@@ -28,9 +28,3 @@ function wpb_on_vc_loaded() {
 ## Source
 
 File: `include/classes/core/class-vc-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

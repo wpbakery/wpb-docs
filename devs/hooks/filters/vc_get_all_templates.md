@@ -38,9 +38,3 @@ function wpb_add_custom_template_category( $data ) {
 ## Source
 
 File: `include/classes/editors/popups/class-vc-templates-panel-editor.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.7 | Introduced. |

@@ -30,9 +30,3 @@ function my_custom_function( $components ) {
 ## Source
 
 File: `include/classes/core/class-autoload-manager.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

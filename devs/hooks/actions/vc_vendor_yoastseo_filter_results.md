@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_vendor\_yoastseo\_filter\_results
+# vc_vendor_yoastseo_filter_results
 
 Fires before WPBakery content is parsed for Yoast SEO analysis. This hook runs just before shortcodes in the post content are processed via `do_shortcode()` for Yoast SEO compatibility. Use it to modify global state or register shortcode handlers before the SEO content analysis.
 
@@ -28,9 +28,3 @@ function wpb_prepare_yoast_analysis() {
 ## Source
 
 File: `include/classes/vendors/plugins/class-vc-vendor-yoast_seo.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4.3 | Introduced. |

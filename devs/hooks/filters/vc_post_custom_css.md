@@ -32,9 +32,3 @@ function my_modify_post_custom_css( $post_custom_css, $id ) {
 ## Source
 
 File: `modules/custom-css/module.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

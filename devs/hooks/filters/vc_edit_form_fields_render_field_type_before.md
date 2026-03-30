@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc_edit_form_fields_render_field\_\{type\}\_before
+# vc_edit_form_fields_render_field_\{type\}\_before
 
 Filters the HTML output rendered **before** a parameter field of a specific type in the WPBakery element edit form. A companion filter `vc_edit_form_fields_render_field_{type}_after` filters the HTML rendered **after** the field. Both are dynamic filters where `{type}` is the parameter type (e.g., `textfield`, `dropdown`, `textarea_html`).
 
@@ -44,9 +44,3 @@ function wpb_custom_after_textfield( $output_after ) {
 ## Source
 
 File: `include/classes/editors/class-vc-edit-form-fields.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |

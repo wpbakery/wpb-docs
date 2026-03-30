@@ -28,9 +28,3 @@ function my_custom_image_url( $output ) {
 ## Source
 
 File: `include/params/vc_grid_item/attributes.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.4 | Introduced. |

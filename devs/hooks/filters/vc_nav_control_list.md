@@ -32,9 +32,3 @@ function my_modify_nav_controls( $controls, $navbar ) {
 ## Source
 
 File: `include/classes/editors/navbar/class-vc-navbar.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.7 | Introduced. |

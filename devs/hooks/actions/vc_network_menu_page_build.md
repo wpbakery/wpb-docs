@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_network\_menu\_page\_build
+# vc_network_menu_page_build
 
 Fires after the WPBakery Page Builder network admin menu page has been registered in a WordPress multisite environment. Use this hook to add submenu pages under the WPBakery menu in the network admin dashboard.
 
@@ -35,9 +35,3 @@ function wpb_render_network_page() {
 ## Source
 
 File: `include/autoload/vc-pages/pages.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.5 | Introduced. |

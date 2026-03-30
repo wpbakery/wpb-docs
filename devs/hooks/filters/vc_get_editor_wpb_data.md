@@ -28,9 +28,3 @@ function wpb_add_custom_editor_data( $data ) {
 ## Source
 
 File: `include/classes/core/class-vc-base.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 7.9 | Introduced. |

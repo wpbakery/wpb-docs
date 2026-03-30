@@ -3,7 +3,7 @@ sidebar_class_name: hidden-sidebar-item
 hide_table_of_contents: true
 ---
 
-# vc\_mapper\_attribute\_\{type\}
+# vc_mapper_attribute_\{type\}
 
 Filters a shortcode param attribute by its type during mapping. The dynamic portion of the hook name, `{type}`, refers to the parameter type (e.g., `textfield`, `dropdown`, `textarea_html`). This allows modifying parameter attributes for all params of a given type when shortcodes are mapped.
 
@@ -32,9 +32,3 @@ function my_modify_textfield_params( $attribute, $shortcode_tag ) {
 ## Source
 
 File: `include/classes/core/class-wpb-map.php`
-
-## Changelog
-
-| Version | Description |
-|---------|-------------|
-| 4.2 | Introduced. |
