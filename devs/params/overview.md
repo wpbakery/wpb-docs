@@ -212,6 +212,11 @@ This section provides detailed documentation for every parameter type available 
     <h3>Gutenberg</h3>
     <p>Gutenberg block integration support.</p>
   </a>
+
+  <a href="/devs/params/hidden" className="topic-card">
+    <h3>Hidden</h3>
+    <p>Hidden input for storing internal values.</p>
+  </a>
 </div>
 
 ## Using Parameters
@@ -245,14 +250,21 @@ vc_map([
 All parameter types support these common options:
 
 - `type` - The parameter type
+- `holder` - HTML tag name where the attribute value is displayed in backend edit mode (default: hidden input)
+- `class` - CSS class added to the `holder` HTML tag
 - `heading` - Label displayed to the user
 - `param_name` - Unique identifier
-- `value` - Default value
+- `value` - Value for the parameter
 - `description` - Help text
 - `group` - Tab/group organization
+- `weight` - Display order (higher = shows first)
 - `dependency` - Conditional visibility
 - `admin_label` - Display in element title
 - `edit_field_class` - CSS class for field width
+- `param_holder_class` - CSS class for the param wrapper in the edit element modal
+- `save_always` - Force saving the param value to the shortcode even if it equals the default or is empty
+- `callback` - JavaScript function callback attached to the window object (e.g., `['after_add' => 'vcChartParamAfterAddCallback']`)
+- `settings` - Array of type-specific configuration options (varies per param type, see individual param docs)
 
 ## Next Steps
 

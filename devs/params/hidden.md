@@ -1,28 +1,23 @@
 ---
-title: Google Fonts
-sidebar_label: google_fonts
+title: Hidden
+sidebar_label: hidden
 ---
 
-# Google Fonts
+# Hidden
 
-**Type:** `google_fonts`
+**Type:** `hidden`
 
 ## Description
 
-Google Fonts selector with font family and style options.
-
-## Screenshot
-
-![Google Fonts](/img/params/google-fonts.png)
+A hidden input field that stores a value without displaying any visible UI to the user. Useful for storing internal data, computed values, or state that should not be directly editable by the user.
 
 ## Basic Usage
 
 ```php
 [
-    "type" => "google_fonts",
-    "heading" => __("Field Label", "your-text-domain"),
+    "type" => "hidden",
     "param_name" => "your_param_name",
-    "description" => __("Field description", "your-text-domain"),
+    "value" => "",
 ]
 ```
 
@@ -32,7 +27,7 @@ All param types support these common parameters:
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `type` | String | **Required.** Must be `"google_fonts"` |
+| `type` | String | **Required.** Must be `"hidden"` |
 | `holder` | String | HTML tag name where the value is displayed in backend edit mode. Default: hidden input |
 | `class` | String | CSS class added to the `holder` HTML tag |
 | `heading` | String | Label shown in the editor interface |
@@ -53,36 +48,34 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `settings` | Array | - | Configuration array with the following options: |
-| &nbsp;&nbsp;&nbsp;&nbsp;`fields` | Array | - | Google Fonts fields to display. Possible values: `font_family`, `font_style`, `font_family_description`, `font_style_description` |
+| `std` | Mixed | - | Default param value (alternative to `value`) |
 
 ## Complete Example
 
 ```php
 <?php
-add_action('vc_before_init', 'my_element_with_google_fonts');
-function my_element_with_google_fonts() {
+add_action('vc_before_init', 'my_element_with_hidden');
+function my_element_with_hidden() {
     vc_map([
         "name" => __("My Element", "domain"),
         "base" => "my_element",
         "category" => __("My Category", "domain"),
         "params" => [
             [
-                "type" => "google_fonts",
-                "heading" => __("Field Label", "domain"),
-                "param_name" => "param_name",
-                "description" => __("Field description", "domain"),
-                "settings" => [
-                    "fields" => [
-                        "font_family",
-                        "font_style",
-                        "font_family_description" => __("Select font family.", "domain"),
-                        "font_style_description" => __("Select font style.", "domain"),
-                    ],
-                ],
+                "type" => "textfield",
+                "heading" => __("Title", "domain"),
+                "param_name" => "title",
+            ],
+            [
+                "type" => "hidden",
+                "param_name" => "internal_id",
+                "value" => "",
             ],
         ],
     ]);
 }
 ```
 
+:::info
+Since this param type renders as a hidden input, it does not appear in the element's edit form. It is typically used to store values set programmatically via JavaScript or other param interactions.
+:::
