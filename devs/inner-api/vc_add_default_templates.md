@@ -22,12 +22,12 @@ Note: `vc_add_default_templates()` should be hooked in `vc_load_default_template
 * Description - Array of templates to be added. Each template should have the following structure:
 * Example:
 ```php
-$data = array(
+$data = [
     'name' => 'My Custom Template',
     'content' => '<div class="my-template">This is my custom template content.</div>',
     'description' => 'A custom template for demonstration purposes.',
     'thumbnail' => 'http://example.com/path/to/my-thumbnail.jpg',
-);
+];
 ```
 
 ## Examples
@@ -44,7 +44,7 @@ Hook in `vc_load_default_templates_action` to add your custom template to the li
 add_action( 'vc_load_default_templates_action','my_custom_template_for_vc' ); // Hook in
  
 function my_custom_template_for_vc() {
-    $data = array(); // Create new array
+    $data = []; // Create new array
     $data['name'] = __( 'Custom template', 'my-text-domain' ); // Assign name for your custom template
     $data['weight'] = 0; // Weight of your template in the template list
     $data['image_path'] = preg_replace( '/\s/', '%20', plugins_url( 'images/custom_template_thumbnail.jpg', __FILE__ ) ); // Always use preg replace to be sure that "space" will not break logic. Thumbnail should have this dimensions: 114x154px
@@ -79,7 +79,7 @@ To modify default templates list you can use `vc_load_default_templates` hook an
 add_filter( 'vc_load_default_templates', 'my_custom_template_modify_array' ); // Hook in
 
 function my_custom_template_modify_array( $data ) {
-    return array(); // This will remove all default templates. Basically you should use native PHP functions to modify existing array and then return it.
+    return []; // This will remove all default templates. Basically you should use native PHP functions to modify existing array and then return it.
 }
 ?>
 ```
@@ -92,7 +92,7 @@ Here’s a quick example how you can place your new custom template to the first
 add_filter( 'vc_load_default_templates', 'my_custom_template_at_first_position' ); // Hook in
  
 function my_custom_template_at_first_position( $data ) {
-    $template = array();
+    $template = [];
     $template['name'] = __( 'Custom template', 'my-text-domain' ); // Assign name for your custom template
     $template['image_path'] = preg_replace( '/\s/', '%20', plugins_url( 'images/custom_template_thumbnail.jpg', __FILE__ ) ); // Always use preg replace to be sure that "space" will not break logic. Thumbnail should have this dimensions: 114x154px.
     $template['custom_class'] = 'custom_template_for_vc_custom_template'; // CSS class name

@@ -50,22 +50,22 @@ Check if updates are disabled for WPBakery Page Builder when it is running in a 
 // Theme functions.php
 
 function vc_demo_element_settings() {
-    return array(
+    return [
         "name" => __("Vimeo", 'vc-my-plugin'),
         "base" => "vimeo",
         "class" => "",
         "category" => 'constructor',
-        "params" => array(
-            array(
+        "params" => [
+            [
                 "type" => "textfield",
                 "holder" => "div",
                 "class" => "",
                 "heading" => __("Video id", 'vc-my-plugin'),
                 "param_name" => "content",
                 "description" => __("Enter vimeo video id.", 'vc-my-plugin')
-            )
-        )
-    );
+            ]
+        ]
+    ];
 }
 
 vc_lean_map('vc_demo_vimeo_element', 'vc_demo_element_settings');
@@ -75,22 +75,22 @@ vc_lean_map('vc_demo_vimeo_element', 'vc_demo_element_settings');
 // File data {theme-path}/vc/vc-demo-vimeo-element.php
 
 <?php
-return array(
+return [
     "name" => __( "Vimeo", 'vc-my-plugin' ),
     "base" => "vimeo",
     "class" => "",
     "category" => 'constructo',
-    "params" => array(
-        array(
+    "params" => [
+        [
             "type" => "textfield",
             "holder" => "div",
             "class" => "",
             "heading" => __( "Video id", 'vc-my-plugin' ),
             "param_name" => "content",
             "description" => __( "Enter vimeo video id.", 'vc-my-plugin' ),
-        ),
-    ),
-);
+        ],
+    ],
+];
 
 // Theme file functions.php
 vc_lean_map('vc_demo_vimeo_element', null, get_template_directory() . '/vc/vc-demo-vimeo-element.php');

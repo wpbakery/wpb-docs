@@ -16,7 +16,7 @@ In order to always save param value in shortcode string, it is required to use p
 In the example below `save_always` is applied to `full_width` param and once the row is added/saved the `full_width` param will be saved and displayed in shortcode string.
 
 ```php
-vc_map( array(
+vc_map( [
  'name' => __( 'Row', 'js_composer' ),
  'base' => 'vc_row',
  'is_container' => true,
@@ -24,21 +24,23 @@ vc_map( array(
  'show_settings_on_create' => false,
  'category' => __( 'Content', 'js_composer' ),
  'description' => __( 'Place content elements inside the row', 'js_composer' ),
- 'params' => array(
- array(
+ 'params' => [
+ [
  'type' => 'dropdown',
  'heading' => __( 'Row stretch', 'js_composer' ),
  'param_name' => 'full_width',
- 'value' => array(
+ 'value' => [
  __( 'Default', 'js_composer' ) => '',
  __( 'Stretch row', 'js_composer' ) => 'stretch_row',
  __( 'Stretch row and content', 'js_composer' ) => 'stretch_row_content',
  __( 'Stretch row and content (no paddings)', 'js_composer' ) => 'stretch_row_content_no_spaces',
- ),
+ ],
  'save_always' => true,
  'description' => __( 'Select stretching options for row and content (Note: stretched may not work properly if parent container has "overflow: hidden" CSS property).', 'js_composer' )
- )
-...
+ ],
+ // ...
+ ],
+] );
 ```
 
 ## The common problem with saving standards
@@ -47,46 +49,46 @@ The common problem with saving standards is that template is not synced with `vc
 
 **Example of template:**
 
-```php
-shortcode_atts(array(
+```text
+shortcode_atts([
  size = big
  color = red
  align = center
-))
+])
 ```
 
 **Example of vc_map:**
 
-```php
-vc_map(array(
+```text
+vc_map([
  ...
- params = array(
- array(
+ params = [
+ [
  type = textfield
  param_name = size
  value = small
- ),
- array(
+ ],
+ [
  type = dropdown
  param_name = color
- value = array(
+ value = [
  white,
  blue,
  red
- ),
- ),
- array(
+ ],
+ ],
+ [
  type = dropdown
  param_name = align
- value = array(
+ value = [
  left
  right
  center
- )
+ ]
  std = right
- )
- )
-));
+ ]
+ ]
+]);
 ```
 
 As you can see there is the following issue: default in template is different from `vc_map` resulting in problems when rendering/saving shortcode in version 4.6 or higher.

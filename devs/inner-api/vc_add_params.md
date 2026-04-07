@@ -30,22 +30,22 @@ $shortcode = 'vc_message';
 * Description - Multidimensional array should be defined according to [`vc_map()` available options](/devs/element-development/parameter-types).
 * Example:
 ```php
-$attributes = array(
-    array(
+$attributes = [
+    [
         'type' => 'dropdown',
         'heading' => "Style",
         'param_name' => 'style',
-        'value' => array( "one", "two", "three" ),
+        'value' => [ "one", "two", "three" ],
         'description' => __( "New style attribute", "my-text-domain" )
-    ),
-    array(
+    ],
+    [
         'type' => 'dropdown',
         'heading' => "Another Style",
         'param_name' => 'another_style',
-        'value' => array( "four", "five", "six" ),
+        'value' => [ "four", "five", "six" ],
         'description' => __( "New style attribute", "my-text-domain" )
-    )
-);
+    ]
+];
 ```
 
 ## Example
@@ -53,22 +53,22 @@ How to add new attribute to the default "Message box" content element:
 
 ```php
 <?php
-$attributes = array(
-    array(
+$attributes = [
+    [
         'type' => 'dropdown',
         'heading' => "Style",
         'param_name' => 'style',
-        'value' => array( "one", "two", "three" ),
+        'value' => [ "one", "two", "three" ],
         'description' => __( "New style attribute", "my-text-domain" )
-    ),
-    array(
+    ],
+    [
         'type' => 'dropdown',
         'heading' => "Another Style",
         'param_name' => 'another_style',
-        'value' => array( "four", "five", "six" ),
+        'value' => [ "four", "five", "six" ],
         'description' => __( "New style attribute", "my-text-domain" )
-    )
-);
+    ]
+];
 vc_add_params( 'vc_message', $attributes ); // Note: 'vc_message' was used as a base for "Message box" element
 ?>
 ```

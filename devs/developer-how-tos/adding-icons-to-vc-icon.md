@@ -15,21 +15,22 @@ It is possible to add your own icons to WPBakery Page Builder shortcode vc_icon 
 
 ```php
 <?php
-array(
+// Iconpicker param definition
+$param = [
       'type' => 'iconpicker',
       'heading' => __( 'Icon', 'js_composer' ),
       'param_name' => 'icon_openiconic',
-      'settings' => array(
+      'settings' => [
         'emptyIcon' => false, // default true, display an "EMPTY" icon?
         'type' => 'openiconic',
         'iconsPerPage' => 200, // default 100, how many icons per/page to display
-      ),
-      'dependency' => array(
+      ],
+      'dependency' => [
         'element' => 'icon_type',
         'value' => 'openiconic',
-      ),
+      ],
       'description' => __( 'Select icon from library.', 'js_composer' ),
-    ),
+    ];
 ```
 
 2) Next you need to update icon source dropdown – add value to it (*check dependency as well*) – **vc_map_update param "icon_type" add: __( 'Your icon set name', 'js_composer' ) => 'your_icon_set'**
@@ -43,7 +44,8 @@ array(
 function vc_icon_element_fonts_enqueue( $font ) {
   switch ( $font ) {
     case 'fontawesome':
-      wp_enqueue_style( 'font-awesome' );\
- ...
+      wp_enqueue_style( 'font-awesome' );
+      // ... other cases
+  }
 }
 ```

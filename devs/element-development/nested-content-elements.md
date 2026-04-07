@@ -18,9 +18,9 @@ For example, you have your own shortcode `[bartag]` with 2 attributes: `foo` and
 // [bartag foo="foo-value"]
 add_shortcode( 'bartag', 'bartag_func' );
 function bartag_func( $atts ) {
- extract( shortcode_atts( array(
+ extract( shortcode_atts( [
   'foo' => 'something'
- ), $atts ) );
+ ], $atts ) );
 
  return "foo = {$foo}";
 }
@@ -38,15 +38,15 @@ Important: `vc_map()` call should be hooked on WPBakery Page Builder `vc_before_
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 
 function your_name_integrateWithVC() {
-    vc_map( array(
+    vc_map( [
         "name" => __( "Bar tag test", "my-text-domain" ),
         "base" => "bartag",
         "class" => "",
         "category" => __( "Content", "my-text-domain"),
-        'admin_enqueue_js' => array(get_template_directory_uri().'/vc_extend/bartag.js'),
-        'admin_enqueue_css' => array(get_template_directory_uri().'/vc_extend/bartag.css'),
-        "params" => array(
-            array(
+        'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
+        'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
+        "params" => [
+            [
                 "type" => "textfield",
                 "holder" => "div",
                 "class" => "",
@@ -54,9 +54,9 @@ function your_name_integrateWithVC() {
                 "param_name" => "foo",
                 "value" => __( "Default param value", "my-text-domain" ),
                 "description" => __( "Description for foo param.", "my-text-domain" )
-            )
-        )
-    ) );
+            ]
+        ]
+    ] );
 }
 ?>
 ```
@@ -78,10 +78,10 @@ Let's say you want to add a new special param to your shortcode: let's call it `
 add_shortcode( 'bartag', 'bartag_func' );
 
 function bartag_func( $atts ) {
-    extract( shortcode_atts( array(
+    extract( shortcode_atts( [
         'foo' => 'something',
         'color' => '#FFF'
-    ), $atts ) );
+    ], $atts ) );
 
     return "<div style='color:{$color};'>foo = {$foo}</div>";
 }
@@ -95,15 +95,15 @@ To make color attribute editable in WPBakery Page Builder editing mode we should
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
-    vc_map( array(
+    vc_map( [
         "name" => __( "Bar tag test", "my-text-domain" ),
         "base" => "bartag",
         "class" => "",
         "category" => __( "Content", "my-text-domain"),
-        'admin_enqueue_js' => array(get_template_directory_uri().'/vc_extend/bartag.js'),
-        'admin_enqueue_css' => array(get_template_directory_uri().'/vc_extend/bartag.css'),
-        "params" => array(
-            array(
+        'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
+        'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
+        "params" => [
+            [
                 "type" => "textfield",
                 "holder" => "div",
                 "class" => "",
@@ -111,17 +111,17 @@ function your_name_integrateWithVC() {
                 "param_name" => "foo",
                 "value" => __( "Default param value", "my-text-domain" ),
                 "description" => __( "Description for foo param.", "my-text-domain" )
-            ),
-            array(
+            ],
+            [
                 "type" => "colorpicker",
                 "class" => "",
                 "heading" => __( "Text color", "my-text-domain" ),
                 "param_name" => "color",
                 "value" => '#FF0000', //Default Red color
                 "description" => __( "Choose text color", "my-text-domain" )
-            )
-        )
-    ) );
+            ]
+        ]
+    ] );
 }
 ?>
 ```
@@ -140,10 +140,10 @@ Let's change your shortcode registration hook.
 <?php
 add_shortcode( 'bartag', 'bartag_func' );
 function bartag_func( $atts, $content = null ) { // New function parameter $content is added!
-    extract( shortcode_atts( array(
+    extract( shortcode_atts( [
         'foo' => 'something',
         'color' => '#FFF'
-    ), $atts ) );
+    ], $atts ) );
 
     $content = wpb_js_remove_wpautop($content, true); // fix unclosed/unwanted paragraph tags in $content
 
@@ -158,15 +158,15 @@ Now update `vc_map()` function call, and add new attribute to the params array. 
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
-    vc_map( array(
+    vc_map( [
         "name" => __( "Bar tag test", "my-text-domain" ),
         "base" => "bartag",
         "class" => "",
         "category" => __( "Content", "my-text-domain"),
-        'admin_enqueue_js' => array(get_template_directory_uri().'/vc_extend/bartag.js'),
-        'admin_enqueue_css' => array(get_template_directory_uri().'/vc_extend/bartag.css'),
-        "params" => array(
-            array(
+        'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
+        'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
+        "params" => [
+            [
                 "type" => "textfield",
                 "holder" => "div",
                 "class" => "",
@@ -174,16 +174,16 @@ function your_name_integrateWithVC() {
                 "param_name" => "foo",
                 "value" => __( "Default param value", "my-text-domain" ),
                 "description" => __( "Description for foo param.", "my-text-domain" )
-            ),
-            array(
+            ],
+            [
                 "type" => "colorpicker",
                 "class" => "",
                 "heading" => __( "Text color", "my-text-domain" ),
                 "param_name" => "color",
                 "value" => '#FF0000', //Default Red color
                 "description" => __( "Choose text color", "my-text-domain" )
-            ),
-            array(
+            ],
+            [
                 "type" => "textarea_html",
                 "holder" => "div",
                 "class" => "",
@@ -191,9 +191,9 @@ function your_name_integrateWithVC() {
                 "param_name" => "content", // Important: Only one textarea_html param per content element allowed and it should have "content" as a "param_name"
                 "value" => __( "<p>I am test text block. Click edit button to change this text.</p>", "my-text-domain" ),
                 "description" => __( "Enter your content.", "my-text-domain" )
-            )
-        )
-    ) );
+            ]
+        ]
+    ] );
 }
 ?>
 ```

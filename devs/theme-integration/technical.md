@@ -35,9 +35,9 @@ function my_theme_register_js_composer_plugins() {
      * Array of plugin arrays. Required keys are name and slug.
      * If the source is NOT from the .org repo, then source is also required.
      */
-    $plugins = array(
+    $plugins = [
         // This is an example of how to include a plugin pre-packaged with a theme
-        array(
+        [
             'name'               => 'WPBakery Visual Composer', // The plugin name
             'slug'               => 'js_composer', // The plugin slug (typically the folder name)
             'source'             => get_stylesheet_directory() . '/js_composer.zip', // The plugin source
@@ -46,8 +46,8 @@ function my_theme_register_js_composer_plugins() {
             'force_activation'   => false, // If true, plugin is activated upon theme activation
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch
             'external_url'       => '', // If set, overrides default API URL and points to an external URL
-        )
-    );
+        ]
+    ];
 
     // Change this to your theme text domain, used for internationalising strings
     $theme_text_domain = 'tgmpa';
@@ -55,7 +55,7 @@ function my_theme_register_js_composer_plugins() {
     /**
      * Array of configuration settings. Amend each line as needed.
      */
-    $config = array(
+    $config = [
         'domain'            => $theme_text_domain,
         'default_path'      => '',
         'parent_menu_slug'  => 'themes.php',
@@ -64,7 +64,7 @@ function my_theme_register_js_composer_plugins() {
         'has_notices'       => true,
         'is_automatic'      => false,
         'message'           => '',
-        'strings'           => array(
+        'strings'           => [
             'page_title'                      => __( 'Install Required Plugins', $theme_text_domain ),
             'menu_title'                      => __( 'Install Plugins', $theme_text_domain ),
             'installing'                      => __( 'Installing Plugin: %s', $theme_text_domain ),
@@ -83,8 +83,8 @@ function my_theme_register_js_composer_plugins() {
             'plugin_activated'                => __( 'Plugin activated successfully.', $theme_text_domain ),
             'complete'                        => __( 'All plugins installed and activated successfully. %s', $theme_text_domain ),
             'nag_type'                        => 'updated' // Determines admin notice type - can only be 'updated' or 'error'
-        )
-    );
+        ]
+    ];
 
     tgmpa( $plugins, $config );
 }

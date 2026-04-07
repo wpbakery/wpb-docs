@@ -15,7 +15,7 @@ If you are a developer you may want to change class names that are used for defa
 
 Lets imagine that you are looking into the outputted markup, and you want to change some of the classes.
 
-```php
+```html
 <div class="vc_row wpb_row vc_row-fluid">
  <div class="vc_col-sm-6 wpb_column vc_column_container"> ... </div>
  <div class="vc_col-sm-6 wpb_column vc_column_container"> ... </div>

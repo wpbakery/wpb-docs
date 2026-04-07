@@ -300,8 +300,11 @@ function enqueue_custom_fonts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_fonts' );
+```
 
-// Use in CSS
+Use in CSS:
+
+```css
 .custom-element {
  font-family: 'Roboto', sans-serif;
 }
@@ -328,7 +331,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_icon_font' );
 
 CSS (custom-icons.css):
 
-```php
+```css
 @font-face {
  font-family: 'CustomIcons';
  src: url('custom-icons.woff2') format('woff2'),

@@ -133,20 +133,11 @@ This section provides detailed documentation for every parameter type available 
 ## Links & URLs
 
 <div className="topic-cards">
-  <a href="/devs/params/vc_link" className="topic-card">
-    <h3>VC Link</h3>
-    <p>Advanced link builder with multiple options.</p>
-  </a>
-
   <a href="/devs/params/link" className="topic-card">
     <h3>Link</h3>
     <p>Simple URL input field.</p>
   </a>
 
-  <a href="/devs/params/href" className="topic-card">
-    <h3>Href</h3>
-    <p>URL with additional link attributes.</p>
-  </a>
 </div>
 
 ## WordPress Integration
@@ -167,10 +158,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Sidebar/widget area selector.</p>
   </a>
 
-  <a href="/devs/params/loop" className="topic-card">
-    <h3>Loop</h3>
-    <p>Query loop builder for content queries.</p>
-  </a>
 </div>
 
 ## Advanced Controls
@@ -196,11 +183,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Slider control for numeric values.</p>
   </a>
 
-  <a href="/devs/params/sorted_list" className="topic-card">
-    <h3>Sorted List</h3>
-    <p>Drag-and-drop sortable list control.</p>
-  </a>
-
   <a href="/devs/params/tag_input" className="topic-card">
     <h3>Tag Input</h3>
     <p>Comma-separated tags input field.</p>
@@ -211,10 +193,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Connected parameter values control.</p>
   </a>
 
-  <a href="/devs/params/options" className="topic-card">
-    <h3>Options</h3>
-    <p>Advanced option configurations.</p>
-  </a>
 </div>
 
 ## Utilities
@@ -225,16 +203,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Element ID field for custom anchors.</p>
   </a>
 
-  <a href="/devs/params/tab_id" className="topic-card">
-    <h3>Tab ID</h3>
-    <p>Tab identifier for tabbed content.</p>
-  </a>
-
-  <a href="/devs/params/params_preset" className="topic-card">
-    <h3>Params Preset</h3>
-    <p>Predefined parameter sets.</p>
-  </a>
-
   <a href="/devs/params/custom_markup" className="topic-card">
     <h3>Custom Markup</h3>
     <p>Custom HTML markup injection.</p>
@@ -243,6 +211,11 @@ This section provides detailed documentation for every parameter type available 
   <a href="/devs/params/gutenberg" className="topic-card">
     <h3>Gutenberg</h3>
     <p>Gutenberg block integration support.</p>
+  </a>
+
+  <a href="/devs/params/hidden" className="topic-card">
+    <h3>Hidden</h3>
+    <p>Hidden input for storing internal values.</p>
   </a>
 </div>
 
@@ -277,14 +250,21 @@ vc_map([
 All parameter types support these common options:
 
 - `type` - The parameter type
+- `holder` - HTML tag name where the attribute value is displayed in backend edit mode (default: hidden input)
+- `class` - CSS class added to the `holder` HTML tag
 - `heading` - Label displayed to the user
 - `param_name` - Unique identifier
-- `value` - Default value
+- `value` - Value for the parameter
 - `description` - Help text
 - `group` - Tab/group organization
+- `weight` - Display order (higher = shows first)
 - `dependency` - Conditional visibility
 - `admin_label` - Display in element title
 - `edit_field_class` - CSS class for field width
+- `param_holder_class` - CSS class for the param wrapper in the edit element modal
+- `save_always` - Force saving the param value to the shortcode even if it equals the default or is empty
+- `callback` - JavaScript function callback attached to the window object (e.g., `['after_add' => 'vcChartParamAfterAddCallback']`)
+- `settings` - Array of type-specific configuration options (varies per param type, see individual param docs)
 
 ## Next Steps
 

@@ -169,7 +169,7 @@ During the development process, we always receive some quality feedback from our
 ## Useful to Check
 
 <div className="topic-cards">
-  <a href="/devs/filters" className="topic-card">
+  <a href="/devs/hooks/filters" className="topic-card">
     <h3>Filters</h3>
     <p>Explore available WordPress filters for extending WPBakery Page Builder.</p>
   </a>

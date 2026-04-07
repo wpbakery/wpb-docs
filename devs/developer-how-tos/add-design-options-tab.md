@@ -19,18 +19,18 @@ Map "css" param in your [vc_map()](/devs/inner-api/vc_map) function call:
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- vc_map( array(
+ vc_map( [
   "name" => __( "Bar tag test", "my-text-domain" ),
   "base" => "bartag",
-  "params" => array(
-  array(
+  "params" => [
+  [
   'type' => 'css_editor',
   'heading' => __( 'Css', 'my-text-domain' ),
   'param_name' => 'css',
   'group' => __( 'Design options', 'my-text-domain' ),
-  ),
-  ),
- ) );
+  ],
+  ],
+ ] );
 }
 class WPBakeryShortCode_Bartag extends WPBakeryShortCode {
 }
@@ -49,9 +49,9 @@ Copy paste this code to wp-content/themes/%your-theme%/vc_templates/bartag.php f
 ```php
 <?php
 $css = '';
-extract(shortcode_atts(array(
+extract(shortcode_atts([
   'css' => ''
-), $atts));
+], $atts));
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $css, ' ' ), $this->settings['base'], $atts );
 ?>
 <div class="<?php echo esc_attr( $css_class ); ?>">

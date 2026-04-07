@@ -107,10 +107,10 @@ vc_map([
 * Description - An array that defines dependencies for the parameter. This allows you to show or hide the parameter based on the values of other parameters.
 * Example:
 ```php
-'dependency' => array(
+'dependency' => [
     'element' => 'some_other_param',
-    'value' => array('value1', 'value2'),
-),
+    'value' => ['value1', 'value2'],
+],
 ```
 
 ### edit_field_class
@@ -308,15 +308,6 @@ There are multiple attribute types available, this field is used to "tell" WPBak
 'type' => 'autocomplete',
 ```
 
-### href
-
-* Type - String
-* Description - Use it to create url link button that lets the user insert additional url attributes.
-* Example:
-```php
-'type' => 'href',
-```
-
 ### iconpicker
 
 * Type - String
@@ -356,7 +347,7 @@ It is possible to link param with another param by defining dependency param. De
 * Description - The value(s) that the dependent parameter will show for. If the value of the dependent parameter matches this, the parameter will be displayed.
 * Example:
 ```php
-'value' => array('value1', 'value2'),
+'value' => ['value1', 'value2'],
 ```
 
 ### not_empty
@@ -383,5 +374,5 @@ It is possible to link param with another param by defining dependency param. De
 * Description - It helps handle fields that store comma-separated values, converting them into arrays on the frontend. For example, a custom sorter param saves item order as a string. This dependency rule enables dynamic visibility of settings based on enabled items.
 * Example:
 ```php
-'value_includes' => array('include1', 'include2'),
+'value_includes' => ['include1', 'include2'],
 ```

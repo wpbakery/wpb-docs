@@ -31,10 +31,10 @@ $shortcode = 'my_shortcode';
 * Description - Array with list of settings that should be updated for desired content element. List of [settings](/devs/element-development/parameter-types) that can be changed.
 * Example:
 ```php
-$settings = array(
+$settings = [
     'name' => __( 'New Name', 'my-text-domain' ),
     'description' => __( 'New description for the content element.', 'my-text-domain' ),
-);
+];
 ```
 
 ## Example
@@ -42,10 +42,10 @@ How to change default `name` and `category` values for "Message box" content ele
 
 ```php
 <?php
-$settings = array (
+$settings = [
     'name' => __( 'Mew name', 'my-text-domain' ),
     'category' => __( 'New category name', 'my-text-domain' )
-);
+];
 
 vc_map_update( 'vc_message', $settings ); // Note: 'vc_message' was used as a base for "Message box" element
 ?>

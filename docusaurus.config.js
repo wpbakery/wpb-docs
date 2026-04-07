@@ -97,21 +97,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Guide',
+            label: 'Documentation',
           },
           {
             type: 'docSidebar',
             sidebarId: 'devsSidebar',
             docsPluginId: 'devs',
             position: 'left',
-            label: 'Devs',
-          },
-          {
-            href: 'https://github.com/wpbakery/dev-example',
-            label: 'Dev Example Boilerplate ↗',
-            position: 'right',
-            target: '_blank',
-            className: 'devs-only-nav-item',
+            label: 'Development',
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
@@ -121,7 +114,7 @@ const config = {
           },
           {
             href: 'https://wpbakery.com',
-            label: 'Get WPBakery Page Builder ↗',
+            label: 'Get WPBakery ↗',
             position: 'right',
             target: '_blank',
           },

@@ -154,11 +154,11 @@ Parameters define the options users see when editing the element in the WPBakery
 * Description - Enter version number from which content element will be deprecated. It will be moved to the "Deprecated" tab in "Add element" window and notification message will be shown on elements edit page. To hide element from "Add element" all together use 'content_element'=>false (Available from WPBakery Page Builder 4.5).
 * Example:
 ```php
-'deprecated' => array(
+'deprecated' => [
     'version' => '5.0',
     'message' => __('This element is deprecated, please use [new_shortcode] instead.', 'my-text-domain'),
     'base' => 'new_shortcode',
-),
+],
 ```
 
 ## content_element
@@ -176,20 +176,20 @@ Parameters define the options users see when editing the element in the WPBakery
 * Description - Array of parameters for your element. Each parameter is an associative array with its own set of keys and values.
 * Example:
 ```php
-'params' => array(
-    array(
+'params' => [
+    [
         'type' => 'textfield',
         'heading' => __('Button Text', 'my-text-domain'),
         'param_name' => 'button_text',
         'value' => __('Click Me', 'my-text-domain'),
         'description' => __('Text to display on the button', 'my-text-domain'),
-    ),
-    array(
+    ],
+    [
         'type' => 'colorpicker',
         'heading' => __('Button Color', 'my-text-domain'),
         'param_name' => 'button_color',
         'value' => '#ff0000',
         'description' => __('Choose a color for the button', 'my-text-domain'),
-    ),
-),
+    ],
+],
 ```

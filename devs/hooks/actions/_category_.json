@@ -1,0 +1,10 @@
+{
+  "label": "Actions",
+  "position": 2,
+  "collapsible": false,
+  "className": "single-link-category",
+  "link": {
+    "type": "doc",
+    "id": "hooks/actions/overview"
+  }
+}

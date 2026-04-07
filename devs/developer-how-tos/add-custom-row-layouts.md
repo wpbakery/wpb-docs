@@ -16,11 +16,11 @@ WPBakery Page Builder comes with a set of predefined row layouts (most popular v
 add_action( 'vc_after_init_base', 'add_more_custom_layouts' );
 function add_more_custom_layouts() {
  global $vc_row_layouts;
- array_push( $vc_row_layouts, array(
+ array_push( $vc_row_layouts, [
  'cells' => '16_16_16_12',
  'mask' => '424',
  'title' => 'Custom 1/6 + 1/6 + 1/6 + 1/2',
- 'icon_class' => 'l_16_16_16_12' ),
+ 'icon_class' => 'l_16_16_16_12' ],
  );
 }
 ```

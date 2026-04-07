@@ -16,7 +16,7 @@ SINCE 4.8
 To add custom preset to one of the WPBakery Page Builder content elements you should run *vc_register_settings_preset* action and pass new preset settings to it.
 
 ```php
-<?php do_action( 'vc_register_settings_preset', $name, $element_base = String, $settings = array(), $default = Boolean ); ?>
+<?php do_action( 'vc_register_settings_preset', $name, $element_base = String, $settings = [], $default = Boolean ); ?>
 ```
 
 ## Params
@@ -37,15 +37,15 @@ For plugins, you must do it after *vc_after_init* event has fired. For themes yo
 // For plugins
 add_action('vc_after_init', 'your_prefix_add_presets');
 function your_prefix_add_presets() {
- do_action( 'vc_register_settings_preset', 'First preset', 'vc_column_text', array(
+ do_action( 'vc_register_settings_preset', 'First preset', 'vc_column_text', [
  'content' => 'Content with some <b>bold</b> text. This is default preset',
  'el_class' => 'custom_classname',
  'css_animation' => ''
- ), true ); // This preset will be set as default if: a) this content element don't have default preset set yet. b) Prior to this action you reset default preset
+ ], true ); // This preset will be set as default if: a) this content element don't have default preset set yet. b) Prior to this action you reset default preset
 
- do_action( 'vc_register_settings_preset', 'Second preset', 'vc_column_text', array(
+ do_action( 'vc_register_settings_preset', 'Second preset', 'vc_column_text', [
  'content' => 'Short and simple.'
- ), false );
+ ], false );
 }
 ?>
 ```
