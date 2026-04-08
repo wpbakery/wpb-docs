@@ -5,7 +5,7 @@ hide_table_of_contents: true
 slug: /faq/where-can-i-get-official-support
 ---
 
-# Where Can I Get Official Support?
+# Where can I get official support?
 
 If you have any questions which are not covered in this FAQ sections, please review other chapters of knowledge base by using Table of Content or use our official support system at [support.wpbakery.com](http://support.wpbakery.com/)
 

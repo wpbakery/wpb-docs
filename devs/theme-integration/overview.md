@@ -5,11 +5,11 @@ hide_table_of_contents: true
 slug: /theme-integration
 ---
 
-# Theme Integration
+# Theme integration
 
 It seems you have decided to enhance your WordPress theme by adding WPBakery Page Builder plugin. This section will guide you through everything you need to know about theme integration, including marketing rules of using our plugin and also a technical description on how to properly integrate WPBakery Page Builder into your theme. In addition please make sure you have read all the licensing terms of WPBakery Page Builder and accept all the rules.
 
-## Integration Guides
+## Integration guides
 
 <div className="topic-cards">
   <a href="/devs/theme-integration/marketing" className="topic-card">

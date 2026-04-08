@@ -1,9 +1,9 @@
 ---
-title: Exploded Textarea Safe
+title: Exploded textarea safe
 sidebar_label: exploded_textarea_safe
 ---
 
-# Exploded Textarea Safe
+# Exploded textarea safe
 
 **Type:** `exploded_textarea_safe`
 

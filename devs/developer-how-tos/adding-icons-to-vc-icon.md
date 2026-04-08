@@ -1,13 +1,13 @@
 ---
 id: adding-icons-to-vc-icon
-title: Adding Icons to vc_icon
-sidebar_label: Adding Icons to vc_icon
+title: Adding icons to vc_icon
+sidebar_label: Adding icons to vc_icon
 sidebar_position: 10
 hide_table_of_contents: true
 slug: /developers-how-tos/adding-icons-to-vc_icon
 ---
 
-# Adding Icons to vc_icon
+# Adding icons to vc_icon
 
 It is possible to add your own icons to WPBakery Page Builder shortcode vc_icon by following these steps:
 

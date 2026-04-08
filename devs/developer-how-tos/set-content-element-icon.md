@@ -1,13 +1,13 @@
 ---
 id: set-content-element-icon
-title: Set Content Element Icon
-sidebar_label: Set Content Element Icon
+title: Set content element icon
+sidebar_label: Set content element icon
 sidebar_position: 25
 hide_table_of_contents: true
 slug: /developers-how-tos/set-content-element-icon
 ---
 
-# Set Content Element Icon
+# Set content element icon
 
 WPBakery Page Builder content element's icon is visible in the available content elements list and is shown when the user clicks "Add element" button in the WPBakery Page Builder interface.
 

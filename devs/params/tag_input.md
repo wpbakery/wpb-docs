@@ -1,9 +1,9 @@
 ---
-title: Tag Input
+title: Tag input
 sidebar_label: tag_input
 ---
 
-# Tag Input
+# Tag input
 
 **Type:** `tag_input`
 

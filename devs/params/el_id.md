@@ -1,9 +1,9 @@
 ---
-title: El Id
+title: El id
 sidebar_label: el_id
 ---
 
-# El Id
+# El id
 
 **Type:** `el_id`
 

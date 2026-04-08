@@ -3,7 +3,7 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
-# Extended License (Theme Integration)
+# Extended license (theme integration)
 
 Extended License (Theme Integration) allows the use of the item in one single website and receive updates for it.
 

@@ -1,13 +1,13 @@
 ---
 id: update-single-param-values
-title: Update Single Param Values
-sidebar_label: Update Single Param Values
+title: Update single param values
+sidebar_label: Update single param values
 sidebar_position: 26
 hide_table_of_contents: true
 slug: /developers-how-tos/update-single-param-values
 ---
 
-# Update Single Param Values
+# Update single param values
 
 After [vc_map()](/devs/inner-api/vc_map) function call all mapping data is stored in memory, if you need to modify one of the existing parameters you can use this technique. This is useful if you want to make a simple change to the existing content elements. For example: Add more color options to the color drop down in the *"Call to Action"* content element.
 

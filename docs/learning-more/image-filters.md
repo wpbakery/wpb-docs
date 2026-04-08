@@ -1,7 +1,7 @@
 ---
 id: image-filters
-title: Image Filters
-sidebar_label: Image Filters
+title: Image filters
+sidebar_label: Image filters
 sidebar_position: 18
 hide_table_of_contents: true
 ---

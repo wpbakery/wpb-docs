@@ -1,9 +1,9 @@
 ---
-title: Google Fonts
+title: Google fonts
 sidebar_label: google_fonts
 ---
 
-# Google Fonts
+# Google fonts
 
 **Type:** `google_fonts`
 

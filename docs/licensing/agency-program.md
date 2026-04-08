@@ -3,7 +3,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-# Agency Program
+# Agency program
 
 If you are looking to purchase 20+ licenses at one time, then the Agency Program is the best solution for you. You can check more details about the Agency License Packs [here](https://wpbakery.com/wpbakery-agency-program/).
 

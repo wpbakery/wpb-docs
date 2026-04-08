@@ -1,7 +1,7 @@
 ---
 id: checkout-error-address-length
-title: I keep getting this error during checkout while purchasing the plugin - Address fields can have a maximum length of 50 characters
-sidebar_label: I keep getting this error during checkout while purchasing the plugin - Address fields can have a maximum length of 50 characters
+title: I keep getting this error during checkout while purchasing the plugin - address fields can have a maximum length of 50 characters
+sidebar_label: I keep getting this error during checkout while purchasing the plugin - address fields can have a maximum length of 50 characters
 sidebar_position: 6
 hide_table_of_contents: true
 slug: /faq/i-keep-getting-this-error-during-checkout-while-purchasing-the-plugin-address-fields-can-have-a-maximum-length-of-50-characters

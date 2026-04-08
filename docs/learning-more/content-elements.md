@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Content Elements
+# Content elements
 
 This is a list of 40+ available content elements that can be placed on the working canvas or inside of the columns. Think of them as bricks. With those bricks, you are building your layout. Most of the content elements have options to set them click pencil icon. To save changes click save button.
 

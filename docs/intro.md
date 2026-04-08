@@ -4,7 +4,7 @@ sidebar_label: Introduction
 hide_table_of_contents: true
 ---
 
-# WPBakery Page Builder Documentation
+# WPBakery Page Builder documentation
 
 Welcome to the WPBakery Page Builder documentation. This comprehensive guide will help you get the most out of WPBakery Page Builder, whether you're a user, developer, or theme author.
 

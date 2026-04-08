@@ -1,9 +1,9 @@
 ---
-title: Param Group
+title: Param group
 sidebar_label: param_group
 ---
 
-# Param Group
+# Param group
 
 **Type:** `param_group`
 

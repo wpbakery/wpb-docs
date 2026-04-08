@@ -1,9 +1,9 @@
 ---
-title: Textarea Safe
+title: Textarea safe
 sidebar_label: textarea_safe
 ---
 
-# Textarea Safe
+# Textarea safe
 
 **Type:** `textarea_safe`
 

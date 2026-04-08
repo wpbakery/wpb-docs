@@ -1,13 +1,13 @@
 ---
 id: remove-edit-from-admin-bar
-title: Remove "Edit with WPBakery Page Builder" from WordPress Admin Bar
-sidebar_label: Remove "Edit with WPBakery Page Builder" from WordPress Admin Bar
+title: Remove "Edit with WPBakery Page Builder" from WordPress admin bar
+sidebar_label: Remove "Edit with WPBakery Page Builder" from WordPress admin bar
 sidebar_position: 21
 hide_table_of_contents: true
 slug: /developers-how-tos/remove-edit-with-wpbakery-page-builder-from-wordpress-admin-bar
 ---
 
-# Remove "Edit with WPBakery Page Builder" from WordPress Admin Bar
+# Remove "Edit with WPBakery Page Builder" from WordPress admin bar
 
 You can remove "Edit with WPBakery Page Builder" option from your WordPress admin bar by adding following code to your WordPress theme's *functions.php* file.
 

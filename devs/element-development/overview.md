@@ -3,7 +3,7 @@ sidebar_position: 0
 sidebar_label: Overview
 ---
 
-# Element Development
+# Element development
 
 Learn the core concepts and techniques for creating custom elements in WPBakery Page Builder.
 

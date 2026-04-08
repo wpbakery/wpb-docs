@@ -1,9 +1,9 @@
 ---
-title: Widgetised Sidebars
+title: Widgetised sidebars
 sidebar_label: widgetised_sidebars
 ---
 
-# Widgetised Sidebars
+# Widgetised sidebars
 
 **Type:** `widgetised_sidebars`
 

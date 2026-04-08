@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Theme Integration Technical
+# Theme integration technical
 
 If you are theme author you may want to integrate [WPBakery Page Builder](https://wpbakery.com/) right into your WordPress theme.
 

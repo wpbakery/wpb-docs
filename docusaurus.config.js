@@ -33,7 +33,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
+          // editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
           sidebarCollapsible: true,
           sidebarCollapsed: true,
         },
@@ -43,7 +43,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/wpbakery/wpb-docs/tree/main/',
+          // editUrl: 'https://github.com/wpbakery/wpb-docs/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -65,7 +65,7 @@ const config = {
         path: 'devs',
         routeBasePath: 'devs',
         sidebarPath: './sidebars-devs.js',
-        editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
+        // editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
         sidebarCollapsible: true,
         sidebarCollapsed: false,
       },

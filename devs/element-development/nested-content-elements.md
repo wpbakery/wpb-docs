@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Nested Content Elements
+# Nested content elements
 If you are looking for a way to create content elements with "nested" structure, [have a look at this example](#).
 
 ## Example

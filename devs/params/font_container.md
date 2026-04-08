@@ -1,9 +1,9 @@
 ---
-title: Font Container
+title: Font container
 sidebar_label: font_container
 ---
 
-# Font Container
+# Font container
 
 **Type:** `font_container`
 

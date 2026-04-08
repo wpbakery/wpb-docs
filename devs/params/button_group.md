@@ -1,9 +1,9 @@
 ---
-title: Button Group
+title: Button group
 sidebar_label: button_group
 ---
 
-# Button Group
+# Button group
 
 **Type:** `button_group`
 

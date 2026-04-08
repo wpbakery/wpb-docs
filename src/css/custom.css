@@ -339,6 +339,18 @@ body > nav.navbar {
   border-inline-end-color: var(--ifm-toc-border-color);
 }
 
+[data-theme='dark'] .menu__link,
+[data-theme='dark'] .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible .menu__link,
+[data-theme='dark'] .theme-doc-sidebar-item-link-level-1 .menu__link,
+[data-theme='dark'] .theme-doc-sidebar-item-link-level-2 .menu__link {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .menu__link:hover,
+[data-theme='dark'] .menu__link--active {
+  color: #0772CE;
+}
+
 /* Sidebar viewport styling */
 .sidebarViewport_aRkj {
   top: 0;
@@ -444,40 +456,37 @@ body > nav.navbar {
 }
 
 .menu__list-item {
-  margin: 0.125rem 0;
+  margin: 0.15rem 0;
 }
 
 /* Root level items spacing */
 .theme-doc-sidebar-item-category-level-1,
 .theme-doc-sidebar-item-link-level-1 {
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
 }
 
-/* Category level 1 - parent menu items (like "Getting Started") */
+/* Category level 1 - parent menu items */
 .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible .menu__link {
-  color: var(--sidebar-category-c);
-  font-size: 0.938rem; /* 15px */
-  font-weight: 600;
-  line-height: 100%;
+  color: rgba(12, 38, 61, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
-/* Direct link items at root level (like "Outro", "Become a WPB Tester") */
+/* Direct link items at root level */
 .theme-doc-sidebar-item-link-level-1 .menu__link {
-  color: var(--sidebar-category-c);
-  font-size: 0.938rem; /* 15px */
-  font-weight: 600;
-  line-height: 100%;
+  color: rgba(12, 38, 61, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 /* Sublist link specific styles - only for categories with children */
 .menu__link--sublist {
   align-items: center;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-block-end: 0;
-  padding-inline-end: 0;
-  padding-inline-start: 0;
   padding: 0.5rem 0;
 }
 
@@ -485,13 +494,13 @@ body > nav.navbar {
 .menu__link {
   display: flex;
   align-items: center;
-  font-size: 0.813rem; /* 13px */
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 16px;
-  color: var(--ifm-menu-color);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5;
+  color: rgba(12, 38, 61, 1);
   border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   width: 100%;
   transition: opacity 0.2s ease-out;
 }
@@ -503,10 +512,10 @@ body > nav.navbar {
 
 /* Level 2 items specifically */
 .theme-doc-sidebar-item-link-level-2 .menu__link {
-  font-size: 0.813rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(12, 38, 61, 1);
 }
 
 .menu__link:not(.menu__link--active):not(.menu__link--sublist) {
@@ -514,25 +523,21 @@ body > nav.navbar {
 }
 
 .menu__link:hover {
-  opacity: 0.8;
-  color: var(--ifm-font-color-base);
+  color: #0772CE !important;
+  opacity: 1;
   text-decoration: none;
 }
 
-.menu__link--active {
-  color: var(--ifm-menu-color-active);
-  font-weight: 500;
-}
-
+.menu__link--active,
 .menu__link--active:hover {
-  color: var(--ifm-menu-color-active);
+  color: #0772CE !important;
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-  background-color: var(--ifm-menu-color-background-active);
+  background-color: transparent;
 }
 
-/* Dropdown arrow/caret icon - only for categories */
+/* Dropdown chevron icon - only for categories */
 .menu__link--sublist:after,
 .menu__link--sublist-caret:after {
   content: '';
@@ -541,26 +546,27 @@ body > nav.navbar {
   height: var(--dropdown-icon-height);
   width: var(--dropdown-icon-width);
   margin-block-end: 0;
-  margin-inline-end: var(--dropdown-icon-gap);
-  margin-inline-start: unset;
-  margin-left: unset;
+  margin-inline-end: 0;
+  margin-inline-start: auto;
+  margin-left: auto;
   min-width: auto;
   transition: transform var(--ifm-transition-fast, 200ms) linear;
-  transform: rotate(90deg); /* Point right when collapsed */
+  transform: rotate(90deg);
   filter: var(--ifm-menu-link-sublist-icon-filter);
+  order: 1;
 }
 
-/* Expanded state - rotate arrow down */
+/* Expanded state - rotate chevron */
 .menu__link--sublist[aria-expanded='true']:after,
 .menu__link--sublist-caret[aria-expanded='true']:after,
 .menu__list-item:not(.menu__list-item--collapsed) > .menu__list-item-collapsible > .menu__link--sublist:after {
-  transform: rotate(180deg); /* Point down when expanded */
+  transform: rotate(180deg);
 }
 
-/* Collapsed state - ensure arrow points right even when active */
+/* Collapsed state */
 .menu__list-item--collapsed > .menu__list-item-collapsible > .menu__link--sublist:after,
 .menu__link--sublist[aria-expanded='false']:after {
-  transform: rotate(90deg) !important; /* Point right when collapsed */
+  transform: rotate(90deg) !important;
 }
 
 /* Hide arrow for non-category items */
@@ -926,6 +932,63 @@ td {
 }
 
 
+/* Style DocCardList items to match topic-cards */
+article.col.col--6[class*="docCardListItem"] {
+  --ifm-col-width: calc(4 / 12 * 100%) !important;
+  margin-bottom: 1rem;
+}
+
+article[class*="docCardListItem"] .card {
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 8px;
+  padding: 1.5rem !important;
+  transition: all 0.2s ease;
+  height: 100%;
+  box-shadow: none;
+}
+
+article[class*="docCardListItem"] .card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+[data-theme='dark'] article[class*="docCardListItem"] .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+article[class*="docCardListItem"] .card h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  line-height: 1.4;
+  margin: 0 0 0.5rem 0;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+article[class*="docCardListItem"] .card:hover h2 {
+  color: var(--ifm-color-primary-dark);
+}
+
+article[class*="docCardListItem"] .card p,
+[class*="cardDescription"] {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+  display: block !important;
+}
+
 /* Hide prev/next pagination at the bottom of doc pages */
 .pagination-nav {
   display: none;
@@ -935,6 +998,10 @@ td {
 @media (max-width: 768px) {
   .topic-cards {
     grid-template-columns: 1fr;
+  }
+
+  article.col.col--6[class*="docCardListItem"] {
+    --ifm-col-width: 50% !important;
   }
 
   .navbar__brand {

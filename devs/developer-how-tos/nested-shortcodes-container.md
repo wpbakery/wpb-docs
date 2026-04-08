@@ -1,13 +1,13 @@
 ---
 id: nested-shortcodes-container
-title: Nested Shortcodes (container)
-sidebar_label: Nested Shortcodes (container)
+title: Nested shortcodes (container)
+sidebar_label: Nested shortcodes (container)
 sidebar_position: 19
 hide_table_of_contents: true
 slug: /developers-how-tos/nested-shortcodes-container
 ---
 
-# Nested Shortcodes (container)
+# Nested shortcodes (container)
 
 This document explains how to create and work with nested elements (container elements that can hold other elements), such as tabs, accordions, and custom container components.
 

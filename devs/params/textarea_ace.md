@@ -1,9 +1,9 @@
 ---
-title: Textarea Ace
+title: Textarea ace
 sidebar_label: textarea_ace
 ---
 
-# Textarea Ace
+# Textarea ace
 
 **Type:** `textarea_ace`
 

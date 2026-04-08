@@ -1,9 +1,9 @@
 ---
-title: Textarea Html
+title: Textarea HTML
 sidebar_label: textarea_html
 ---
 
-# Textarea Html
+# Textarea HTML
 
 **Type:** `textarea_html`
 

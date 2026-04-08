@@ -1,9 +1,9 @@
 ---
-title: Exploded Textarea
+title: Exploded textarea
 sidebar_label: exploded_textarea
 ---
 
-# Exploded Textarea
+# Exploded textarea
 
 **Type:** `exploded_textarea`
 

@@ -1,9 +1,9 @@
 ---
-title: Attach Image
+title: Attach image
 sidebar_label: attach_image
 ---
 
-# Attach Image
+# Attach image
 
 **Type:** `attach_image`
 

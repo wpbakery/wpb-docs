@@ -1,9 +1,9 @@
 ---
-title: Custom Markup
+title: Custom markup
 sidebar_label: custom_markup
 ---
 
-# Custom Markup
+# Custom markup
 
 **Type:** `custom_markup`
 

@@ -3,7 +3,7 @@ sidebar_position: 0
 sidebar_label: Overview
 ---
 
-# Developer How To's
+# Developer how to's
 
 Periodically we update our "How To" section with new materials.
 

@@ -1,13 +1,13 @@
 ---
 id: add-design-options-tab
-title: "Add \"Design Options\" Tab with CSS Editor to Your Element"
-sidebar_label: "Add \"Design Options\" Tab with CSS Editor to Your Element"
+title: "Add \"Design Options\" tab with CSS editor to your element"
+sidebar_label: "Add \"Design Options\" tab with CSS editor to your element"
 sidebar_position: 6
 hide_table_of_contents: true
 slug: /developers-how-tos/add-design-options-tab-with-css-editor-to-your-element
 ---
 
-# Add "Design Options" Tab with CSS Editor to Your Element
+# Add "Design Options" tab with CSS editor to your element
 
 Adding CSS editor to your content element is very easy and it is a two steps process. First, map your attribute in [vc_map()](/devs/inner-api/vc_map) function call, then make sure you output it in your content element template file.
 

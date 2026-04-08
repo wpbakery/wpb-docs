@@ -1,7 +1,7 @@
 ---
 id: how-to-add-old-style-post-grid
-title: How to add old style post grid with Grid Builder?
-sidebar_label: How to add old style post grid with Grid Builder?
+title: How to add old style post grid with grid builder?
+sidebar_label: How to add old style post grid with grid builder?
 sidebar_position: 9
 hide_table_of_contents: true
 slug: /wpbakery-page-builder-how-tos/how-to-add-old-style-post-grid-with-grid-builder

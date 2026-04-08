@@ -1,9 +1,9 @@
 ---
-title: Linked Fields
+title: Linked fields
 sidebar_label: linked_fields
 ---
 
-# Linked Fields
+# Linked fields
 
 **Type:** `linked_fields`
 

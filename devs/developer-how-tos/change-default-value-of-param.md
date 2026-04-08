@@ -1,13 +1,13 @@
 ---
 id: change-default-value-of-param
-title: Change Default Value of Param
-sidebar_label: Change Default Value of Param
+title: Change default value of param
+sidebar_label: Change default value of param
 sidebar_position: 12
 hide_table_of_contents: true
 slug: /developers-how-tos/change-default-value-of-param
 ---
 
-# Change Default Value of Param
+# Change default value of param
 
 It is possible to change default value of existing params.
 

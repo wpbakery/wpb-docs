@@ -1,13 +1,13 @@
 ---
 id: change-css-class-names
-title: Change CSS Class Names in Output
-sidebar_label: Change CSS Class Names in Output
+title: Change CSS class names in output
+sidebar_label: Change CSS class names in output
 sidebar_position: 11
 hide_table_of_contents: true
 slug: /developers-how-tos/change-css-class-names-in-output
 ---
 
-# Change CSS Class Names in Output
+# Change CSS class names in output
 
 SINCE 3.6
 

@@ -1,13 +1,13 @@
 ---
 id: wpbakery-beta-testing-guide-steps-tips
-title: "WPBakery Beta Testing Guide: Steps & Tips"
-sidebar_label: "WPBakery Beta Testing Guide: Steps & Tips"
+title: "WPBakery beta testing guide: steps & tips"
+sidebar_label: "WPBakery beta testing guide: steps & tips"
 sidebar_position: 5
 hide_table_of_contents: true
 slug: /developers-how-tos/wpbakery-beta-testing-guide-steps-tips
 ---
 
-# WPBakery Beta Testing Guide: Steps & Tips
+# WPBakery beta testing guide: steps & tips
 
 Since 8.2
 WPBakery now allows you to beta-test new features before they are officially released.

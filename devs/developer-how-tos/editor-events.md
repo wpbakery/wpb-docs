@@ -1,13 +1,13 @@
 ---
 id: editor-events
-title: Editor Events
-sidebar_label: Editor Events
+title: Editor events
+sidebar_label: Editor events
 sidebar_position: 29
 hide_table_of_contents: true
 slug: /developers-how-tos/editor-events
 ---
 
-# Editor Events
+# Editor events
 
 This document explains the JavaScript events available in WPBakery Page Builder’s editor, allowing you to respond to user actions and editor state changes in real-time.
 

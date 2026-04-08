@@ -1,13 +1,13 @@
 ---
 id: custom-types-ready-with-toolset
-title: Custom Types Ready with Toolset
-sidebar_label: Custom Types Ready with Toolset
+title: Custom types ready with Toolset
+sidebar_label: Custom types ready with Toolset
 sidebar_position: 3
 hide_table_of_contents: true
 slug: /developers-how-tos/custom-types-ready-with-toolset
 ---
 
-# Custom Types Ready with Toolset
+# Custom types ready with Toolset
 
 WPBakery Page Builder is fully custom types ready by ensuring compatibility with Toolset. This allows you to build sites based on custom post types. This document will explain to you how to build custom types based solutions by using travel site example.
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Plugin Installation
+# Plugin installation
 
 WPBakery Page Builder installation doesn't differ from any other plugin installation process, so you might be familiar with this process already. If not, please follow instructions below.
 

@@ -1,7 +1,7 @@
 ---
 id: how-to-add-text-block
-title: How to add Text Block?
-sidebar_label: How to add Text Block?
+title: How to add text block?
+sidebar_label: How to add text block?
 sidebar_position: 11
 hide_table_of_contents: true
 slug: /wpbakery-page-builder-how-tos/how-to-add-text-block

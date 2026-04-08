@@ -1,9 +1,9 @@
 ---
-title: Animation Style
+title: Animation style
 sidebar_label: animation_style
 ---
 
-# Animation Style
+# Animation style
 
 **Type:** `animation_style`
 

@@ -3,7 +3,7 @@ sidebar_position: 0
 sidebar_label: Overview
 ---
 
-# Getting Started
+# Getting started
 
 Before you begin developing custom elements or extending WPBakery Page Builder, it's important to understand the fundamental concepts and setup requirements.
 

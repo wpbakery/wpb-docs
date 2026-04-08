@@ -1,9 +1,9 @@
 ---
-title: Css Editor
+title: CSS editor
 sidebar_label: css_editor
 ---
 
-# Css Editor
+# CSS editor
 
 **Type:** `css_editor`
 

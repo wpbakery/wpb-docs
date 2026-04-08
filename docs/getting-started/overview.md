@@ -4,7 +4,7 @@ sidebar_label: Overview
 hide_table_of_contents: true
 ---
 
-# Getting Started
+# Getting started
 
 Thank you for purchasing WPBakery Page Builder and congratulations with the huge win which you are going to experience once you start using our amazing page builder which will bring you a new experience in building your WordPress pages and also will save you tons of time.
 

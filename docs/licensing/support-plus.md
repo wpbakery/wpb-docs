@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Support Plus
+# Support plus
 
 Support Plus is a subscription service that gives you extra features and benefits for the WPBakery Page Builder plugin.
 
@@ -10,7 +10,7 @@ Support Plus is a subscription service that gives you extra features and benefit
 With purchase of WPBakery license, all customers receive one year of our premium support, that can be extended or renewed with Support Plus.
 :::
 
-## How Support Plus Works
+## How Support Plus works
 
 When you purchase a WPBakery Page Builder license, you can get Support Plus from year one with a discount (normal renewal rate applies) by adding it during the checkout. Support Plus gives you:
 

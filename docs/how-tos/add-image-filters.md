@@ -1,7 +1,7 @@
 ---
 id: how-to-add-image-filters
-title: How to Add Image Filters?
-sidebar_label: How to Add Image Filters?
+title: How to add image filters?
+sidebar_label: How to add image filters?
 sidebar_position: 7
 hide_table_of_contents: true
 slug: /wpbakery-page-builder-how-tos/how-to-add-image-filters

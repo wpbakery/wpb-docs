@@ -1,13 +1,13 @@
 ---
 id: remove-element-from-grid-builder
-title: Remove Content Element from Grid Builder
-sidebar_label: Remove Content Element from Grid Builder
+title: Remove content element from grid builder
+sidebar_label: Remove content element from grid builder
 sidebar_position: 22
 hide_table_of_contents: true
 slug: /developers-how-tos/remove-content-element-from-grid-builder
 ---
 
-# Remove Content Element from Grid Builder
+# Remove content element from grid builder
 
 To remove content elements from Grid Builder it is necessary to add the following function to the `functions.php` of your WordPress theme.
 

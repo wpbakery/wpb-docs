@@ -3,7 +3,7 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 
-# Support and Resources
+# Support and resources
 
 In this section, you will find a list of useful resources related to the WPBakery Page Builder plugin for WordPress, including the link to official support, sales page, and official website.
 

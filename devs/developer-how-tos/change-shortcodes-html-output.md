@@ -1,13 +1,13 @@
 ---
 id: change-shortcodes-html-output
-title: Change Shortcode’s HTML Output
-sidebar_label: Change Shortcode’s HTML Output
+title: Change shortcode’s HTML output
+sidebar_label: Change shortcode’s HTML output
 sidebar_position: 13
 hide_table_of_contents: true
 slug: /developers-how-tos/change-shortcodes-html-output
 ---
 
-# Change Shortcode’s HTML Output
+# Change shortcode’s HTML output
 
 SINCE 3.6.5
 If you are looking for a way to change HTML markup that is outputted by WPBakery Page Builder for a certain shortcode, below you will find few examples how you can achieve that.

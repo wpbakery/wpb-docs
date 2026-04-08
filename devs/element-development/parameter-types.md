@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Parameter Types
+# Parameter types
 
 Parameters define the options users see when editing the element in the WPBakery UI. They are added via the `params` array in `vc_map()`.
 

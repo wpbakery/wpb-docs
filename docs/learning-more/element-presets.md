@@ -1,7 +1,7 @@
 ---
 id: element-presets-my-elements
-title: Element Presets (My Elements)
-sidebar_label: Element Presets (My Elements)
+title: Element presets (my elements)
+sidebar_label: Element presets (my elements)
 sidebar_position: 19
 hide_table_of_contents: true
 slug: /learning-more/element-presets-my-elements
