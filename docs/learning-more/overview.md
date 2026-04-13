@@ -13,22 +13,22 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
 
 <div className="topic-cards">
   <a href="/docs/learning-more/basic-concept" className="topic-card">
-    <h3>Basic Concept</h3>
+    <h3>Basic concept</h3>
     <p>Understand the fundamental design pattern of adding rows, columns, and content elements to build your pages.</p>
   </a>
 
   <a href="/docs/learning-more/blank-page-wizard" className="topic-card">
-    <h3>Blank Page Wizard</h3>
+    <h3>Blank page wizard</h3>
     <p>Choose between blank page or theme layout when starting your page design with the new 7.0 interface.</p>
   </a>
 
   <a href="/docs/learning-more/content-elements" className="topic-card">
-    <h3>Content Elements</h3>
+    <h3>Content elements</h3>
     <p>Explore all available content blocks and elements you can use to build rich, dynamic pages.</p>
   </a>
 
   <a href="/docs/learning-more/wpbakery-page-builder-settings" className="topic-card">
-    <h3>WPBakery Page Builder Settings</h3>
+    <h3>WPBakery Page Builder settings</h3>
     <p>Configure global settings for your page builder including content types, role manager, and editor settings.</p>
   </a>
 
@@ -43,7 +43,7 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
   </a>
 
   <a href="/docs/learning-more/module-manager" className="topic-card">
-    <h3>Module Manager</h3>
+    <h3>Module manager</h3>
     <p>Enable or disable specific content elements to customize your page builder interface.</p>
   </a>
 
@@ -68,12 +68,12 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
   </a>
 
   <a href="/docs/learning-more/element-design-options" className="topic-card">
-    <h3>Element Design Options</h3>
+    <h3>Element design options</h3>
     <p>Customize the appearance of elements with design options like borders, padding, and backgrounds.</p>
   </a>
 
   <a href="/docs/learning-more/responsive-settings" className="topic-card">
-    <h3>Responsive Settings</h3>
+    <h3>Responsive settings</h3>
     <p>Make your pages look perfect on all devices with responsive design controls.</p>
   </a>
 
@@ -83,32 +83,32 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
   </a>
 
   <a href="/docs/learning-more/template-library" className="topic-card">
-    <h3>Template Library</h3>
+    <h3>Template library</h3>
     <p>Access pre-built professional templates to jumpstart your page designs.</p>
   </a>
 
   <a href="/docs/learning-more/shortcode-mapper" className="topic-card">
-    <h3>Shortcode Mapper</h3>
+    <h3>Shortcode mapper</h3>
     <p>Map third-party shortcodes to make them compatible with the page builder interface.</p>
   </a>
 
   <a href="/docs/learning-more/grid-builder" className="topic-card">
-    <h3>Grid Builder</h3>
+    <h3>Grid builder</h3>
     <p>Create custom post grids and media galleries with the powerful grid builder tool.</p>
   </a>
 
   <a href="/docs/learning-more/image-filters" className="topic-card">
-    <h3>Image Filters</h3>
+    <h3>Image filters</h3>
     <p>Apply Instagram-style filters and effects to your images directly in the page builder.</p>
   </a>
 
   <a href="/docs/learning-more/element-presets" className="topic-card">
-    <h3>Element Presets (My Elements)</h3>
+    <h3>Element presets (My Elements)</h3>
     <p>Save frequently used element configurations as presets for quick reuse.</p>
   </a>
 
   <a href="/docs/learning-more/keyboard-shortcuts" className="topic-card">
-    <h3>Keyboard Shortcuts</h3>
+    <h3>Keyboard shortcuts</h3>
     <p>Speed up your workflow with keyboard shortcuts for common page builder actions.</p>
   </a>
 </div>

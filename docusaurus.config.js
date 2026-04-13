@@ -108,7 +108,7 @@ const config = {
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
-            label: 'Customer Center ↗',
+            label: 'Customer center ↗',
             position: 'right',
             target: '_blank',
           },

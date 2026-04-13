@@ -21,4 +21,4 @@ You can drop us an email at: [hello@wpbakery.com](mailto:hello@wpbakery.com) wit
 | 90 site license | 40% |
 | 100 site license | 45% |
 
-For more details, visit our [Agency Program Pricing](https://wpbakery.com/wpbakery-agency-program/).
+For more details, visit our [Agency program pricing](https://wpbakery.com/wpbakery-agency-program/).
