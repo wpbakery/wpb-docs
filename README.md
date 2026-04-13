@@ -20,7 +20,7 @@ WPBakery API documentation is built with [Docusaurus](https://docusaurus.io/), a
    ```
 3. Navigate to the project directory:
    ```bash
-   cd wpb-docs-new
+   cd wpb-docs
    ```
 4. Initialize and start development
 
