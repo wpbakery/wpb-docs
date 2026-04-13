@@ -3,7 +3,7 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Basic Concept
+# Basic concept
 
 There's one concept/design pattern you should know – in the WPBakery Page Builder editor mode, you'll have "Add element" button, which you should click or drag to the working canvas, to add a content block or row to your page. If you are adding row element to your page pay attention that it will automatically add column element within the row. You can later add more columns within the row and change their behavior. Read more about rows and columns in Elements section.
 

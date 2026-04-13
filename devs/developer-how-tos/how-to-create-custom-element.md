@@ -1,13 +1,13 @@
 ---
 id: how-to-create-custom-element
-title: How To Create Custom Element
-sidebar_label: How To Create Custom Element
+title: How to create custom element
+sidebar_label: How to create custom element
 sidebar_position: 4
 hide_table_of_contents: true
 slug: /developers-how-tos/how-to-create-custom-element
 ---
 
-# How To Create Custom Element
+# How to create custom element
 
 One of the strongest sides of WPBakery is its extensibility.
 

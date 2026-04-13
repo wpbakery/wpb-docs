@@ -1,13 +1,13 @@
 ---
 id: add-google-fonts-parameter
-title: Add Google Fonts parameter
-sidebar_label: Add Google Fonts parameter
+title: Add Google fonts parameter
+sidebar_label: Add Google fonts parameter
 sidebar_position: 8
 hide_table_of_contents: true
 slug: /developers-how-tos/add-google-fonts-parameter
 ---
 
-# Add Google Fonts parameter
+# Add Google fonts parameter
 
 It is possible to add Google Fonts parameter to a custom element of WPBakery Page Builder, by following these steps:
 

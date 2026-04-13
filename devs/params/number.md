@@ -46,6 +46,7 @@ All param types support these common parameters:
 | `value` | Mixed | Value for the parameter |
 | `description` | String | Help text shown below the field |
 | `group` | String | Tab/group name to organize parameters |
+| `section` | String | Section slug to visually group params within a tab |
 | `weight` | Integer | Display order (higher = shows first) |
 | `edit_field_class` | String | CSS class for field width (e.g., "vc_col-sm-6") |
 | `dependency` | Array | Show/hide based on other field values |
@@ -64,6 +65,8 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`max` | Integer | - | Maximum allowed value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`step` | Integer | - | Step increment value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | Integer | - | Placeholder value shown when empty |
+| &nbsp;&nbsp;&nbsp;&nbsp;`units` | Boolean\|Array | `false` | Enable CSS unit selector. Set to `true` for default units (`px`, `em`, `rem`, `vw`, `vh`, `%`) or provide a custom array (e.g., `['px', 'em', '%']`). When enabled, the saved value includes the unit suffix (e.g., `"10px"`) |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default_unit` | String | First unit in list | The unit selected by default when no unit is present in the value |
 
 ## Complete Example
 
@@ -78,15 +81,29 @@ function my_element_with_number() {
         "params" => [
             [
                 "type" => "number",
-                "heading" => __("Field Label", "domain"),
-                "param_name" => "margin",
+                "heading" => __("Items Count", "domain"),
+                "param_name" => "items_count",
                 "value" => 10,
                 "settings" => [
                     "min" => 0,
                     "max" => 100,
                     "step" => 5,
                 ],
-                "description" => __("Field description", "domain"),
+                "description" => __("Number of items to display", "domain"),
+            ],
+            [
+                "type" => "number",
+                "heading" => __("Margin Top", "domain"),
+                "param_name" => "margin_top",
+                "value" => "20px",
+                "settings" => [
+                    "min" => 0,
+                    "max" => 200,
+                    "step" => 1,
+                    "units" => ['px', 'em', '%'],
+                    "default_unit" => 'px',
+                ],
+                "description" => __("Top margin with unit selector", "domain"),
             ],
         ],
     ]);

@@ -1,13 +1,13 @@
 ---
 id: disable-help-pointers
-title: Disable Instructional/Help Pointers
-sidebar_label: Disable Instructional/Help Pointers
+title: Disable instructional/help pointers
+sidebar_label: Disable instructional/help pointers
 sidebar_position: 16
 hide_table_of_contents: true
 slug: /developers-how-tos/disable-instructional-help-pointers
 ---
 
-# Disable Instructional/Help Pointers
+# Disable instructional/help pointers
 
 It is possible to disable instructional/help pointers of WPBakery Page Builder which appears during the first usage of the plugin and after an update.
 

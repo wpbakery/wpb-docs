@@ -1,13 +1,13 @@
 ---
 id: create-new-param-type
-title: Create New Param Type
-sidebar_label: Create New Param Type
+title: Create new param type
+sidebar_label: Create new param type
 sidebar_position: 15
 hide_table_of_contents: true
 slug: /developers-how-tos/create-new-param-type
 ---
 
-# Create New Param Type
+# Create new param type
 
 Sometimes you may need to add new attribute type for content element attributes. The vc_*add_shortcode_param()* function is used to register an attribute *type* handler which will form html markup for settings form in WPBakery Page Builder edit element form. It takes three parameters: the attribute type name (String used in [vc_map()](/devs/inner-api/vc_map) mapping function in type parameter), the callback function name and the javascript file absolute url.
 

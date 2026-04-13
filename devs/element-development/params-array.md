@@ -140,6 +140,15 @@ vc_map([
 'group' => __('Content', 'my-text-domain'),
 ```
 
+### section
+
+* Type - String
+* Description - Section slug used to visually group parameters within a tab. Params with the same `section` value are grouped together with a visual separator. Params without a `section` are placed in the general section (`_general`) when other params in the same group have sections. Use `vc_config()->get_advanced_section_slug()` for the built-in advanced section, or define custom section slugs. The element-level `sections` array in `vc_map()` controls section ordering within tabs. *(Available since WPBakery Page Builder 9.0)*.
+* Example:
+```php
+'section' => '_advanced',
+```
+
 ### value_type
 
 * Type - String

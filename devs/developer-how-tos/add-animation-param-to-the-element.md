@@ -1,13 +1,13 @@
 ---
 id: add-animation-param-to-the-element
-title: Add Animation Param to the Element
-sidebar_label: Add Animation Param to the Element
+title: Add animation param to the element
+sidebar_label: Add animation param to the element
 sidebar_position: 1
 hide_table_of_contents: true
 slug: /developers-how-tos/add-animation-param-to-the-element
 ---
 
-# Add Animation Param to the Element
+# Add animation param to the element
 
 WPBakery Page Builder allows you to add an `animation` parameter type to your custom elements, enabling users to select an animation for the element from the predefined list of animations.
 

@@ -1,13 +1,13 @@
 ---
 id: save-param-values-in-shortcode
-title: Save Param Values in Shortcode String
-sidebar_label: Save Param Values in Shortcode String
+title: Save param values in shortcode string
+sidebar_label: Save param values in shortcode string
 sidebar_position: 24
 hide_table_of_contents: true
 slug: /developers-how-tos/save-param-values-in-shortcode-string
 ---
 
-# Save Param Values in Shortcode String
+# Save param values in shortcode string
 
 In order to always save param value in shortcode string, it is required to use param key from `vc_map` – `save_always`. This param key has boolean type values with "false" set as default and need to be changed.
 

@@ -1,13 +1,13 @@
 ---
 id: asset-management
-title: Asset Management
-sidebar_label: Asset Management
+title: Asset management
+sidebar_label: Asset management
 sidebar_position: 28
 hide_table_of_contents: true
 slug: /developers-how-tos/asset-management
 ---
 
-# Asset Management
+# Asset management
 
 This document explains how to properly include and manage assets (CSS, JavaScript, images, fonts) in WPBakery Page Builder elements, and how to use the plugin’s built-in assets.
 

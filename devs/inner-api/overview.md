@@ -11,7 +11,7 @@ slug: /inner-api
 
 During the development process, we always receive some quality feedback from our users and developers and based on that feedback we are adding new features to the WPBakery Page Builder. One of that features was Inner API.
 
-## Element Mapping
+## Element mapping
 
 <div className="topic-cards">
   <a href="/devs/inner-api/vc_map" className="topic-card">
@@ -84,7 +84,7 @@ During the development process, we always receive some quality feedback from our
   </a>
 </div>
 
-## Shortcode Integration
+## Shortcode integration
 
 <div className="topic-cards">
   <a href="/devs/inner-api/vc_map_integrate_shortcode" className="topic-card">
@@ -98,7 +98,7 @@ During the development process, we always receive some quality feedback from our
   </a>
 </div>
 
-## Editor & Post Types
+## Editor & post types
 
 <div className="topic-cards">
   <a href="/devs/inner-api/vc_editor_post_types" className="topic-card">
@@ -132,7 +132,7 @@ During the development process, we always receive some quality feedback from our
   </a>
 </div>
 
-## Templates & Theme Integration
+## Templates & theme integration
 
 <div className="topic-cards">
   <a href="/devs/inner-api/vc_add_default_templates" className="topic-card">
@@ -166,7 +166,7 @@ During the development process, we always receive some quality feedback from our
   </a>
 </div>
 
-## Useful to Check
+## Useful to check
 
 <div className="topic-cards">
   <a href="/devs/hooks/filters" className="topic-card">
@@ -175,7 +175,7 @@ During the development process, we always receive some quality feedback from our
   </a>
 
   <a href="/devs/developers-how-tos" className="topic-card">
-    <h3>Developers "How To's"</h3>
+    <h3>Developers "how to's"</h3>
     <p>Practical guides and tutorials for developers.</p>
   </a>
 </div>

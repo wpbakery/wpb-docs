@@ -3,7 +3,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-# Agency Program
+# Agency program
 
 If you are looking to purchase 20+ licenses at one time, then the Agency Program is the best solution for you. You can check more details about the Agency License Packs [here](https://wpbakery.com/wpbakery-agency-program/).
 
@@ -21,4 +21,4 @@ You can drop us an email at: [hello@wpbakery.com](mailto:hello@wpbakery.com) wit
 | 90 site license | 40% |
 | 100 site license | 45% |
 
-For more details, visit our [Agency Program Pricing](https://wpbakery.com/wpbakery-agency-program/).
+For more details, visit our [Agency program pricing](https://wpbakery.com/wpbakery-agency-program/).

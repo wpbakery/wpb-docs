@@ -1,13 +1,13 @@
 ---
 id: control-default-presets
-title: Control Default Presets in Content Elements
-sidebar_label: Control Default Presets in Content Elements
+title: Control default presets in content elements
+sidebar_label: Control default presets in content elements
 sidebar_position: 14
 hide_table_of_contents: true
 slug: /developers-how-tos/control-default-presets-in-content-elements
 ---
 
-# Control Default Presets in Content Elements
+# Control default presets in content elements
 
 SINCE 4.8
 

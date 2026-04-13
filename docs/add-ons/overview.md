@@ -13,7 +13,7 @@ WPBakery Page Builder offers 100+ premium class add-ons developed by WPBakery Pa
 In order to add WPBakery Page Builder add-on you are required to have original WPBakery Page Builder installed.
 :::
 
-## Featured Add-ons
+## Featured add-ons
 
 <div className="topic-cards">
   <a href="/docs/add-ons/templatera" className="topic-card">
@@ -27,7 +27,7 @@ In order to add WPBakery Page Builder add-on you are required to have original W
   </a>
 
   <a href="/docs/add-ons/add-on-development-rules" className="topic-card">
-    <h3>Add-on Development Rules</h3>
+    <h3>Add-on development rules</h3>
     <p>Guidelines and standards for developing third-party add-ons for WPBakery Page Builder.</p>
   </a>
 </div>

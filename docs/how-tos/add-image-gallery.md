@@ -1,7 +1,7 @@
 ---
 id: how-to-add-image-gallery
-title: How to add Image Gallery?
-sidebar_label: How to add Image Gallery?
+title: How to add image gallery?
+sidebar_label: How to add image gallery?
 sidebar_position: 8
 hide_table_of_contents: true
 slug: /wpbakery-page-builder-how-tos/how-to-add-image-gallery

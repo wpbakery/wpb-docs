@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Theme Integration Marketing
+# Theme integration marketing
 
 There are following marketing rules divided into Do's and Don'ts you must follow if you have decided to integrate WPBakery page builder into your theme.
 

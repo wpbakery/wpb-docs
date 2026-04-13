@@ -1,7 +1,7 @@
 ---
 id: grid-builder
-title: Grid Builder
-sidebar_label: Grid Builder
+title: Grid builder
+sidebar_label: Grid builder
 sidebar_position: 17
 ---
 

@@ -1,13 +1,13 @@
 ---
 id: remove-woocommerce-elements
-title: Remove WooCommerce Mapped Content Elements
-sidebar_label: Remove WooCommerce Mapped Content Elements
+title: Remove WooCommerce mapped content elements
+sidebar_label: Remove WooCommerce mapped content elements
 sidebar_position: 23
 hide_table_of_contents: true
 slug: /developers-how-tos/remove-woocommerce-mapped-content-elements
 ---
 
-# Remove WooCommerce Mapped Content Elements
+# Remove WooCommerce mapped content elements
 
 WooCommerce content elements "mapped" into WPBakery Page Builder interface using a different technique, we call it "Vendor scripts". As a result different approach should be used in order to remove them from available content elements list.
 

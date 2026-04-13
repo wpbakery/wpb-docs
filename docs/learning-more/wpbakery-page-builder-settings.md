@@ -1,7 +1,7 @@
 ---
 id: wpbakery-page-builder-settings
-title: WPBakery Page Builder Settings
-sidebar_label: WPBakery Page Builder Settings
+title: WPBakery Page Builder settings
+sidebar_label: WPBakery Page Builder settings
 sidebar_position: 4
 hide_table_of_contents: true
 ---

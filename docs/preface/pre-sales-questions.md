@@ -3,7 +3,7 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-# Pre-sales Questions
+# Pre-sales questions
 
 ## What is the difference between WPBakery Page Builder and Visual Composer Website Builder?
 

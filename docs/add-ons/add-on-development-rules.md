@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Add-on Development Rules
+# Add-on development rules
 
 ## General Rules
 

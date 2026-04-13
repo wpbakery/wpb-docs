@@ -1,13 +1,13 @@
 ---
 id: add-iconpicker-param-to-the-element
-title: Add Iconpicker Param to the Element
-sidebar_label: Add Iconpicker Param to the Element
+title: Add iconpicker param to the element
+sidebar_label: Add iconpicker param to the element
 sidebar_position: 2
 hide_table_of_contents: true
 slug: /developers-how-tos/add-iconpicker-param-to-the-element
 ---
 
-# Add Iconpicker Param to the Element
+# Add iconpicker param to the element
 
 WPBakery Page Builder allows you to add an `iconpicker` parameter type to your custom elements, enabling users to select an icon from various icon libraries. Below is a step-by-step guide on how to integrate an icon picker with support for multiple icon libraries.
 

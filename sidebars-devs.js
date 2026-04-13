@@ -23,7 +23,7 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'Plugin Boilerplate ↗',
+      label: 'Plugin boilerplate ↗',
       href: 'https://github.com/wpbakery/dev-example',
     },
   ],

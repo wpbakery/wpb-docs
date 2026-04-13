@@ -1,7 +1,7 @@
 ---
 id: how-to-add-full-height-row-and-video-background
-title: How to Add Full Height Row and Video Background?
-sidebar_label: How to Add Full Height Row and Video Background?
+title: How to add full height row and video background?
+sidebar_label: How to add full height row and video background?
 sidebar_position: 6
 hide_table_of_contents: true
 slug: /wpbakery-page-builder-how-tos/how-to-add-full-height-row-and-video-background

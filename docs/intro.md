@@ -4,7 +4,7 @@ sidebar_label: Introduction
 hide_table_of_contents: true
 ---
 
-# WPBakery Page Builder Documentation
+# WPBakery Page Builder documentation
 
 Welcome to the WPBakery Page Builder documentation. This comprehensive guide will help you get the most out of WPBakery Page Builder, whether you're a user, developer, or theme author.
 
@@ -37,18 +37,18 @@ Answers to frequently asked questions about WPBakery Page Builder.
 - **Developer How-To's** - Technical tutorials for extending WPBakery
 - **Filters** - Available WordPress filters for customization
 
-## Quick Links
+## Quick links
 
-- [System Requirements](/docs/preface/system-requirements)
-- [Installation Guide](/docs/getting-started/plugin-installation)
-- [Support Center](https://support.wpbakery.com/)
-- [Knowledge Base](https://kb.wpbakery.com/)
+- [System requirements](/docs/preface/system-requirements)
+- [Installation guide](/docs/getting-started/plugin-installation)
+- [Support center](https://support.wpbakery.com/)
+- [Knowledge base](https://kb.wpbakery.com/)
 
 ## Getting Help
 
 If you need assistance:
 1. Check our [FAQ section](/docs/faq)
-2. Visit our [Support Center](https://support.wpbakery.com/)
-3. Browse the [Knowledge Base](https://kb.wpbakery.com/)
+2. Visit our [Support center](https://support.wpbakery.com/)
+3. Browse the [Knowledge base](https://kb.wpbakery.com/)
 
 Thank you for choosing WPBakery Page Builder!

@@ -3,7 +3,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-# Content Type
+# Content type
 
 To set for what content elements WPBakery Page Builder is enabled, go to **WP Dashboard → WPBakery Page Builder** and choose whether you want to use WPBakery Page Builder for pages, posts or both. Moreover, you can also use WPBakery Page Builder for custom posts too.
 

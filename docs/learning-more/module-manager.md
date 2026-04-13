@@ -1,7 +1,7 @@
 ---
 id: module-manager
-title: Module Manager
-sidebar_label: Module Manager
+title: Module manager
+sidebar_label: Module manager
 sidebar_position: 7
 hide_table_of_contents: true
 ---

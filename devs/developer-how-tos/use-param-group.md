@@ -1,13 +1,13 @@
 ---
 id: use-param-group
-title: Use Param Group in Elements
-sidebar_label: Use Param Group in Elements
+title: Use param group in elements
+sidebar_label: Use param group in elements
 sidebar_position: 27
 hide_table_of_contents: true
 slug: /developers-how-tos/use-param-group-in-elements
 ---
 
-# Use Param Group in Elements
+# Use param group in elements
 
 If you have shortcode with multiple grouped values, like progress bar. You can use parameter called **param_group** which simplify input for multiple grouped values. As an example see **vc_progress_bar** shortcode.
 

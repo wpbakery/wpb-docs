@@ -29,12 +29,12 @@ function your_custom_function($value, $additional_params) {
 | [`vc_add_element_categories`](/devs/hooks/filters/vc_add_element_categories) | Filters the tab categories displayed in the "Add Element" panel. |
 | [`vc_add_new_elements_to_box`](/devs/hooks/filters/vc_add_new_elements_to_box) | Filters the list of mapped shortcodes displayed in the "Add Element" box. |
 | [`vc_animation_style_render_filter`](/devs/hooks/filters/vc_animation_style_render_filter) | Filters the rendered output of the animation style parameter field. |
-| [`vc_autocomplete_callback`](/devs/hooks/filters/vc_autocomplete_callback) | Provides autocomplete suggestions for a specific shortcode parameter via AJAX. |
+| [`vc_autocomplete_{tag}_{param_name}_callback`](/devs/hooks/filters/vc_autocomplete_callback) | Provides autocomplete suggestions for a specific shortcode parameter via AJAX. |
 | [`vc_autocomplete_render_filter`](/devs/hooks/filters/vc_autocomplete_render_filter) | Filters the rendered output of the autocomplete parameter field. |
 | [`vc_autoload_components_list`](/devs/hooks/filters/vc_autoload_components_list) | Filters the list of components that are autoloaded during WPBakery initialization. |
 | [`vc_autoload_components_manifest_file`](/devs/hooks/filters/vc_autoload_components_manifest_file) | Filters the file path to the autoload components manifest file. |
-| [`vc_base_build_shortcodes_type_css`](/devs/hooks/filters/vc_base_build_shortcodes_type_css) | Filters the parsed shortcode CSS for a specific type before it is saved as post meta. |
-| [`vc_base_save_post_meta_name`](/devs/hooks/filters/vc_base_save_post_meta_name) | Filters the post meta value before it is saved during post update. |
+| [`vc_base_build_shortcodes_{type}_css`](/devs/hooks/filters/vc_base_build_shortcodes_type_css) | Filters the parsed shortcode CSS for a specific type before it is saved as post meta. |
+| [`vc_base_save_post_{meta_name}`](/devs/hooks/filters/vc_base_save_post_meta_name) | Filters the post meta value before it is saved during post update. |
 | [`vc_basic_grid_filter_query_filters`](/devs/hooks/filters/vc_basic_grid_filter_query_filters) | Filters the custom query string used in the Post Grid element when the post type is set to "custom". |
 | [`vc_basic_grid_filter_query_suppress_filters`](/devs/hooks/filters/vc_basic_grid_filter_query_suppress_filters) | Filters the `suppress_filters` parameter used in the Post Grid WP_Query. |
 | [`vc_basic_grid_find_post_shortcode`](/devs/hooks/filters/vc_basic_grid_find_post_shortcode) | Filters the shortcode data found by ID in a specific post. |
@@ -60,9 +60,9 @@ function your_custom_function($value, $additional_params) {
 | [`vc_edit_form_class`](/devs/hooks/filters/vc_edit_form_class) | Filters the array of CSS classes applied to the edit form fields container element. |
 | [`vc_edit_form_css_class`](/devs/hooks/filters/vc_edit_form_css_class) | Filters the CSS class string applied to the shortcode edit form panel container. |
 | [`vc_edit_form_enqueue_script`](/devs/hooks/filters/vc_edit_form_enqueue_script) | Filters the array of scripts registered for parameter types in the edit form. |
-| [`vc_edit_form_fields_attributes_tag`](/devs/hooks/filters/vc_edit_form_fields_attributes_tag) | Filters the shortcode attributes before they are used to populate the edit form fields. |
+| [`vc_edit_form_fields_attributes_{tag}`](/devs/hooks/filters/vc_edit_form_fields_attributes_tag) | Filters the shortcode attributes before they are used to populate the edit form fields. |
 | [`vc_edit_form_fields_optional_params`](/devs/hooks/filters/vc_edit_form_fields_optional_params) | Filters the list of optional parameter types that should not be initialized by default in the edit form. |
-| [`vc_edit_form_fields_render_field_type_before`](/devs/hooks/filters/vc_edit_form_fields_render_field_type_before) | Filters the HTML output rendered **before** a parameter field of a specific type in the WPBakery element edit form. |
+| [`vc_edit_form_fields_render_field_{type}_before`](/devs/hooks/filters/vc_edit_form_fields_render_field_type_before) | Filters the HTML output rendered **before** a parameter field of a specific type in the WPBakery element edit form. |
 | [`vc_el_id_render_filter`](/devs/hooks/filters/vc_el_id_render_filter) | Filters the rendered HTML output of the `el_id` parameter type form field. |
 | [`vc_element_settings_filter`](/devs/hooks/filters/vc_element_settings_filter) | Filters the settings array for a WPBakery element after it has been initialized from its configuration. |
 | [`vc_enqueue_frontend_editor_js`](/devs/hooks/filters/vc_enqueue_frontend_editor_js) | Filters the array of JavaScript dependency handles that are enqueued for the WPBakery frontend editor. |
@@ -71,7 +71,7 @@ function your_custom_function($value, $additional_params) {
 | [`vc_font_container_get_fonts_filter`](/devs/hooks/filters/vc_font_container_get_fonts_filter) | Filters the list of web-safe fonts available in the font container parameter's font family selector. |
 | [`vc_font_container_output_data`](/devs/hooks/filters/vc_font_container_output_data) | Filters the rendered output data array for the font container parameter before it is assembled into the final HTML output. |
 | [`vc_font_container_render_filter`](/devs/hooks/filters/vc_font_container_render_filter) | Filters the final rendered HTML output of the entire font container parameter form field. |
-| [`vc_form_fields_render_field_param`](/devs/hooks/filters/vc_form_fields_render_field_param) | Dynamic filters that allow modification of a specific parameter's configuration or value when rendering the element edit form. |
+| [`vc_form_fields_render_field_{base}_{param_name}_param`](/devs/hooks/filters/vc_form_fields_render_field_param) | Dynamic filters that allow modification of a specific parameter's configuration or value when rendering the element edit form. |
 | [`vc_front_render_shortcodes`](/devs/hooks/filters/vc_front_render_shortcodes) | Filters the final HTML output of all rendered shortcodes in the frontend editor after they have been processed and assembled. |
 | [`vc_frontend_editor_iframe_url`](/devs/hooks/filters/vc_frontend_editor_iframe_url) | This filter may be handy if you want to change transfer protocol. |
 | [`vc_frontend_editor_load_shortcode_ajax_output`](/devs/hooks/filters/vc_frontend_editor_load_shortcode_ajax_output) | Filters the complete AJAX output when loading a shortcode in the frontend editor. |
@@ -93,14 +93,14 @@ function your_custom_function($value, $additional_params) {
 | [`vc_gitem_post_data_get_link_rel`](/devs/hooks/filters/vc_gitem_post_data_get_link_rel) | Filters the `rel` attribute string for a grid item link. |
 | [`vc_gitem_post_data_get_link_title`](/devs/hooks/filters/vc_gitem_post_data_get_link_title) | Filters the `title` attribute string for a grid item link in the template-based link creation. |
 | [`vc_gitem_template_attribute_acf_value`](/devs/hooks/filters/vc_gitem_template_attribute_acf_value) | Filters the ACF (Advanced Custom Fields) field value before it is displayed in a grid item template. |
-| [`vc_gitem_template_attribute_name`](/devs/hooks/filters/vc_gitem_template_attribute_name) | Dynamic filter that allows modification of a specific grid item template attribute value. |
+| [`vc_gitem_template_attribute_{name}`](/devs/hooks/filters/vc_gitem_template_attribute_name) | Dynamic filter that allows modification of a specific grid item template attribute value. |
 | [`vc_gitem_template_attribute_post_image_background_image_css_value`](/devs/hooks/filters/vc_gitem_template_attribute_post_image_background_image_css_value) | Filters the CSS background-image property value for a post's featured image in a grid item template. |
 | [`vc_gitem_template_attribute_post_image_html`](/devs/hooks/filters/vc_gitem_template_attribute_post_image_html) | Filters the HTML output of a post's featured image in a grid item template. |
 | [`vc_gitem_template_attribute_post_image_url_value`](/devs/hooks/filters/vc_gitem_template_attribute_post_image_url_value) | Filters the post image URL value used in grid item templates. |
 | [`vc_gitem_template_attribute_post_title`](/devs/hooks/filters/vc_gitem_template_attribute_post_title) | Filters the post title used in the `title` attribute of lightbox image links within grid item templates. |
 | [`vc_gitem_template_attribute_vc_btn`](/devs/hooks/filters/vc_gitem_template_attribute_vc_btn) | Filters the rendered button output used in grid item templates, particularly for the "Load More" button in pageable grid elements. |
-| [`vc_gitem_template_attribute_woocommerce_order_field`](/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_order_field) | Dynamic filter that allows modification of WooCommerce order field values displayed in grid item templates. |
-| [`vc_gitem_template_attribute_woocommerce_product_field`](/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_product_field) | Dynamic filter that allows modification of WooCommerce product field values displayed in grid item templates. |
+| [`vc_gitem_template_attribute_woocommerce_order_{field}`](/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_order_field) | Dynamic filter that allows modification of WooCommerce order field values displayed in grid item templates. |
+| [`vc_gitem_template_attribute_woocommerce_product_{field}`](/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_product_field) | Dynamic filter that allows modification of WooCommerce product field values displayed in grid item templates. |
 | [`vc_gitem_template_attribute_woocommerce_product_link_value`](/devs/hooks/filters/vc_gitem_template_attribute_woocommerce_product_link_value) | Filters the WooCommerce "Add to Cart" URL for a product displayed in a grid item template. |
 | [`vc_gitem_zone_grid_item_not_content_shortcodes`](/devs/hooks/filters/vc_gitem_zone_grid_item_not_content_shortcodes) | Filters the list of shortcodes that are not allowed inside the content zone of a grid item. |
 | [`vc_gitem_zone_image_block_link`](/devs/hooks/filters/vc_gitem_zone_image_block_link) | Filters the image block link HTML in a grid item zone. |
@@ -114,7 +114,7 @@ function your_custom_function($value, $additional_params) {
 | [`vc_grid_item_shortcodes`](/devs/hooks/filters/vc_grid_item_shortcodes) | Filters the list of shortcodes available for use within the grid item editor. |
 | [`vc_grid_request_url`](/devs/hooks/filters/vc_grid_request_url) | Filters the AJAX request URL used by the grid element for loading data (pagination, filtering, and lazy loading). |
 | [`vc_hooks_vc_post_settings`](/devs/hooks/filters/vc_hooks_vc_post_settings) | Filters the post settings array before it is saved as post meta (`_vc_post_settings`). |
-| [`vc_iconpicker-type`](/devs/hooks/filters/vc_iconpicker-type) | Dynamic filter that provides the list of icons for a specific icon picker type. |
+| [`vc_iconpicker-type-{type}`](/devs/hooks/filters/vc_iconpicker-type) | Dynamic filter that provides the list of icons for a specific icon picker type. |
 | [`vc_iconpicker_render_filter`](/devs/hooks/filters/vc_iconpicker_render_filter) | Filters the rendered HTML output of the icon picker parameter field in the editor panel. |
 | [`vc_import_allow_fetch_attachments`](/devs/hooks/filters/vc_import_allow_fetch_attachments) | Filters whether downloading attachments is allowed during the WPBakery template import process. |
 | [`vc_import_attachment_size_limit`](/devs/hooks/filters/vc_import_attachment_size_limit) | Filters the maximum file size for downloaded attachments during the WPBakery template import process. |
@@ -132,7 +132,7 @@ function your_custom_function($value, $additional_params) {
 | [`vc_map_get_attributes`](/devs/hooks/filters/vc_map_get_attributes) | Filters the merged shortcode attributes after combining user-supplied values with registered defaults. |
 | [`vc_map_get_param_defaults`](/devs/hooks/filters/vc_map_get_param_defaults) | Filters the default value resolved for an individual shortcode parameter. |
 | [`vc_mapper_attribute`](/devs/hooks/filters/vc_mapper_attribute) | Filters each parameter (attribute) definition when a shortcode is being mapped. |
-| [`vc_mapper_attribute_type`](/devs/hooks/filters/vc_mapper_attribute_type) | Filters a shortcode param attribute by its type during mapping. |
+| [`vc_mapper_attribute_{type}`](/devs/hooks/filters/vc_mapper_attribute_type) | Filters a shortcode param attribute by its type during mapping. |
 | [`vc_nav_control_list`](/devs/hooks/filters/vc_nav_control_list) | Filters the list of navbar controls displayed in the WPBakery editor navigation bar. |
 | [`vc_nav_front_logo`](/devs/hooks/filters/vc_nav_front_logo) | Filters the HTML output of the WPBakery Page Builder logo displayed in the frontend editor navbar. |
 | [`vc_page-welcome-slugs-list`](/devs/hooks/filters/vc_page-welcome-slugs-list) | Filters the list of tab slugs and labels displayed on the WPBakery Welcome screen. |
@@ -151,13 +151,13 @@ function your_custom_function($value, $additional_params) {
 | [`vc_render_template_preview_include_template`](/devs/hooks/filters/vc_render_template_preview_include_template) | Filters the template file path used to render the template preview in the backend editor. |
 | [`vc_revslider_shortcode`](/devs/hooks/filters/vc_revslider_shortcode) | Filters the rendered output of the Revolution Slider shortcode within the WPBakery Revolution Slider element. |
 | [`vc_role_access_all_caps_role`](/devs/hooks/filters/vc_role_access_all_caps_role) | Filters the WordPress role object before its capabilities are read by the WPBakery role access controller. |
-| [`vc_role_access_with_part_can`](/devs/hooks/filters/vc_role_access_with_part_can) | Filters whether a role can perform an action for a specific access part. |
-| [`vc_role_access_with_part_can_rule`](/devs/hooks/filters/vc_role_access_with_part_can_rule) | Filters a specific rule check for a role access part. |
+| [`vc_role_access_with_{part}_can`](/devs/hooks/filters/vc_role_access_with_part_can) | Filters whether a role can perform an action for a specific access part. |
+| [`vc_role_access_with_{part}_can_{rule}`](/devs/hooks/filters/vc_role_access_with_part_can_rule) | Filters a specific rule check for a role access part. |
 | [`vc_roles_parts_list`](/devs/hooks/filters/vc_roles_parts_list) | Filters the list of role access parts (sections) available in the WPBakery Role Manager settings. |
-| [`vc_setting-tab-form-tab`](/devs/hooks/filters/vc_setting-tab-form-tab) | Filters additional form attributes for a specific settings tab. |
+| [`vc_setting-tab-form-{tab}`](/devs/hooks/filters/vc_setting-tab-form-tab) | Filters additional form attributes for a specific settings tab. |
 | [`vc_settings-less-variables`](/devs/hooks/filters/vc_settings-less-variables) | Filters the LESS variable definitions used for compiling custom design options colors on the WPBakery settings page. |
-| [`vc_settings-render-tab-tab`](/devs/hooks/filters/vc_settings-render-tab-tab) | Filters the template path used to render a specific settings tab. |
-| [`vc_settings-tab-submit-button-attributes-tab`](/devs/hooks/filters/vc_settings-tab-submit-button-attributes-tab) | Filters the submit button attributes for a specific settings tab. |
+| [`vc_settings-render-tab-{tab}`](/devs/hooks/filters/vc_settings-render-tab-tab) | Filters the template path used to render a specific settings tab. |
+| [`vc_settings-tab-submit-button-attributes-{tab}`](/devs/hooks/filters/vc_settings-tab-submit-button-attributes-tab) | Filters the submit button attributes for a specific settings tab. |
 | [`vc_settings-tab-submit-button-attributes`](/devs/hooks/filters/vc_settings-tab-submit-button-attributes) | Filters the HTML attributes array for the submit button on WPBakery settings tabs. |
 | [`vc_settings_exclude_post_type`](/devs/hooks/filters/vc_settings_exclude_post_type) | Filters the list of post types excluded from the WPBakery Role Manager settings. |
 | [`vc_settings_page_show_color-picker-tab`](/devs/hooks/filters/vc_settings_page_show_color-picker-tab) | Filters whether the Color Picker Settings tab is displayed on the WPBakery Page Builder settings page. |
@@ -169,10 +169,10 @@ function your_custom_function($value, $additional_params) {
 | [`vc_shortcode_content_filter_after`](/devs/hooks/filters/vc_shortcode_content_filter_after) | Filter the output of elements after it is rendered in the shortcode template. |
 | [`vc_shortcode_output`](/devs/hooks/filters/vc_shortcode_output) | Filter the output of WPBakery elements that were defined using the WPBakeryShortCode class. |
 | [`vc_shortcode_prepare_atts`](/devs/hooks/filters/vc_shortcode_prepare_atts) | Filters the prepared shortcode attributes after they have been processed and sanitized by WPBakery Page Builder. |
-| [`vc_shortcode_set_template_shortcode`](/devs/hooks/filters/vc_shortcode_set_template_shortcode) | Filters the template file path for a specific shortcode. |
+| [`vc_shortcode_set_template_{shortcode}`](/devs/hooks/filters/vc_shortcode_set_template_shortcode) | Filters the template file path for a specific shortcode. |
 | [`vc_shortcodes_css_class`](/devs/hooks/filters/vc_shortcodes_css_class) | Example how you can alter class names that are outputted for built-in content elements and elements that follow up our coding guidelines and utilize... |
 | [`vc_shortcodes_is_admin`](/devs/hooks/filters/vc_shortcodes_is_admin) | Filters the result of the admin check used by shortcode classes to determine whether the current request is an admin context. |
-| [`vc_shortcodes_type_css`](/devs/hooks/filters/vc_shortcodes_type_css) | Filters stored shortcodes CSS for a given asset type. |
+| [`vc_shortcodes_{type}_css`](/devs/hooks/filters/vc_shortcodes_type_css) | Filters stored shortcodes CSS for a given asset type. |
 | [`vc_show_button_fe`](/devs/hooks/filters/vc_show_button_fe) | Filters whether the Frontend Editor button should be displayed for a given post. |
 | [`vc_show_user_templates`](/devs/hooks/filters/vc_show_user_templates) | Filters whether the "My Templates" category is shown in the templates panel. |
 | [`vc_single_param_edit`](/devs/hooks/filters/vc_single_param_edit) | Filters a single parameter configuration array before the edit form field is rendered in the shortcode settings panel. |
@@ -189,9 +189,9 @@ function your_custom_function($value, $additional_params) {
 | [`vc_tta_accordion_general_classes`](/devs/hooks/filters/vc_tta_accordion_general_classes) | Filters the array of CSS classes applied to the accordion (TTA) element wrapper. |
 | [`vc_tta_container_classes`](/devs/hooks/filters/vc_tta_container_classes) | Filters the array of CSS classes applied to the TTA (Tabs, Tours, Accordions) container element. |
 | [`vc_tta_section_param_heading_tag`](/devs/hooks/filters/vc_tta_section_param_heading_tag) | Filters the HTML heading tag used for TTA section titles (e.g., accordion panel or tab heading). |
-| [`vc_ui-pointers-screen_id`](/devs/hooks/filters/vc_ui-pointers-screen_id) | Filters UI pointers for a specific admin screen. |
+| [`vc_ui-pointers-{screen_id}`](/devs/hooks/filters/vc_ui-pointers-screen_id) | Filters UI pointers for a specific admin screen. |
 | [`vc_user_access_check-shortcode_all`](/devs/hooks/filters/vc_user_access_check-shortcode_all) | Filters the access check result for a shortcode before the default role-based access logic runs. |
-| [`vc_user_access_with_part_get_state`](/devs/hooks/filters/vc_user_access_with_part_get_state) | Filters the access state for a specific part for the current user. |
+| [`vc_user_access_with_{part}_get_state`](/devs/hooks/filters/vc_user_access_with_part_get_state) | Filters the access state for a specific part for the current user. |
 | [`vc_vendor_layerslider_old`](/devs/hooks/filters/vc_vendor_layerslider_old) | Filters whether to use the old-style LayerSlider vendor integration that queries the database directly instead of using the `LS_Sliders` class. |
 | [`vc_vendor_qtranslate_enqueue_js_backend`](/devs/hooks/filters/vc_vendor_qtranslate_enqueue_js_backend) | Filters whether to enqueue the qTranslate backend JavaScript integration regardless of the current post type validity check. |
 | [`vc_wp_text_widget_shortcode`](/devs/hooks/filters/vc_wp_text_widget_shortcode) | Filters the content of the WP Text Widget shortcode element before it is passed to the widget instance. |

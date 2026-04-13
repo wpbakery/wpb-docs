@@ -1,13 +1,13 @@
 ---
 id: add-custom-row-layouts
-title: Add Custom Row Layouts (Presets)
-sidebar_label: Add Custom Row Layouts (Presets)
+title: Add custom row layouts (presets)
+sidebar_label: Add custom row layouts (presets)
 sidebar_position: 7
 hide_table_of_contents: true
 slug: /developers-how-tos/add-custom-row-layouts-presets
 ---
 
-# Add Custom Row Layouts (Presets)
+# Add custom row layouts (presets)
 
 WPBakery Page Builder comes with a set of predefined row layouts (most popular variations), this helps you or other users easily switch between available column layouts within a row. To add more layouts you should modify global array `$vc_row_layouts` on `vc_after_init_base` action.
 

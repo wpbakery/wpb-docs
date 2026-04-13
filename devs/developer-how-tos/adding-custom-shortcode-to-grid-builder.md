@@ -1,13 +1,13 @@
 ---
 id: adding-custom-shortcode-to-grid-builder
-title: Adding Custom Shortcode to Grid Builder
-sidebar_label: Adding Custom Shortcode to Grid Builder
+title: Adding custom shortcode to grid builder
+sidebar_label: Adding custom shortcode to grid builder
 sidebar_position: 9
 hide_table_of_contents: true
 slug: /developers-how-tos/adding-custom-shortcode-to-grid-builder
 ---
 
-# Adding Custom Shortcode to Grid Builder
+# Adding custom shortcode to grid builder
 
 Starting from WPBakery Page Builder 4.6.0 it is allowed to add shortcodes to WPBakery Page Builder Grid Builder by appending them to Grid Builder shortcodes list. The list can be modified by filter **'vc_grid_item_shortcodes'**.
 

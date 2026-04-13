@@ -3,7 +3,7 @@ sidebar_position: 6
 hide_table_of_contents: true
 ---
 
-# System Requirements
+# System requirements
 
 To optimize your usage of the WPBakery Page Builder plugin, we kindly advise adhering to the following system requirements:
 
