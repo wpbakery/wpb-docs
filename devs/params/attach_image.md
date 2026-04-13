@@ -52,10 +52,10 @@ All param types support these common parameters:
 
 ## Type-Specific Parameters
 
-| Parameter | Type | Default | Description                                        |
-|-----------|------|---------|----------------------------------------------------|
-| `settings` | Array | -       | Configuration array with the following options:    |
-| &nbsp;&nbsp;&nbsp;&nbsp;`is_link_icon` | Boolean | `false` | Whether to show the link icon inside image preview |
+| Parameter | Type | Default | Description                                            |
+|-----------|------|---------|--------------------------------------------------------|
+| `settings` | Array | -       | Configuration array with the following options:        |
+| &nbsp;&nbsp;&nbsp;&nbsp;`is_link_icon` | Boolean | `false` | Whether to show the link icon inside the image preview |
 
 
 ## Complete Example
