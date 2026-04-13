@@ -49,6 +49,13 @@ All param types support these common parameters:
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
 
+## Type-Specific Parameters
+
+| Parameter | Type | Default | Description                                        |
+|-----------|------|---------|----------------------------------------------------|
+| `settings` | Array | -       | Configuration array with the following options:    |
+| &nbsp;&nbsp;&nbsp;&nbsp;`is_link_icon` | Boolean | `false` | Whether to show the link icon inside image preview |
+
 ## Complete Example
 
 ```php
