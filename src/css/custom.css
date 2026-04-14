@@ -367,7 +367,7 @@ body > nav.navbar {
 
 .docMainContainer_TBSr {
   flex-grow: 1;
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
 
@@ -666,7 +666,41 @@ a:hover {
 
 .container {
   padding: 2rem;
-  max-width: 100%;
+  max-width: 100% !important;
+}
+
+@media (min-width: 997px) {
+  html body [class*="docItemCol"],
+  html body [class*="generatedIndexPage"] {
+    max-width: 100% !important;
+  }
+}
+
+/* DocCardList grid: 4 columns → 3 → 2 → 1 */
+[class*="docCardListItem"] {
+  flex: 0 0 25% !important;
+  max-width: 25% !important;
+}
+
+@media (max-width: 1199px) {
+  [class*="docCardListItem"] {
+    flex: 0 0 33.333% !important;
+    max-width: 33.333% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  [class*="docCardListItem"] {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [class*="docCardListItem"] {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 article {
