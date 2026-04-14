@@ -59,8 +59,7 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`max` | Integer | - | Maximum allowed value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`step` | Integer | - | Step increment value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | Integer | - | Placeholder value shown when empty |
-| &nbsp;&nbsp;&nbsp;&nbsp;`units` | Boolean\|Array | `false` | Enable CSS unit selector. Set to `true` for default units (`px`, `em`, `rem`, `vw`, `vh`, `%`) or provide a custom array (e.g., `['px', 'em', '%']`). When enabled, the saved value includes the unit suffix (e.g., `"50px"`) |
-| &nbsp;&nbsp;&nbsp;&nbsp;`default_unit` | String | First unit in list | The unit selected by default when no unit is present in the value |
+| &nbsp;&nbsp;&nbsp;&nbsp;`unit` | String | - | Unit label displayed next to the input (e.g., `'%'`, `'px'`). This is a display-only label and does not modify the saved value |
 
 ## Complete Example
 
@@ -88,14 +87,13 @@ function my_element_with_range() {
                 "type" => "range",
                 "heading" => __("Width", "domain"),
                 "param_name" => "width",
-                "value" => "100%",
+                "value" => "100",
                 "description" => __("Set element width", "domain"),
                 "settings" => [
-                    "min" => 0,
+                    "min" => 10,
                     "max" => 100,
-                    "step" => 1,
-                    "units" => ['px', 'em', '%'],
-                    "default_unit" => 'px',
+                    "step" => 10,
+                    "unit" => '%',
                 ],
             ],
         ],
