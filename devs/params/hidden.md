@@ -34,8 +34,8 @@ All param types support these common parameters:
 | `param_name` | String | **Required.** Parameter name used in shortcode |
 | `value` | Mixed | Value for the parameter |
 | `description` | String | Help text shown below the field |
-| `group` | String | Tab/group name to organize parameters |
-| `section` | String | Section slug to visually group params within a tab |
+| `group` | String | [Tab/group](/devs/developers-how-tos/use-param-group-in-elements) name to organize parameters |
+| `section` | String | [Section](/devs/developers-how-tos/use-param-section-in-elements) slug to visually group params within a tab |
 | `weight` | Integer | Display order (higher = shows first) |
 | `edit_field_class` | String | CSS class for field width (e.g., "vc_col-sm-6") |
 | `dependency` | Array | Show/hide based on other field values |
