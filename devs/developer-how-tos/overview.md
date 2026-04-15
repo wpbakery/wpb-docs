@@ -80,6 +80,11 @@ This comprehensive collection of guides covers everything from creating custom e
     <h3>Use param group in elements</h3>
     <p>Create repeatable groups of parameters in your elements.</p>
   </a>
+
+  <a href="/devs/developers-how-tos/use-param-section-in-elements" className="topic-card">
+    <h3>Use param section in elements</h3>
+    <p>Divide element attributes into structured sections inside the Edit Element modal.</p>
+  </a>
 </div>
 
 ## Styling & output
