@@ -2,7 +2,7 @@
 id: use-param-section
 title: Use param section in elements
 sidebar_label: Use param section in elements
-sidebar_position: 27
+sidebar_position: 28
 hide_table_of_contents: true
 slug: /developers-how-tos/use-param-section-in-elements
 ---
@@ -11,7 +11,7 @@ slug: /developers-how-tos/use-param-section-in-elements
 
 Inside the “Edit Element” modal, attributes can be divided into sections to make them more structured and logical.
 
-Each section is separated from the others by a delimiter in the UI/UX. On the HTML level, every section also has its own <div> wrapper.
+Each section is separated from the others by a delimiter in the UI/UX. On the HTML level, every section also has its own `<div>` wrapper.
 
 ## Usage
 

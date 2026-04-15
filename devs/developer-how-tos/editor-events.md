@@ -2,7 +2,7 @@
 id: editor-events
 title: Editor events
 sidebar_label: Editor events
-sidebar_position: 29
+sidebar_position: 30
 hide_table_of_contents: true
 slug: /developers-how-tos/editor-events
 ---

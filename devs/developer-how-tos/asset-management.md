@@ -2,7 +2,7 @@
 id: asset-management
 title: Asset management
 sidebar_label: Asset management
-sidebar_position: 28
+sidebar_position: 29
 hide_table_of_contents: true
 slug: /developers-how-tos/asset-management
 ---
