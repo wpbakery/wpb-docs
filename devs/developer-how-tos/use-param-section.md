@@ -2,7 +2,7 @@
 id: use-param-section
 title: Use param section in elements
 sidebar_label: Use param section in elements
-sidebar_position: 28
+ 
 hide_table_of_contents: true
 slug: /developers-how-tos/use-param-section-in-elements
 ---
