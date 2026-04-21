@@ -9,7 +9,7 @@ slug: /add-ons
 
 WPBakery Page Builder offers 100+ premium class add-ons developed by WPBakery Page Builder team and 3rd party developers covering large scale of necessary functionalities which you may integrate into your WordPress site.
 
-:::info Important
+:::info
 In order to add WPBakery Page Builder add-on you are required to have original WPBakery Page Builder installed.
 :::
 
