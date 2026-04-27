@@ -516,8 +516,7 @@ body > nav.navbar {
 .theme-doc-sidebar-item-link-level-2 .menu__link {
   font-size: 14px;
   font-weight: 500;
-  line-height: 35px;
-  height: 35px;
+  line-height: 30px;
   padding-top: 0;
   padding-bottom: 0;
   color: rgba(12, 38, 61, 1);
