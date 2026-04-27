@@ -513,7 +513,8 @@ body > nav.navbar {
 }
 
 /* Level 2 items specifically */
-.theme-doc-sidebar-item-link-level-2 .menu__link {
+.theme-doc-sidebar-item-link-level-2 .menu__link,
+.theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible .menu__link {
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
@@ -875,6 +876,7 @@ tr:last-child td {
   background-image: url('/img/arrow-down.svg') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
+  transform: rotate(180deg);
 }
 
 [class*="backToTopButton"]::after {
