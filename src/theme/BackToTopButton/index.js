@@ -4,6 +4,7 @@ import {translate} from '@docusaurus/Translate';
 import {ThemeClassNames} from '@docusaurus/theme-common';
 import styles from './styles.module.css';
 
+const SCROLLABLE_THRESHOLD = 100;
 const BOTTOM_THRESHOLD = 50;
 
 export default function BackToTopButton() {
@@ -15,8 +16,11 @@ export default function BackToTopButton() {
       const viewportHeight = window.innerHeight;
       const fullHeight = document.documentElement.scrollHeight;
       const distanceFromBottom = fullHeight - (scrollY + viewportHeight);
-      const canScroll = fullHeight - viewportHeight > BOTTOM_THRESHOLD;
-      setShown(canScroll && distanceFromBottom > BOTTOM_THRESHOLD);
+      const scrollableDistance = fullHeight - viewportHeight;
+      setShown(
+        scrollableDistance > SCROLLABLE_THRESHOLD &&
+          distanceFromBottom > BOTTOM_THRESHOLD,
+      );
     };
     handleScroll();
     window.addEventListener('scroll', handleScroll, {passive: true});
