@@ -270,4 +270,4 @@ All parameter types support these common options:
 
 - Browse individual parameter documentation for detailed usage examples
 - Check **Element Development** for implementing parameters in your elements
-- Review **Developer How To's** for advanced parameter techniques
+- Review **Developer Tutorials** for advanced parameter techniques

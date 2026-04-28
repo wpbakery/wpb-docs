@@ -363,7 +363,7 @@
       {
         "type": "link",
         "label": "Overview",
-        "href": "/docs/how-tos",
+        "href": "/docs/tutorials",
         "docId": "how-tos/overview",
         "unlisted": false
       },

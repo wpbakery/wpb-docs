@@ -22,4 +22,4 @@ Helper function to register a new shortcode attribute.
 
 ### Example
 
-To see an example of how to create a new param type shortcode param, please visit our [developers “How To’s”](/devs/developers-how-tos/create-new-param-type) section.
+To see an example of how to create a new param type shortcode param, please visit our [developers “How To’s”](/devs/developer-tutorials/create-new-param-type) section.

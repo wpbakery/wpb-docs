@@ -7,4 +7,4 @@ hide_table_of_contents: true
 slug: /tutorials/how-to-add-custom-color-to-dropdown
 ---
 
-Through the use of WPBakery Page Builder inner API, it is allowed to [Update Single Param values](/devs/developers-how-tos/update-single-param-values) in order to extend parameter with additional options like color.
+Through the use of WPBakery Page Builder inner API, it is allowed to [Update Single Param values](/devs/developer-tutorials/update-single-param-values) in order to extend parameter with additional options like color.
