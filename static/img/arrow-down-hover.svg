@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="26">
+	<path fill="none" stroke="#0772CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(-4.37114e-08 -1 1 -4.37114e-08 1 25)" d="M11 7.9999995L7 12M7 12L11 16M7 12L17 12M24 12C24 16.287188 21.712812 20.248711 18 22.392305C14.287188 24.535898 9.7128124 24.535898 6 22.392305C2.2871871 20.248711 0 16.287188 0 12C0 5.3725829 5.3725829 0 12 0C18.627417 0 24 5.3725829 24 12L24 12Z" fill-rule="evenodd"/>
+</svg>

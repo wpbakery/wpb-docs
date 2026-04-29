@@ -174,7 +174,7 @@ During the development process, we always receive some quality feedback from our
     <p>Explore available WordPress filters for extending WPBakery Page Builder.</p>
   </a>
 
-  <a href="/devs/developers-how-tos" className="topic-card">
+  <a href="/devs/developer-tutorials" className="topic-card">
     <h3>Developers "how to's"</h3>
     <p>Practical guides and tutorials for developers.</p>
   </a>

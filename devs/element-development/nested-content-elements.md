@@ -30,7 +30,7 @@ function bartag_func( $atts ) {
 Now lets call `vc_map()` function from our *functions.php* file with an array of special attributes to describe attributes of our shortcode.
 
 :::info
-Important: `vc_map()` call should be hooked on WPBakery Page Builder `vc_before_init` action.
+`vc_map()` call should be hooked on WPBakery Page Builder `vc_before_init` action.
 :::
 
 ```php
@@ -131,7 +131,7 @@ Now you should see new color picker field in WPBakery Page Builder edit screen f
 Some shortcodes has content block. For example: `[bartag foo="foo-value" color="#000000"]Here goes content[/bartag]`. You can create wysiwyg editor field or simple plain textarea field inside settings form of your shortcode.
 
 :::info
-Important: Only one wysiwyg editor per content element is allowed, and it should have `param_name` equal to `content`.
+Only one wysiwyg editor per content element is allowed, and it should have `param_name` equal to `content`.
 :::
 
 Let's change your shortcode registration hook.
