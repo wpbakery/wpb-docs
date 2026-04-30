@@ -1034,6 +1034,21 @@ tr:last-child td {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><polygon fill="%239DA0A4" points="79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128"/></svg>') center !important;
   opacity: 1;
 }
+
+[data-theme='dark'] .breadcrumbs__item a,
+[data-theme='dark'] .breadcrumbs__item a svg {
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .breadcrumbs__item a:hover,
+[data-theme='dark'] .breadcrumbs__item a:hover svg {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link,
+[data-theme='dark'] .breadcrumbs__item .breadcrumbs__link--active {
+  color: #9DA0A4;
+}
 /* Topic Cards Grid - Ionic Style */
 .topic-cards {
   display: grid;
