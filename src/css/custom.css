@@ -831,6 +831,21 @@ tr:last-child td {
   border-bottom: none !important;
 }
 
+[data-theme='dark'] table {
+  border-color: var(--ifm-toc-border-color);
+}
+
+[data-theme='dark'] thead,
+[data-theme='dark'] th {
+  background: var(--ifm-background-surface-color) !important;
+}
+
+[data-theme='dark'] th,
+[data-theme='dark'] td {
+  border-bottom-color: var(--ifm-toc-border-color) !important;
+  border-right-color: var(--ifm-toc-border-color) !important;
+}
+
 /* Fix spacing in doc pages */
 .theme-doc-markdown {
   margin-top: 0 !important;
@@ -1306,6 +1321,6 @@ article[class*="docCardListItem"] .card p,
 
   .navbar {
     padding: 0 1rem !important;
-    background: white !important;
+    background: var(--ifm-background-surface-color) !important;
   }
 }
