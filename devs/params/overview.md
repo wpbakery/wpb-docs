@@ -203,11 +203,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Element ID field for custom anchors.</p>
   </a>
 
-  <a href="/devs/params/custom_markup" className="topic-card">
-    <h3>Custom markup</h3>
-    <p>Custom HTML markup injection.</p>
-  </a>
-
   <a href="/devs/params/gutenberg" className="topic-card">
     <h3>Gutenberg</h3>
     <p>Gutenberg block integration support.</p>
@@ -265,6 +260,7 @@ All parameter types support these common options:
 - `save_always` - Force saving the param value to the shortcode even if it equals the default or is empty
 - `callback` - JavaScript function callback attached to the window object (e.g., `['after_add' => 'vcChartParamAfterAddCallback']`)
 - `settings` - Array of type-specific configuration options (varies per param type, see individual param docs)
+- `custom_markup` - HTML template used to render the element in the backend editor. See [vc_map() → custom_markup](/devs/inner-api/vc_map#custom_markup-template)
 
 ## Next steps
 

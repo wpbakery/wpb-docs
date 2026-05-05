@@ -149,13 +149,6 @@
       },
       {
         "type": "link",
-        "label": "custom_markup",
-        "href": "/devs/params/custom_markup",
-        "docId": "params/custom_markup",
-        "unlisted": false
-      },
-      {
-        "type": "link",
         "label": "dropdown",
         "href": "/devs/params/dropdown",
         "docId": "params/dropdown",

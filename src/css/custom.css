@@ -831,6 +831,21 @@ tr:last-child td {
   border-bottom: none !important;
 }
 
+[data-theme='dark'] table {
+  border-color: var(--ifm-toc-border-color);
+}
+
+[data-theme='dark'] thead,
+[data-theme='dark'] th {
+  background: var(--ifm-background-surface-color) !important;
+}
+
+[data-theme='dark'] th,
+[data-theme='dark'] td {
+  border-bottom-color: var(--ifm-toc-border-color) !important;
+  border-right-color: var(--ifm-toc-border-color) !important;
+}
+
 /* Fix spacing in doc pages */
 .theme-doc-markdown {
   margin-top: 0 !important;
@@ -1033,6 +1048,21 @@ tr:last-child td {
 .breadcrumbs__item:not(:last-child)::after {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><polygon fill="%239DA0A4" points="79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128"/></svg>') center !important;
   opacity: 1;
+}
+
+[data-theme='dark'] .breadcrumbs__item a,
+[data-theme='dark'] .breadcrumbs__item a svg {
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .breadcrumbs__item a:hover,
+[data-theme='dark'] .breadcrumbs__item a:hover svg {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link,
+[data-theme='dark'] .breadcrumbs__item .breadcrumbs__link--active {
+  color: #9DA0A4;
 }
 /* Topic Cards Grid - Ionic Style */
 .topic-cards {
@@ -1291,6 +1321,6 @@ article[class*="docCardListItem"] .card p,
 
   .navbar {
     padding: 0 1rem !important;
-    background: white !important;
+    background: var(--ifm-background-surface-color) !important;
   }
 }
