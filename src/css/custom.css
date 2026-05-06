@@ -148,7 +148,8 @@ body {
 
 /* Override Docusaurus navbar breakpoint: collapse to mobile at 997px */
 @media (max-width: 996px) {
-  .navbar__items--right {
+  .navbar__items--right > .navbar__item,
+  .navbar__items--right > .navbar__link {
     display: none !important;
   }
   .navbar__items:not(.navbar__items--right) .navbar__item {
@@ -171,13 +172,19 @@ body {
   }
 }
 
-/* Navbar - remove background, add border */
+/* Navbar - theme-aware background, add border */
 .navbar {
-  background-color: transparent !important;
-  background: none !important;
+  background: var(--ifm-background-surface-color) !important;
   border-bottom: 1px solid var(--ifm-toc-border-color);
   padding: 0 !important;
   box-shadow: none !important;
+}
+
+.navbar-sidebar__back {
+  background: none !important;
+  top: 0 !important;
+  padding-left: 20px !important;
+  margin-bottom: 0 !important;
 }
 
 /* Navbar items styling */
@@ -919,6 +926,14 @@ tr:last-child td {
   border-color: var(--ifm-color-primary) !important;
 }
 
+.DocSearch-Button:focus,
+.DocSearch-Button:focus-visible,
+.DocSearch-Button:active {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: var(--ifm-toc-border-color) !important;
+}
+
 .DocSearch-Button-Container {
   flex-grow: 1;
 }
@@ -936,6 +951,25 @@ tr:last-child td {
 .DocSearch-Button-Key {
   padding: 2px 6px !important;
   font-size: 0.75rem !important;
+}
+
+@media (max-width: 996px) {
+  .DocSearch-Button {
+    width: 40px !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    justify-content: center !important;
+  }
+
+  .DocSearch-Button .DocSearch-Button-Container {
+    flex: none !important;
+  }
+
+  .DocSearch-Button .DocSearch-Button-Placeholder,
+  .DocSearch-Button .DocSearch-Button-Keys {
+    display: none !important;
+  }
 }
 
 .DocSearch-Search-Icon {
@@ -966,12 +1000,14 @@ tr:last-child td {
   display: none;
 }
 
-/* Color mode toggle icon hover state */
-.colorModeToggle_DEke button:hover {
+/* Color mode toggle icon hover state (desktop + mobile) */
+.colorModeToggle_DEke button:hover,
+button.clean-btn[class*="toggleButton_"]:hover {
   background: #0772CE !important;
 }
 
-.colorModeToggle_DEke button:hover svg {
+.colorModeToggle_DEke button:hover svg,
+button.clean-btn[class*="toggleButton_"]:hover svg {
   color: white !important;
 }
 
@@ -1318,7 +1354,9 @@ article[class*="docCardListItem"] .card p,
   .container {
     padding: 1rem;
   }
+}
 
+@media (max-width: 996px) {
   .navbar {
     padding: 0 1rem !important;
     background: var(--ifm-background-surface-color) !important;
