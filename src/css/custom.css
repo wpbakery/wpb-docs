@@ -227,6 +227,11 @@ body {
   transition: background var(--ifm-transition-fast);
 }
 
+.navbar-sidebar__close svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
 .navbar-sidebar__close svg path {
   stroke: currentColor !important;
 }
