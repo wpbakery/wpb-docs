@@ -172,6 +172,75 @@ body {
   }
 }
 
+/* Replace default hamburger icon with custom SVG */
+.navbar__toggle {
+  margin-right: 16px;
+}
+
+/* Keep hamburger + logo visible above the open mobile drawer */
+.navbar__toggle,
+.navbar > .navbar__inner > .navbar__items > .navbar__brand {
+  position: relative;
+  z-index: 1000;
+}
+
+/* When the mobile drawer is open, hide the navbar right-side icons
+   (search + color mode toggle) — only X close should show */
+.navbar-sidebar--show .navbar__items--right > [class*="navbarSearchContainer"],
+.navbar-sidebar--show .navbar__items--right > [class*="colorModeToggle"] {
+  display: none !important;
+}
+
+/* Hide the drawer's own logo — the navbar's logo shows through via z-index */
+.navbar-sidebar__brand > .navbar__brand {
+  display: none !important;
+}
+
+.navbar__toggle > svg {
+  display: none !important;
+}
+
+.navbar__toggle::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 18px;
+  background-color: currentColor;
+  -webkit-mask: url("/img/icons/hamburger.svg") center / contain no-repeat;
+  mask: url("/img/icons/hamburger.svg") center / contain no-repeat;
+}
+
+.navbar__toggle:hover {
+  color: #0772CE !important;
+  background: transparent !important;
+}
+
+/* Mobile sidebar close (X) button — match other icon button styling */
+.navbar-sidebar__close {
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  color: var(--wpb-color-text);
+  transition: background var(--ifm-transition-fast);
+}
+
+.navbar-sidebar__close svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.navbar-sidebar__close svg path {
+  stroke: currentColor !important;
+}
+
+.navbar-sidebar__close:hover {
+  background: transparent !important;
+  color: #0772CE !important;
+}
+
 /* Navbar - theme-aware background, add border */
 .navbar {
   background: var(--ifm-background-surface-color) !important;
@@ -919,11 +988,14 @@ tr:last-child td {
   font-size: 0.9rem !important;
   background: var(--ifm-background-surface-color) !important;
   border: 1px solid var(--ifm-toc-border-color) !important;
+  color: var(--wpb-color-text) !important;
 }
 
 .DocSearch-Button:hover {
-  box-shadow: 0 0 0 1px var(--ifm-color-primary) !important;
-  border-color: var(--ifm-color-primary) !important;
+  background: #0772CE !important;
+  border-color: #0772CE !important;
+  color: white !important;
+  box-shadow: none !important;
 }
 
 .DocSearch-Button:focus,
@@ -932,6 +1004,28 @@ tr:last-child td {
   box-shadow: none !important;
   outline: none !important;
   border-color: var(--ifm-toc-border-color) !important;
+}
+
+/* Replace default search icon with custom SVG */
+.DocSearch-Search-Icon {
+  display: none !important;
+}
+
+.DocSearch-Button-Container::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  margin-right: 8px;
+  background-color: currentColor;
+  -webkit-mask: url("/img/icons/search.svg") center / contain no-repeat;
+  mask: url("/img/icons/search.svg") center / contain no-repeat;
+}
+
+@media (max-width: 996px) {
+  .DocSearch-Button-Container::before {
+    margin-right: 0;
+  }
 }
 
 .DocSearch-Button-Container {
@@ -955,11 +1049,13 @@ tr:last-child td {
 
 @media (max-width: 996px) {
   .DocSearch-Button {
-    width: 40px !important;
+    width: 2rem !important;
+    height: 2rem !important;
     padding: 0 !important;
     border: none !important;
     border-radius: 50% !important;
     justify-content: center !important;
+    background: transparent !important;
   }
 
   .DocSearch-Button .DocSearch-Button-Container {
@@ -994,20 +1090,57 @@ tr:last-child td {
   margin-right: 0.5rem;
 }
 
+/* Keep color mode toggle visible on mobile (Docusaurus hides it by default at <=996px) */
+@media (max-width: 996px) {
+  html .navbar__items--right > [class*="colorModeToggle"] {
+    display: block !important;
+    margin-right: 0;
+  }
+  /* Docusaurus positions search absolutely on mobile (assumes it's the only icon).
+     Force back into flex flow so it sits next to the color mode toggle. */
+  html .navbar__items--right > [class*="navbarSearchContainer"] {
+    position: static !important;
+    margin-right: 20px;
+  }
+  /* Hide the duplicate toggle that Docusaurus renders inside the mobile drawer header */
+  .navbar-sidebar__brand [class*="toggle_"] {
+    display: none !important;
+  }
+}
+
 
 /* Hide external link icon in sidebar */
 .menu__link svg.iconExternalLink_nPIU {
   display: none;
 }
 
-/* Color mode toggle icon hover state (desktop + mobile) */
+/* Replace color mode toggle icons (all states) with custom sun SVG */
+[class*="toggleIcon_"] {
+  display: none !important;
+}
+
+button[class*="toggleButton_"]::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: currentColor;
+  -webkit-mask-image: url("/img/icons/sun.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url("/img/icons/sun.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  mask-mode: alpha;
+  -webkit-mask-mode: alpha;
+}
+
+/* Color mode toggle hover state (desktop + mobile) */
 .colorModeToggle_DEke button:hover,
 button.clean-btn[class*="toggleButton_"]:hover {
   background: #0772CE !important;
-}
-
-.colorModeToggle_DEke button:hover svg,
-button.clean-btn[class*="toggleButton_"]:hover svg {
   color: white !important;
 }
 
@@ -1350,15 +1483,15 @@ article[class*="docCardListItem"] .card p,
   .navbar__brand {
     padding: 0;
   }
-
-  .container {
-    padding: 1rem;
-  }
 }
 
 @media (max-width: 996px) {
   .navbar {
     padding: 0 1rem !important;
     background: var(--ifm-background-surface-color) !important;
+  }
+
+  .container {
+    padding: 1rem;
   }
 }
