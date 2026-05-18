@@ -196,6 +196,15 @@ body {
   display: none !important;
 }
 
+.navbar.navbar-sidebar--show {
+  z-index: 400;
+}
+
+.navbar-sidebar,
+.navbar-sidebar__backdrop {
+  z-index: 1;
+}
+
 .navbar__toggle > svg {
   display: none !important;
 }
@@ -239,6 +248,33 @@ body {
 .navbar-sidebar__close:hover {
   background: transparent !important;
   color: #0772CE !important;
+}
+
+.wpb-docs-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.wpb-docs-footer {
+  background: #fff;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 996px) {
+  .wpb-docs-footer {
+    padding: 1rem;
+  }
+}
+
+.wpb-docs-footer__copyright {
+  font-size: 0.875rem;
+  color: #9DA0A4;
+}
+
+[data-theme='dark'] .wpb-docs-footer {
+  background: var(--ifm-background-color);
 }
 
 /* Navbar - theme-aware background, add border */
