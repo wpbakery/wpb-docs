@@ -120,6 +120,9 @@ const config = {
           },
         ],
       },
+      footer: {
+        copyright: 'Copyright © 2026 Rain-Task Ltd. All Rights Reserved.',
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
