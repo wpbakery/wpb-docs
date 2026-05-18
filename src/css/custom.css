@@ -68,8 +68,6 @@
   --dropdown-icon-height: 7px;
   --dropdown-icon-gap: 0.625rem;
 
-  --wpb-footer-height: 80px;
-
   /* Navbar settings */
   --ifm-navbar-height: 70px;
   --ifm-navbar-padding-vertical: 0.7rem;
@@ -252,19 +250,31 @@ body {
   color: #0772CE !important;
 }
 
-.footer {
-  position: relative;
-  z-index: 300;
-  padding: 0;
+.wpb-docs-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
 }
 
-.footer > .container {
-  padding: 1rem;
+.wpb-docs-footer {
+  background: #fff;
+  padding: 1rem 2rem;
 }
 
-.footer__copyright {
-  margin-top: 0;
+@media (max-width: 996px) {
+  .wpb-docs-footer {
+    padding: 1rem;
+  }
+}
+
+.wpb-docs-footer__copyright {
   font-size: 0.875rem;
+  color: #9DA0A4;
+}
+
+[data-theme='dark'] .wpb-docs-footer {
+  background: var(--ifm-background-color);
 }
 
 /* Navbar - theme-aware background, add border */
@@ -505,10 +515,6 @@ body > nav.navbar {
     width: var(--doc-sidebar-width);
     overflow-y: auto;
     z-index: 100;
-  }
-
-  .theme-doc-sidebar-container .menu {
-    padding-bottom: var(--wpb-footer-height);
   }
 
   /* Make navbar NOT fixed - should scroll with content */
