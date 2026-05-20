@@ -380,7 +380,7 @@ body {
   display: block;
   width: 180px;
   height: 42px;
-  background: url('/img/logos/wpbakery-logo-horizontal.png') no-repeat left center;
+  background: url('/img/logos/wpbakery-logo-horizontal.svg') no-repeat left center;
   background-size: 180px 42px;
 }
 
@@ -432,11 +432,6 @@ body > nav.navbar {
   padding: 35px var(--sidebar-spacing-horizontal);
   border-bottom: 1px solid var(--ifm-toc-border-color);
   text-decoration: none;
-}
-
-.sidebar-logo:hover {
-  text-decoration: none;
-  opacity: 0.8;
 }
 
 .sidebar-logo img {
