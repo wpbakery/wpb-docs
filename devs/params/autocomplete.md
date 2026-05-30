@@ -63,6 +63,7 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`delay` | Integer | `500` | Delay in milliseconds before triggering autocomplete |
 | &nbsp;&nbsp;&nbsp;&nbsp;`sortable` | Boolean | `false` | Whether selected items can be reordered |
 | &nbsp;&nbsp;&nbsp;&nbsp;`auto_focus` | Boolean | `true` | Auto focus first suggestion |
+| &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | String | `'Click here and start typing...'` | Placeholder text shown when field is empty |
 
 ## Complete Example
 
