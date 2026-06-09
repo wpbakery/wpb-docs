@@ -969,13 +969,8 @@ tr:last-child td {
   margin-top: 0;
 }
 
-/*
- * Infima (default.css) re-declares --ifm-hX-font-size scoped to .markdown headings
- * (h1 3rem, h2 2rem, h3 1.5rem — and again inside a max-width:576px query), which
- * overrides our :root scale. Re-assert our scale once here using Infima's exact
- * selectors so specificity matches and source order wins. h4/h5/h6 are not
- * re-declared by Infima, so they already inherit :root.
- */
+/* Infima bumps h1/h2/h3 sizes inside .markdown via higher-specificity selectors;
+   pin them back to our scale. (h4/h5/h6 aren't touched, so they inherit :root.) */
 .markdown h1:first-child {
   --ifm-h1-font-size: var(--wpb-h1-font-size);
 }
@@ -984,18 +979,6 @@ tr:last-child td {
 }
 .markdown > h3 {
   --ifm-h3-font-size: var(--wpb-h3-font-size);
-}
-
-@media (max-width: 576px) {
-  .markdown h1:first-child {
-    --ifm-h1-font-size: var(--wpb-h1-font-size);
-  }
-  .markdown > h2 {
-    --ifm-h2-font-size: var(--wpb-h2-font-size);
-  }
-  .markdown > h3 {
-    --ifm-h3-font-size: var(--wpb-h3-font-size);
-  }
 }
 
 /* Content typography */
