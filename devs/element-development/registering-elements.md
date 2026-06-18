@@ -6,7 +6,7 @@ sidebar_position: 1
 
 In WPBakery, elements (also called shortcodes or content blocks) are registered using the `vc_map()` function. This function defines the UI controls, icon, category, and shortcode behavior of your custom element.
 
-# test
+## test
 
 ## Hook into `vc_before_init`
 
