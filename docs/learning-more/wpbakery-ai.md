@@ -12,8 +12,6 @@ hide_table_of_contents: true
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/_94J0hy1bQA?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="WPBakery AI Tutorial | Generate Text, Improve Content, Translate and Generate Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-test phase
-
 The WPBakery Page Builder AI represents a transformative advancement in website development. An **active support tenure** allows access to AI which is designed to empower you with the ability to effortlessly generate and enhance text and custom code. Whether you need to create compelling textual content or fine-tune intricate custom code, such as HTML, Custom CSS, and JS, the WPBakery Page Builder AI is your partner in streamlining website development.
 
 Any element field that supports AI generation will have the following icon next to it:
