@@ -24,7 +24,7 @@ Only not activated licenses will appear there. If you wish to use an existing li
 If you wish to deactivate WPBakery Page Builder license on your site for any reason you can do it under License tab (same place where you activated it). If you forgot to deactivate license and removed the site you can deactivate license in WPBakery Support Portal – [support.wpbakery.com](https://support.wpbakery.com) – under License section.
 
 :::note
-Since version 6.10, the license will be automatically deactivated if it is not activated in [support.wpbakery.com](https://support.wpbakery.com). You can manage your licenses in the [account](https://support.wpbakery.com/licenses) to activate WPBakery Page Builder for a certain site.
+Since version 6.10, the license will be automatically deactivated if it is not activated in [support.wpbakery.com](https://support.wpbakery.com). You can manage your licenses in the [account](https://support.wpbakery.com/licenses) to activate WPBakery Page Builder for a certain site. Each license can be deactivated and activated on up to three unique domains within a 30-day period.
 :::
 
 <div style={{textAlign: 'center'}}>
