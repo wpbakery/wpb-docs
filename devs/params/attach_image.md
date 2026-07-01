@@ -50,6 +50,7 @@ All param types support these common parameters:
 | `save_always` | Boolean | Force saving the value even if it equals the default or is empty |
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
+| `deprecated` | String | Version in which the param was deprecated |
 
 ## Complete Example
 

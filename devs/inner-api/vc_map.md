@@ -133,6 +133,7 @@ Defining "Text" attribute:
 | group | String | Use it to divide your params within groups (tabs) |
 | value_type | String | Specify whether the field is going to parse input value as html or text, for textfield and textarea type parameters. Available values are 'text' and 'html'. If value_type is not specified the default will be 'html'. |
 | placeholder | String | Specify the field placeholder text, for textfield and textarea type parameters. |
+| deprecated | String | Version in which the param was deprecated |
 
 #### Available type values
 
