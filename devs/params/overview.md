@@ -261,6 +261,7 @@ All parameter types support these common options:
 - `callback` - JavaScript function callback attached to the window object (e.g., `['after_add' => 'vcChartParamAfterAddCallback']`)
 - `settings` - Array of type-specific configuration options (varies per param type, see individual param docs)
 - `custom_markup` - HTML template used to render the element in the backend editor. See [vc_map() → custom_markup](/devs/inner-api/vc_map#custom_markup-template)
+- `deprecated` - Version in which the param was deprecated
 
 ## Next steps
 
