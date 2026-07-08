@@ -20,7 +20,7 @@ const CONFIG = {
   appId: process.env.ALGOLIA_APP_ID || 'I4BZ3VIOZE',
   adminKey: process.env.ALGOLIA_ADMIN_KEY, // MUST be set via environment variable
   indexName: process.env.ALGOLIA_INDEX_NAME || 'wp_kb',
-  baseUrl: process.env.SITE_URL || 'https://kb-new.wpbakery.com',
+  baseUrl: process.env.SITE_URL || 'http://localhost:3000',
   // One entry per Docusaurus docs plugin instance (see docusaurus.config.js)
   sections: [
     {
