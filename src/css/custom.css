@@ -936,6 +936,7 @@ td {
   border-top: none !important;
   border-left: none !important;
   padding: 0.75rem 1rem;
+  word-break: break-word;
 }
 
 td:last-child {
@@ -959,16 +960,6 @@ tr:last-child td {
 [data-theme='dark'] td {
   border-bottom-color: var(--ifm-toc-border-color) !important;
   border-right-color: var(--ifm-toc-border-color) !important;
-}
-
-/* Tables scroll inside their own container on small screens instead of
-   stretching the page */
-@media (max-width: 996px) {
-  table {
-    display: block;
-    max-width: 100%;
-    overflow-x: auto;
-  }
 }
 
 /* Fix spacing in doc pages */
