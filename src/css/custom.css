@@ -1011,14 +1011,11 @@ tr:last-child td {
 
 /* Back to top button */
 [class*="backToTopButton"] {
-  background: none !important;
+  background: url('/img/arrow-down.svg') 0 0 / contain no-repeat !important;
   box-shadow: none !important;
   width: 27px !important;
   height: 26px !important;
   border-radius: 0 !important;
-  background-image: url('/img/arrow-down.svg') !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
   transform: rotate(180deg);
 }
 
