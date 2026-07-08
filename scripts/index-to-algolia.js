@@ -199,7 +199,14 @@ async function indexDocumentation() {
         attributesToHighlight: [
           'title',
           'content',
-          'headings.text'
+          'headings.text',
+          'hierarchy.lvl0',
+          'hierarchy.lvl1',
+          'hierarchy.lvl2',
+          'hierarchy.lvl3',
+          'hierarchy.lvl4',
+          'hierarchy.lvl5',
+          'hierarchy.lvl6'
         ],
         attributesToSnippet: [
           'content:50',
