@@ -20,8 +20,20 @@ const CONFIG = {
   appId: process.env.ALGOLIA_APP_ID || 'I4BZ3VIOZE',
   adminKey: process.env.ALGOLIA_ADMIN_KEY, // MUST be set via environment variable
   indexName: process.env.ALGOLIA_INDEX_NAME || 'wp_kb',
-  docsDir: path.join(__dirname, '..', 'docs'),
-  baseUrl: process.env.SITE_URL || 'http://localhost:3000'
+  baseUrl: process.env.SITE_URL || 'https://kb-new.wpbakery.com',
+  // One entry per Docusaurus docs plugin instance (see docusaurus.config.js)
+  sections: [
+    {
+      dir: path.join(__dirname, '..', 'docs'),
+      routeBasePath: 'docs',
+      docusaurus_tag: 'docs-default-current'
+    },
+    {
+      dir: path.join(__dirname, '..', 'devs'),
+      routeBasePath: 'devs',
+      docusaurus_tag: 'docs-devs-current'
+    }
+  ]
 };
 
 // Security check - prevent accidental exposure
@@ -38,7 +50,7 @@ const client = algoliasearch(CONFIG.appId, CONFIG.adminKey);
 /**
  * Parse a markdown file and extract content
  */
-async function parseMarkdownFile(filePath) {
+async function parseMarkdownFile(filePath, section) {
   try {
     const content = await fs.readFile(filePath, 'utf8');
     const { data: frontmatter, content: markdownContent } = matter(content);
@@ -48,8 +60,8 @@ async function parseMarkdownFile(filePath) {
       return null;
     }
 
-    // Get relative path from docs directory
-    const relativePath = path.relative(CONFIG.docsDir, filePath);
+    // Get relative path from the section's docs directory
+    const relativePath = path.relative(section.dir, filePath);
     const urlPath = relativePath
       .replace(/\\/g, '/') // Windows path fix
       .replace(/\.md$/, '')  // Remove .md extension
@@ -81,8 +93,8 @@ async function parseMarkdownFile(filePath) {
 
     // Format to match Docusaurus DocSearch expectations
     return {
-      objectID: urlPath || 'index',
-      url: `${CONFIG.baseUrl}/docs/${urlPath}`,
+      objectID: `${section.routeBasePath}-${urlPath || 'index'}`,
+      url: `${CONFIG.baseUrl}/${section.routeBasePath}/${urlPath}`,
       // Hierarchy for breadcrumbs - MUST have these exact field names
       hierarchy: {
         lvl0: 'Documentation',
@@ -106,9 +118,9 @@ async function parseMarkdownFile(filePath) {
       title: frontmatter.title || h1Match?.[1] || 'Untitled',
       // DocSearch expects these exact fields
       anchor: null,
-      url_without_anchor: `${CONFIG.baseUrl}/docs/${urlPath}`,
+      url_without_anchor: `${CONFIG.baseUrl}/${section.routeBasePath}/${urlPath}`,
       // Meta information
-      docusaurus_tag: 'docs-default-current',
+      docusaurus_tag: section.docusaurus_tag,
       lang: 'en',
       version: 'current'
     };
@@ -119,11 +131,11 @@ async function parseMarkdownFile(filePath) {
 }
 
 /**
- * Get all markdown files from docs directory
+ * Get all markdown files from a directory
  */
-async function getAllMarkdownFiles() {
+async function getAllMarkdownFiles(dir) {
   try {
-    const pattern = path.join(CONFIG.docsDir, '**/*.md');
+    const pattern = path.join(dir, '**/*.md');
     const files = await glob(pattern);
     return files;
   } catch (error) {
@@ -137,20 +149,21 @@ async function getAllMarkdownFiles() {
  */
 async function indexDocumentation() {
   console.log('🚀 Starting Algolia indexing...');
-  console.log(`📁 Scanning docs directory: ${CONFIG.docsDir}`);
 
   try {
-    // Get all markdown files
-    const files = await getAllMarkdownFiles();
-    console.log(`📄 Found ${files.length} markdown files`);
-
-    // Parse all files
+    // Parse all files across every docs section (docs/, devs/, ...)
     const records = [];
-    for (const file of files) {
-      const record = await parseMarkdownFile(file);
-      if (record) {
-        records.push(record);
-        console.log(`  ✓ Parsed: ${record.title}`);
+    for (const section of CONFIG.sections) {
+      console.log(`📁 Scanning ${section.routeBasePath} directory: ${section.dir}`);
+      const files = await getAllMarkdownFiles(section.dir);
+      console.log(`📄 Found ${files.length} markdown files`);
+
+      for (const file of files) {
+        const record = await parseMarkdownFile(file, section);
+        if (record) {
+          records.push(record);
+          console.log(`  ✓ Parsed: ${record.title}`);
+        }
       }
     }
 
