@@ -3,7 +3,7 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Developer Documentation
+# Developer documentation
 
 Welcome to the WPBakery Page Builder Developer Documentation.
 
@@ -15,4 +15,4 @@ This section contains technical documentation for developers who want to extend 
 - **Params**: Learn about all available parameter types for creating custom elements
 - **Inner API**: Core API functions and methods for working with WPBakery Page Builder
 - **Filters**: WordPress filters available for customizing WPBakery behavior
-- **Developer How To's**: Step-by-step guides for common development tasks
+- **Developer Tutorials**: Step-by-step guides for common development tasks

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Release Notes / Changelog
+# Release notes / changelog
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 

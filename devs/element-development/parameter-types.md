@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Parameter Types
+# Parameter types
 
 Parameters define the options users see when editing the element in the WPBakery UI. They are added via the `params` array in `vc_map()`.
 
@@ -115,7 +115,7 @@ Parameters define the options users see when editing the element in the WPBakery
 ## icon
 
 * Type - String
-* Description - URL or CSS class with icon image. More info [here](https://kb.wpbakery.com/devs/developers-how-tos/set-content-element-icon).
+* Description - URL or CSS class with icon image. More info [here](https://kb.wpbakery.com/devs/developer-tutorials/set-content-element-icon).
 * Example:
 ```php
 'icon' => 'dashicons dashicons-admin-customizer',
@@ -142,7 +142,7 @@ Parameters define the options users see when editing the element in the WPBakery
 ## html_template
 
 * Type - String
-* Description - Path to shortcode template. This is useful if you want to reassign path of existing content elements through your plugin. Another way to [change html markup](https://kb.wpbakery.com/devs/developers-how-tos/change-shortcodes-html-output).
+* Description - Path to shortcode template. This is useful if you want to reassign path of existing content elements through your plugin. Another way to [change html markup](https://kb.wpbakery.com/devs/developer-tutorials/change-shortcodes-html-output).
 * Example:
 ```php
 'html_template' => get_template_directory() . '/templates/my-custom-element-template.php',

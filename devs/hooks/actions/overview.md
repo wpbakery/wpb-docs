@@ -23,7 +23,7 @@ function your_custom_function($param1, $param2) {
 | Action | Description |
 |--------|-------------|
 | [`vc-render-templates-preview-template`](/devs/hooks/actions/vc-render-templates-preview-template) | Fires during the template preview rendering process. |
-| [`vc-settings-render-tab-tab`](/devs/hooks/actions/vc-settings-render-tab-tab) | Fires when a specific WPBakery settings tab is being rendered. |
+| [`vc-settings-render-tab-{tab}`](/devs/hooks/actions/vc-settings-render-tab-tab) | Fires when a specific WPBakery settings tab is being rendered. |
 | [`vc-vendor-acf-load`](/devs/hooks/actions/vc-vendor-acf-load) | Fires after the Advanced Custom Fields (ACF) vendor integration has been loaded and initialized. |
 | [`vc_activation_hook`](/devs/hooks/actions/vc_activation_hook) | Fires during the WPBakery Page Builder plugin activation process. |
 | [`vc_after_init`](/devs/hooks/actions/vc_after_init) | Fires after WPBakery Page Builder has fully completed its initialization sequence. |
@@ -63,7 +63,7 @@ function your_custom_function($param1, $param2) {
 | [`vc_edit_form_fields_after_render`](/devs/hooks/actions/vc_edit_form_fields_after_render) | Fires after the element edit form fields are rendered. |
 | [`vc_editor_footer`](/devs/hooks/actions/vc_editor_footer) | Fires when rendering the editor footer partial. |
 | [`vc_enqueue_font_icon_element`](/devs/hooks/actions/vc_enqueue_font_icon_element) | Hook for custom enqueue of icon font stylesheets. |
-| [`vc_front_load_page_action`](/devs/hooks/actions/vc_front_load_page_action) | Dynamic hook fired when loading a frontend editor page action. |
+| [`vc_front_load_page_{action}`](/devs/hooks/actions/vc_front_load_page_action) | Dynamic hook fired when loading a frontend editor page action. |
 | [`vc_frontend_editor_enqueue_js_css`](/devs/hooks/actions/vc_frontend_editor_enqueue_js_css) | Fires when enqueueing JavaScript and CSS for the frontend editor. |
 | [`vc_frontend_editor_hook_load_edit`](/devs/hooks/actions/vc_frontend_editor_hook_load_edit) | Fires when the frontend editor loads an edit page. |
 | [`vc_frontend_editor_render`](/devs/hooks/actions/vc_frontend_editor_render) | Fires when the frontend editor is rendered. |
@@ -85,10 +85,10 @@ function your_custom_function($param1, $param2) {
 | [`vc_menu_page_build`](/devs/hooks/actions/vc_menu_page_build) | Fires after the main WPBakery Page Builder admin menu page has been registered. |
 | [`vc_network_menu_page_build`](/devs/hooks/actions/vc_network_menu_page_build) | Fires after the WPBakery Page Builder network admin menu page has been registered in a WordPress multisite environment. |
 | [`vc_page_settings_build`](/devs/hooks/actions/vc_page_settings_build) | Fires after the WPBakery settings page tabs have been built and their load callbacks registered. |
-| [`vc_page_settings_render_page`](/devs/hooks/actions/vc_page_settings_render_page) | Dynamic action that fires before a specific WPBakery settings page is rendered. |
+| [`vc_page_settings_render-{page}`](/devs/hooks/actions/vc_page_settings_render_page) | Dynamic action that fires before a specific WPBakery settings page is rendered. |
 | [`vc_plugins_loaded`](/devs/hooks/actions/vc_plugins_loaded) | Fires when WPBakery Page Builder has finished loading during the WordPress `plugins_loaded` hook. |
 | [`vc_settings_set_sections`](/devs/hooks/actions/vc_settings_set_sections) | Fires after all settings sections and tabs have been configured. |
-| [`vc_settings_tab_tab`](/devs/hooks/actions/vc_settings_tab_tab) | Dynamic action that fires for each registered settings tab during section initialization. |
+| [`vc_settings_tab-{tab}`](/devs/hooks/actions/vc_settings_tab_tab) | Dynamic action that fires for each registered settings tab during section initialization. |
 | [`vc_templates_delete_templates`](/devs/hooks/actions/vc_templates_delete_templates) | Fires when a template deletion is requested for a non-default template type. |
 | [`vc_ui-template-preview`](/devs/hooks/actions/vc_ui-template-preview) | Fires during the template preview rendering in both the backend editor and the grid item editor. |
 | [`vc_vc_grid_item_editor_render`](/devs/hooks/actions/vc_vc_grid_item_editor_render) | Fires when the WPBakery Grid Item editor is rendered. |

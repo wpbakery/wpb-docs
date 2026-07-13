@@ -22,7 +22,7 @@ It is also possible to update WPBakery Page Builder manually. To perform it plea
 6. Upload new version of WPBakery Page Builder
 7. Activate WPBakery Page Builder license
 
-:::warning Please note
+:::warning
 If WPBakery Page Builder came integrated into your theme, then ask your theme provider to update WPBakery Page Builder for you or [purchase license](https://wpbakery.com/wpbakery-page-builder-license/) directly from us to get free automatic updates.
 :::
 

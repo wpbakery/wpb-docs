@@ -1,7 +1,7 @@
 ---
 id: template-library
-title: Template Library
-sidebar_label: Template Library
+title: Template library
+sidebar_label: Template library
 sidebar_position: 15
 hide_table_of_contents: true
 ---

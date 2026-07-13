@@ -3,7 +3,7 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-# Blank Page Wizard
+# Blank page wizard
 
 ![Blank page interface introduced in 7.0 update](/img/screenshots/blank-page-interface.png)
 

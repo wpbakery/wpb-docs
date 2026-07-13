@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Add-on Development Rules
+# Add-on development rules
 
 ## General Rules
 
@@ -41,6 +41,6 @@ Website section with list of add-ons: [http://wpbakery.com/addons/](https://wpba
 
 All featured add-ons will be promoted through our official [Facebook page](https://www.facebook.com/wpbakery).
 
-:::warning Important
+:::warning
 Remember that we do not guarantee featuring your add-on on our page. Each add-on will be reviewed by our staff members.
 :::

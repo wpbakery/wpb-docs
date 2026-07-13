@@ -3,7 +3,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-# Support Policy
+# Support policy
 
 The purpose of the Help Center is to provide you with the right answers at the right time. Our support is provided only to direct product buyers. While applying at our Help Center you will be asked to provide a valid support license for our products.
 

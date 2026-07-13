@@ -39,7 +39,8 @@ All param types support these common parameters:
 | `param_name` | String | **Required.** Parameter name used in shortcode |
 | `value` | Mixed | Value for the parameter |
 | `description` | String | Help text shown below the field |
-| `group` | String | Tab/group name to organize parameters |
+| `group` | String | [Tab/group](/devs/developer-tutorials/use-param-group-in-elements) name to organize parameters |
+| `section` | String | [Section](/devs/developer-tutorials/use-param-section-in-elements) slug to visually group params within a tab |
 | `weight` | Integer | Display order (higher = shows first) |
 | `edit_field_class` | String | CSS class for field width (e.g., "vc_col-sm-6") |
 | `dependency` | Array | Show/hide based on other field values |
@@ -48,6 +49,7 @@ All param types support these common parameters:
 | `save_always` | Boolean | Force saving the value even if it equals the default or is empty |
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
+| `deprecated` | String | Version in which the param was deprecated |
 
 ## Type-Specific Parameters
 
@@ -58,6 +60,7 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`max` | Integer | - | Maximum allowed value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`step` | Integer | - | Step increment value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | Integer | - | Placeholder value shown when empty |
+| &nbsp;&nbsp;&nbsp;&nbsp;`unit` | String | - | Unit label displayed next to the input (e.g., `'%'`, `'px'`). This is a display-only label and does not modify the saved value |
 
 ## Complete Example
 
@@ -72,13 +75,26 @@ function my_element_with_range() {
         "params" => [
             [
                 "type" => "range",
-                "heading" => __("Field Label", "domain"),
-                "param_name" => "param_name",
-                "description" => __("Field description", "domain"),
+                "heading" => __("Opacity", "domain"),
+                "param_name" => "opacity",
+                "description" => __("Set element opacity", "domain"),
                 "settings" => [
                     "min" => 0,
                     "max" => 100,
                     "step" => 1,
+                ],
+            ],
+            [
+                "type" => "range",
+                "heading" => __("Width", "domain"),
+                "param_name" => "width",
+                "value" => "100",
+                "description" => __("Set element width", "domain"),
+                "settings" => [
+                    "min" => 10,
+                    "max" => 100,
+                    "step" => 10,
+                    "unit" => '%',
                 ],
             ],
         ],

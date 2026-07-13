@@ -13,7 +13,7 @@ If you have bought WPBakery Page Builder directly from WPBakery it is necessary 
 4. Log in to support portal with your WPBakery account
 5. Select from the drop-down license you wish to activate
 
-:::info Important
+:::info
 Only not activated licenses will appear there. If you wish to use an existing license you will need to deactivate it first on your site or via Support Portal License section.
 :::
 

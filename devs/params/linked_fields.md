@@ -1,9 +1,9 @@
 ---
-title: Linked Fields
+title: Linked fields
 sidebar_label: linked_fields
 ---
 
-# Linked Fields
+# Linked fields
 
 **Type:** `linked_fields`
 
@@ -20,9 +20,13 @@ Fields that are linked/dependent on other field values.
 ```php
 [
     "type" => "linked_fields",
-    "heading" => __("Field Label", "your-text-domain"),
-    "param_name" => "your_param_name",
-    "description" => __("Field description", "your-text-domain"),
+    "heading" => __("Padding", "your-text-domain"),
+    "param_name" => "padding",
+    "description" => __("Set padding values", "your-text-domain"),
+    "settings" => [
+        "units" => ['px', 'em', '%'],
+        "default_unit" => 'px',
+    ],
 ]
 ```
 
@@ -39,7 +43,8 @@ All param types support these common parameters:
 | `param_name` | String | **Required.** Parameter name used in shortcode |
 | `value` | Mixed | Value for the parameter |
 | `description` | String | Help text shown below the field |
-| `group` | String | Tab/group name to organize parameters |
+| `group` | String | [Tab/group](/devs/developer-tutorials/use-param-group-in-elements) name to organize parameters |
+| `section` | String | [Section](/devs/developer-tutorials/use-param-section-in-elements) slug to visually group params within a tab |
 | `weight` | Integer | Display order (higher = shows first) |
 | `edit_field_class` | String | CSS class for field width (e.g., "vc_col-sm-6") |
 | `dependency` | Array | Show/hide based on other field values |
@@ -48,12 +53,17 @@ All param types support these common parameters:
 | `save_always` | Boolean | Force saving the value even if it equals the default or is empty |
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
+| `deprecated` | String | Version in which the param was deprecated |
 
 ## Type-Specific Parameters
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | Mixed | - | Default param value (alternative to `value`) |
+| `std` | Mixed | - | Default param value (alternative to `value`). Uses pipe-separated key-value pairs (e.g., `"top:10|right:10|bottom:10|left:10|unit:px|linked:true"`) |
+| `value` | Array | `['top'=>'', 'right'=>'', 'bottom'=>'', 'left'=>'']` | Defines the field keys and their default values |
+| `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`units` | Boolean\|Array | `false` | Enable CSS unit selector. Set to `true` for default units (`px`, `em`, `rem`, `vw`, `vh`, `%`) or provide a custom array (e.g., `['px', 'em', '%']`). When enabled, a shared unit dropdown appears and the unit is stored with the value |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default_unit` | String | First unit in list | The unit selected by default when no unit is present in the value |
 
 ## Complete Example
 
@@ -68,9 +78,14 @@ function my_element_with_linked_fields() {
         "params" => [
             [
                 "type" => "linked_fields",
-                "heading" => __("Field Label", "domain"),
-                "param_name" => "param_name",
-                "description" => __("Field description", "domain"),
+                "heading" => __("Padding", "domain"),
+                "param_name" => "padding",
+                "std" => "top:10|right:10|bottom:10|left:10|unit:px|linked:true",
+                "settings" => [
+                    "units" => ['px', 'em', 'rem', '%'],
+                    "default_unit" => 'px',
+                ],
+                "description" => __("Set element padding", "domain"),
             ],
         ],
     ]);

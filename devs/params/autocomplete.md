@@ -39,7 +39,8 @@ All param types support these common parameters:
 | `param_name` | String | **Required.** Parameter name used in shortcode |
 | `value` | Mixed | Value for the parameter |
 | `description` | String | Help text shown below the field |
-| `group` | String | Tab/group name to organize parameters |
+| `group` | String | [Tab/group](/devs/developer-tutorials/use-param-group-in-elements) name to organize parameters |
+| `section` | String | [Section](/devs/developer-tutorials/use-param-section-in-elements) slug to visually group params within a tab |
 | `weight` | Integer | Display order (higher = shows first) |
 | `edit_field_class` | String | CSS class for field width (e.g., "vc_col-sm-6") |
 | `dependency` | Array | Show/hide based on other field values |
@@ -48,6 +49,7 @@ All param types support these common parameters:
 | `save_always` | Boolean | Force saving the value even if it equals the default or is empty |
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
+| `deprecated` | String | Version in which the param was deprecated |
 
 ## Type-Specific Parameters
 
@@ -62,6 +64,7 @@ All param types support these common parameters:
 | &nbsp;&nbsp;&nbsp;&nbsp;`delay` | Integer | `500` | Delay in milliseconds before triggering autocomplete |
 | &nbsp;&nbsp;&nbsp;&nbsp;`sortable` | Boolean | `false` | Whether selected items can be reordered |
 | &nbsp;&nbsp;&nbsp;&nbsp;`auto_focus` | Boolean | `true` | Auto focus first suggestion |
+| &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | String | `'Click here and start typing...'` | Placeholder text shown when field is empty |
 
 ## Complete Example
 

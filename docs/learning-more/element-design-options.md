@@ -1,7 +1,7 @@
 ---
 id: element-design-options
-title: Element Design Options
-sidebar_label: Element Design Options
+title: Element design options
+sidebar_label: Element design options
 sidebar_position: 12
 hide_table_of_contents: true
 ---

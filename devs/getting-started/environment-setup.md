@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Environment Setup
+# Environment setup
 Before developing custom elements or extending WPBakery Page Builder, you need a properly configured development environment. This ensures that you can build, test, and debug your components efficiently and safely.
 
 ## Requirements

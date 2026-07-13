@@ -1,7 +1,7 @@
 ---
 id: responsive-settings
-title: Responsive Settings
-sidebar_label: Responsive Settings
+title: Responsive settings
+sidebar_label: Responsive settings
 sidebar_position: 13
 hide_table_of_contents: true
 ---

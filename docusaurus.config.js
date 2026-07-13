@@ -1,6 +1,9 @@
 // @ts-check
 
+import dotenv from 'dotenv';
 import {themes as prismThemes} from 'prism-react-renderer';
+
+dotenv.config({path: '.env.local'});
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -33,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
+          // editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
           sidebarCollapsible: true,
           sidebarCollapsed: true,
         },
@@ -43,7 +46,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/wpbakery/wpb-docs/tree/main/',
+          // editUrl: 'https://github.com/wpbakery/wpb-docs/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -65,7 +68,7 @@ const config = {
         path: 'devs',
         routeBasePath: 'devs',
         sidebarPath: './sidebars-devs.js',
-        editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
+        // editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
         sidebarCollapsible: true,
         sidebarCollapsed: false,
       },
@@ -77,8 +80,8 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       algolia: {
-        appId: 'I4BZ3VIOZE',
-        apiKey: 'c8a06f55e31e2534400364d71aa03db3',
+        appId: process.env.ALGOLIA_APP_ID || 'I4BZ3VIOZE',
+        apiKey: process.env.ALGOLIA_SEARCH_API_KEY || 'c8a06f55e31e2534400364d71aa03db3',
         indexName: 'wp_kb',
         contextualSearch: false,
         searchParameters: {
@@ -108,7 +111,7 @@ const config = {
           },
           {
             href: 'https://support.wpbakery.com/?_gl=1*u2fsg8*_gcl_au*MTQzODY5MDUyOS4xNzcwMTE5ODI5',
-            label: 'Customer Center ↗',
+            label: 'Customer center ↗',
             position: 'right',
             target: '_blank',
           },
@@ -119,6 +122,9 @@ const config = {
             target: '_blank',
           },
         ],
+      },
+      footer: {
+        copyright: 'Copyright © 2026 Rain-Task Ltd. All Rights Reserved.',
       },
       prism: {
         theme: prismThemes.github,

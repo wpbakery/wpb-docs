@@ -9,7 +9,7 @@ Parameter types define the input controls that users interact with when configur
 
 This section provides detailed documentation for every parameter type available in WPBakery Page Builder, from simple text fields to complex custom controls.
 
-## Text & Content
+## Text & content
 
 <div className="topic-cards">
   <a href="/devs/params/textfield" className="topic-card">
@@ -28,12 +28,12 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/textarea_safe" className="topic-card">
-    <h3>Textarea Safe</h3>
+    <h3>Textarea safe</h3>
     <p>Sanitized textarea for safe HTML input.</p>
   </a>
 
   <a href="/devs/params/textarea_raw_html" className="topic-card">
-    <h3>Textarea Raw HTML</h3>
+    <h3>Textarea raw HTML</h3>
     <p>Base64 encoded raw HTML/JS code storage.</p>
   </a>
 
@@ -43,17 +43,17 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/exploded_textarea" className="topic-card">
-    <h3>Exploded Textarea</h3>
+    <h3>Exploded textarea</h3>
     <p>Line-separated values converted to arrays.</p>
   </a>
 
   <a href="/devs/params/exploded_textarea_safe" className="topic-card">
-    <h3>Exploded Textarea Safe</h3>
+    <h3>Exploded textarea safe</h3>
     <p>Safe version of exploded textarea input.</p>
   </a>
 </div>
 
-## Selection & Options
+## Selection & options
 
 <div className="topic-cards">
   <a href="/devs/params/dropdown" className="topic-card">
@@ -72,7 +72,7 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/button_group" className="topic-card">
-    <h3>Button Group</h3>
+    <h3>Button group</h3>
     <p>Visual button selection interface.</p>
   </a>
 
@@ -82,16 +82,16 @@ This section provides detailed documentation for every parameter type available 
   </a>
 </div>
 
-## Media & Assets
+## Media & assets
 
 <div className="topic-cards">
   <a href="/devs/params/attach_image" className="topic-card">
-    <h3>Attach Image</h3>
+    <h3>Attach image</h3>
     <p>Single image upload from media library.</p>
   </a>
 
   <a href="/devs/params/attach_images" className="topic-card">
-    <h3>Attach Images</h3>
+    <h3>Attach images</h3>
     <p>Multiple image upload and selection.</p>
   </a>
 
@@ -101,7 +101,7 @@ This section provides detailed documentation for every parameter type available 
   </a>
 </div>
 
-## Visual & Design
+## Visual & design
 
 <div className="topic-cards">
   <a href="/devs/params/colorpicker" className="topic-card">
@@ -110,12 +110,12 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/css_editor" className="topic-card">
-    <h3>CSS Editor</h3>
+    <h3>CSS editor</h3>
     <p>Visual CSS design options panel.</p>
   </a>
 
   <a href="/devs/params/font_container" className="topic-card">
-    <h3>Font Container</h3>
+    <h3>Font container</h3>
     <p>Typography and font settings control.</p>
   </a>
 
@@ -125,7 +125,7 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/animation_style" className="topic-card">
-    <h3>Animation Style</h3>
+    <h3>Animation style</h3>
     <p>Animation presets and effects selector.</p>
   </a>
 </div>
@@ -140,7 +140,7 @@ This section provides detailed documentation for every parameter type available 
 
 </div>
 
-## WordPress Integration
+## WordPress integration
 
 <div className="topic-cards">
   <a href="/devs/params/posttypes" className="topic-card">
@@ -154,17 +154,17 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/widgetised_sidebars" className="topic-card">
-    <h3>Widgetised Sidebars</h3>
+    <h3>Widgetised sidebars</h3>
     <p>Sidebar/widget area selector.</p>
   </a>
 
 </div>
 
-## Advanced Controls
+## Advanced controls
 
 <div className="topic-cards">
   <a href="/devs/params/param_group" className="topic-card">
-    <h3>Param Group</h3>
+    <h3>Param group</h3>
     <p>Repeatable groups of parameters.</p>
   </a>
 
@@ -184,12 +184,12 @@ This section provides detailed documentation for every parameter type available 
   </a>
 
   <a href="/devs/params/tag_input" className="topic-card">
-    <h3>Tag Input</h3>
+    <h3>Tag input</h3>
     <p>Comma-separated tags input field.</p>
   </a>
 
   <a href="/devs/params/linked_fields" className="topic-card">
-    <h3>Linked Fields</h3>
+    <h3>Linked fields</h3>
     <p>Connected parameter values control.</p>
   </a>
 
@@ -203,11 +203,6 @@ This section provides detailed documentation for every parameter type available 
     <p>Element ID field for custom anchors.</p>
   </a>
 
-  <a href="/devs/params/custom_markup" className="topic-card">
-    <h3>Custom Markup</h3>
-    <p>Custom HTML markup injection.</p>
-  </a>
-
   <a href="/devs/params/gutenberg" className="topic-card">
     <h3>Gutenberg</h3>
     <p>Gutenberg block integration support.</p>
@@ -219,7 +214,7 @@ This section provides detailed documentation for every parameter type available 
   </a>
 </div>
 
-## Using Parameters
+## Using parameters
 
 Parameters are defined in the `params` array when registering an element with `vc_map()`:
 
@@ -245,7 +240,7 @@ vc_map([
 ]);
 ```
 
-## Common Parameter Options
+## Common parameter options
 
 All parameter types support these common options:
 
@@ -265,9 +260,11 @@ All parameter types support these common options:
 - `save_always` - Force saving the param value to the shortcode even if it equals the default or is empty
 - `callback` - JavaScript function callback attached to the window object (e.g., `['after_add' => 'vcChartParamAfterAddCallback']`)
 - `settings` - Array of type-specific configuration options (varies per param type, see individual param docs)
+- `custom_markup` - HTML template used to render the element in the backend editor. See [vc_map() → custom_markup](/devs/inner-api/vc_map#custom_markup-template)
+- `deprecated` - Version in which the param was deprecated
 
-## Next Steps
+## Next steps
 
 - Browse individual parameter documentation for detailed usage examples
 - Check **Element Development** for implementing parameters in your elements
-- Review **Developer How To's** for advanced parameter techniques
+- Review **Developer Tutorials** for advanced parameter techniques

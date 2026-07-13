@@ -149,13 +149,6 @@
       },
       {
         "type": "link",
-        "label": "custom_markup",
-        "href": "/devs/params/custom_markup",
-        "docId": "params/custom_markup",
-        "unlisted": false
-      },
-      {
-        "type": "link",
         "label": "dropdown",
         "href": "/devs/params/dropdown",
         "docId": "params/dropdown",
@@ -2821,218 +2814,218 @@
   },
   {
     "type": "category",
-    "label": "Developer How To's",
+    "label": "Developer Tutorials",
     "collapsible": true,
     "collapsed": true,
     "items": [
       {
         "type": "link",
         "label": "Overview",
-        "href": "/devs/developer-how-tos/overview",
-        "docId": "developer-how-tos/overview",
+        "href": "/devs/developer-tutorials/overview",
+        "docId": "developer-tutorials/overview",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Add Animation Param to the Element",
-        "href": "/devs/developers-how-tos/add-animation-param-to-the-element",
-        "docId": "developer-how-tos/add-animation-param-to-the-element",
+        "href": "/devs/developer-tutorials/add-animation-param-to-the-element",
+        "docId": "developer-tutorials/add-animation-param-to-the-element",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Add Iconpicker Param to the Element",
-        "href": "/devs/developers-how-tos/add-iconpicker-param-to-the-element",
-        "docId": "developer-how-tos/add-iconpicker-param-to-the-element",
+        "href": "/devs/developer-tutorials/add-iconpicker-param-to-the-element",
+        "docId": "developer-tutorials/add-iconpicker-param-to-the-element",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Custom Types Ready with Toolset",
-        "href": "/devs/developers-how-tos/custom-types-ready-with-toolset",
-        "docId": "developer-how-tos/custom-types-ready-with-toolset",
+        "href": "/devs/developer-tutorials/custom-types-ready-with-toolset",
+        "docId": "developer-tutorials/custom-types-ready-with-toolset",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "How To Create Custom Element",
-        "href": "/devs/developers-how-tos/how-to-create-custom-element",
-        "docId": "developer-how-tos/how-to-create-custom-element",
+        "href": "/devs/developer-tutorials/how-to-create-custom-element",
+        "docId": "developer-tutorials/how-to-create-custom-element",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "WPBakery Beta Testing Guide: Steps & Tips",
-        "href": "/devs/developers-how-tos/wpbakery-beta-testing-guide-steps-tips",
-        "docId": "developer-how-tos/wpbakery-beta-testing-guide-steps-tips",
+        "href": "/devs/developer-tutorials/wpbakery-beta-testing-guide-steps-tips",
+        "docId": "developer-tutorials/wpbakery-beta-testing-guide-steps-tips",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Add \"Design Options\" Tab with CSS Editor to Your Element",
-        "href": "/devs/developers-how-tos/add-design-options-tab-with-css-editor-to-your-element",
-        "docId": "developer-how-tos/add-design-options-tab",
+        "href": "/devs/developer-tutorials/add-design-options-tab-with-css-editor-to-your-element",
+        "docId": "developer-tutorials/add-design-options-tab",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Add Custom Row Layouts (Presets)",
-        "href": "/devs/developers-how-tos/add-custom-row-layouts-presets",
-        "docId": "developer-how-tos/add-custom-row-layouts",
+        "href": "/devs/developer-tutorials/add-custom-row-layouts-presets",
+        "docId": "developer-tutorials/add-custom-row-layouts",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Add Google Fonts parameter",
-        "href": "/devs/developers-how-tos/add-google-fonts-parameter",
-        "docId": "developer-how-tos/add-google-fonts-parameter",
+        "href": "/devs/developer-tutorials/add-google-fonts-parameter",
+        "docId": "developer-tutorials/add-google-fonts-parameter",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Adding Custom Shortcode to Grid Builder",
-        "href": "/devs/developers-how-tos/adding-custom-shortcode-to-grid-builder",
-        "docId": "developer-how-tos/adding-custom-shortcode-to-grid-builder",
+        "href": "/devs/developer-tutorials/adding-custom-shortcode-to-grid-builder",
+        "docId": "developer-tutorials/adding-custom-shortcode-to-grid-builder",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Adding Icons to vc_icon",
-        "href": "/devs/developers-how-tos/adding-icons-to-vc_icon",
-        "docId": "developer-how-tos/adding-icons-to-vc-icon",
+        "href": "/devs/developer-tutorials/adding-icons-to-vc_icon",
+        "docId": "developer-tutorials/adding-icons-to-vc-icon",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Change CSS Class Names in Output",
-        "href": "/devs/developers-how-tos/change-css-class-names-in-output",
-        "docId": "developer-how-tos/change-css-class-names",
+        "href": "/devs/developer-tutorials/change-css-class-names-in-output",
+        "docId": "developer-tutorials/change-css-class-names",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Change Default Value of Param",
-        "href": "/devs/developers-how-tos/change-default-value-of-param",
-        "docId": "developer-how-tos/change-default-value-of-param",
+        "href": "/devs/developer-tutorials/change-default-value-of-param",
+        "docId": "developer-tutorials/change-default-value-of-param",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Change Shortcode\u2019s HTML Output",
-        "href": "/devs/developers-how-tos/change-shortcodes-html-output",
-        "docId": "developer-how-tos/change-shortcodes-html-output",
+        "href": "/devs/developer-tutorials/change-shortcodes-html-output",
+        "docId": "developer-tutorials/change-shortcodes-html-output",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Control Default Presets in Content Elements",
-        "href": "/devs/developers-how-tos/control-default-presets-in-content-elements",
-        "docId": "developer-how-tos/control-default-presets",
+        "href": "/devs/developer-tutorials/control-default-presets-in-content-elements",
+        "docId": "developer-tutorials/control-default-presets",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Create New Param Type",
-        "href": "/devs/developers-how-tos/create-new-param-type",
-        "docId": "developer-how-tos/create-new-param-type",
+        "href": "/devs/developer-tutorials/create-new-param-type",
+        "docId": "developer-tutorials/create-new-param-type",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Disable Instructional/Help Pointers",
-        "href": "/devs/developers-how-tos/disable-instructional-help-pointers",
-        "docId": "developer-how-tos/disable-help-pointers",
+        "href": "/devs/developer-tutorials/disable-instructional-help-pointers",
+        "docId": "developer-tutorials/disable-help-pointers",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Examples pages",
-        "href": "/devs/developers-how-tos/examples-pages",
-        "docId": "developer-how-tos/examples-pages",
+        "href": "/devs/developer-tutorials/examples-pages",
+        "docId": "developer-tutorials/examples-pages",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "How to Manage List of Google Fonts",
-        "href": "/devs/developers-how-tos/how-to-manage-list-of-google-fonts",
-        "docId": "developer-how-tos/manage-google-fonts-list",
+        "href": "/devs/developer-tutorials/how-to-manage-list-of-google-fonts",
+        "docId": "developer-tutorials/manage-google-fonts-list",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Nested Shortcodes (container)",
-        "href": "/devs/developers-how-tos/nested-shortcodes-container",
-        "docId": "developer-how-tos/nested-shortcodes-container",
+        "href": "/devs/developer-tutorials/nested-shortcodes-container",
+        "docId": "developer-tutorials/nested-shortcodes-container",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Param Position Control with vc_add_param",
-        "href": "/devs/developers-how-tos/param-position-control-with-vc_add_param",
-        "docId": "developer-how-tos/param-position-control",
+        "href": "/devs/developer-tutorials/param-position-control-with-vc_add_param",
+        "docId": "developer-tutorials/param-position-control",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Remove \"Edit with WPBakery Page Builder\" from WordPress Admin Bar",
-        "href": "/devs/developers-how-tos/remove-edit-with-wpbakery-page-builder-from-wordpress-admin-bar",
-        "docId": "developer-how-tos/remove-edit-from-admin-bar",
+        "href": "/devs/developer-tutorials/remove-edit-with-wpbakery-page-builder-from-wordpress-admin-bar",
+        "docId": "developer-tutorials/remove-edit-from-admin-bar",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Remove Content Element from Grid Builder",
-        "href": "/devs/developers-how-tos/remove-content-element-from-grid-builder",
-        "docId": "developer-how-tos/remove-element-from-grid-builder",
+        "href": "/devs/developer-tutorials/remove-content-element-from-grid-builder",
+        "docId": "developer-tutorials/remove-element-from-grid-builder",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Remove WooCommerce Mapped Content Elements",
-        "href": "/devs/developers-how-tos/remove-woocommerce-mapped-content-elements",
-        "docId": "developer-how-tos/remove-woocommerce-elements",
+        "href": "/devs/developer-tutorials/remove-woocommerce-mapped-content-elements",
+        "docId": "developer-tutorials/remove-woocommerce-elements",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Save Param Values in Shortcode String",
-        "href": "/devs/developers-how-tos/save-param-values-in-shortcode-string",
-        "docId": "developer-how-tos/save-param-values-in-shortcode",
+        "href": "/devs/developer-tutorials/save-param-values-in-shortcode-string",
+        "docId": "developer-tutorials/save-param-values-in-shortcode",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Set Content Element Icon",
-        "href": "/devs/developers-how-tos/set-content-element-icon",
-        "docId": "developer-how-tos/set-content-element-icon",
+        "href": "/devs/developer-tutorials/set-content-element-icon",
+        "docId": "developer-tutorials/set-content-element-icon",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Update Single Param Values",
-        "href": "/devs/developers-how-tos/update-single-param-values",
-        "docId": "developer-how-tos/update-single-param-values",
+        "href": "/devs/developer-tutorials/update-single-param-values",
+        "docId": "developer-tutorials/update-single-param-values",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Use Param Group in Elements",
-        "href": "/devs/developers-how-tos/use-param-group-in-elements",
-        "docId": "developer-how-tos/use-param-group",
+        "href": "/devs/developer-tutorials/use-param-group-in-elements",
+        "docId": "developer-tutorials/use-param-group",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Asset Management",
-        "href": "/devs/developers-how-tos/asset-management",
-        "docId": "developer-how-tos/asset-management",
+        "href": "/devs/developer-tutorials/asset-management",
+        "docId": "developer-tutorials/asset-management",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Editor Events",
-        "href": "/devs/developers-how-tos/editor-events",
-        "docId": "developer-how-tos/editor-events",
+        "href": "/devs/developer-tutorials/editor-events",
+        "docId": "developer-tutorials/editor-events",
         "unlisted": false
       }
     ]
@@ -3068,7 +3061,7 @@
   },
   {
     "type": "link",
-    "label": "Plugin Boilerplate \u2197",
+    "label": "Plugin boilerplate \u2197",
     "href": "https://github.com/wpbakery/dev-example"
   }
 ]
