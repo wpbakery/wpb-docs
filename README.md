@@ -61,7 +61,9 @@ This documentation uses Algolia DocSearch for search functionality.
 
 ### Indexing Documentation
 
-After making changes to documentation:
+Indexing runs automatically after every deploy to `main` (see `.github/workflows/deploy.yml`), so you don't need to index manually after merging changes.
+
+To index manually (e.g. while testing locally):
 
 ```bash
 yarn run index-algolia
@@ -74,6 +76,12 @@ yarn run build-and-index
 ```
 
 **Security Note:** The Admin API key should only be stored in `.env.local` (gitignored) or as a CI/CD secret. Never commit it to the repository.
+
+**CI setup:** For the automatic indexing step to run, configure these in the repository's Settings → Secrets and variables → Actions:
+- `ALGOLIA_ADMIN_KEY` (secret, required) — the Algolia Admin API key
+- `ALGOLIA_APP_ID` (variable, required) — the Algolia Application ID
+- `ALGOLIA_INDEX_NAME` (variable, optional) — defaults to `wp_kb`
+- `SITE_URL` (variable, optional) — defaults to `http://localhost:3000`; set to the production URL (e.g. `https://kb-new.wpbakery.com`) so indexed record URLs point to the live site
 
 ## Deployment
 
