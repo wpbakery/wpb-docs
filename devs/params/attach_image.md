@@ -52,6 +52,14 @@ All param types support these common parameters:
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
 | `deprecated` | String | Version in which the param was deprecated |
 
+## Type-Specific Parameters
+
+| Parameter | Type | Default | Description                                            |
+|-----------|------|---------|--------------------------------------------------------|
+| `settings` | Array | -       | Configuration array with the following options:        |
+| &nbsp;&nbsp;&nbsp;&nbsp;`is_link_icon` | Boolean | `false` | Whether to show the link icon inside the image preview |
+
+
 ## Complete Example
 
 ```php
