@@ -1,6 +1,9 @@
 // @ts-check
 
+import dotenv from 'dotenv';
 import {themes as prismThemes} from 'prism-react-renderer';
+
+dotenv.config({path: '.env.local'});
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -77,8 +80,8 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       algolia: {
-        appId: 'I4BZ3VIOZE',
-        apiKey: 'c8a06f55e31e2534400364d71aa03db3',
+        appId: process.env.ALGOLIA_APP_ID || 'I4BZ3VIOZE',
+        apiKey: process.env.ALGOLIA_SEARCH_API_KEY || 'c8a06f55e31e2534400364d71aa03db3',
         indexName: 'wp_kb',
         contextualSearch: false,
         searchParameters: {
