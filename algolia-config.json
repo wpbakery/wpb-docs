@@ -1,10 +1,10 @@
 {
   "index_name": "wp_kb",
   "start_urls": [
-    "https://kb-new.wpbakery.com/docs/"
+    "https://kb.wpbakery.com/docs/"
   ],
   "sitemap_urls": [
-    "https://kb-new.wpbakery.com/sitemap.xml"
+    "https://kb.wpbakery.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
