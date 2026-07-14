@@ -51,7 +51,12 @@ jobs:
   index-algolia:
     runs-on: ubuntu-latest
     needs: deploy
-    if: ${{ vars.ALGOLIA_APP_ID != '' && secrets.ALGOLIA_ADMIN_KEY != '' }}
+    if: ${{ vars.ALGOLIA_APP_ID != '' }}
+    env:
+      ALGOLIA_APP_ID: ${{ vars.ALGOLIA_APP_ID }}
+      ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+      ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
+      SITE_URL: ${{ vars.SITE_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -61,12 +66,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
+        if: ${{ env.ALGOLIA_ADMIN_KEY != '' }}
         run: npm ci
 
       - name: Index documentation to Algolia
+        if: ${{ env.ALGOLIA_ADMIN_KEY != '' }}
         run: npm run index-algolia
-        env:
-          ALGOLIA_APP_ID: ${{ vars.ALGOLIA_APP_ID }}
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
-          SITE_URL: ${{ vars.SITE_URL }}
