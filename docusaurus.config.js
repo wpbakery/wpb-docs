@@ -16,7 +16,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://kb-new.wpbakery.com',
+  url: process.env.SITE_URL || 'https://kb.wpbakery.com',
   baseUrl: '/',
 
   organizationName: 'wpbakery',
@@ -54,6 +54,9 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        googleTagManager: {
+          containerId: 'GTM-5QKCSM9',
         },
       }),
     ],

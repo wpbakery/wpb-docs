@@ -81,7 +81,7 @@ yarn run build-and-index
 - `ALGOLIA_ADMIN_KEY` (secret, required) — the Algolia Admin API key
 - `ALGOLIA_APP_ID` (variable, required) — the Algolia Application ID
 - `ALGOLIA_INDEX_NAME` (variable, optional) — defaults to `wp_kb`
-- `SITE_URL` (variable, optional) — defaults to `http://localhost:3000`; set to the production URL (e.g. `https://kb-new.wpbakery.com`) so indexed record URLs point to the live site
+- `SITE_URL` (variable, optional) — the canonical site URL. Drives the Docusaurus `url` (sitemap/canonical links), the generated `CNAME` custom domain file, and the URLs of indexed Algolia records. Currently `https://kb-new.wpbakery.com`; on domain switch day update this variable to `https://kb.wpbakery.com` and re-run the deploy workflow. When unset, builds fall back to `https://kb.wpbakery.com` (Algolia indexing script falls back to `http://localhost:3000`)
 
 ## Deployment
 
