@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -50,22 +51,38 @@ jobs:
   index-algolia:
     runs-on: ubuntu-latest
     needs: deploy
-    if: ${{ vars.ALGOLIA_APP_ID != '' && secrets.ALGOLIA_ADMIN_KEY != '' }}
+    if: ${{ vars.ALGOLIA_APP_ID != '' }}
+    env:
+      ALGOLIA_APP_ID: ${{ vars.ALGOLIA_APP_ID }}
+      ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
+      SITE_URL: ${{ vars.SITE_URL }}
     steps:
+      - name: Check Algolia configuration
+        id: algolia-config
+        env:
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        run: |
+          if [ -n "$ALGOLIA_ADMIN_KEY" ] && [ -n "$ALGOLIA_INDEX_NAME" ] && [ -n "$SITE_URL" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          fi
+          
       - uses: actions/checkout@v4
-
+        if: ${{ steps.algolia-config.outputs.enabled == 'true' }}
+  
       - uses: actions/setup-node@v4
+        if: ${{ steps.algolia-config.outputs.enabled == 'true' }}
         with:
           node-version: 22
           cache: npm
-
+  
       - name: Install dependencies
+        if: ${{ steps.algolia-config.outputs.enabled == 'true' }}
         run: npm ci
-
+  
       - name: Index documentation to Algolia
-        run: npm run index-algolia
+        if: ${{ steps.algolia-config.outputs.enabled == 'true' }}
         env:
-          ALGOLIA_APP_ID: ${{ vars.ALGOLIA_APP_ID }}
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
-          SITE_URL: ${{ vars.SITE_URL }}
+        run: npm run index-algolia
