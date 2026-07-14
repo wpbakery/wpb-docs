@@ -78,7 +78,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/wpbakery-social-card.png',
       algolia: {
         appId: process.env.ALGOLIA_APP_ID || 'I4BZ3VIOZE',
         apiKey: process.env.ALGOLIA_SEARCH_API_KEY || 'c8a06f55e31e2534400364d71aa03db3',
