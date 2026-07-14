@@ -62,7 +62,7 @@ jobs:
         env:
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         run: |
-          if [ -n "$ALGOLIA_ADMIN_KEY" ]; then
+          if [ -n "$ALGOLIA_ADMIN_KEY" ] && [ -n "$ALGOLIA_INDEX_NAME" ] && [ -n "$SITE_URL" ]; then
             echo "enabled=true" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
