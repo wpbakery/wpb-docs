@@ -14,7 +14,7 @@ If you have bought WPBakery Page Builder directly from WPBakery it is necessary 
 5. Select from the drop-down license you wish to activate
 
 :::info
-Only not activated licenses will appear there. If you wish to use an existing license you will need to deactivate it first on your site or via Support Portal License section.
+Only not activated licenses will appear there. If you wish to use an existing license you will need to deactivate it first on your site or via Support Portal License section. Each license can be deactivated and activated on up to three unique domains within a 30-day period.
 :::
 
 6. After activation, you will be redirected back to your site and receive activation confirmation

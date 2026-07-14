@@ -6,6 +6,14 @@ sidebar_position: 5
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 
+## Version 8.7.4 (09.07.2025)
+
+- **Fix:** Improved capability and nonce verification to preset saving requests
+
+## Version 8.7.3 (12.05.2025)
+
+- **Fix:** Added capability and nonce verification to frontend preview requests
+
 ## Version 8.7.2 (27.10.2025)
 
 - **Fix:** Content and column vertical position works with the support for backward compatibility
