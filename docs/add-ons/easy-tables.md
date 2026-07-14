@@ -48,4 +48,4 @@ Thank you for your purchase. If you have any questions that are beyond the scope
 
 Don't be shy – [join us on Facebook](https://www.facebook.com/wpbakery).
 
-[WPBakery Page Builder website](https://wpbakery.com/) · [Portfolio](https://wpbakery.com/portfolio/) · [Twitter @wpbakery](https://twitter.com/wpbakery)
+[WPBakery Page Builder website](https://wpbakery.com/) · [Showcase](https://wpbakery.com/showcase/) · [Twitter @wpbakery](https://twitter.com/wpbakery)
