@@ -2,6 +2,7 @@
 
 import dotenv from 'dotenv';
 import {themes as prismThemes} from 'prism-react-renderer';
+import redirects from './redirects.js';
 
 dotenv.config({path: '.env.local'});
 
@@ -71,6 +72,12 @@ const config = {
         // editUrl: 'https://github.com/wpbakery/wpb-docs/edit/main/',
         sidebarCollapsible: true,
         sidebarCollapsed: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects,
       },
     ],
   ],
