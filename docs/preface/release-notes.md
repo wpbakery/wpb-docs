@@ -6,11 +6,32 @@ sidebar_position: 5
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 
-## Version 8.7.4 (09.07.2025)
+## Version 9.0 (29.07.2026)
+
+- New: The navigation bar UI has been improved
+- New: The frontend editor controls UI has been improved
+- New: The notification UI has been improved
+- New: The attributes UI has been improved
+- New: The element edit window layout has been improved for better UI and UX
+- New: The template window UI has been improved
+- New: The tooltip UI has been improved
+- New: The WPBakery admin panel menu has been improved for better UX
+- New: Five-column presets have been added to post grid elements
+- New: Blank canvas starter UI has been improved
+- New: The SEO window UI has been improved
+- New: The settings window UI has been improved
+- New: The row layout window UI has been improved
+- New: The link modal window UI has been improved
+- Update: The license tab cannot be removed via API
+- Update: Drag and drop library has been improved
+- Update: CSS loading structure has been improved to load only the CSS in use
+- Update: CSS file splitting to reduce the amount of CSS load on the page
+
+## Version 8.7.4 (09.07.2026)
 
 - **Fix:** Improved capability and nonce verification to preset saving requests
 
-## Version 8.7.3 (12.05.2025)
+## Version 8.7.3 (12.05.2026)
 
 - **Fix:** Added capability and nonce verification to frontend preview requests
 
