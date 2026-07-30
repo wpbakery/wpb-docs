@@ -14,9 +14,14 @@ During the development process, we always receive some quality feedback from our
 ## Element mapping
 
 <div className="topic-cards">
+  <a href="/devs/inner-api/wpb_map" className="topic-card">
+    <h3>wpb_map()</h3>
+    <p>Register a new content element with WPBakery Page Builder.</p>
+  </a>
+
   <a href="/devs/inner-api/vc_map" className="topic-card">
     <h3>vc_map()</h3>
-    <p>Register a new content element with WPBakery Page Builder.</p>
+    <p>Alias of wpb_map(). Register a new content element with WPBakery Page Builder.</p>
   </a>
 
   <a href="/devs/inner-api/vc_lean_map" className="topic-card">
