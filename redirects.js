@@ -78,6 +78,7 @@ const redirects = [
   {from: '/docs/inner-api/vc_set_shortcodes_templates_dir', to: '/devs/inner-api/vc_set_shortcodes_templates_dir'},
   {from: '/docs/inner-api/vc_shortcodes_theme_templates_dir', to: '/devs/inner-api/vc_shortcodes_theme_templates_dir'},
   {from: '/docs/inner-api/vc_update_shortcode_param', to: '/devs/inner-api/vc_update_shortcode_param'},
+  {from: '/docs/outro', to: '/'},
   {from: '/docs/theme-integration-technical', to: '/devs/theme-integration'},
   {from: '/docs/theme-integration-technical/theme-integration-marketing', to: '/devs/theme-integration/marketing'},
   {from: '/docs/theme-integration-technical/theme-integration-technical', to: '/devs/theme-integration/technical'},
