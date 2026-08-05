@@ -6,6 +6,14 @@ sidebar_position: 5
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 
+## Version 9.0.1 (05.08.2026)
+- Fix: Deleted params do not trigger fatal error
+- Fix: Content position is added back for backward compatibility
+- Fix: Column responsive options are working properly
+- Fix: Inner element controls are displayed properly
+- Fix: Undo button works properly with accordion elements
+- Fix: Color picker label is being displayed properly
+
 ## Version 9.0 (29.07.2026)
 
 - New: The navigation bar UI has been improved
