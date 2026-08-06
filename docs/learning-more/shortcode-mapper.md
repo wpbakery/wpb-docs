@@ -1,6 +1,6 @@
 ---
 id: shortcode-mapper
-title: Shortcode mapper
+title: Shortcode Mapper
 sidebar_label: Shortcode mapper
 sidebar_position: 16
 hide_table_of_contents: true
