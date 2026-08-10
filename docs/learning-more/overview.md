@@ -88,7 +88,7 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
   </a>
 
   <a href="/docs/learning-more/shortcode-mapper" className="topic-card">
-    <h3>Shortcode mapper</h3>
+    <h3>Shortcode Mapper</h3>
     <p>Map third-party shortcodes to make them compatible with the page builder interface.</p>
   </a>
 
