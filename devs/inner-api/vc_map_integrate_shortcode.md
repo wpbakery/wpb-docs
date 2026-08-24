@@ -16,7 +16,7 @@ Help integrate the existing shortcode element with another shortcode element.
 
 | Param name | Type | Required | Description |
 |---|---|---|---|
-| $shortcode | String | Yes | Shorcode slug. |
+| $shortcode | Array\|String | Yes | Shortcode slug or shortcode data array. |
 | $field_prefix | String | Yes | Prefix for a shortcode param name. We use it to differentiate our integrated params. |
 | $group_prefix | String | Yes | Prefix for a shortcode param group name. We use it to differentiate our integrated params. |
 | $change_fields | Array | No | We use it to include/exclude some shortcode params. |
