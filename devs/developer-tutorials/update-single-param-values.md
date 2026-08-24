@@ -18,10 +18,10 @@ After [vc_map()](/devs/inner-api/vc_map) function call all mapping data is store
 add_action( 'vc_after_init', 'add_cta_button_super_color' ); /* Note: here we are using vc_after_init because WPBMap::GetParam and mutateParame are available only when default content elements are "mapped" into the system */
 function add_cta_button_super_color() {
  //Get current values stored in the color param in "Call to Action" element
- $param = WPBMap::getParam( 'vc_cta_button', 'color' );
- //Append new value to the 'value' array
- $param['value'][__( 'Super color', 'my-text-domain' )] = 'btn-super-color';
+ $param = WPBMap::getParam( 'vc_separator', 'style' );
+ //Remove 'Dashed' value from 'Style dropdown'
+ unset($param['value']['Dashed']);
  //Finally "mutate" param with new values
- vc_update_shortcode_param( 'vc_cta_button', $param );
+ vc_update_shortcode_param( 'vc_separator', $param );
 }
 ```
