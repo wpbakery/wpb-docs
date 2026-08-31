@@ -28,6 +28,12 @@ Please note that each parameter attribute can be provided with 3 different data 
 
 :::note
 
+`admin_enqueue_js`, `admin_enqueue_css`, `front_enqueue_js`, and `front_enqueue_css` are always loaded in their respective editors, regardless of whether the shortcode is present. Only `view_enqueue_js` and `view_enqueue_css` are loaded conditionally – on a view page they are enqueued only when the shortcode is present on that page.
+
+:::
+
+:::note
+
 For `view_enqueue_js` and `view_enqueue_css` to work on view pages, you must specify the shortcode class together with your custom element, like in the example below.
 
 :::
