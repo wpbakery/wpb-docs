@@ -2,7 +2,7 @@
 id: keyboard-shortcuts
 title: Keyboard shortcuts
 sidebar_label: Keyboard shortcuts
-sidebar_position: 20
+sidebar_position: 10
 hide_table_of_contents: true
 ---
 

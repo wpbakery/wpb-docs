@@ -2,7 +2,7 @@
 id: element-design-options
 title: Element design options
 sidebar_label: Element design options
-sidebar_position: 12
+sidebar_position: 3
 hide_table_of_contents: true
 ---
 

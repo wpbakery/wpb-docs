@@ -2,7 +2,7 @@
 id: copy-paste
 title: Copy/Paste
 sidebar_label: Copy/Paste
-sidebar_position: 10
+sidebar_position: 5
 hide_table_of_contents: true
 ---
 

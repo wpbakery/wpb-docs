@@ -2,7 +2,7 @@
 id: custom-css
 title: Custom CSS
 sidebar_label: Custom CSS
-sidebar_position: 8
+sidebar_position: 7
 hide_table_of_contents: true
 ---
 

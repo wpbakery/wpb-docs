@@ -2,7 +2,7 @@
 id: responsive-settings
 title: Responsive settings
 sidebar_label: Responsive settings
-sidebar_position: 13
+sidebar_position: 4
 hide_table_of_contents: true
 ---
 

@@ -2,7 +2,7 @@
 id: custom-js
 title: Custom JS
 sidebar_label: Custom JS
-sidebar_position: 9
+sidebar_position: 8
 hide_table_of_contents: true
 ---
 
