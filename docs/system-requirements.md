@@ -1,6 +1,9 @@
 ---
-sidebar_position: 6
-hide_table_of_contents: true
+id: system-requirements
+title: System requirements
+sidebar_label: System requirements
+sidebar_position: 12
+slug: /system-requirements
 ---
 
 # System requirements
