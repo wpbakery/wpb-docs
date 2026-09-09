@@ -2,7 +2,7 @@
 id: system-requirements
 title: System requirements
 sidebar_label: System requirements
-sidebar_position: 12
+sidebar_position: 8
 slug: /system-requirements
 ---
 

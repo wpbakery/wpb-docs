@@ -2,7 +2,7 @@
 id: release-notes
 title: Release notes
 sidebar_label: Release notes
-sidebar_position: 12
+sidebar_position: 9
 slug: /release-notes
 ---
 
