@@ -2,7 +2,7 @@
 id: template-library
 title: Template library
 sidebar_label: Template library
-sidebar_position: 15
+sidebar_position: 4
 hide_table_of_contents: true
 ---
 

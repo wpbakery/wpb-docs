@@ -2,7 +2,7 @@
 id: shortcode-mapper
 title: Shortcode Mapper
 sidebar_label: Shortcode Mapper
-sidebar_position: 16
+sidebar_position: 8
 hide_table_of_contents: true
 ---
 

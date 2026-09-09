@@ -2,7 +2,7 @@
 id: wpbakery-seo
 title: WPBakery SEO
 sidebar_label: WPBakery SEO
-sidebar_position: 6
+sidebar_position: 2
 hide_table_of_contents: true
 ---
 

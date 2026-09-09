@@ -2,7 +2,7 @@
 id: wpbakery-ai
 title: WPBakery AI
 sidebar_label: WPBakery AI
-sidebar_position: 5
+sidebar_position: 1
 hide_table_of_contents: true
 ---
 

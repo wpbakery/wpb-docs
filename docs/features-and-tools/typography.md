@@ -2,7 +2,7 @@
 id: typography
 title: Typography
 sidebar_label: Typography
-sidebar_position: 11
+sidebar_position: 5
 hide_table_of_contents: true
 ---
 

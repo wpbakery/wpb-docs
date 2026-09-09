@@ -2,7 +2,7 @@
 id: templates
 title: Templates
 sidebar_label: Templates
-sidebar_position: 14
+sidebar_position: 3
 hide_table_of_contents: true
 ---
 

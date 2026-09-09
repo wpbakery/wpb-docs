@@ -2,7 +2,7 @@
 id: grid-builder
 title: Grid builder
 sidebar_label: Grid builder
-sidebar_position: 17
+sidebar_position: 6
 ---
 
 ***Since 4.4***
