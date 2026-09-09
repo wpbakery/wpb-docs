@@ -1,5 +1,9 @@
 ---
-sidebar_position: 5
+id: release-notes
+title: Release notes
+sidebar_label: Release notes
+sidebar_position: 12
+slug: /release-notes
 ---
 
 # Release notes / changelog
