@@ -1,0 +1,9 @@
+{
+  "label": "Features and Tools",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}
