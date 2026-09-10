@@ -119,6 +119,24 @@ const redirects = [
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-set-columns-to-equal-height', to: '/docs/tutorials/how-to-set-columns-to-equal-height'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-use-custom-heading-element', to: '/docs/tutorials/how-to-use-custom-heading-element'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-work-with-tabs-tours-and-accordions', to: '/docs/tutorials/how-to-work-with-tabs-tours-and-accordions'},
+  {from: '/docs/preface/introduction', to: '/docs/intro'},
+  {from: '/docs/preface', to: '/docs/intro'},
+  {from: '/docs/preface/pre-sales-questions', to: '/docs/licensing/pre-sales-questions'},
+  {from: '/docs/licensing/regular-license', to: '/docs/licensing/one-site-license'},
+  {from: '/docs/licensing/5-sites', to: '/docs/licensing/multi-site-licenses'},
+  {from: '/docs/licensing/10-sites', to: '/docs/licensing/multi-site-licenses'},
+  {from: '/docs/licensing/extended-license', to: '/docs/licensing/theme-integration-license'},
+  {from: '/docs/learning-more', to: '/docs/building-with-wpbakery'},
+  {from: '/docs/learning-more/wpbakery-seo', to: '/docs/features-and-tools/wpbakery-seo'},
+  {from: '/docs/learning-more/wpbakery-ai', to: '/docs/features-and-tools/wpbakery-ai'},
+  {from: '/docs/learning-more/templates', to: '/docs/features-and-tools/templates'},
+  {from: '/docs/preface/system-requirements', to: '/docs/system-requirements'},
+  {from: '/docs/preface/release-notes', to: '/docs/release-notes'},
+  {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
+
+  
+  
+  
 ];
 
 export default redirects;
