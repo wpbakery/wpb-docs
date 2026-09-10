@@ -4,7 +4,7 @@ title: Element presets (my elements)
 sidebar_label: Element presets (my elements)
 sidebar_position: 9
 hide_table_of_contents: true
-slug: /learning-more/element-presets-my-elements
+slug: /features-and-tools/element-presets-my-elements
 ---
 
 ***Since 5.2***

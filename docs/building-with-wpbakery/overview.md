@@ -2,7 +2,7 @@
 sidebar_position: 0
 sidebar_label: Overview
 hide_table_of_contents: true
-slug: /learning-more
+slug: /building-with-wpbakery
 ---
 
 # Learning more
