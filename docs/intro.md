@@ -10,21 +10,30 @@ Welcome to the WPBakery Page Builder documentation. This comprehensive guide wil
 
 ## What is WPBakery Page Builder?
 
-WPBakery Page Builder is a premium drag-and-drop page builder plugin for WordPress that helps you create stunning website layouts without writing code. With an intuitive interface and powerful features, you can build professional websites in minutes.
+WPBakery Page Builder is a premium drag-and-drop page builder plugin for WordPress that helps you create stunning website layouts without writing code. With an intuitive interface and powerful features, you can build professional websites in minutes. 
+
+We have prepared a short video for you to get you up and running in no time. See for yourself how easy it is to create and manage complex layouts combined with professionally designed plugins made easy!
+
+<div style={{textAlign: 'center'}}>
+  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/U5N9e5FFbxc" title="WPBakery Page Builder for WordPress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Documentation Sections
-
-### Getting Started
-Learn the basics of WPBakery Page Builder, from installation and activation to creating your first page.
 
 ### Licensing
 Information about licenses, activation, and managing your WPBakery account.
 
+### Getting Started
+Learn the basics of WPBakery Page Builder, from installation and activation to creating your first page.
+
+### Building with WPBakery
+Learn how the builder and it's core functionality works.
+
+### Features and Tools 
+Learn more about the page builder features, tools, and systems.
+
 ### Add-ons
 Explore available add-ons and extensions to enhance your page building experience.
-
-### Learning More
-Deep dive into advanced features including custom CSS, templates, responsive settings, and more.
 
 ### How-To Guides
 Step-by-step tutorials for common tasks and workflows.
@@ -39,7 +48,7 @@ Answers to frequently asked questions about WPBakery Page Builder.
 
 ## Quick links
 
-- [System requirements](/docs/preface/system-requirements)
+- [System requirements](/docs/system-requirements)
 - [Installation guide](/docs/getting-started/plugin-installation)
 - [Support center](https://support.wpbakery.com/)
 - [Knowledge base](https://kb.wpbakery.com/)

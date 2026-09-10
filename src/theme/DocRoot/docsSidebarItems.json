@@ -8,63 +8,6 @@
   },
   {
     "type": "category",
-    "label": "Preface",
-    "collapsible": true,
-    "collapsed": true,
-    "items": [
-      {
-        "type": "link",
-        "label": "Overview",
-        "href": "/docs/preface",
-        "docId": "preface/overview",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Introduction",
-        "href": "/docs/preface/introduction",
-        "docId": "preface/introduction",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Pre-sales Questions",
-        "href": "/docs/preface/pre-sales-questions",
-        "docId": "preface/pre-sales-questions",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Support and Resources",
-        "href": "/docs/preface/support-and-resources",
-        "docId": "preface/support-and-resources",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Support Policy",
-        "href": "/docs/preface/support-policy",
-        "docId": "preface/support-policy",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Release Notes / Changelog",
-        "href": "/docs/preface/release-notes",
-        "docId": "preface/release-notes",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "System Requirements",
-        "href": "/docs/preface/system-requirements",
-        "docId": "preface/system-requirements",
-        "unlisted": false
-      }
-    ]
-  },
-  {
-    "type": "category",
     "label": "Licensing",
     "collapsible": true,
     "collapsed": true,
@@ -78,23 +21,30 @@
       },
       {
         "type": "link",
-        "label": "Regular License",
-        "href": "/docs/licensing/regular-license",
-        "docId": "licensing/regular-license",
+        "label": "Pre-sales questions",
+        "href": "/docs/licensing/pre-sales-questions",
+        "docId": "licensing/pre-sales-questions",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "5 Sites",
-        "href": "/docs/licensing/5-sites",
-        "docId": "licensing/five-sites",
+        "label": "One Site License",
+        "href": "/docs/licensing/one-site-license",
+        "docId": "licensing/one-site-license",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "10 Sites",
-        "href": "/docs/licensing/10-sites",
-        "docId": "licensing/ten-sites",
+        "label": "Multi-site Licenses",
+        "href": "/docs/licensing/multi-site-licenses",
+        "docId": "licensing/multi-site-licenses",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Theme Integration License",
+        "href": "/docs/licensing/theme-integration-license",
+        "docId": "licensing/theme-integration-license",
         "unlisted": false
       },
       {
@@ -106,16 +56,9 @@
       },
       {
         "type": "link",
-        "label": "Extended License (Theme Integration)",
-        "href": "/docs/licensing/extended-license",
-        "docId": "licensing/extended-license",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Support Plus",
-        "href": "/docs/licensing/support-plus",
-        "docId": "licensing/support-plus",
+        "label": "Support Plus Licensing",
+        "href": "/docs/licensing/support-plus-licensing",
+        "docId": "licensing/support-plus-licensing",
         "unlisted": false
       }
     ]
@@ -165,191 +108,163 @@
   },
   {
     "type": "category",
-    "label": "Add-ons",
+    "label": "Building with WPBakery",
     "collapsible": true,
     "collapsed": true,
     "items": [
       {
         "type": "link",
         "label": "Overview",
-        "href": "/docs/add-ons",
-        "docId": "add-ons/overview",
+        "href": "/docs/building-with-wpbakery",
+        "docId": "building-with-wpbakery/overview",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Templatera",
-        "href": "/docs/add-ons/templatera",
-        "docId": "add-ons/templatera",
+        "label": "Basic concept",
+        "href": "/docs/building-with-wpbakery/basic-concept",
+        "docId": "building-with-wpbakery/basic-concept",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Easy Tables",
-        "href": "/docs/add-ons/easy-tables",
-        "docId": "add-ons/easy-tables",
+        "label": "Content elements",
+        "href": "/docs/building-with-wpbakery/content-elements",
+        "docId": "building-with-wpbakery/content-elements",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Add-on Development Rules",
-        "href": "/docs/add-ons/add-on-development-rules",
-        "docId": "add-ons/add-on-development-rules",
+        "label": "Element Design Options",
+        "href": "/docs/building-with-wpbakery/element-design-options",
+        "docId": "building-with-wpbakery/element-design-options",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Responsive Settings",
+        "href": "/docs/building-with-wpbakery/responsive-settings",
+        "docId": "building-with-wpbakery/responsive-settings",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Copy/Paste",
+        "href": "/docs/building-with-wpbakery/copy-paste",
+        "docId": "building-with-wpbakery/copy-paste",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Blank Page Wizard",
+        "href": "/docs/building-with-wpbakery/blank-page-wizard",
+        "docId": "building-with-wpbakery/blank-page-wizard",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Custom CSS",
+        "href": "/docs/building-with-wpbakery/custom-css",
+        "docId": "building-with-wpbakery/custom-css",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Custom JS",
+        "href": "/docs/building-with-wpbakery/custom-js",
+        "docId": "building-with-wpbakery/custom-js",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "WPBakery Page Builder Settings",
+        "href": "/docs/building-with-wpbakery/wpbakery-page-builder-settings",
+        "docId": "building-with-wpbakery/wpbakery-page-builder-settings",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Keyboard Shortcuts",
+        "href": "/docs/building-with-wpbakery/keyboard-shortcuts",
+        "docId": "building-with-wpbakery/keyboard-shortcuts",
         "unlisted": false
       }
     ]
   },
   {
     "type": "category",
-    "label": "Learning More",
+    "label": "Features and Tools",
     "collapsible": true,
     "collapsed": true,
     "items": [
       {
         "type": "link",
-        "label": "Overview",
-        "href": "/docs/learning-more",
-        "docId": "learning-more/overview",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Basic Concept",
-        "href": "/docs/learning-more/basic-concept",
-        "docId": "learning-more/basic-concept",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Blank Page Wizard",
-        "href": "/docs/learning-more/blank-page-wizard",
-        "docId": "learning-more/blank-page-wizard",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Content Elements",
-        "href": "/docs/learning-more/content-elements",
-        "docId": "learning-more/content-elements",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "WPBakery Page Builder Settings",
-        "href": "/docs/learning-more/wpbakery-page-builder-settings",
-        "docId": "learning-more/wpbakery-page-builder-settings",
-        "unlisted": false
-      },
-      {
-        "type": "link",
         "label": "WPBakery AI",
-        "href": "/docs/learning-more/wpbakery-ai",
-        "docId": "learning-more/wpbakery-ai",
+        "href": "/docs/features-and-tools/wpbakery-ai",
+        "docId": "features-and-tools/wpbakery-ai",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "WPBakery SEO",
-        "href": "/docs/learning-more/wpbakery-seo",
-        "docId": "learning-more/wpbakery-seo",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Module Manager",
-        "href": "/docs/learning-more/module-manager",
-        "docId": "learning-more/module-manager",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Custom CSS",
-        "href": "/docs/learning-more/custom-css",
-        "docId": "learning-more/custom-css",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Custom JS",
-        "href": "/docs/learning-more/custom-js",
-        "docId": "learning-more/custom-js",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Copy/Paste",
-        "href": "/docs/learning-more/copy-paste",
-        "docId": "learning-more/copy-paste",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Typography",
-        "href": "/docs/learning-more/typography",
-        "docId": "learning-more/typography",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Element Design Options",
-        "href": "/docs/learning-more/element-design-options",
-        "docId": "learning-more/element-design-options",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Responsive Settings",
-        "href": "/docs/learning-more/responsive-settings",
-        "docId": "learning-more/responsive-settings",
+        "href": "/docs/features-and-tools/wpbakery-seo",
+        "docId": "features-and-tools/wpbakery-seo",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Templates",
-        "href": "/docs/learning-more/templates",
-        "docId": "learning-more/templates",
+        "href": "/docs/features-and-tools/templates",
+        "docId": "features-and-tools/templates",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Template Library",
-        "href": "/docs/learning-more/template-library",
-        "docId": "learning-more/template-library",
+        "label": "Template library",
+        "href": "/docs/features-and-tools/template-library",
+        "docId": "features-and-tools/template-library",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Typography",
+        "href": "/docs/features-and-tools/typography",
+        "docId": "features-and-tools/typography",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Grid builder",
+        "href": "/docs/features-and-tools/grid-builder",
+        "docId": "features-and-tools/grid-builder",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Module manager",
+        "href": "/docs/features-and-tools/module-manager",
+        "docId": "features-and-tools/module-manager",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Shortcode Mapper",
-        "href": "/docs/learning-more/shortcode-mapper",
-        "docId": "learning-more/shortcode-mapper",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Grid Builder",
-        "href": "/docs/learning-more/grid-builder",
-        "docId": "learning-more/grid-builder",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Image Filters",
-        "href": "/docs/learning-more/image-filters",
-        "docId": "learning-more/image-filters",
+        "href": "/docs/features-and-tools/shortcode-mapper",
+        "docId": "features-and-tools/shortcode-mapper",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Element Presets (My Elements)",
-        "href": "/docs/learning-more/element-presets-my-elements",
-        "docId": "learning-more/element-presets-my-elements",
+        "href": "/docs/features-and-tools/element-presets",
+        "docId": "features-and-tools/element-presets-my-elements",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Keyboard Shortcuts",
-        "href": "/docs/learning-more/keyboard-shortcuts",
-        "docId": "learning-more/keyboard-shortcuts",
+        "label": "Image Filters",
+        "href": "/docs/features-and-tools/image-filters",
+        "docId": "features-and-tools/image-filters",
         "unlisted": false
       }
     ]
@@ -931,8 +846,80 @@
     ]
   },
   {
+    "type": "category",
+    "label": "Support",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Support and resources",
+        "href": "/docs/support/support-and-resources",
+        "docId": "support/support-and-resources",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Support Policy",
+        "href": "/docs/support/support-policy",
+        "docId": "support/support-policy",
+        "unlisted": false
+      }
+    ]
+  },
+  {
     "type": "link",
-    "label": "Become a WPB Tester",
+    "label": "System Requirements",
+    "href": "/docs/system-requirements",
+    "docId": "system-requirements",
+    "unlisted": false
+  },
+  {
+    "type": "link",
+    "label": "Release Notes / Changelog",
+    "href": "/docs/release-notes",
+    "docId": "release-notes",
+    "unlisted": false
+  },
+  {
+    "type": "category",
+    "label": "Add-ons",
+    "collapsible": true,
+    "collapsed": true,
+    "items": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/add-ons",
+        "docId": "add-ons/overview",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Templatera",
+        "href": "/docs/add-ons/templatera",
+        "docId": "add-ons/templatera",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Easy Tables",
+        "href": "/docs/add-ons/easy-tables",
+        "docId": "add-ons/easy-tables",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Add-on development rules",
+        "href": "/docs/add-ons/add-on-development-rules",
+        "docId": "add-ons/add-on-development-rules",
+        "unlisted": false
+      }
+    ]
+  },
+  {
+    "type": "link",
+    "label": "Beta Testing",
     "href": "/docs/become-a-wpb-tester",
     "docId": "become-a-wpb-tester",
     "unlisted": false
