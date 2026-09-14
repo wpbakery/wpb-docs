@@ -79,7 +79,8 @@ Parameters define the options users see when editing the element in the WPBakery
 ## admin_enqueue_js
 
 * Type - String|Array
-* Description - Absolute url to javascript file, this js will be loaded in the js_composer edit mode (it allows you to add more functionality to your shortcode in js_composer edit mode).
+* Description - Absolute url to javascript file, this js will be loaded in the backend editor (it allows you to add more functionality to your shortcode in the backend editor mode).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
 * Example:
 ```php
 'admin_enqueue_js' => get_template_directory_uri() . '/js/my-custom-element.js',
@@ -88,7 +89,8 @@ Parameters define the options users see when editing the element in the WPBakery
 ## admin_enqueue_css
 
 * Type - String|Array
-* Description - Absolute url to css file if you need to add custom css for element block in js_composer constructor mode.
+* Description - Absolute url to css file, this css will be loaded in the backend editor (it allows you add custom css for element block to your shortcode in the backend editor mode).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
 * Example:
 ```php
 'admin_enqueue_css' => get_template_directory_uri() . '/css/my-custom-element.css',
@@ -97,7 +99,8 @@ Parameters define the options users see when editing the element in the WPBakery
 ## front_enqueue_js
 
 * Type - String|Array
-* Description - Absolute url to javascript file (useful for storing your custom backbone.js views), this js will be loaded in the js_composer frontend edit mode (it allows you to add more functionality to your shortcode in js_composer frontend edit mode). (*Available from WPBakery Page Builder 4.2.2*).
+* Description - Absolute url to javascript file (useful for storing your custom backbone.js views), this js will be loaded in the plugin frontend editor mode (it allows you to add more functionality to your shortcode in the frontend editor mode). (*Available from plugin version 4.2.2*).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
 * Example:
 ```php
 'front_enqueue_js' => get_template_directory_uri() . '/js/my-custom-element.js',
@@ -106,10 +109,31 @@ Parameters define the options users see when editing the element in the WPBakery
 ## front_enqueue_css
 
 * Type - String|Array
-* Description - Absolute url to css file if you need to load custom css file in the frontend editing mode. (*Available from WPBakery Page Builder 4.2.2*).
+* Description - Absolute url to css file, this css will be loaded in the frontend editor (it allows you add custom css for element block to your shortcode in the frontend editor mode). (*Available from plugin version 4.2.2*).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
 * Example:
 ```php
 'front_enqueue_css' => get_template_directory_uri() . '/css/my-custom-element.css',
+```
+
+## view_enqueue_js
+
+* Type - String|Array
+* Description - Absolute url to javascript file, this js will be loaded on a view page. (*Available from plugin version 9.1*).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
+* Example:
+```php
+'view_enqueue_js' => get_template_directory_uri() . '/js/my-custom-element.js',
+```
+
+## view_enqueue_css
+
+* Type - String|Array
+* Description - Absolute url to css file, this css will be loaded on a view page. (*Available from plugin version 9.1*).
+* More info [here](/devs/developer-tutorials/enqueue-custom-element-assets).
+* Example:
+```php
+'view_enqueue_css' => get_template_directory_uri() . '/css/my-custom-element.css',
 ```
 
 ## icon
