@@ -170,6 +170,15 @@ Parameters define the options users see when editing the element in the WPBakery
 'content_element' => true,
 ```
 
+## copy-paste-value
+
+* Type - Boolean
+* Description - If set to `true`, the parameter will be included in the copy/paste process available from the additional settings menu of the edit element modal. Default value is `false`.
+* Example:
+```php
+'copy-paste-value' => false,
+```
+
 ## params
 
 * Type - Array
