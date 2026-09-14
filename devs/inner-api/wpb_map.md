@@ -236,7 +236,7 @@ function your_name_integrateWithVC() {
 
 As you can see it has an array of params. This list represents shortcode tag as base and params list which will be editable with settings form inside WPBakery Page Builder editor. In params array we have only one element as array with list of params. param_name must be the same as your parameter name. Next most important attribute of params is type. There are a lot of predefined types (all of them you can see [here](#available-type-values)). For foo attribute we'll use "textfield" which is simple input field. Add "heading" and "description" attributes for human friendly title and description of your param. Default attribute value can be added in param attribute "value".
 
-After adding "mapping", you will see your shortcode inside [content elements](/docs/learning-more/content-elements) list in WPBakery Page Builder editing mode and ability to control access to this shortcode in WPBakery Page Builder [settings](/docs/learning-more/wpbakery-page-builder-settings).
+After adding "mapping", you will see your shortcode inside [content elements](/docs/building-with-wpbakery/content-elements) list in WPBakery Page Builder editing mode and ability to control access to this shortcode in WPBakery Page Builder [settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
 
 More advanced example: Let's say you want to add a new special param to your shortcode: let's call it *color*. First of all, modify your shortcode hook function.
 

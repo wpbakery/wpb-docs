@@ -11,7 +11,7 @@ slug: /developer-tutorials/control-default-presets-in-content-elements
 
 SINCE 4.8
 
-**This API is removed from version 5.0. Check [Element Presets](/docs/learning-more/element-presets-my-elements) for more information.**
+**This API is removed from version 5.0. Check [Element Presets](/docs/features-and-tools/element-presets-my-elements) for more information.**
 
 To add custom preset to one of the WPBakery Page Builder content elements you should run *vc_register_settings_preset* action and pass new preset settings to it.
 

@@ -13,4 +13,4 @@ This one is a bit tricky. You can create end-product and include WPBakery Page B
 2. You can not redistribute WPBakery Page Builder in any way – users must not have access to WPBakery Page Builder source files
 3. Your end product must contain your unique part which is bigger than WPBakery Page Builder, in other words, you cannot combine several items into one and state it as your end-product
 
-Please read more about the [extended license](/docs/licensing/extended-license).
+Please read more about the [extended license](/docs/licensing/theme-integration-license).

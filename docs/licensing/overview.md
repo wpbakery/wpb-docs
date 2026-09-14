@@ -32,12 +32,12 @@ This section will explain all you have to know about licensing for WPBakery Page
     <p>Bulk licensing for 20+ licenses with discounted pricing for large agencies and enterprises.</p>
   </a>
 
-  <a href="/docs/licensing/extended-license" className="topic-card">
+  <a href="/docs/licensing/theme-integration-license" className="topic-card">
     <h3>Extended license (theme integration)</h3>
     <p>Special licensing for theme developers to integrate WPBakery Page Builder into their themes.</p>
   </a>
 
-  <a href="/docs/licensing/support-plus" className="topic-card">
+  <a href="/docs/licensing/support-plus-licensing" className="topic-card">
     <h3>Support plus</h3>
     <p>Premium subscription service with extra features and extended support benefits.</p>
   </a>

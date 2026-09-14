@@ -26,7 +26,7 @@ A quick step by step guide:
 6. Click 'Exit Template Library';
 7. See downloaded templates in 'Template Library' tab in Template window.
 
-**Important:** Make sure to have your [WPBakery Page Builder license](/docs/licensing) activated in order to download templates as these templates are available [exclusively for direct license owners](/docs/faq/what-are-the-benefits-of-direct-license-for-wpbakery-page-builder) with an [active support period](/docs/licensing/support-plus).
+**Important:** Make sure to have your [WPBakery Page Builder license](/docs/licensing) activated in order to download templates as these templates are available [exclusively for direct license owners](/docs/faq/what-are-the-benefits-of-direct-license-for-wpbakery-page-builder) with an [active support period](/docs/licensing/support-plus-licensing).
 
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/TB98sklo8Kw?start=150&feature=oembed&modestbranding=1&showinfo=0&rel=0" title="WPBakery Page Builder Tutorial For Beginners (2024)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

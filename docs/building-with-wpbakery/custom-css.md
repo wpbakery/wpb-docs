@@ -34,4 +34,4 @@ WPBakery Page Builder offers several ways for users to interact with CSS:
 
 **Fifth:** To override class names that are applied to WPBakery Page Builder content elements you should use WordPress [add_filter("vc_shortcodes_css_class")](/devs/hooks/filters/vc_shortcodes_css_class).
 
-Since the 7.2 update, CSS code can be generated in Custom CSS using the [WPBakery AI](/docs/learning-more/wpbakery-ai) feature.
+Since the 7.2 update, CSS code can be generated in Custom CSS using the [WPBakery AI](/docs/features-and-tools/wpbakery-ai) feature.
