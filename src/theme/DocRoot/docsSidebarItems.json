@@ -28,21 +28,21 @@
       },
       {
         "type": "link",
-        "label": "One Site License",
+        "label": "One Site license",
         "href": "/docs/licensing/one-site-license",
         "docId": "licensing/one-site-license",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Multi-site Licenses",
+        "label": "Multi-site licenses",
         "href": "/docs/licensing/multi-site-licenses",
         "docId": "licensing/multi-site-licenses",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Theme Integration License",
+        "label": "Theme license",
         "href": "/docs/licensing/theme-integration-license",
         "docId": "licensing/theme-integration-license",
         "unlisted": false
@@ -56,7 +56,7 @@
       },
       {
         "type": "link",
-        "label": "Support Plus Licensing",
+        "label": "Support Plus license",
         "href": "/docs/licensing/support-plus-licensing",
         "docId": "licensing/support-plus-licensing",
         "unlisted": false
