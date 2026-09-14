@@ -133,10 +133,6 @@ const redirects = [
   {from: '/docs/preface/system-requirements', to: '/docs/system-requirements'},
   {from: '/docs/preface/release-notes', to: '/docs/release-notes'},
   {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
-
-  
-  
-  
 ];
 
 export default redirects;
