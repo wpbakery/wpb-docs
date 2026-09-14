@@ -2,12 +2,18 @@ import React from 'react';
 import clsx from 'clsx';
 import {PageMetadata, HtmlClassNameProvider, ThemeClassNames} from '@docusaurus/theme-common';
 import {DocsSidebarProvider} from '@docusaurus/plugin-content-docs/client';
+import {usePluginData} from '@docusaurus/useGlobalData';
+import {useLocation} from '@docusaurus/router';
 import Layout from '@theme/Layout';
 import DocRootLayout from '@theme/DocRoot/Layout';
 import NotFoundContent from '@theme/NotFound/Content';
-import docsSidebarItems from '@site/src/theme/DocRoot/docsSidebarItems.json';
 
 export default function NotFound() {
+  const {pathname} = useLocation();
+  const {sidebars} = usePluginData('sidebar-global-data');
+  const sidebarName = pathname.startsWith('/devs') ? 'devsSidebar' : 'tutorialSidebar';
+  const sidebarItems = sidebars[sidebarName] ?? [];
+
   return (
     <HtmlClassNameProvider
       className={clsx(
@@ -18,7 +24,7 @@ export default function NotFound() {
       )}>
       <PageMetadata title="Page Not Found" />
       <Layout>
-        <DocsSidebarProvider name="tutorialSidebar" items={docsSidebarItems}>
+        <DocsSidebarProvider name={sidebarName} items={sidebarItems}>
           <DocRootLayout>
             <NotFoundContent />
           </DocRootLayout>
