@@ -77,6 +77,7 @@ const config = {
         sidebarCollapsed: false,
       },
     ],
+    require.resolve('./plugins/sidebar-global-data.js'),
     [
       '@docusaurus/plugin-client-redirects',
       {
