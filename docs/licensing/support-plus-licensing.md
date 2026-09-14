@@ -1,8 +1,9 @@
 ---
 sidebar_position: 6
+sidebar_label: Support Plus license
 ---
 
-# Support Plus Licensing
+# Support Plus license
 
 Support Plus Licensing is a subscription service that gives you extra features and benefits for the WPBakery Page Builder plugin.
 
