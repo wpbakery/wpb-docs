@@ -18,4 +18,4 @@ To add custom JS to a specific page, use the page settings (gear icon) within th
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/B29MLjIJQ3U?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How To Add Custom Code (CSS and JavaScript) To Your WordPress Site With WPBakery Page Builder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-Since the 7.2 update, JS code can be generated in Custom JS using the [WPBakery AI](/docs/learning-more/wpbakery-ai) feature.
+Since the 7.2 update, JS code can be generated in Custom JS using the [WPBakery AI](/docs/features-and-tools/wpbakery-ai) feature.

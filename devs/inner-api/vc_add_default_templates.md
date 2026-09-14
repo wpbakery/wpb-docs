@@ -32,7 +32,7 @@ $data = [
 
 ## Examples
 
-Starting from WPBakery Page Builder version 4.3 you can select from [predefined started templates](https://kb.wpbakery.com/docs/learning-more/template-library) and you can modify that list to add more custom templates.
+Starting from WPBakery Page Builder version 4.3 you can select from [predefined started templates](https://kb.wpbakery.com/docs/features-and-tools/template-library) and you can modify that list to add more custom templates.
 
 For example within your theme or third party addon for WPBakery Page Builder.
 

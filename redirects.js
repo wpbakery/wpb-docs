@@ -82,7 +82,7 @@ const redirects = [
   {from: '/docs/theme-integration-technical', to: '/devs/theme-integration'},
   {from: '/docs/theme-integration-technical/theme-integration-marketing', to: '/devs/theme-integration/marketing'},
   {from: '/docs/theme-integration-technical/theme-integration-technical', to: '/devs/theme-integration/technical'},
-  {from: '/docs/wpbakery-ai', to: '/docs/learning-more/wpbakery-ai'},
+  {from: '/docs/wpbakery-ai', to: '/docs/features-and-tools/wpbakery-ai'},
   {from: '/docs/wpbakery-page-builder-how-tos', to: '/docs/tutorials'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support', to: '/docs/tutorials/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-do-i-reassign-my-license-to-another-site', to: '/docs/tutorials/how-do-i-reassign-my-license-to-another-site'},
@@ -132,7 +132,6 @@ const redirects = [
   {from: '/docs/learning-more/templates', to: '/docs/features-and-tools/templates'},
   {from: '/docs/preface/system-requirements', to: '/docs/system-requirements'},
   {from: '/docs/preface/release-notes', to: '/docs/release-notes'},
-  {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
 ];
 
 export default redirects;

@@ -49,7 +49,7 @@ Design Options allows you to apply a custom visual appearance to WPBakery Page B
 
 If you want to add some custom CSS code to the plugin and don't want to modify any files, then it's a good place to enter your code at this field.
 
-**Important:** WPBakery Page Builder offers several ways for you to add Custom CSS. Please visit [Custom CSS section](/docs/learning-more/custom-css) for more information.
+**Important:** WPBakery Page Builder offers several ways for you to add Custom CSS. Please visit [Custom CSS section](/docs/building-with-wpbakery/custom-css) for more information.
 
 ## Custom JS
 
@@ -67,4 +67,4 @@ Read more about [Product License activation](/docs/getting-started/activation).
 
 ## Shortcode Mapper
 
-Add 3rd party shortcodes to WPBakery Page Builder by converting them to elements. Read more about [Shortcode Mapper usage](/docs/learning-more/shortcode-mapper).
+Add 3rd party shortcodes to WPBakery Page Builder by converting them to elements. Read more about [Shortcode Mapper usage](/docs/features-and-tools/shortcode-mapper).

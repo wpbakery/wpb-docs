@@ -22,7 +22,7 @@ The SEO feature can be accessed directly from the toolbar in the frontend or bac
 
 It has three tabs:
 
-1. **General:** It allows you to control the display of the title, meta description, page slug, and keywords. The best part is you can generate most of this using [AI](/docs/learning-more/wpbakery-ai).
+1. **General:** It allows you to control the display of the title, meta description, page slug, and keywords. The best part is you can generate most of this using [AI](/docs/features-and-tools/wpbakery-ai).
 
 2. **Content Analysis:** This section analyzes the content and recommends changes to improve the content.
 
