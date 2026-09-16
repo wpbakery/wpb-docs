@@ -1,6 +1,7 @@
 ---
 title: Exploded textarea safe
 sidebar_label: exploded_textarea_safe
+description: "Type: exploded_textarea_safe"
 ---
 
 # Exploded textarea safe
