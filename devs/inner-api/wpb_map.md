@@ -36,6 +36,7 @@ To add your shortcode to the WPBakery Page Builder content elements list, *wpb_m
 | html_template | String | Path to shortcode template. This is useful if you want to reassign path of existing content elements through your plugin. Another way to [change html markup](/devs/developer-tutorials/change-shortcodes-html-output) |
 | deprecated | String | Enter version number from which content element will be deprecated. It will be moved to the "Deprecated" tab in "Add element" window and notification message will be shown on elements edit page. To hide element from "Add element" all together use 'content_element'=>false *(Available from WPBakery Page Builder 4.5)* |
 | content_element | Boolean | If set to false, content element will be hidden from "Add element" window. It is handy to use this param in pair with 'deprecated' param *(Available from WPBakery Page Builder 4.5)* |
+| copy-paste-value | Boolean | If set to `true`, the parameter will be included in the copy/paste process available from the additional settings menu of the edit element modal. Default value is `false` |
 | params | Array | List of shortcode attributes. Array which holds your shortcode params, these params will be editable in shortcode settings page |
 
 ## custom_markup template
