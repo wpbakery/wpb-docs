@@ -1,12 +1,12 @@
 ---
-id: become-a-wpb-tester
-title: Become a WPB tester
-sidebar_label: Become a WPB tester
+id: beta-testing
+title: Beta testing
+sidebar_label: Beta testing
 sidebar_position: 11
-slug: /become-a-wpb-tester
+slug: /beta-testing
 ---
 
-# Become a WPB tester
+# Beta Testing
 
 WPBakery is looking for customers who are willing to receive latest updates of WPBakery Page Builder before official release for testing in order to help your beloved plugin to be shipped in a top quality.
 
