@@ -1,9 +1,9 @@
 ---
 id: become-a-wpb-tester
-title: Become a WPB tester
-sidebar_label: Become a WPB tester
+title: Beta testing
+sidebar_label: Beta testing
 sidebar_position: 11
-slug: /become-a-wpb-tester
+slug: /beta-testing
 ---
 
 # Become a WPB tester
