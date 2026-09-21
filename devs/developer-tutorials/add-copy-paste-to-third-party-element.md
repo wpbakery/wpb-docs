@@ -55,7 +55,7 @@ function my_plugin_map_bartag() {
 }
 ```
 
-You can also use the design options predefined by the plugin. Merge them into your params with the `vc_config()->merge_default_params()` method, as it is done in the configuration files of the built-in elements. Copy this code to your theme's `functions.php` or to your plugin to try it:
+You can also use the design options predefined by the plugin. Merge them into your params with the `vc_config()->merge_default_params()` method, as it is done in the configuration files of the built-in elements *(`vc_config()` is available from WPBakery Page Builder 9.0)*. Copy this code to your theme's `functions.php` or to your plugin to try it:
 
 ```php
 <?php
