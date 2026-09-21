@@ -5,40 +5,71 @@ sidebar_label: Support Plus license
 
 # Support Plus license
 
-Support Plus Licensing is a subscription service that gives you extra features and benefits for the WPBakery Page Builder plugin.
+**WPBakery Plus** brings together additional products and benefits available to WPBakery Page Builder users.
+
+Support Plus is a subscription service that gives you extra features and benefits for the WPBakery Page Builder plugin.
 
 :::info
-With purchase of WPBakery license, all customers receive one year of our premium support, that can be extended or renewed with Support Plus.
+Every WPBakery license purchased directly from WPBakery includes one year of **Premium Support.** Support Plus is optional and can be added when purchasing a license or when renewing your support.
 :::
 
 ## How Support Plus works
 
-When you purchase a WPBakery Page Builder license, you can get Support Plus from year one with a discount (normal renewal rate applies) by adding it during the checkout. Support Plus gives you:
+Every WPBakery Page Builder license purchased directly from WPBakery includes one year of support.
 
-- Our priority ticketing system to open a ticket and contact our support team for help regarding any issues related to WPBakery Page Builder
-- Plugin auto-updates to update the plugin with one click straight from the WordPress dashboard
-- The [template library](https://wpbakery.com/templates/) to download 85+ pre-built template layouts
-- [WPBakery AI](https://wpbakery.com/ai/) with 20,000 monthly credits to use for text and code generation
-- The [typography](https://wpbakery.com/typography/) feature to use custom fonts from Google and Adobe
-- Access to [Templatera](https://wpbakery.com/addons/templatera/) and [Easy Tables](https://wpbakery.com/addons/easy-tables/) Add-ons for a lifetime (with a subscription)
+During this period, you have access to:
 
-## Support Plus Renewal Options
+- Support through the WPBakery ticket system
+- One-click plugin updates from the WordPress dashboard
+- The WPBakery Template Library with 85+ prebuilt layouts
 
-For existing licenses, you can purchase Support Plus subscription for a year with an automatic renewal.
+When you purchase a WPBakery Page Builder license, you can get Support Plus from year one with a discount (normal renewal rate applies) by adding it during the checkout. Support Plus adds:
 
-The subscription provides additional benefits like priority support, access to the [WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus-licensing#loyalty-program-for-support-plus-subscribers), which grants you an additional 5% discount on your Support Plus renewal each year, and access to upcoming features we will add to make the offer even more valuable for subscribers.
+- Priority support
+- Access to WPBakery Plus products, including Elements Plus
+- Templatera $12
+- Easy Tables $12
+- Automatic yearly renewal
+- WPBakery AI with 20,000 credits per month
+- Typography features for Google and Adobe Fonts
+- WPBakery Loyalty Program discounts (see below)
 
-To renew your access to Support Plus, log in to your account, navigate to the Licenses section, and follow the instructions there.
+You can add Support Plus when purchasing a license or subscribe when renewing your support [here](https://support.wpbakery.com/).
 
-Please note that we will send you a reminder to extend your Support Plus access before it expires. If you miss it or wish to extend it later, you can extend it at any time [here](https://support.wpbakery.com/).
+## Support Plus vs standard support
 
-## Loyalty Program for Support Plus Subscribers
+After your initial support period ends, you can continue your WPBakery support in two ways:
 
-The WPBakery Loyalty Program rewards continued Support Plus subscribers with a growing discount. Each year you stay on the Support Plus subscription, you gain an extra 5% off the renewal price. This continues until you reach a 50% maximum discount.
+**Support Plus subscription**
+
+Renews automatically each year and includes priority support, Templatera, Easy Tables and Loyalty Program discounts.
+
+**Manual support renewal**
+
+Extends your standard support for another year with a one-time payment. It does not include the additional Support Plus subscription benefits.
+
+Both options maintain access to support, one-click updates, the Template Library, WPBakery AI, and typography features while your support period is active.
+
+## How to get or renew Support Plus
+
+To manage Support Plus for an existing WPBakery license:
+
+1. Log in to the WPBakery Customer Center.
+2. Open the **Licenses**
+3. Select the license you want to manage.
+4. Open the available renewal options.
+5. Choose the Support Plus subscription.
+
+WPBakery sends a reminder before your current support period expires. If your support has already expired, you can renew it later from the [Customer Center](https://support.wpbakery.com/).
+
+
+## WPBakery Loyalty Program
+
+Active Support Plus subscribers automatically participate in the [WPBakery Loyalty Program](https://wpbakery.com/blog/wpbakery-loyalty-program-for-support-plus-subscribers/).
 
 | Year | Discount |
 |------|----------|
-| Year 1 (renewal) | 0% |
+| Year 1 | 0% |
 | Year 2 | 5% |
 | Year 3 | 10% |
 | Year 4 | 15% |
@@ -48,8 +79,26 @@ The WPBakery Loyalty Program rewards continued Support Plus subscribers with a g
 | Year 8 | 35% |
 | Year 9 | 40% |
 | Year 10 | 45% |
-| Year 11+ | 50% (max discount) |
+| Year 11+ | 50% |
 
-The discount is applied automatically at renewal if you're on an active Support Plus subscription.
+The discount is applied automatically when an active Support Plus subscription renews.
 
-In case of cancellation or termination of your Support Plus subscription, you lose access to the discount, and it starts anew if you resubscribe. You can manage your subscriptions in the [Customer Center](https://support.wpbakery.com/).
+If you cancel the subscription, you lose the accumulated Loyalty Program discount. If you subscribe again later, the loyalty discount starts again from the beginning.
+
+## Frequently asked questions
+
+**Does every WPBakery license include Support Plus?**
+
+Support Plus is an optional subscription within **WPBakery Plus** that adds priority support, access to Plus products such as Elements Plus, Templatera, Easy Tables, automatic renewal and Loyalty Program benefits.
+
+**What happens when my first year of support ends?**
+
+You can either renew standard support manually for another year or subscribe to Support Plus for automatic yearly renewal and the additional Support Plus benefits.
+
+**Can I cancel Support Plus?**
+
+Yes. You can cancel your Support Plus subscription before the next renewal. Your current paid support period remains active until its expiration date.
+
+**Do I lose my WPBakery license if Support Plus expires?**
+
+No. Your WPBakery Page Builder license remains valid. However, features tied to an active support period, including one-click updates, ticket support, the Template Library, WPBakery AI, and typography features, require active support.

@@ -161,6 +161,7 @@ const redirects = [
   {from: '/docs/building-with-wpbakery/typography', to: '/docs/features-and-tools/typography'},
   {from: '/docs/building-with-wpbakery/wpbakery-ai', to: '/docs/features-and-tools/wpbakery-ai'},
   {from: '/docs/building-with-wpbakery/wpbakery-seo', to: '/docs/features-and-tools/wpbakery-seo'},
+  {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
 ];
 
 export default redirects;

@@ -1,6 +1,7 @@
 ---
 title: Textarea raw HTML
 sidebar_label: textarea_raw_html
+description: "Type: textarea_raw_html"
 ---
 
 # Textarea raw HTML
