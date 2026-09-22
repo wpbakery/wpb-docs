@@ -132,7 +132,7 @@ const redirects = [
   {from: '/docs/learning-more/templates', to: '/docs/features-and-tools/templates'},
   {from: '/docs/preface/system-requirements', to: '/docs/system-requirements'},
   {from: '/docs/preface/release-notes', to: '/docs/release-notes'},
-  {from: '/docs/learning-more/basic-concept', to: '/docs/building-with-wpbakery/basic-concept'},
+  {from: '/docs/learning-more/basic-concept', to: '/docs/building-with-wpbakery/rows-and-columns-in-wpbakery-page-builder'},
   {from: '/docs/learning-more/blank-page-wizard', to: '/docs/building-with-wpbakery/blank-page-wizard'},
   {from: '/docs/learning-more/content-elements', to: '/docs/building-with-wpbakery/content-elements'},
   {from: '/docs/learning-more/copy-paste', to: '/docs/building-with-wpbakery/copy-paste'},
@@ -162,6 +162,8 @@ const redirects = [
   {from: '/docs/building-with-wpbakery/wpbakery-ai', to: '/docs/features-and-tools/wpbakery-ai'},
   {from: '/docs/building-with-wpbakery/wpbakery-seo', to: '/docs/features-and-tools/wpbakery-seo'},
   {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
+  {from: '/docs/building-with-wpbakery/basic-concept', to: '/docs/building-with-wpbakery/rows-and-columns-in-wpbakery-page-builder'},
+
 ];
 
 export default redirects;
