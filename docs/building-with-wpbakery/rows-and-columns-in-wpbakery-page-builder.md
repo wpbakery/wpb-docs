@@ -37,4 +37,6 @@ Once you have selected the column layout, add content elements inside each colum
 
 WPBakery uses a responsive grid for rows and columns. You can further adjust column widths and responsive behavior for different devices through the available [responsive settings](https://kb.wpbakery.com/docs/building-with-wpbakery/responsive-settings/).
 
-
+<div style={{textAlign: 'center'}}>
+  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/g15MVWmg-So?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to add row and column with WPBakery Page Builder for WordPress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
