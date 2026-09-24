@@ -3,6 +3,8 @@
 
 /** @type {{from: string, to: string}[]} */
 const redirects = [
+  // GitHub Pages 301s /docs -> /docs/ which has no landing page; point it at the intro page instead
+  {from: '/docs', to: '/docs/intro'},
   {from: '/docs/developers-how-tos', to: '/devs/developer-tutorials/overview'},
   {from: '/docs/developers-how-tos/add-animation-param-to-the-element', to: '/devs/developer-tutorials/add-animation-param-to-the-element'},
   {from: '/docs/developers-how-tos/add-custom-row-layouts-presets', to: '/devs/developer-tutorials/add-custom-row-layouts-presets'},
