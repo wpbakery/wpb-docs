@@ -12,5 +12,5 @@ Starting from WPBakery Page Builder 4.5.0 there is an option to set Parallax eff
 **Tip:** It is allowed to combine parallax background image (in PNG format) and Design Options image to create even more advanced overflow effects based on parallax.
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/6aM1a8WRujQ?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to add parallax effect to row background" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/chAzK0LeSkE?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to add parallax effect to row background" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
