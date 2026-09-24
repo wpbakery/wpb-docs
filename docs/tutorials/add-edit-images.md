@@ -12,7 +12,7 @@ The Single Image element allows you to add and customize an individual image on 
 In this tutorial, you’ll learn how to select an image, set its size and alignment, control what happens when visitors click it, and customize its appearance.
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/AUCaKApUlPY?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to add and edit single images" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/AUCaKApUlPY?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to add and edit single images" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Add the Single Image element
