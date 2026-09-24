@@ -163,7 +163,7 @@ const redirects = [
   {from: '/docs/building-with-wpbakery/wpbakery-seo', to: '/docs/features-and-tools/wpbakery-seo'},
   {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
   {from: '/docs/building-with-wpbakery/basic-concept', to: '/docs/building-with-wpbakery/rows-and-columns-in-wpbakery-page-builder'},
-  {from: '/docs/tutorials/how-to-make-full-width-or-full-height-row', to: '/docs/rows-columns/wpbakery-full-width-full-height-row/'},
+  {from: '/docs/tutorials/how-to-make-full-width-or-full-height-row', to: '/docs/rows-columns/wpbakery-full-width-full-height-row'},
 
 ];
 

@@ -4,7 +4,7 @@ title: How to Create Full-Width and Full-Height Rows in WPBakery
 sidebar_label: How to Create Full-Width and Full-Height Rows in WPBakery
 sidebar_position: 26
 hide_table_of_contents: true
-slug: /docs/rows-columns/wpbakery-full-width-full-height-row/
+slug: /rows-columns/wpbakery-full-width-full-height-row
 description: Learn how to create full-width and full-height rows in WPBakery Page Builder and control row stretching, spacing and content position.
 keywords: [full-width row WPBakery]
 ---
