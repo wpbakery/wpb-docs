@@ -5,6 +5,8 @@ sidebar_label: How to deactivate and reactivate license?
 sidebar_position: 1
 hide_table_of_contents: true
 slug: /tutorials/how-to-deactivate-and-reactivate-license
+description: Learn how to deactivate and reactivate a WPBakery Page Builder license from WordPress or the WPBakery Customer Center.
+keywords: [deactivate WPBakery license]
 ---
 
 You can deactivate a WPBakery Page Builder license from your WordPress dashboard or from the WPBakery Customer Center.
