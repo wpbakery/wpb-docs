@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 hide_table_of_contents: true
+description: Find official WPBakery Page Builder support and resources, Customer Center access, renewal options and instructions for CodeCanyon license import.
+keywords: [WPBakery support and resources]
 ---
 
 # WPBakery Page Builder support and resources

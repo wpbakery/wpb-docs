@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 hide_table_of_contents: true
+description: Have WPBakery pre-sale questions? Find answers to common WPBakery Page Builder pre-sales questions about licensing, support, updates and more.
+keywords: [WPBakery pre-sale questions]
 ---
 
 # Pre-sales questions

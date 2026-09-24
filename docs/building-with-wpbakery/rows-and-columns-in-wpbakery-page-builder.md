@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 hide_table_of_contents: true
+description: Learn how rows and columns in WPBakery Page Builder work, choose column layouts and organize content elements on a WordPress page.
+keywords: [Rows and Columns in WPBakery Page Builder]
 ---
 
 # Rows and Columns in WPBakery Page Builder
