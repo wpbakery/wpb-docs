@@ -3,33 +3,65 @@ sidebar_position: 1
 hide_table_of_contents: true
 ---
 
-# Support and resources
+# WPBakery Page Builder support and resources
 
-In this section, you will find a list of useful resources related to the WPBakery Page Builder plugin for WordPress, including the link to official support, sales page, and official website.
+In this section, WPBakery Page Builder provides official documentation, video tutorials, a demo and customer support resources for license owners.
 
-## Resources
+## WPBakery Page Builder resources
 
-- [Official website](https://wpbakery.com/)
-- [Official sales point on WPBakery.com](https://wpbakery.com/wpbakery-page-builder-license/)
-- [Official demo](http://go.wpbakery.com/vcdemo)
-- [Video Academy](http://wpbakery.com/video-academy/)
-- [Facebook page](https://www.facebook.com/wpbakery/)
-- [Twitter account](https://twitter.com/wpbakery)
+- [WPBakery Official website](https://wpbakery.com/)
+- [WPBakery Page Builder licenses](https://wpbakery.com/wpbakery-page-builder-license/)
+- [WPBakery Page Builder online demo](https://wpbakery.com/try/)
+- [WPBakery Video Academy](http://wpbakery.com/video-academy/)
+- [WPBakery on Facebook](https://www.facebook.com/wpbakery/)
+- [WPBakery on X](https://twitter.com/wpbakery)
+- [WPBakery on Instagram](https://www.instagram.com/wpbakery/)
 
-## Official Support
+## How to get official WPBakery Page Builder support
 
-To get your support related question answered in the fastest timing, please head over to our [support page](http://support.wpbakery.com/) and open a support ticket. To open a support ticket you should have an active support license associated with your account.
+Official WPBakery Page Builder support is available to direct license owners with an active support period.
 
-Before applying for support please make sure you understand the rules of support and go through all steps described and listed in [Support Policy](https://kb.wpbakery.com/docs/preface/support-policy) in order to get your issues solved as soon as possible.
+Before opening a support ticket, check the WPBakery Knowledge Base for an existing solution and review the [Support Policy](https://kb.wpbakery.com/docs/support/support-policy).
 
-### How to login to support portal?
+If you still need help:
 
-Use your WPBakery account (usually your email address) and password that you set. With each purchase on wpbakery.com, our system either creates a new account for you or assigns a new license to the existing account (if you previously created an account).
+1. Go to the [WPBakery Customer Center](https://support.wpbakery.com/).
+2. Log in to your WPBakery account.
+3. Open a support ticket and provide the requested information about your issue
 
-### How to renew support?
+If WPBakery Page Builder was included with a WordPress theme and you do not have a direct WPBakery license, support for the bundled version is provided by the theme author.
 
-You can renew your access automatically through a subscription (recommended) or manually. The subscription provides additional benefits like priority support, keeps you on track for the WPBakery [Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus-licensing#loyalty-program-for-support-plus-subscribers) discount rewards (5% per year up to 50%), and upcoming features we will add to make the offer even more valuable for subscribers. To renew your access to [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus-licensing/), log in to your account, navigate to the Licenses section, and follow the instructions there.
+### How to log in to the WPBakery Customer Center
+
+If you purchased WPBakery Page Builder directly from [wpbakery.com](https://wpbakery.com/), a WPBakery account is created for the email address associated with your purchase.
+
+Use this account to log in to the [WPBakery Customer Center](https://support.wpbakery.com/), where you can manage your licenses, support access and other WPBakery services.
+
+If you already have a WPBakery account, a new license purchased with the same account is added to your existing account.
+
+### How to renew WPBakery support
+
+Every WPBakery Page Builder license purchased directly from WPBakery includes one year of Premium Support.
+
+After the included support period ends, you can renew your support in two ways:
+
+- **Premium Support renewal** - renew support manually for another year with a one-time payment.
+- [Support Plus](https://kb.wpbakery.com/docs/licensing/support-plus-licensing) - subscribe to automatic yearly renewal and receive additional benefits, including priority support and access to the WPBakery Loyalty Program.
+
+The WPBakery Loyalty Program gives active Support Plus subscribers an additional 5% discount on the renewal price for each consecutive subscription year, up to a maximum discount of 50%.
+
+To renew support, log in to the [WPBakery Customer Center](https://support.wpbakery.com/), open the **Licenses** section, and select the renewal option for your license.
+
+Learn more about [Support Plus and the WPBakery Loyalty Program](https://kb.wpbakery.com/docs/licensing/support-plus-licensing/).
 
 ### Purchased WPBakery Page Builder on CodeCanyon?
 
-[Create your WPBakery account](http://support.wpbakery.com/signup) and import your licenses from CodeCanyon with help of our automated import tool. To import your licenses, login to support portal and click "import" link below the message that you don't have licenses. Upon clicking the link you will be asked to log in with your Envato credentials – this will start the importing process.
+If you purchased WPBakery Page Builder on CodeCanyon, you need to import your license into the WPBakery Customer Center.
+
+1. Create a WPBakery account if you do not already have one.
+2. Log in to the [WPBakery Customer Center](https://support.wpbakery.com/).
+3. Open the **Licenses** section.
+4. Select the option to import your CodeCanyon license.
+5. Log in to CodeCanyon when prompted to complete the import.
+
+After the license has been imported, it will be available in your WPBakery account for license management and activation.
