@@ -25,7 +25,7 @@ The Row stretch setting has been available since WPBakery Page Builder 4.4.
 Watch the full-with row tutorial:
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/aU3f2-Sgzto?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Full Width Row" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/GQ-d56qKQ-U?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Full Width Row" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 **Note:** **Note:** Full-width row stretching may not work correctly when the WordPress theme applies *overflow: hidden* to a parent element containing the row.
