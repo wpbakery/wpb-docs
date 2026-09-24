@@ -1,6 +1,8 @@
 ---
 sidebar_position: 6
 sidebar_label: Support Plus license
+description: Learn what the WPBakery Support Plus license includes, from priority support and WPBakery AI to Plus add-ons, and how it compares to standard support.
+keywords: [support plus, wpbakery support plus, wpbakery license, priority support]
 ---
 
 # Support Plus license
