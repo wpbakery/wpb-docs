@@ -17,29 +17,29 @@ In the example below `save_always` is applied to `full_width` param and once the
 
 ```php
 vc_map( [
- 'name' => __( 'Row', 'js_composer' ),
- 'base' => 'vc_row',
- 'is_container' => true,
- 'icon' => 'icon-wpb-row',
- 'show_settings_on_create' => false,
- 'category' => __( 'Content', 'js_composer' ),
- 'description' => __( 'Place content elements inside the row', 'js_composer' ),
- 'params' => [
- [
- 'type' => 'dropdown',
- 'heading' => __( 'Row stretch', 'js_composer' ),
- 'param_name' => 'full_width',
- 'value' => [
- __( 'Default', 'js_composer' ) => '',
- __( 'Stretch row', 'js_composer' ) => 'stretch_row',
- __( 'Stretch row and content', 'js_composer' ) => 'stretch_row_content',
- __( 'Stretch row and content (no paddings)', 'js_composer' ) => 'stretch_row_content_no_spaces',
- ],
- 'save_always' => true,
- 'description' => __( 'Select stretching options for row and content (Note: stretched may not work properly if parent container has "overflow: hidden" CSS property).', 'js_composer' )
- ],
- // ...
- ],
+    'name' => __( 'Row', 'js_composer' ),
+    'base' => 'vc_row',
+    'is_container' => true,
+    'icon' => 'icon-wpb-row',
+    'show_settings_on_create' => false,
+    'category' => __( 'Content', 'js_composer' ),
+    'description' => __( 'Place content elements inside the row', 'js_composer' ),
+    'params' => [
+        [
+            'type' => 'dropdown',
+            'heading' => __( 'Row stretch', 'js_composer' ),
+            'param_name' => 'full_width',
+            'value' => [
+                __( 'Default', 'js_composer' ) => '',
+                __( 'Stretch row', 'js_composer' ) => 'stretch_row',
+                __( 'Stretch row and content', 'js_composer' ) => 'stretch_row_content',
+                __( 'Stretch row and content (no paddings)', 'js_composer' ) => 'stretch_row_content_no_spaces',
+            ],
+            'save_always' => true,
+            'description' => __( 'Select stretching options for row and content (Note: stretched may not work properly if parent container has "overflow: hidden" CSS property).', 'js_composer' ),
+        ],
+        // ...
+    ],
 ] );
 ```
 
@@ -51,9 +51,9 @@ The common problem with saving standards is that template is not synced with `vc
 
 ```text
 shortcode_atts([
- size = big
- color = red
- align = center
+    size = big
+    color = red
+    align = center
 ])
 ```
 
@@ -61,35 +61,35 @@ shortcode_atts([
 
 ```text
 vc_map([
- ...
- params = [
- [
- type = textfield
- param_name = size
- value = small
- ],
- [
- type = dropdown
- param_name = color
- value = [
- white,
- blue,
- red
- ],
- ],
- [
- type = dropdown
- param_name = align
- value = [
- left
- right
- center
- ]
- settings = [
- default = right
- ]
- ]
- ]
+    ...
+    params = [
+        [
+            type = textfield
+            param_name = size
+            value = small
+        ],
+        [
+            type = dropdown
+            param_name = color
+            value = [
+                white,
+                blue,
+                red
+            ],
+        ],
+        [
+            type = dropdown
+            param_name = align
+            value = [
+                left
+                right
+                center
+            ]
+            settings = [
+                default = right
+            ]
+        ]
+    ]
 ]);
 ```
 
