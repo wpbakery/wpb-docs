@@ -56,8 +56,8 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | String | - | Default color value (alternative to `value`) |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | String | - | Default color value (alternative to `value`) |
 | &nbsp;&nbsp;&nbsp;&nbsp;`default_colorpicker_color` | String | - | Default color for the color picker control |
 
 ## Complete Example

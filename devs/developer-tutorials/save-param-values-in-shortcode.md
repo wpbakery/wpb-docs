@@ -85,7 +85,9 @@ vc_map([
  right
  center
  ]
- std = right
+ settings = [
+ default = right
+ ]
  ]
  ]
 ]);
