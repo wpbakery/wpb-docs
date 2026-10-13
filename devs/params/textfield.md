@@ -59,8 +59,8 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | Mixed | - | Default param value (alternative to `value`) |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | Mixed | - | Default param value (alternative to `value`) |
 | &nbsp;&nbsp;&nbsp;&nbsp;`value_type` | String | `"html"` | How to parse value: `"html"` or `"text"` |
 | &nbsp;&nbsp;&nbsp;&nbsp;`placeholder` | String | - | Placeholder text shown when field is empty |
 

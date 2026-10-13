@@ -32,7 +32,9 @@ Group of buttons for selecting one option from multiple choices.
             "title" => __("Option 2", "your-text-domain"),
         ],
     ],
-    "std" => "option_1",
+    "settings" => [
+        "default" => "option_1",
+    ],
     "description" => __("Field description", "your-text-domain"),
 ]
 ```
@@ -67,8 +69,8 @@ All param types support these common parameters:
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | `value` | Array | - | Associative array of options. Each key is the value saved to the shortcode, each item is an array with `label` and `title` keys (see [Option format](#option-format)) |
-| `std` | String | - | Default param value. If omitted, the first option is selected |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | String | - | Default param value. If omitted, the first option is selected |
 | &nbsp;&nbsp;&nbsp;&nbsp;`icon_size` | String | `"12px"` | Size of button icons (e.g., `"20px"`, `"1em"`, `"1rem"`) |
 
 ## Option format
@@ -106,7 +108,7 @@ The `label` is auto-detected and rendered as one of the following types:
 
 ## Presets
 
-Ready-to-use presets that follow the WPBakery design system. Copy the code into the `params` array of your element and adjust `param_name`, `heading`, and `std` as needed. These are the same configurations WPBakery uses for its own elements.
+Ready-to-use presets that follow the WPBakery design system. Copy the code into the `params` array of your element and adjust `param_name`, `heading`, and `settings['default']` as needed. These are the same configurations WPBakery uses for its own elements.
 
 ### Button
 
@@ -129,7 +131,9 @@ Plain text buttons for selecting one option from a small set of choices.
             "title" => __("Custom", "your-text-domain"),
         ],
     ],
-    "std" => "default",
+    "settings" => [
+        "default" => "default",
+    ],
 ]
 ```
 
@@ -146,7 +150,9 @@ Size scale from extra small to extra large. Short labels with descriptive toolti
     "param_name" => "size",
     "value" => vc_config()->get_size_param_value(), // all five sizes
     // "value" => vc_config()->get_size_param_value(["sm", "md", "lg"]), // only S, M, L
-    "std" => "md",
+    "settings" => [
+        "default" => "md",
+    ],
 ]
 ```
 
@@ -193,7 +199,9 @@ Text/content alignment with icon buttons. Use the built-in `vc_config()->get_tex
     "param_name" => "align",
     "value" => vc_config()->get_text_align_param_value(), // left, center, right, justify
     // "value" => vc_config()->get_text_align_param_value(["justify"]), // without justify
-    "std" => "left",
+    "settings" => [
+        "default" => "left",
+    ],
 ]
 ```
 
@@ -252,7 +260,9 @@ Horizontal placement of content inside its container. Remove the `between` optio
             "title" => __("Space between", "your-text-domain"),
         ],
     ],
-    "std" => "left",
+    "settings" => [
+        "default" => "left",
+    ],
 ]
 ```
 
@@ -269,7 +279,9 @@ Vertical placement of content inside its container. Use the built-in `vc_config(
     "param_name" => "vertical_position",
     "value" => vc_config()->get_vertical_position_param_value(), // Default, top, middle, bottom
     // "value" => vc_config()->get_vertical_position_param_value([""]), // without Default
-    "std" => "",
+    "settings" => [
+        "default" => "",
+    ],
 ]
 ```
 
@@ -328,7 +340,9 @@ Direction selection with arrow icons.
             "title" => __("Right", "your-text-domain"),
         ],
     ],
-    "std" => "up",
+    "settings" => [
+        "default" => "up",
+    ],
 ]
 ```
 
@@ -367,7 +381,9 @@ function my_testimonial_element() {
                         "title" => __("Quote layout", "domain"),
                     ],
                 ],
-                "std" => "card",
+                "settings" => [
+                    "default" => "card",
+                ],
             ],
             [
                 // Preset options via a built-in helper.
@@ -376,7 +392,9 @@ function my_testimonial_element() {
                 "param_name" => "avatar_size",
                 "description" => __("Select avatar size.", "domain"),
                 "value" => vc_config()->get_size_param_value(["sm", "md", "lg"]),
-                "std" => "md",
+                "settings" => [
+                    "default" => "md",
+                ],
             ],
         ],
     ]);
