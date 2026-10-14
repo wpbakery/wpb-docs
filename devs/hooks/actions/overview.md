@@ -33,6 +33,7 @@ function your_custom_function($param1, $param2) {
 | [`vc_after_init_config`](/devs/hooks/actions/vc_after_init_config) | Fires after the configuration library has been initialized. |
 | [`vc_after_init_license`](/devs/hooks/actions/vc_after_init_license) | Fires after the license manager has been initialized. |
 | [`vc_after_init_modules`](/devs/hooks/actions/vc_after_init_modules) | Fires after the modules manager has been initialized. |
+| [`vc_after_init_responsive`](/devs/hooks/actions/vc_after_init_responsive) | Fires after the responsive component has been initialized. |
 | [`vc_after_init_settings`](/devs/hooks/actions/vc_after_init_settings) | Fires after the settings manager has been initialized. |
 | [`vc_after_init_updater`](/devs/hooks/actions/vc_after_init_updater) | Fires after the updater component has been initialized. |
 | [`vc_after_init_vc`](/devs/hooks/actions/vc_after_init_vc) | Fires after the main WPBakery Page Builder instance has been initialized. |
@@ -54,6 +55,7 @@ function your_custom_function($param1, $param2) {
 | [`vc_before_init_frontend_editor`](/devs/hooks/actions/vc_before_init_frontend_editor) | Fires before the frontend editor component is initialized. |
 | [`vc_before_init_license`](/devs/hooks/actions/vc_before_init_license) | Fires before the license component is initialized. |
 | [`vc_before_init_modules`](/devs/hooks/actions/vc_before_init_modules) | Fires before the modules component is initialized. |
+| [`vc_before_init_responsive`](/devs/hooks/actions/vc_before_init_responsive) | Fires before the responsive component is initialized. |
 | [`vc_before_init_settings`](/devs/hooks/actions/vc_before_init_settings) | Fires before the settings component is initialized. |
 | [`vc_before_init_updater`](/devs/hooks/actions/vc_before_init_updater) | Fires before the updater component is initialized. |
 | [`vc_before_init_vc`](/devs/hooks/actions/vc_before_init_vc) | Fires before the main VC instance is initialized. |

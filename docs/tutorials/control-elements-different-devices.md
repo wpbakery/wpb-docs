@@ -9,6 +9,8 @@ slug: /tutorials/how-to-control-elements-on-different-devices
 
 Learn how to design responsive layouts and control elements on different devices with WPBakery Page Builder plugin for WordPress.
 
+Starting from version 9.1 elements are hidden per device with the "Hide element" toggle in the Design Options tab, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
+
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/EmYJZCDIWf4?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to control elements on different devices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

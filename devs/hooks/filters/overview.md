@@ -60,6 +60,7 @@ function your_custom_function($value, $additional_params) {
 | [`vc_edit_form_class`](/devs/hooks/filters/vc_edit_form_class) | Filters the array of CSS classes applied to the edit form fields container element. |
 | [`vc_edit_form_css_class`](/devs/hooks/filters/vc_edit_form_css_class) | Filters the CSS class string applied to the shortcode edit form panel container. |
 | [`vc_edit_form_enqueue_script`](/devs/hooks/filters/vc_edit_form_enqueue_script) | Filters the array of scripts registered for parameter types in the edit form. |
+| [`vc_edit_form_fields_attributes`](/devs/hooks/filters/vc_edit_form_fields_attributes) | Filters the shortcode attributes of every element before they are used to populate the edit form fields. |
 | [`vc_edit_form_fields_attributes_{tag}`](/devs/hooks/filters/vc_edit_form_fields_attributes_tag) | Filters the shortcode attributes before they are used to populate the edit form fields. |
 | [`vc_edit_form_fields_optional_params`](/devs/hooks/filters/vc_edit_form_fields_optional_params) | Filters the list of optional parameter types that should not be initialized by default in the edit form. |
 | [`vc_edit_form_fields_render_field_{type}_before`](/devs/hooks/filters/vc_edit_form_fields_render_field_type_before) | Filters the HTML output rendered **before** a parameter field of a specific type in the WPBakery element edit form. |
@@ -217,7 +218,7 @@ function your_custom_function($value, $additional_params) {
 | [`wpb_module_ai_element_param_types`](/devs/hooks/filters/wpb_module_ai_element_param_types) | Filters the list of element parameter types that display the AI icon in the editor. |
 | [`wpb_module_ai_text_field_words`](/devs/hooks/filters/wpb_module_ai_text_field_words) | Filters the list of keywords used to determine whether a `textfield` parameter should display the AI icon. |
 | [`wpb_module_ai_type_response_route_lib`](/devs/hooks/filters/wpb_module_ai_type_response_route_lib) | Filters the routing configuration that maps element parameter types to their AI response handler classes and API endpoints. |
-| [`wpb_navbar_getControlScreenSize`](/devs/hooks/filters/wpb_navbar_getControlScreenSize) | Filters the available screen sizes for the responsive preview control in the frontend editor navbar. |
+| [`wpb_navbar_getControlScreenSize`](/devs/hooks/filters/wpb_navbar_getControlScreenSize) | Filters the device list of the responsive preview dropdown in the navigation bar of both editors. |
 | [`wpb_set_post_custom_meta`](/devs/hooks/filters/wpb_set_post_custom_meta) | Filters the custom meta values associated with a post in the editor. |
 | [`wpb_shortcode_acf_display_when_empty_value`](/devs/hooks/filters/wpb_shortcode_acf_display_when_empty_value) | Filters whether the ACF (Advanced Custom Fields) shortcode element should render output when the field value is empty. |
 | [`wpb_toggle_heading`](/devs/hooks/filters/wpb_toggle_heading) | Filters the heading HTML output of the Toggle (FAQ) element. |
