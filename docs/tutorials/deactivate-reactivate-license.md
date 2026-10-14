@@ -1,6 +1,6 @@
 ---
 id: how-to-deactivate-and-reactivate-license
-title: How to deactivate and reactivate license?
+title: How to deactivate and reactivate a WPBakery Page Builder license
 sidebar_label: How to deactivate and reactivate license?
 sidebar_position: 1
 hide_table_of_contents: true
