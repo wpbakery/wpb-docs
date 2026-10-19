@@ -1,6 +1,6 @@
 ---
 id: how-to-add-and-edit-images
-title: How to add and edit images?
+title: How to Add and Edit an Image in WPBakery Page Builder
 sidebar_label: How to add and edit images?
 sidebar_position: 5
 hide_table_of_contents: true
