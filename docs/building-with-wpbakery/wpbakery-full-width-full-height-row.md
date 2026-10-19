@@ -4,7 +4,7 @@ title: How to Create Full-Width and Full-Height Rows in WPBakery
 sidebar_label: How to Create Full-Width and Full-Height Rows in WPBakery
 sidebar_position: 26
 hide_table_of_contents: true
-slug: /docs/rows-columns/wpbakery-full-width-full-height-row/
+slug: /building-with-wpbakery/wpbakery-full-width-full-height-row
 description: Learn how to create full-width and full-height rows in WPBakery Page Builder and control row stretching, spacing and content position.
 keywords: [full-width row WPBakery]
 ---
@@ -27,7 +27,7 @@ The Row stretch setting has been available since WPBakery Page Builder 4.4.
 Watch the full-with row tutorial:
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/GQ-d56qKQ-U?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Full Width Row" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/GQ-d56qKQ-U?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Full Width Row" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 **Note:** **Note:** Full-width row stretching may not work correctly when the WordPress theme applies *overflow: hidden* to a parent element containing the row.

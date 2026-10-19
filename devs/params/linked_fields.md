@@ -59,9 +59,9 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | Mixed | - | Default param value (alternative to `value`). Uses pipe-separated key-value pairs (e.g., `"top:10|right:10|bottom:10|left:10|unit:px|linked:true"`) |
 | `value` | Array | `['top'=>'', 'right'=>'', 'bottom'=>'', 'left'=>'']` | Defines the field keys and their default values |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | Mixed | - | Default param value (alternative to `value`). Uses pipe-separated key-value pairs (e.g., `"top:10|right:10|bottom:10|left:10|unit:px|linked:true"`) |
 | &nbsp;&nbsp;&nbsp;&nbsp;`units` | Boolean\|Array | `false` | Enable CSS unit selector. Set to `true` for default units (`px`, `em`, `rem`, `vw`, `vh`, `%`) or provide a custom array (e.g., `['px', 'em', '%']`). When enabled, a shared unit dropdown appears and the unit is stored with the value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`default_unit` | String | First unit in list | The unit selected by default when no unit is present in the value |
 
@@ -80,8 +80,8 @@ function my_element_with_linked_fields() {
                 "type" => "linked_fields",
                 "heading" => __("Padding", "domain"),
                 "param_name" => "padding",
-                "std" => "top:10|right:10|bottom:10|left:10|unit:px|linked:true",
                 "settings" => [
+                    "default" => "top:10|right:10|bottom:10|left:10|unit:px|linked:true",
                     "units" => ['px', 'em', 'rem', '%'],
                     "default_unit" => 'px',
                 ],

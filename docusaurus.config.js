@@ -11,6 +11,7 @@ const config = {
   title: 'WPBakery API Documentation',
   tagline: 'WPBakery API Documentation',
   favicon: 'img/favico-32x32.png',
+  trailingSlash: true,
 
   future: {
     v4: true,

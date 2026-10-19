@@ -3,6 +3,8 @@
 
 /** @type {{from: string, to: string}[]} */
 const redirects = [
+  // GitHub Pages 301s /docs -> /docs/ which has no landing page; point it at the intro page instead
+  {from: '/docs', to: '/docs/intro'},
   {from: '/docs/developers-how-tos', to: '/devs/developer-tutorials/overview'},
   {from: '/docs/developers-how-tos/add-animation-param-to-the-element', to: '/devs/developer-tutorials/add-animation-param-to-the-element'},
   {from: '/docs/developers-how-tos/add-custom-row-layouts-presets', to: '/devs/developer-tutorials/add-custom-row-layouts-presets'},
@@ -110,7 +112,7 @@ const redirects = [
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-insert-google-maps', to: '/docs/tutorials/how-to-insert-google-maps'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-insert-inner-row', to: '/docs/tutorials/how-to-insert-inner-row'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-make-custom-grid-element', to: '/docs/tutorials/how-to-make-custom-grid-element'},
-  {from: '/docs/wpbakery-page-builder-how-tos/how-to-make-full-width-or-full-height-row', to: '/docs/rows-columns/wpbakery-full-width-full-height-row'},
+  {from: '/docs/wpbakery-page-builder-how-tos/how-to-make-full-width-or-full-height-row', to: '/docs/building-with-wpbakery/wpbakery-full-width-full-height-row'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-manage-css-with-wpbakery-page-builder', to: '/docs/tutorials/how-to-manage-css-with-wpbakery-page-builder'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-minimize-row', to: '/docs/tutorials/how-to-minimize-row'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-modify-predefined-grid-element', to: '/docs/tutorials/how-to-modify-predefined-grid-element'},
@@ -163,8 +165,8 @@ const redirects = [
   {from: '/docs/building-with-wpbakery/wpbakery-seo', to: '/docs/features-and-tools/wpbakery-seo'},
   {from: '/docs/become-a-wpb-tester', to: '/docs/beta-testing'},
   {from: '/docs/building-with-wpbakery/basic-concept', to: '/docs/building-with-wpbakery/rows-and-columns-in-wpbakery-page-builder'},
-  {from: '/docs/tutorials/how-to-make-full-width-or-full-height-row', to: '/docs/rows-columns/wpbakery-full-width-full-height-row/'},
-
+  {from: '/docs/tutorials/how-to-make-full-width-or-full-height-row', to: '/docs/building-with-wpbakery/wpbakery-full-width-full-height-row'},
+  {from: '/docs/rows-columns/wpbakery-full-width-full-height-row', to: '/docs/building-with-wpbakery/wpbakery-full-width-full-height-row'},
 ];
 
 export default redirects;

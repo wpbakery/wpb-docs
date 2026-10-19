@@ -50,7 +50,8 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | Mixed | - | Default param value (alternative to `value`) |
+| `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | Mixed | - | Default param value (alternative to `value`) |
 
 ## Complete Example
 
