@@ -239,7 +239,7 @@ function my_module_add_grid_shortcodes( $shortcodes ) {
  'heading' => __( 'Border color', 'js_composer' ),
  'param_name' => 'border_color',
  'value' => getVcShared( 'colors' ),
- 'std' => 'grey',
+ 'settings' => [ 'default' => 'grey' ],
  'dependency' => [
  'element' => 'style',
  'value' => [
