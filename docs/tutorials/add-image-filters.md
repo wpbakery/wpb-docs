@@ -1,6 +1,6 @@
 ---
 id: how-to-add-image-filters
-title: How to add image filters?
+title: How to add Image filters in WPBakery Page Builder
 description: Learn how to add image filters to Single Image elements, image galleries and background images in WPBakery Page Builder.
 sidebar_label: How to add image filters?
 sidebar_position: 7
