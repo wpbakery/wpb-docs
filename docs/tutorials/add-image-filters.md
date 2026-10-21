@@ -8,7 +8,7 @@ hide_table_of_contents: true
 slug: /tutorials/how-to-add-image-filters
 ---
 
-WPBakery image filters let you change the appearance of images selected from the WordPress Media Library. You can apply them to individual images, gallery images, and background images. WPBakery API Documentation
+WPBakery image filters let you change the appearance of images selected from the WordPress Media Library. You can apply them to individual images, gallery images, and background images.
 
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/X52FAs347vU?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Image Filter Adding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
