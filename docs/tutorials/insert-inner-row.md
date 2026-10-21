@@ -1,6 +1,7 @@
 ---
 id: how-to-insert-inner-row
 title: How to insert inner row?
+description: Learn how to add an inner row in WPBakery Page Builder, divide it into columns, and create nested layouts in the Frontend Editor.
 sidebar_label: How to insert inner row?
 sidebar_position: 19
 hide_table_of_contents: true
