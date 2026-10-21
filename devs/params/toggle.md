@@ -50,6 +50,7 @@ All param types support these common parameters:
 | `callback` | Array | JavaScript function callback (e.g., `['after_add' => 'myCallback']`) |
 | `settings` | Array | Type-specific configuration options (see Type-Specific Parameters below) |
 | `deprecated` | String | Version in which the param was deprecated |
+| `copy-paste-value` | Boolean | If set to `true`, the parameter will be included in the copy/paste process available from the additional settings menu of the edit element modal. Default: `false` |
 
 ## Complete Example
 
