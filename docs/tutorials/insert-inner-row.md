@@ -1,11 +1,11 @@
 ---
 id: how-to-insert-inner-row
-title: How to insert inner row?
+title: How to add inner row
 description: Learn how to add an inner row in WPBakery Page Builder, divide it into columns, and create nested layouts in the Frontend Editor.
-sidebar_label: How to insert inner row?
+sidebar_label: How to add inner row
 sidebar_position: 19
 hide_table_of_contents: true
-slug: /tutorials/how-to-insert-inner-row
+slug: /tutorials/how-to-add-inner-row
 ---
 
 An inner row lets you add a new column layout inside an existing column, allowing you to build more complex page sections without changing the layout of the main row. This is useful when one part of a page section needs a different structure, such as two columns inside a larger hero section.

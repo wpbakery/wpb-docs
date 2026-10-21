@@ -110,7 +110,7 @@ const redirects = [
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-edit-headers-and-footers', to: '/docs/tutorials/how-to-edit-headers-and-footers'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-edit-post-title', to: '/docs/tutorials/how-to-edit-post-title'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-insert-google-maps', to: '/docs/tutorials/how-to-insert-google-maps'},
-  {from: '/docs/wpbakery-page-builder-how-tos/how-to-insert-inner-row', to: '/docs/tutorials/how-to-insert-inner-row'},
+  {from: '/docs/wpbakery-page-builder-how-tos/how-to-insert-inner-row', to: '/docs/tutorials/how-to-add-inner-row'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-make-custom-grid-element', to: '/docs/tutorials/how-to-make-custom-grid-element'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-make-full-width-or-full-height-row', to: '/docs/building-with-wpbakery/wpbakery-full-width-full-height-row'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-to-manage-css-with-wpbakery-page-builder', to: '/docs/tutorials/how-to-manage-css-with-wpbakery-page-builder'},
