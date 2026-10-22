@@ -4,6 +4,7 @@ sidebar_label: Multi-site licenses
 hide_table_of_contents: true
 slug: /licensing/multi-site-licenses
 description: Compare WPBakery multi-site licenses for using WPBakery Page Builder on multiple personal or client websites.
+keywords: [WPBakery multi-site licenses]
 ---
 
 # Multi-site licenses
