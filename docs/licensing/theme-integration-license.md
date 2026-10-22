@@ -2,6 +2,8 @@
 sidebar_position: 4
 sidebar_label: Theme license
 hide_table_of_contents: true
+description: Learn how the WPBakery Theme integration license allows theme developers to include WPBakery Page Builder in one WordPress theme.
+keywords: [WPBakery Theme integration license]
 ---
 
 # Theme license
