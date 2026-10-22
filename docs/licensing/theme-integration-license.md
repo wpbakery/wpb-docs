@@ -16,7 +16,7 @@ A separate Theme integration license is required for each WordPress theme in whi
 
 This license is intended for WordPress theme authors who want to offer WPBakery Page Builder as part of their theme.
 
-It is not intended for users who want to install WPBakery Page Builder directly on their own or their clients’ websites. For direct website use, choose a [One site license](/docs/licensing/one-site-license) or one of the [Multi-site licenses](/licensing/multi-site-licenses).
+It is not intended for users who want to install WPBakery Page Builder directly on their own or their clients’ websites. For direct website use, choose a [One site license](/docs/licensing/one-site-license) or one of the [Multi-site licenses](/docs/licensing/multi-site-licenses).
 
 **How theme integration approval works**
 
