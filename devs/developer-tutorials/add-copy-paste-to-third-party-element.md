@@ -16,7 +16,7 @@ The additional settings menu of the edit element modal lets users copy parameter
 ## How it works
 
 * Each parameter has an optional [`copy-paste-value`](/devs/element-development/parameter-types#copy-paste-value) setting (Boolean, default `false`).
-* When set to `true`, the value of the parameter is included when the user uses "Copy design options" and "Paste design options" from the additional settings menu of the edit element modal. These titles can be changed with the [`wpb_edit_element_additional_settings_menu_titles`](/devs/hooks/filters/wpb_edit_element_additional_settings_menu_titles) filter (see [Customize the menu labels with a filter (optional)](#customize-the-menu-labels-with-a-filter-optional)).
+* When set to `true`, the parameter value is included when users copy and paste design options from the additional settings menu in the element editing window. These titles can be changed with the [`wpb_edit_element_additional_settings_menu_titles`](/devs/hooks/filters/wpb_edit_element_additional_settings_menu_titles) filter (see [Customize the menu labels with a filter (optional)](#customize-the-menu-labels-with-a-filter-optional)).
 
 import ZoomImage from '@site/src/components/ZoomImage';
 
