@@ -1473,6 +1473,11 @@ article[class*="docCardListItem"] .card p,
 /* Content area */
 .theme-admonition [class*="admonitionContent"] {
   flex: 1;
+  min-width: 0;
+}
+
+.theme-admonition [class*="admonitionContent"] > * + * {
+  margin-top: 0.75rem;
 }
 
 .theme-admonition [class*="admonitionContent"] p {
