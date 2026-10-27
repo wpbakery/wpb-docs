@@ -105,7 +105,7 @@ In this section, you will find quick tips in form of video tutorials on how to o
     <p>Add engaging parallax scrolling effects to row backgrounds.</p>
   </a>
 
-  <a href="/docs/tutorials/how-to-insert-inner-row" className="topic-card">
+  <a href="/docs/tutorials/how-to-add-inner-row" className="topic-card">
     <h3>Insert inner row</h3>
     <p>Create nested rows within columns for complex layouts.</p>
   </a>
@@ -203,7 +203,6 @@ In this section, you will find quick tips in form of video tutorials on how to o
     <p>Customize your site's header and footer areas.</p>
   </a>
 </div>
-
 
 
 
