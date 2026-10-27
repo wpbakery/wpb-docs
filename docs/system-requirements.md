@@ -14,7 +14,7 @@ To optimize your usage of the WPBakery Page Builder plugin, we kindly advise adh
 
 The WPBakery Page Builder relies on official [WordPress requirements](https://wordpress.org/about/requirements/).
 
-- **PHP Version:** 7.4 or higher
+- **PHP Version:** 8.2 or higher
 - **MySQL version:** 8.0 or higher or MariaDB 10.4 or higher
 - **HTTPS support**
 
