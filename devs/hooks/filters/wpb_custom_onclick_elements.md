@@ -5,6 +5,8 @@ hide_table_of_contents: true
 
 # wpb_custom_onclick_elements
 
+SINCE 9.1
+
 Filters the list of element shortcode tags that can output custom `onclick` JavaScript. This covers the WPBakery Button and every element that integrates a button.
 
 When a user whose role has no **unfiltered HTML** access saves a post, WPBakery checks every element in this list. If an element has a custom onclick attribute set, the whole element is removed from the content. Users with unfiltered HTML access are not affected.
