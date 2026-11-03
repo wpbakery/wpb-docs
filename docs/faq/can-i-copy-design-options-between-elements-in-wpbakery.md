@@ -33,12 +33,8 @@ The feature copies supported values from the Design Options tab, including spaci
 
 It only copies Design Options settings, not all attributes or content of the element.
 
-### Can I copy custom Design Options added by third-party developers?
+### Can I copy element params added by third-party developers?
 
 Custom attributes added to Design Options by third-party themes or plugins are not copied automatically.
 
 Developers can add support for their custom attributes using a dedicated hook. For instructions, see [How to add copy/paste to a third-party element](https://kb.wpbakery.com/devs/developer-tutorials/add-copy-paste-to-third-party-element) in the WPBakery Developer Knowledge Base.
-
-### Can I copy Design Options between different websites?
-
-Copying Design Options between different websites is currently being investigated. For now, the feature supports copying between elements on the same page or across different pages within a website.
