@@ -336,9 +336,9 @@ window.vc.events.on('save:error', function(error) {
 ```js
 /**
  * Fires when the device being edited changes: a device is selected in the
- * navigation bar or "Apply styles only for selected device type" is switched.
- * data.device is the device key (xl, lg, md, sm, xs), or null for global editing.
- * Available since 9.1.
+ * navigation bar or in the device dropdown of an option.
+ * data.device is the device key (lg, md, sm, xs), or null for Desktop.
+ * Available since 9.2.
  */
 
 window.vc.events.on('wpb:targetDeviceChange', function(data) {
@@ -413,7 +413,7 @@ jQuery(document).on('change', '.wpb_vc_param_value.attachment_id', function() {
 | `save:error` | Save failed | error |
 | `vc_iframe_loaded` | Frontend editor loaded | – |
 | `vc_reload` | Editor reloading | – |
-| `wpb:targetDeviceChange` | Edited device changed in the navigation bar | `{ device }` |
+| `wpb:targetDeviceChange` | Edited device changed | `{ device }` |
 
 ## Element-Specific Events
 

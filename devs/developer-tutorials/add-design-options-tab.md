@@ -40,6 +40,8 @@ Very basic element, which has only one attribute available for edit and it's mov
 
 It's recommended, to extend `WPBakeryShortCode` class, that way you will have access to all default inbuilt methods and your content element will "blend" better with whole WPB system.
 
+Since version 9.2 every element with a `css_editor` param also gets the "Hide element" toggle at the top of the Design Options tab. To leave it out, add `'settings' => [ 'hide_toggle' => false ]` to the param.
+
 ## HTML output
 
 Now param value is saved, but you should also make sure to output correct css class name to your element's output. Have a look at the example below, to understand how it is done.
@@ -60,5 +62,3 @@ $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_cus
 ```
 
 Important part in this snippet is `vc_shortcode_custom_css_class()` function call, it is parsing `css` attribute and outputs its name in the element's html markup.
-
-Since version 9.1 every element with a `css_editor` param also gets the "Hide element" toggle at the top of the Design Options tab. Its value is stored in the `hide_element` attribute, with per device values in `hide_element_wpb_{device}`, and the hide classes are added through the `VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG` filter, so the template above needs no changes. To leave the toggle out, set `'settings' => [ 'hide_toggle' => false ]` on the param. The Design Options values themselves are set per device only when the param carries `'responsive' => true`: add it to the param above, or map the tab with `vc_config()->get_design_options_tab()`, which already carries it. Read more in [Make a param responsive](/devs/developer-tutorials/make-a-param-responsive).

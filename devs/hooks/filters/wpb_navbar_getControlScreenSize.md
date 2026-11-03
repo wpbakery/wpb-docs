@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # wpb_navbar_getControlScreenSize
 
-Filters the device list of the responsive preview dropdown in the navigation bar of both editors. Since version 9.1 the list is built from the [breakpoints](/docs/building-with-wpbakery/responsive-settings) set in Design Options, and selecting an entry also sets the device being edited.
+Filters the device list of the responsive preview dropdown in the navigation bar. Since version 9.2 the filter runs in both editors, the list is built from the [breakpoints](/docs/building-with-wpbakery/responsive-settings) set in Design Options and selecting an entry also sets the device being edited.
 
 ## Parameters
 

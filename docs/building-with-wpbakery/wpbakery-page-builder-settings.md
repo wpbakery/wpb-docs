@@ -45,7 +45,7 @@ Control user group role access to the features and options of WPBakery Page Buil
 
 Design Options allows you to apply a custom visual appearance to WPBakery Page Builder content elements and also control responsive width. By default content elements "stack" one on top other when the screen size is smaller than 640px.
 
-Since the 9.1 update this tab also contains the screen width where each device view starts:
+Since the 9.2 update this tab also contains the screen width where each device view starts:
 
 - Desktop breakpoint (1200px by default);
 - Tablet horizontal breakpoint (1024px by default);
