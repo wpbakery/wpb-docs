@@ -9,7 +9,7 @@ slug: /features-and-tools/element-presets-my-elements
 
 ***Since 5.2***
 
-Starting from WPBakery Page Builder version 5.2 it is possible to save any element with custom values of element parameters as My Element. These elements will appear in Add Element window "My Element" tab. To create a new element, add existing element to the canvas, set your own parameters and locate settings option ("gear" icon) in the upper-right corner of the element parameter window.
+Starting from WPBakery Page Builder version 5.2 it is possible to save any element with custom values of element parameters as My Element. These elements will appear in Add Element window "My Element" tab. To create a new element, add existing element to the canvas, set your own parameters and locate settings option ("hamburger menu: ≡" icon) in the upper-right corner of the element parameter window.
 
 It is possible to remove created custom elements via "Manage Elements" in "My Element" tab.
 
