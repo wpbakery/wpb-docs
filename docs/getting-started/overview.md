@@ -2,13 +2,20 @@
 sidebar_position: 0
 sidebar_label: Overview
 hide_table_of_contents: true
+title: Getting started with WPBakery Page Builder
+description: Get started with WPBakery Page Builder by installing and activating the plugin, managing updates, and choosing supported WordPress content types.
+keywords: [Getting started with WPBakery Page Builder]
 ---
 
-# Getting started
+# Getting started with WPBakery Page Builder
 
-Thank you for purchasing WPBakery Page Builder and congratulations with the huge win which you are going to experience once you start using our amazing page builder which will bring you a new experience in building your WordPress pages and also will save you tons of time.
+Thank you for purchasing WPBakery Page Builder.
 
-This section will guide you through initial setup and activation processes in order to get your copy of WPBakery Page Builder up and running. Please follow sections step by step to get familiar with installation, activation and update processes. Moreover, as you may already know – WPBakery Page Builder works not only with your WordPress pages but also posts and even custom post types. See how you can activate WPBakery Page Builder for specific custom post type and handle your custom posts without any trouble.
+This section will help you install the plugin, activate your license, manage plugin updates and configure where WPBakery Page Builder can be used on your WordPress website. If you purchased WPBakery Page Builder directly from WPBakery, activation connects your license to the WPBakery Support Portal and gives you access to the services available with your license and active support period.
+
+WPBakery Page Builder can be enabled for WordPress pages, posts and supported custom post types. Once the plugin is installed and activated, go to **WPBakery Page Builder → Role Manager** and use the **Post types** settings to choose which content types can be edited with the page builder.
+
+If this is your first installation, follow the guides below in order.
 
 ## Topics in this section
 
@@ -33,7 +40,3 @@ This section will guide you through initial setup and activation processes in or
     <p>Configure which content types (pages, posts, custom post types) can be edited with WPBakery Page Builder.</p>
   </a>
 </div>
-
-
-
-

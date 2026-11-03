@@ -9,10 +9,10 @@ Before developing custom elements or extending WPBakery Page Builder, you need a
 
 |Tool| Description                                                                                                                                                                                                   |
 |---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|WordPress| Version 5.0+ is recommended. WPBakery is compatible with most modern WordPress setups.                                                                                                                        |
+|WordPress| Version 6.0+ is recommended. WPBakery is compatible with most modern WordPress setups.                                                                                                                        |
 |WPBakery Page Builder| Ensure the plugin is installed and activated. It may come bundled with your theme or be installed as a standalone plugin.                                                                                     |
 |Theme or Plugin| Custom elements are best added via a child theme or a custom plugin. Avoid editing core files.                                                                                                                |
-|PHP| Minimum PHP 7.4 is recommended.                                                                                                                                                                               |
+|PHP| Minimum PHP 8.1 is recommended.                                                                                                                                                                               |
 |MySQL| 8.0 or higher or MariaDB 10.4 or higher.                                                                                                                                                                               |
 |Code Editor| Use a modern editor like [VS Code](https://code.visualstudio.com/) or [PhpStorm](https://www.jetbrains.com/phpstorm/) for syntax highlighting and productivity.                                               |
 |Browser| Chrome, Firefox, or any browser with good DevTools support.                                                                                                                                                   |

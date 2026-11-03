@@ -206,8 +206,10 @@ function your_custom_function($value, $additional_params) {
 | [`wpb_ai_tone_of_voice_list`](/devs/hooks/filters/wpb_ai_tone_of_voice_list) | Filters the list of tone-of-voice options displayed in the "Tone of voice" dropdown of the WPBakery AI popup. |
 | [`wpb_cta_text`](/devs/hooks/filters/wpb_cta_text) | Filters the call-to-action text HTML output in the CTA Button element. |
 | [`wpb_custom_html_elements`](/devs/hooks/filters/wpb_custom_html_elements) | Filters the list of element shortcode tags that are considered to contain custom HTML. |
+| [`wpb_custom_onclick_elements`](/devs/hooks/filters/wpb_custom_onclick_elements) | Filters the list of element shortcode tags that can output custom onclick JavaScript. |
 | [`wpb_disable_local_fonts`](/devs/hooks/filters/wpb_disable_local_fonts) | Filters whether to disable the local Google Fonts feature. |
 | [`wpb_download_all_google_fonts`](/devs/hooks/filters/wpb_download_all_google_fonts) | Filters whether to download all Google Fonts for local hosting instead of only the fonts used on the site. |
+| [`wpb_edit_element_additional_settings_menu_titles`](/devs/hooks/filters/wpb_edit_element_additional_settings_menu_titles) | Filters the labels used for the items in the "additional settings" menu of the edit element modal. |
 | [`wpb_element_legacy_params`](/devs/hooks/filters/wpb_element_legacy_params) | With this filter theme and plugin authors can deprecate element params that were removed from the element config but should stay for backward compatibility. |
 | [`wpb_enqueue_backend_editor_css`](/devs/hooks/filters/wpb_enqueue_backend_editor_css) | Filters the list of CSS stylesheet handles to enqueue in the backend editor. |
 | [`wpb_enqueue_backend_editor_js`](/devs/hooks/filters/wpb_enqueue_backend_editor_js) | Filters the list of JavaScript handles to enqueue in the backend editor. |

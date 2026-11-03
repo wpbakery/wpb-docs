@@ -10,6 +10,65 @@ slug: /release-notes
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 
+## Version 9.1 (02.11.2026)
+
+- New: A completely new Backend editor UI
+- New: Copy/paste design options settings for the native design options attributes for faster editing
+- New: Ability to label rows inside the Backend editor for better UX
+- Update: Editor performance improvements by optimizing JavaScript loading
+- Update: Default layout is being applied to new pages automatically
+- Update: WPBakery is compatible with PHP 8.5
+- Update: Google Fonts attribute has been updated
+- Update: UI improved for the parameter group adding
+- Update: Optimized SQL query number
+- Fix: Button element padding is working properly
+- Fix: Content position works properly for the section elements
+- Fix: Empty row element is working properly on mobile devices
+- Fix: Template search is working properly with empty strings
+- Fix: Clicks from mobile devices are working properly in the editor
+- Fix: X button is being displayed properly
+- Fix: Toggle container is working properly in the editor
+- Fix: SEO slug input is working properly
+- Fix: Element search is working properly with spaces in the query
+- Fix: Deprecated elements do not cause errors in the Add Element window
+- Fix: Last element on the post page can be deleted properly
+- Fix: Editor works properly with z-index on mobile devices
+- Fix: Full height row is working properly
+- Fix: License checking is working properly with subdomains
+- Fix: WPBakery admin menu uses proper icon coloring as per WordPress guidelines
+- Fix: Separator is being displayed properly inside the editor, including hide options
+- Fix: Dropdowns are working properly inside modal windows
+- Fix: Icons inside Masonry Grid element are working properly
+- Fix: Tour element colors are being applied properly
+- Fix: Optimized CSS options do not have duplicated code
+- Fix: Icon element is working properly
+- Fix: Grid Builder is working properly
+- Fix: Button gradient styles are being applied properly
+- Fix: Single Image element works properly with custom links
+- Fix: Ampersands are being encoded properly
+- Fix: Default value update is working properly for the media grid items
+- Fix: Load more button for post grids is being displayed properly
+- Fix: Column gap is working properly for inner rows
+- Fix: Gutenberg sidebar controls are working properly
+- Fix: Editor edit window is working properly
+- Fix: Ordering works properly inside the tour element
+- Fix: Ajax loading is working properly inside the editor
+- Fix: Font sizing controls are working properly
+- Fix: Custom nested shortcode containers are working properly
+- Fix: Design Options are working properly in Safari browser
+- Fix: Drag-and-drop is working properly inside the Grid Builder
+- Fix: Custom conditions do not break the layout inside the editor
+- Fix: Editor window minimize and maximize option is working properly
+- Fix: Tab alignment is working properly
+- Fix: Grid Builder security improved against XSS vulnerabilities
+- Fix: Custom CSS management for the author role improved
+- Fix: Private page content security improved
+- Fix: Column width works properly
+- Fix: Drag and drop placeholder works properly
+- Compatibility: Slider Revolution element works properly in the Backend editor
+- Compatibility: Flick Slide element is working properly
+- Compatibility: WPML works properly with RawHTML and translated pages with images and custom links
+
 ## Version 9.0.1 (05.08.2026)
 - Fix: Deleted params do not trigger fatal error
 - Fix: Content position is added back for backward compatibility
