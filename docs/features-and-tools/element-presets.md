@@ -9,21 +9,21 @@ slug: /features-and-tools/element-presets-my-elements
 
 ***Since 5.2***
 
-Starting from WPBakery Page Builder version 5.2 it is possible to save any element with custom values of element parameters as My Element. These elements will appear in Add Element window "My Element" tab. To create a new element, add existing element to the canvas, set your own parameters and locate settings option ("gear" icon) in the upper-right corner of the element parameter window.
+Starting from WPBakery Page Builder version 5.2 it is possible to save any element with custom values of element parameters as My Element. These elements will appear in Add Element window "My Element" tab. To create a new element, add existing element to the canvas, set your own parameters and locate settings option ("hamburger menu: ≡" icon) in the upper-right corner of the element parameter window.
 
 It is possible to remove created custom elements via "Manage Elements" in "My Element" tab.
 
 <div style={{display: 'flex', gap: '20px', alignItems: 'flex-start'}}>
 <div style={{flex: 1}}>
 
-## Create New Element
+## **Create New Element**
 
-In order to create new element preset:
+**In order to create new element preset:**
 
-1) Open element parameter window and change values to desired
-2) Open Element Preset controls ("gear" icon)
-3) Choose "Save as element"
-4) Enter element name and save
+1. **Open element parameter window and change values to desired**
+2. **Select element settings ("hamburger menu: ≡" icon)**
+3. **Choose "Save as element preset"**
+4. **Enter element name and save**
 
 ## Add Element to Canvas
 
@@ -44,7 +44,7 @@ In order delete preset:
 </div>
 <div style={{flex: 1}}>
 
-![Save as element in element settings](/img/templates/save-as-element-1.png)
+![Save as element preset in element settings](/img/templates/save-as-element-1.webp)
 
 </div>
 </div>
