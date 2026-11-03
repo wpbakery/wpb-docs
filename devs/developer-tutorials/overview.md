@@ -76,6 +76,11 @@ This comprehensive collection of guides covers everything from creating custom e
     <p>Programmatically update parameter values in existing elements.</p>
   </a>
 
+  <a href="/devs/developer-tutorials/add-copy-paste-to-third-party-element" className="topic-card">
+    <h3>Add copy/paste to third-party element</h3>
+    <p>Enable copy/paste of parameter values for third-party elements and customize the menu labels.</p>
+  </a>
+
   <a href="/devs/developer-tutorials/use-param-group-in-elements" className="topic-card">
     <h3>Use param group in elements</h3>
     <p>Create repeatable groups of parameters in your elements.</p>
