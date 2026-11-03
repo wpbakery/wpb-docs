@@ -15,13 +15,22 @@ Starting with WPBakery 9.1, you can use the **Copy Design Options** feature to c
 
 ### How to copy and paste Design Options
 
-![Copy Design Options menu in the Design Options tab](/img/screenshots/copy-design-options.webp)
+<div style={{display: 'flex', gap: '20px', alignItems: 'flex-start'}}>
+<div style={{flex: 1}}>
 
 1. Open the element you want to copy the styling from.
 2. Go to the **Design Options** tab.
 3. Open the menu (≡) at the top and select **Copy**.
 4. Open the element where you want to apply the styling.
 5. Go to its **Design Options** tab, open the same menu, and select **Paste**.
+
+</div>
+<div style={{flex: 1}}>
+
+![Copy Design Options menu in the Design Options tab](/img/screenshots/copy-design-options.webp)
+
+</div>
+</div>
 
 The copied settings will be applied to the selected element.
 
