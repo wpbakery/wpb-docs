@@ -18,12 +18,12 @@ It is possible to remove created custom elements via "Manage Elements" in "My El
 
 ## **Create New Element**
 
-**In order to create new element preset:**
+In order to create new element preset:
 
-1. **Open element parameter window and change values to desired**
-2. **Select element settings ("hamburger menu: ≡" icon)**
-3. **Choose "Save as element preset"**
-4. **Enter element name and save**
+1. Open element parameter window and change values to desired
+2. Select element settings ("hamburger menu: ≡" icon)
+3. Choose "Save as element preset"
+4. Enter element name and save
 
 ## Add Element to Canvas
 
