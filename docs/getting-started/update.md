@@ -8,7 +8,7 @@ The WPBakery Page Builder can be updated using any of these two methods:
 
 ## 1) Auto-updates
 
-WPBakery Page Builder version offers automatic WordPress update mechanism. To use the automatic update option you must have a direct license for WPBakery Page Builder (with an active support tenure) and [activate it](./activation). When a new version of WPBakery Page Builder will be available, you should click "Update WPBakery Page Builder now" link under WPBakery Page Builder in WP Dashboard/Plugins page.
+WPBakery Page Builder version offers automatic WordPress update mechanism. To use the automatic update option you must have a direct license for WPBakery Page Builder (with an active support tenure) and [activate it](./activation.md). When a new version of WPBakery Page Builder will be available, you should click "Update WPBakery Page Builder now" link under WPBakery Page Builder in WP Dashboard/Plugins page.
 
 ## 2) Manual updates
 

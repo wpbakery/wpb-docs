@@ -59,8 +59,8 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | String | - | Default selected value(s), comma-separated for multiple |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | String | - | Default selected value(s), comma-separated for multiple |
 | &nbsp;&nbsp;&nbsp;&nbsp;`direction` | String | `"horizontal"` | Layout direction of checkboxes. Possible values: `"horizontal"`, `"vertical"` |
 
 ## Complete Example
@@ -82,8 +82,8 @@ function my_element_with_checkbox() {
                     __("Option 1", "domain") => "opt1",
                     __("Option 2", "domain") => "opt2",
                 ],
-                "std" => "opt1",
                 "settings" => [
+                    "default" => "opt1",
                     "direction" => "vertical",
                 ],
                 "description" => __("Field description", "domain"),

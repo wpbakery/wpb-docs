@@ -1,0 +1,9 @@
+{
+  "label": "Building with WPBakery",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

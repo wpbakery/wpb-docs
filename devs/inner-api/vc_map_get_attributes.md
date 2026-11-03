@@ -52,7 +52,9 @@ function register_custom_copyright_shortcode() {
                     __( 'Center', 'your-text-domain' ) => 'center',
                     __( 'Right', 'your-text-domain' ) => 'right',
                 ],
-                'std' => 'center',
+                'settings' => [
+                    'default' => 'center',
+                ],
             ],
             [
                 'type' => 'css_editor',

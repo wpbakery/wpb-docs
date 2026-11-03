@@ -11,6 +11,7 @@ const config = {
   title: 'WPBakery API Documentation',
   tagline: 'WPBakery API Documentation',
   favicon: 'img/favico-32x32.png',
+  trailingSlash: true,
 
   future: {
     v4: true,
@@ -77,6 +78,7 @@ const config = {
         sidebarCollapsed: false,
       },
     ],
+    require.resolve('./plugins/sidebar-global-data.js'),
     [
       '@docusaurus/plugin-client-redirects',
       {

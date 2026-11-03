@@ -107,13 +107,13 @@ Defining "Text" attribute:
 
 ```php
 [
-  "type" => "textfield",
-  "holder" => "div",
-  "class" => "",
-  "heading" => __( "Text", "my-text-domain" ),
-  "param_name" => "foo",
-  "value" => __( "This is test param for creating new project", "my-text-domain" ),
-  "description" => __( "Enter foo.", "my-text-domain" )
+    "type" => "textfield",
+    "holder" => "div",
+    "class" => "",
+    "heading" => __( "Text", "my-text-domain" ),
+    "param_name" => "foo",
+    "value" => __( "This is test param for creating new project", "my-text-domain" ),
+    "description" => __( "Enter foo.", "my-text-domain" ),
 ]
 ```
 
@@ -198,11 +198,11 @@ For example you have your own shortcode *bartag* with 2 attributes: foo and bar.
 // [bartag foo="foo-value"]
 add_shortcode( 'bartag', 'bartag_func' );
 function bartag_func( $atts ) {
- extract( shortcode_atts( [
-  'foo' => 'something'
- ], $atts ) );
+    extract( shortcode_atts( [
+        'foo' => 'something',
+    ], $atts ) );
 
- return "foo = {$foo}";
+    return "foo = {$foo}";
 }
 ?>
 ```
@@ -213,32 +213,32 @@ Now lets call wpb_map() function from our functions.php file with an array of sp
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- wpb_map( [
-  "name" => __( "Bar tag test", "my-text-domain" ),
-  "base" => "bartag",
-  "class" => "",
-  "category" => __( "Content", "my-text-domain"),
-  'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
-  'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
-  "params" => [
- [
-  "type" => "textfield",
-  "holder" => "div",
-  "class" => "",
-  "heading" => __( "Text", "my-text-domain" ),
-  "param_name" => "foo",
-  "value" => __( "Default param value", "my-text-domain" ),
-  "description" => __( "Description for foo param.", "my-text-domain" )
- ]
-  ]
- ] );
+    wpb_map( [
+        "name" => __( "Bar tag test", "my-text-domain" ),
+        "base" => "bartag",
+        "class" => "",
+        "category" => __( "Content", "my-text-domain" ),
+        'admin_enqueue_js' => [ get_template_directory_uri() . '/vc_extend/bartag.js' ],
+        'admin_enqueue_css' => [ get_template_directory_uri() . '/vc_extend/bartag.css' ],
+        "params" => [
+            [
+                "type" => "textfield",
+                "holder" => "div",
+                "class" => "",
+                "heading" => __( "Text", "my-text-domain" ),
+                "param_name" => "foo",
+                "value" => __( "Default param value", "my-text-domain" ),
+                "description" => __( "Description for foo param.", "my-text-domain" ),
+            ],
+        ],
+    ] );
 }
 ?>
 ```
 
 As you can see it has an array of params. This list represents shortcode tag as base and params list which will be editable with settings form inside WPBakery Page Builder editor. In params array we have only one element as array with list of params. param_name must be the same as your parameter name. Next most important attribute of params is type. There are a lot of predefined types (all of them you can see [here](#available-type-values)). For foo attribute we'll use "textfield" which is simple input field. Add "heading" and "description" attributes for human friendly title and description of your param. Default attribute value can be added in param attribute "value".
 
-After adding "mapping", you will see your shortcode inside [content elements](/docs/learning-more/content-elements) list in WPBakery Page Builder editing mode and ability to control access to this shortcode in WPBakery Page Builder [settings](/docs/learning-more/wpbakery-page-builder-settings).
+After adding "mapping", you will see your shortcode inside [content elements](/docs/building-with-wpbakery/content-elements) list in WPBakery Page Builder editing mode and ability to control access to this shortcode in WPBakery Page Builder [settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
 
 More advanced example: Let's say you want to add a new special param to your shortcode: let's call it *color*. First of all, modify your shortcode hook function.
 
@@ -246,12 +246,12 @@ More advanced example: Let's say you want to add a new special param to your sho
 <?php
 add_shortcode( 'bartag', 'bartag_func' );
 function bartag_func( $atts ) {
- extract( shortcode_atts( [
-  'foo' => 'something',
-  'color' => '#FFF'
- ], $atts ) );
+    extract( shortcode_atts( [
+        'foo' => 'something',
+        'color' => '#FFF',
+    ], $atts ) );
 
- return "<div style='color:{$color};'>foo = {$foo}</div>";
+    return "<div style='color:{$color};'>foo = {$foo}</div>";
 }
 ?>
 ```
@@ -262,33 +262,33 @@ Now our shortcode has *color* param, which it will use as a style for our div on
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- wpb_map( [
-  "name" => __( "Bar tag test", "my-text-domain" ),
-  "base" => "bartag",
-  "class" => "",
-  "category" => __( "Content", "my-text-domain"),
-  'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
-  'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
-  "params" => [
- [
-  "type" => "textfield",
-  "holder" => "div",
-  "class" => "",
-  "heading" => __( "Text", "my-text-domain" ),
-  "param_name" => "foo",
-  "value" => __( "Default param value", "my-text-domain" ),
-  "description" => __( "Description for foo param.", "my-text-domain" )
- ],
- [
-  "type" => "colorpicker",
-  "class" => "",
-  "heading" => __( "Text color", "my-text-domain" ),
-  "param_name" => "color",
-  "value" => '#FF0000', //Default Red color
-  "description" => __( "Choose text color", "my-text-domain" )
- ]
-  ]
- ] );
+    wpb_map( [
+        "name" => __( "Bar tag test", "my-text-domain" ),
+        "base" => "bartag",
+        "class" => "",
+        "category" => __( "Content", "my-text-domain" ),
+        'admin_enqueue_js' => [ get_template_directory_uri() . '/vc_extend/bartag.js' ],
+        'admin_enqueue_css' => [ get_template_directory_uri() . '/vc_extend/bartag.css' ],
+        "params" => [
+            [
+                "type" => "textfield",
+                "holder" => "div",
+                "class" => "",
+                "heading" => __( "Text", "my-text-domain" ),
+                "param_name" => "foo",
+                "value" => __( "Default param value", "my-text-domain" ),
+                "description" => __( "Description for foo param.", "my-text-domain" ),
+            ],
+            [
+                "type" => "colorpicker",
+                "class" => "",
+                "heading" => __( "Text color", "my-text-domain" ),
+                "param_name" => "color",
+                "value" => '#FF0000', // Default Red color
+                "description" => __( "Choose text color", "my-text-domain" ),
+            ],
+        ],
+    ] );
 }
 ?>
 ```
@@ -305,14 +305,14 @@ Lets change your shortcode registration hook.
 <?php
 add_shortcode( 'bartag', 'bartag_func' );
 function bartag_func( $atts, $content = null ) { // New function parameter $content is added!
- extract( shortcode_atts( [
-  'foo' => 'something',
-  'color' => '#FFF'
- ], $atts ) );
+    extract( shortcode_atts( [
+        'foo' => 'something',
+        'color' => '#FFF',
+    ], $atts ) );
 
- $content = wpb_js_remove_wpautop($content, true); // fix unclosed/unwanted paragraph tags in $content
+    $content = wpb_js_remove_wpautop( $content, true ); // fix unclosed/unwanted paragraph tags in $content
 
- return "<div style='color:{$color};' data-foo='${foo}'>{$content}</div>";
+    return "<div style='color:{$color};' data-foo='${foo}'>{$content}</div>";
 }
 ?>
 ```
@@ -323,42 +323,42 @@ Now update *wpb_map()* function call, and add new attribute to the params array.
 <?php
 add_action( 'vc_before_init', 'your_name_integrateWithVC' );
 function your_name_integrateWithVC() {
- wpb_map( [
-  "name" => __( "Bar tag test", "my-text-domain" ),
-  "base" => "bartag",
-  "class" => "",
-  "category" => __( "Content", "my-text-domain"),
-  'admin_enqueue_js' => [get_template_directory_uri().'/vc_extend/bartag.js'],
-  'admin_enqueue_css' => [get_template_directory_uri().'/vc_extend/bartag.css'],
-  "params" => [
- [
-  "type" => "textfield",
-  "holder" => "div",
-  "class" => "",
-  "heading" => __( "Text", "my-text-domain" ),
-  "param_name" => "foo",
-  "value" => __( "Default param value", "my-text-domain" ),
-  "description" => __( "Description for foo param.", "my-text-domain" )
- ],
- [
-  "type" => "colorpicker",
-  "class" => "",
-  "heading" => __( "Text color", "my-text-domain" ),
-  "param_name" => "color",
-  "value" => '#FF0000', //Default Red color
-  "description" => __( "Choose text color", "my-text-domain" )
- ],
- [
-  "type" => "textarea_html",
-  "holder" => "div",
-  "class" => "",
-  "heading" => __( "Content", "my-text-domain" ),
-  "param_name" => "content", // Important: Only one textarea_html param per content element allowed and it should have "content" as a "param_name"
-  "value" => __( "<p>I am test text block. Click edit button to change this text.</p>", "my-text-domain" ),
-  "description" => __( "Enter your content.", "my-text-domain" )
- ]
-  ]
- ] );
+    wpb_map( [
+        "name" => __( "Bar tag test", "my-text-domain" ),
+        "base" => "bartag",
+        "class" => "",
+        "category" => __( "Content", "my-text-domain" ),
+        'admin_enqueue_js' => [ get_template_directory_uri() . '/vc_extend/bartag.js' ],
+        'admin_enqueue_css' => [ get_template_directory_uri() . '/vc_extend/bartag.css' ],
+        "params" => [
+            [
+                "type" => "textfield",
+                "holder" => "div",
+                "class" => "",
+                "heading" => __( "Text", "my-text-domain" ),
+                "param_name" => "foo",
+                "value" => __( "Default param value", "my-text-domain" ),
+                "description" => __( "Description for foo param.", "my-text-domain" ),
+            ],
+            [
+                "type" => "colorpicker",
+                "class" => "",
+                "heading" => __( "Text color", "my-text-domain" ),
+                "param_name" => "color",
+                "value" => '#FF0000', // Default Red color
+                "description" => __( "Choose text color", "my-text-domain" ),
+            ],
+            [
+                "type" => "textarea_html",
+                "holder" => "div",
+                "class" => "",
+                "heading" => __( "Content", "my-text-domain" ),
+                "param_name" => "content", // Important: Only one textarea_html param per content element allowed and it should have "content" as a "param_name"
+                "value" => __( "<p>I am test text block. Click edit button to change this text.</p>", "my-text-domain" ),
+                "description" => __( "Enter your content.", "my-text-domain" ),
+            ],
+        ],
+    ] );
 }
 ?>
 ```

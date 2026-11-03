@@ -27,7 +27,9 @@ Dropdown select field with predefined options.
         __("Option 2", "your-text-domain") => "value2",
         __("Option 3", "your-text-domain") => "value3",
     ],
-    "std" => "value1", // Default value
+    "settings" => [
+        "default" => "value1", // Default value
+    ],
     "description" => __("Field description", "your-text-domain"),
 ]
 ```
@@ -61,8 +63,8 @@ All param types support these common parameters:
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `std` | String | - | Default selected value |
 | `settings` | Array | - | Configuration array with the following options: |
+| &nbsp;&nbsp;&nbsp;&nbsp;`default` | String | - | Default selected value |
 | &nbsp;&nbsp;&nbsp;&nbsp;`type` | Array | - | Describes specific dropdown variations (used internally with grids) |
 | &nbsp;&nbsp;&nbsp;&nbsp;`search` | Boolean | `false` | Enable search/filter functionality. Recommended for dropdowns with 10+ options |
 
@@ -87,9 +89,11 @@ function my_element_with_dropdown() {
                     __("Modern", "domain") => "modern",
                     __("Classic", "domain") => "classic",
                 ],
-                "std" => "default",
                 "description" => __("Select element style", "domain"),
-                "settings" => ["search" => true], // Enable search for long lists
+                "settings" => [
+                    "default" => "default",
+                    "search" => true, // Enable search for long lists
+                ],
             ],
         ],
     ]);

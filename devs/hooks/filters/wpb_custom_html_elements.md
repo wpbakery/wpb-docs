@@ -28,4 +28,4 @@ function my_custom_html_elements( $elements ) {
 
 ## Source
 
-File: `include/helpers/helpers.php`
+File: `include/classes/core/class-vc-post-admin.php`

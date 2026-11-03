@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Easy Tables
 
-The Easy Tables add-on can be accessed with a [subscription](https://kb.wpbakery.com/docs/licensing/support-plus/).
+The Easy Tables add-on can be accessed with a [subscription](https://kb.wpbakery.com/docs/licensing/support-plus-licensing/).
 
 If you prefer to purchase it separately, you can do so from [here](https://wpbakery.com/addons/easy-tables/).
 

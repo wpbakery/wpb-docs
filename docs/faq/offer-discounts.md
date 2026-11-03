@@ -13,4 +13,4 @@ We offer bulk discounts, which can be checked [here](/docs/licensing/agency-prog
 
 To get a student discount, please contact us at support@wpbakery.com from your University-assigned email.
 
-WPBakery also rewards long-term Support Plus subscribers with increasing discounts. Each year you renew, you save an additional 5% on the renewal fee up to a maximum of 50% off. The discount is applied automatically as long as your Support Plus subscription remains active. You can find more about our Loyalty Program [here](/docs/licensing/support-plus#loyalty-program-for-support-plus-subscribers).
+WPBakery also rewards long-term Support Plus subscribers with increasing discounts. Each year you renew, you save an additional 5% on the renewal fee up to a maximum of 50% off. The discount is applied automatically as long as your Support Plus subscription remains active. You can find more about our Loyalty Program [here](/docs/licensing/support-plus-licensing#loyalty-program-for-support-plus-subscribers).

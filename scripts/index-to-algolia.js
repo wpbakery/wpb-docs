@@ -60,12 +60,20 @@ async function parseMarkdownFile(filePath, section) {
       return null;
     }
 
-    // Get relative path from the section's docs directory
-    const relativePath = path.relative(section.dir, filePath);
-    const urlPath = relativePath
-      .replace(/\\/g, '/') // Windows path fix
-      .replace(/\.md$/, '')  // Remove .md extension
-      .replace(/\/index$/, ''); // Remove index from path
+    // Prefer the `slug` frontmatter (the actual rendered URL) over the file path,
+    // since many files are named differently from their slug (e.g. add-edit-images.md
+    // -> /tutorials/how-to-add-and-edit-images). Falls back to the file-path-derived
+    // route only when no slug is set.
+    let urlPath;
+    if (typeof frontmatter.slug === 'string' && frontmatter.slug.trim()) {
+      urlPath = frontmatter.slug.trim().replace(/^\//, '').replace(/\/$/, '');
+    } else {
+      const relativePath = path.relative(section.dir, filePath);
+      urlPath = relativePath
+        .replace(/\\/g, '/') // Windows path fix
+        .replace(/\.md$/, '')  // Remove .md extension
+        .replace(/\/index$/, ''); // Remove index from path
+    }
 
     // Extract headings
     const headings = [];
