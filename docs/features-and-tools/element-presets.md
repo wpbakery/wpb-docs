@@ -44,7 +44,7 @@ In order delete preset:
 </div>
 <div style={{flex: 1}}>
 
-![Save as element in element settings](/img/templates/save-as-element-1.png)
+![Save as element preset in element settings](/img/templates/save-as-element-1.webp)
 
 </div>
 </div>
