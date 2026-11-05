@@ -331,6 +331,21 @@ window.vc.events.on('save:error', function(error) {
 ```
 
 
+## Responsive Device Events
+
+```js
+/**
+ * Fires when the device being edited changes: a device is selected in the
+ * navigation bar or in the device dropdown of an option.
+ * data.device is the device key (lg, md, sm, xs), or null for Desktop.
+ * Available since 9.2.
+ */
+
+window.vc.events.on('wpb:targetDeviceChange', function(data) {
+ console.log('Editing device:', data.device);
+});
+```
+
 ## Custom Parameter Events
 
 ### Dropdown/Select Events
@@ -398,6 +413,7 @@ jQuery(document).on('change', '.wpb_vc_param_value.attachment_id', function() {
 | `save:error` | Save failed | error |
 | `vc_iframe_loaded` | Frontend editor loaded | – |
 | `vc_reload` | Editor reloading | – |
+| `wpb:targetDeviceChange` | Edited device changed | `{ device }` |
 
 ## Element-Specific Events
 

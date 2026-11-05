@@ -40,6 +40,8 @@ Very basic element, which has only one attribute available for edit and it's mov
 
 It's recommended, to extend `WPBakeryShortCode` class, that way you will have access to all default inbuilt methods and your content element will "blend" better with whole WPB system.
 
+Since version 9.2 every element with a `css_editor` param also gets the "Hide element" toggle at the top of the Design Options tab. To leave it out, add `'settings' => [ 'hide_toggle' => false ]` to the param.
+
 ## HTML output
 
 Now param value is saved, but you should also make sure to output correct css class name to your element's output. Have a look at the example below, to understand how it is done.
