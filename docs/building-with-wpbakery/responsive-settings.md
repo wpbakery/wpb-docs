@@ -57,4 +57,4 @@ A value set for a device is used by that device and all smaller devices, until a
 
 ## Column width and offset
 
-Column width and offset are set per device in the column edit window under "Responsiveness" tab. To hide a column use "Hide element" toggle in the column Design Options tab.
+Column width and offset are set per device in the column edit window under "Responsiveness" tab, see [Column width and offset](/docs/building-with-wpbakery/column-width-and-offset). To hide a column use "Hide element" toggle in the column Design Options tab.
