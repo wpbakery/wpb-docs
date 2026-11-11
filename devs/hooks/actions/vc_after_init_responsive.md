@@ -5,7 +5,9 @@ hide_table_of_contents: true
 
 # vc_after_init_responsive
 
-Fires after the responsive services have been initialized. This hook runs inside the `Vc_Manager::responsive()` method, after the `Wpb_Responsive` instance has been created and stored in the factory. Use `wpb_responsive()` to access the breakpoints, devices, per device params and hide services. Available since version 9.2.
+***Since 9.2***
+
+Fires after the responsive services have been initialized. This hook runs inside the `Vc_Manager::responsive()` method, after the `Wpb_Responsive` instance has been created and stored in the factory. Use `wpb_responsive()` to access the breakpoints, devices, per device params and hide services.
 
 ## Parameters
 

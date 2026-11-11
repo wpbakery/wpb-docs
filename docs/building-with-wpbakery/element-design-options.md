@@ -21,9 +21,13 @@ Within Design Options it is possible to control:
 
 ## Per device
 
-Since the 9.2 update design options can be set per device: each option has a device dropdown next to its label, in sync with the device selected in the navigation bar. Option left empty for a device inherits the value of the next larger device and shows it as a placeholder. Read more in [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
+***Since 9.2***
+
+Design options can be set per device: each option has a device dropdown next to its label, in sync with the device selected in the navigation bar. Option left empty for a device inherits the value of the next larger device and shows it as a placeholder. Read more in [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
 
 ## Hide element
+
+***Since 9.2***
 
 "Hide element" toggle at the top of the tab hides the element on the selected device and the smaller ones, or on all devices when Desktop is selected.
 
