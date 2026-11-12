@@ -167,15 +167,6 @@ vc_map([
 'placeholder' => __('Enter your text here', 'my-text-domain'),
 ```
 
-### ai_description
-
-* Type - String
-* Description - Guidance for [WPBakery AI MCP](/devs/wpbakery-ai/overview): how to fill this parameter, e.g. its value format or an example. Plain text, at most 1000 characters. It isn't shown in the editor. The same key on the element itself describes how the element is meant to be used. See [Make your elements work with WPBakery AI MCP](/devs/wpbakery-ai/elements-and-ai).
-* Example:
-```php
-'ai_description' => 'Number from 0 to 100, without the % sign, e.g. 80.',
-```
-
 
 ## Available type values
 

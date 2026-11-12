@@ -80,7 +80,7 @@ These are the first thing WPBakery AI MCP reads, in `list-elements` and `get-ele
 - **Param `heading`:** the meaning of the value, e.g. "Price" rather than "Text 2".
 - **Param `description`:** units, ranges and what the value changes. HTML is removed.
 - **Dropdown `value` labels:** readable labels, not internal codes.
-- **`std`:** sensible defaults, so an element looks right with only the important params set.
+- **`settings` => `default`:** sensible defaults, so an element looks right with only the important params set (`std` is deprecated).
 - **`group`:** groups like "Design" or "Advanced" show which params are optional styling.
 
 ### The `ai_description` key
@@ -115,7 +115,7 @@ function my_pricing_table_map() {
 				'type'           => 'textfield',
 				'heading'        => __( 'Currency', 'my-textdomain' ),
 				'param_name'     => 'currency',
-				'std'            => '$',
+				'settings'       => [ 'default' => '$' ],
 				'ai_description' => 'Currency sign or code shown before the price, e.g. $, € or EUR.',
 			],
 			[
