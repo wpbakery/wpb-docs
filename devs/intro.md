@@ -16,4 +16,4 @@ This section contains technical documentation for developers who want to extend 
 - **Inner API**: Core API functions and methods for working with WPBakery Page Builder
 - **Filters**: WordPress filters available for customizing WPBakery behavior
 - **Developer Tutorials**: Step-by-step guides for common development tasks
-- **WPBakery AI**: How WPBakery AI MCP uses your elements, and the hooks and REST access of the WPBakery AI plugin
+- **WPBakery AI**: Make your elements and themes work well with WPBakery AI MCP

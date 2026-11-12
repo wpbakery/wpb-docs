@@ -6,42 +6,86 @@ sidebar_position: 2
 
 ***Since WPBakery AI 1.0.0***
 
-When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, WPBakery AI MCP finds the elements of your theme or add-on by itself and uses them where they fit. This page explains what WPBakery AI MCP reads from your `vc_map()` call and how to guide it.
+When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, WPBakery AI MCP finds the elements of your theme or add-on by itself and uses them where they fit. Everything it knows about an element comes from your `vc_map()` call. This page explains what it reads, what makes an element usable, and how to improve the results.
 
-## What WPBakery AI MCP sees
+## How WPBakery AI MCP uses your elements
 
-WPBakery AI MCP works with two tools:
+1. **`list-elements`** lists the elements the current user may add: tag, name, category, description and whether it's a container.
+2. **`get-element-schema`** returns the details of up to 10 elements: their params, nesting rules and your `ai_description` guidance.
+3. It writes the page as a tree of elements with param values. WPBakery AI checks the tree against your map before saving: unknown elements, unknown params and placements your nesting rules don't allow are refused, and WPBakery AI MCP corrects them.
+4. Your shortcode renders the page as usual.
 
-- **`list-elements`** lists every element the current user may add: tag, name, category, description and whether it's a container. Elements with `'deprecated'` set are left out. The WPBakery Role Manager applies, so an element the user can't use isn't listed.
-- **`get-element-schema`** returns the details of up to 10 elements: their params, nesting rules and your guidance.
+## Compatibility checklist
 
-For each element, `get-element-schema` returns:
+### Map your elements on every request
 
-| Field | From `vc_map()` |
+WPBakery AI MCP works through REST requests, not wp-admin or the editor. Call `vc_map()` from `vc_before_init` (or use `vc_lean_map()`) unconditionally, as in [Registering elements](/devs/element-development/registering-elements). Elements mapped only inside `is_admin()`, only on editor screens or only for the frontend editor don't exist for WPBakery AI MCP.
+
+```php
+// Don't: not mapped during REST requests.
+if ( is_admin() ) {
+	add_action( 'vc_before_init', 'my_elements_map' );
+}
+
+// Do
+add_action( 'vc_before_init', 'my_elements_map' );
+```
+
+### Declare every attribute in `params`
+
+WPBakery AI MCP can only set params declared in your map, plus `el_class`, `el_id`, `css` and `css_animation`. An attribute your shortcode reads but the map doesn't declare (for example, one your own editor JavaScript adds) can't be set, and a value written for it is refused.
+
+Params of type `hidden` and `vc_grid_id` are left out: WPBakery AI MCP doesn't see or set them.
+
+### Use the standard param types
+
+WPBakery AI MCP knows the value formats of WPBakery's param types and gets a format hint for the ones that need it:
+
+| Type | Value it writes |
 |---|---|
-| `tag`, `name`, `description` | `base`, `name`, `description` |
-| `container` | Whether the element holds other elements (`is_container`, `as_parent`) |
-| `parents`, `children` | `as_child`, `as_parent` |
-| `params` | `params`, without `hidden` and `vc_grid_id` params |
-| `ai_description` | `ai_description` (see below) |
+| `vc_link` | `{"url":"","title":"","target":"_blank","rel":"nofollow"}` |
+| `attach_image`, `attach_images` | Attachment ID, comma-separated IDs |
+| `css_editor` | `{"margin_top":"20px","padding_left":"10px","background_color":"#ffffff","border_radius":"4px"}` |
+| `font_container`, `google_fonts` | Font settings as JSON |
+| `param_group` | A list of objects with the inner params |
+| `checkbox` | Comma-separated values |
+| `colorpicker` | A CSS color, e.g. `#1e73be` |
+| `dropdown` | One of the values in `value` |
 
-For each param:
+Prefer these over custom param types: links, images, colors and spacing then work without extra guidance. Use a `css_editor` param named `css` for Design Options instead of separate margin, padding and background params, so your element styles like the built-in ones.
 
-| Field | From the param |
-|---|---|
-| `name`, `type`, `heading`, `description` | `param_name`, `type`, `heading`, `description` (HTML removed) |
-| `options` | The values of a `value` array (dropdowns, checkboxes) |
-| `default` | `std`, or `settings.default` |
-| `group`, `depends_on` | `group`, `dependency.element` |
-| `format` | A hint about the value format, for the built-in param types |
-| `items` | The inner params of a `param_group` |
-| `ai_description` | `ai_description` (see below) |
+Custom param types registered with `vc_add_shortcode_param()` reach WPBakery AI MCP as plain strings. Describe the expected format in the param's `ai_description`, with an example.
 
-Clear names, headings and descriptions already help. Params with a meaningful `heading` and a `description` that says what the value does are used correctly far more often.
+`textarea_raw_html` and `textarea_ace` params can only be set by users with the `unfiltered_html` capability, as in the editor. Don't use them for content that a normal text field can hold.
 
-## The `ai_description` key
+### Set the nesting rules
 
-`ai_description` is an optional key on the element and on each param. Use it for guidance meant for WPBakery AI MCP: where the element belongs, which params matter, and how values look. WPBakery AI MCP is told to follow it.
+WPBakery AI MCP follows `as_parent` and `as_child` and returns them as `children` and `parents`. Set them as described in [Nested content elements](/devs/element-development/nested-content-elements):
+
+- A child element that only works inside your container needs `'as_child' => [ 'only' => 'my_container' ]`. Without it, WPBakery AI MCP may place it anywhere.
+- A container that accepts only certain children needs `'as_parent' => [ 'only' => 'my_item' ]`.
+- Elements that aren't containers go inside a row and column; only containers can be at the page root.
+
+### Render from the attributes alone
+
+WPBakery AI MCP can check its work with a rendered preview of the page. Your shortcode must render correctly from its attributes and content on the frontend, without data that only the editor adds. Escape every attribute you print (`esc_attr()`, `esc_url()`, `wp_kses_post()`), as for any user input.
+
+## Improve the results
+
+### Clear names, headings and descriptions
+
+These are the first thing WPBakery AI MCP reads, in `list-elements` and `get-element-schema`:
+
+- **Element `name` and `description`:** say what the element is for, not how it looks. "Pricing table: plan name, price and features" beats "Box style 3".
+- **Param `heading`:** the meaning of the value, e.g. "Price" rather than "Text 2".
+- **Param `description`:** units, ranges and what the value changes. HTML is removed.
+- **Dropdown `value` labels:** readable labels, not internal codes.
+- **`std`:** sensible defaults, so an element looks right with only the important params set.
+- **`group`:** groups like "Design" or "Advanced" show which params are optional styling.
+
+### The `ai_description` key
+
+`ai_description` is an optional key on the element and on each param, for guidance meant only for WPBakery AI MCP: where the element belongs, which params matter, and how values look. It isn't shown in the editor, and WPBakery AI MCP is told to follow it.
 
 ```php
 add_action( 'vc_before_init', 'my_pricing_table_map' );
@@ -67,10 +111,10 @@ function my_pricing_table_map() {
 				'ai_description' => 'One feature per line, at most 8. Short phrases, no full sentences.',
 			],
 			[
-				'type'        => 'checkbox',
-				'heading'     => __( 'Featured', 'my-textdomain' ),
-				'param_name'  => 'featured',
-				'value'       => [ __( 'Yes', 'my-textdomain' ) => 'yes' ],
+				'type'       => 'checkbox',
+				'heading'    => __( 'Featured', 'my-textdomain' ),
+				'param_name' => 'featured',
+				'value'      => [ __( 'Yes', 'my-textdomain' ) => 'yes' ],
 			],
 		],
 	] );
@@ -83,38 +127,34 @@ Rules:
 - At most 1000 characters; longer text is cut.
 - `get-element-schema` returns it; `list-elements` doesn't, so the element list stays small.
 - It's guidance only. It never changes permissions, validation or what the element accepts.
-- Write it in English: WPBakery AI MCP follows it in any language, and it isn't shown to users, so it doesn't need translating.
+- Write it in English. WPBakery AI MCP follows it in any language, and it isn't shown to users, so it doesn't need translating.
 
 Good guidance is short and concrete:
 
 - **Where the element belongs:** "Use in a full-width row as the page header", "Only inside My Tabs".
 - **Which params matter:** "Set at least title and link; the other params are styling."
 - **Value formats:** units, separators, allowed ranges, an example value.
-- **What to avoid:** "Don't use for a single image; use the Single Image element."
+- **When not to use it:** "Don't use for a single image; use the Single Image element."
 
-## Param types
+### Themes: guidance for elements you change
 
-WPBakery AI MCP reads and writes values as JSON and knows the formats of WPBakery's built-in param types: links (`vc_link`), images (`attach_image`, `attach_images`), font settings (`font_container`, `google_fonts`), `param_group` rows, colors and the others.
-
-Custom param types registered with `vc_add_shortcode_param()` reach WPBakery AI MCP as plain strings. Describe the expected format in the param's `ai_description`, with an example:
+Params a theme adds to built-in elements with `vc_add_param()` take `ai_description` too. To guide WPBakery AI MCP on a built-in element your theme restyles, add the key with `vc_map_update()`:
 
 ```php
-[
-	'type'           => 'my_range_slider',
-	'heading'        => __( 'Opacity', 'my-textdomain' ),
-	'param_name'     => 'opacity',
-	'ai_description' => 'Number from 0 to 100, without the % sign, e.g. 80.',
-],
+add_action( 'vc_after_init', 'my_theme_ai_guidance' );
+
+function my_theme_ai_guidance() {
+	vc_map_update( 'vc_btn', [
+		'ai_description' => 'Use the "theme-primary" style for the main call to action of a section and "theme-ghost" for secondary links.',
+	] );
+}
 ```
 
-`textarea_raw_html` and `textarea_ace` params can only be set by users with the `unfiltered_html` capability, as in the editor.
+Elements removed with `vc_remove_element()` aren't offered to WPBakery AI MCP.
 
-## Nested elements
+## How to test
 
-For container elements, `get-element-schema` returns `as_parent` and `as_child` as `children` and `parents`, and WPBakery AI MCP follows them. Set them as described in [Nested content elements](/devs/element-development/nested-content-elements), and add an `ai_description` when the structure needs explaining, e.g. "Add one My Tab element per tab".
-
-## Testing
-
-1. On a local site with WPBakery AI and a license with an active Support Plus plan, open WPBakery > WPBakery AI > MCP. On a local address, the steps there connect your MCP client directly with an application password and the site's endpoint.
-2. Ask WPBakery AI MCP to call `get-element-schema` for your element and check the output.
-3. Ask it to build a section with your element and check the result in the editor.
+1. Install WPBakery AI on a local site whose license has an active Support Plus plan, and open WPBakery > WPBakery AI > MCP. On a local address, the steps there connect your MCP client directly with an application password and the site's endpoint.
+2. Ask WPBakery AI MCP to call `list-elements` and `get-element-schema` for your elements, and check names, params, defaults and `ai_description`.
+3. Ask it to build a section that needs your elements without naming them, e.g. "Add a pricing section with three plans". Check that it picks your element, fills the important params and nests it correctly.
+4. Open the page in the backend and frontend editor and check that every value shows and can be edited.

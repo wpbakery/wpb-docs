@@ -13,20 +13,17 @@ Requirements: WPBakery Page Builder 9.0+, WordPress 6.9+, PHP 8.2+.
 
 ## What this means for your add-on or theme
 
-WPBakery AI MCP uses every element registered with `vc_map()`, including the elements of your theme or add-on. You don't need to integrate anything for that. A few things help it use your elements well:
+WPBakery AI MCP uses every element registered with `vc_map()`, including the elements of your theme or add-on, and is told to prefer the most specific element over HTML in a text block. You don't need a separate integration. What decides whether it uses your elements, and how well:
 
-- **Describe your elements for WPBakery AI MCP** with the `ai_description` key in `vc_map()`. See [Make your elements work with WPBakery AI MCP](/devs/wpbakery-ai/elements-and-ai).
-- **Keep using the standard param types** where you can. WPBakery AI MCP knows their value formats. For custom param types, explain the value format in `ai_description`.
-- **Keep the WPBakery Role Manager in mind.** WPBakery AI MCP only sees and uses the elements the connected user may use.
+- **Your elements are mapped on every request**, so WPBakery AI MCP can find them.
+- **Every attribute your element reads is declared in `params`.** WPBakery AI MCP can't set anything else.
+- **Names, headings and descriptions are clear**, and the `ai_description` key adds guidance where they aren't enough.
 
-## Customizing WPBakery AI
-
-- [Hooks](/devs/wpbakery-ai/hooks): turn off JavaScript in custom elements, adjust a user's WPBakery AI level, run code after WPBakery AI has loaded.
-- [Abilities over REST](/devs/wpbakery-ai/abilities-rest): call the same tools without an MCP client, on local and staging sites.
+[Make your elements work with WPBakery AI MCP](/devs/wpbakery-ai/elements-and-ai) has the details, a checklist and how to test.
 
 ## Custom elements created by WPBakery AI MCP
 
-WPBakery AI MCP can create custom elements. Their shortcode tags start with `wpbc_`, so don't register shortcodes with that prefix in your own code. WPBakery AI owns these elements: they keep working while the plugin is active (also after the Support Plus plan ends) and stop rendering when the plugin is removed.
+When nothing on the site fits, WPBakery AI MCP can create a custom element. Their shortcode tags start with `wpbc_`, so don't register shortcodes with that prefix in your own code. WPBakery AI owns these elements: they keep working while the plugin is active (also after the Support Plus plan ends) and stop rendering when the plugin is removed. The better your elements fit, the less often this happens.
 
 ## What WPBakery AI MCP can't do
 
