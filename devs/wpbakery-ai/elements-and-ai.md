@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ***Since WPBakery AI 1.0.0***
 
-When a customer connects an AI assistant to their site with [WPBakery AI](/devs/wpbakery-ai/overview), the assistant finds the elements of your theme or add-on by itself and uses them where they fit. This page explains what the assistant reads from your `vc_map()` call and how to guide it.
+When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, the AI assistant finds the elements of your theme or add-on by itself and uses them where they fit. This page explains what the assistant reads from your `vc_map()` call and how to guide it.
 
 ## What the assistant sees
 

@@ -7,7 +7,7 @@ sidebar_label: Overview
 
 ***Since WPBakery AI 1.0.0***
 
-WPBakery AI is a separate plugin (slug `wpbakery-ai`) that adds an MCP server to WPBakery Page Builder. Customers with an active Support Plus plan connect an AI assistant (Claude, ChatGPT, Cursor or any other MCP client) through WPBakery Cloud, and the assistant builds and edits WPBakery pages, templates, grid items and presets with the elements available on the site.
+WPBakery AI is a separate plugin (slug `wpbakery-ai`) that adds an MCP server to WPBakery Page Builder. Customers with an active Support Plus plan connect WPBakery AI MCP to their AI client (Claude, ChatGPT, Cursor or any other MCP client) through WPBakery Cloud, and the AI assistant builds and edits WPBakery pages, templates, grid items and presets with the elements available on the site.
 
 Requirements: WPBakery Page Builder 9.0+, WordPress 6.9+, PHP 8.2+.
 
