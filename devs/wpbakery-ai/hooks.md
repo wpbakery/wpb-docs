@@ -31,7 +31,7 @@ add_filter( 'wpbai_custom_elements_allow_js', '__return_false' );
 
 ## wpbai_user_level
 
-Filter. Changes the current user's WPBakery AI level, after it was taken from the user's roles in the WPBakery Role Manager. The level decides which tools the AI assistant may use for that user.
+Filter. Changes the current user's WPBakery AI level, after it was taken from the user's roles in the WPBakery Role Manager. The level decides which tools WPBakery AI MCP may use for that user.
 
 | Level | Role Manager label | Tools |
 |---|---|---|

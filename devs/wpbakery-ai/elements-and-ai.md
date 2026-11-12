@@ -2,15 +2,15 @@
 sidebar_position: 2
 ---
 
-# Make your elements work with AI assistants
+# Make your elements work with WPBakery AI MCP
 
 ***Since WPBakery AI 1.0.0***
 
-When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, the AI assistant finds the elements of your theme or add-on by itself and uses them where they fit. This page explains what the assistant reads from your `vc_map()` call and how to guide it.
+When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, WPBakery AI MCP finds the elements of your theme or add-on by itself and uses them where they fit. This page explains what WPBakery AI MCP reads from your `vc_map()` call and how to guide it.
 
-## What the assistant sees
+## What WPBakery AI MCP sees
 
-The assistant works with two tools:
+WPBakery AI MCP works with two tools:
 
 - **`list-elements`** lists every element the current user may add: tag, name, category, description and whether it's a container. Elements with `'deprecated'` set are left out. The WPBakery Role Manager applies, so an element the user can't use isn't listed.
 - **`get-element-schema`** returns the details of up to 10 elements: their params, nesting rules and your guidance.
@@ -41,7 +41,7 @@ Clear names, headings and descriptions already help. Params with a meaningful `h
 
 ## The `ai_description` key
 
-`ai_description` is an optional key on the element and on each param. Use it for guidance meant for AI assistants: where the element belongs, which params matter, and how values look. The assistant is told to follow it.
+`ai_description` is an optional key on the element and on each param. Use it for guidance meant for WPBakery AI MCP: where the element belongs, which params matter, and how values look. WPBakery AI MCP is told to follow it.
 
 ```php
 add_action( 'vc_before_init', 'my_pricing_table_map' );
@@ -83,7 +83,7 @@ Rules:
 - At most 1000 characters; longer text is cut.
 - `get-element-schema` returns it; `list-elements` doesn't, so the element list stays small.
 - It's guidance only. It never changes permissions, validation or what the element accepts.
-- Write it in English: AI assistants follow it in any language, and it isn't shown to users, so it doesn't need translating.
+- Write it in English: WPBakery AI MCP follows it in any language, and it isn't shown to users, so it doesn't need translating.
 
 Good guidance is short and concrete:
 
@@ -94,9 +94,9 @@ Good guidance is short and concrete:
 
 ## Param types
 
-The assistant reads and writes values as JSON and knows the formats of WPBakery's built-in param types: links (`vc_link`), images (`attach_image`, `attach_images`), font settings (`font_container`, `google_fonts`), `param_group` rows, colors and the others.
+WPBakery AI MCP reads and writes values as JSON and knows the formats of WPBakery's built-in param types: links (`vc_link`), images (`attach_image`, `attach_images`), font settings (`font_container`, `google_fonts`), `param_group` rows, colors and the others.
 
-Custom param types registered with `vc_add_shortcode_param()` reach the assistant as plain strings. Describe the expected format in the param's `ai_description`, with an example:
+Custom param types registered with `vc_add_shortcode_param()` reach WPBakery AI MCP as plain strings. Describe the expected format in the param's `ai_description`, with an example:
 
 ```php
 [
@@ -111,10 +111,10 @@ Custom param types registered with `vc_add_shortcode_param()` reach the assistan
 
 ## Nested elements
 
-For container elements, `get-element-schema` returns `as_parent` and `as_child` as `children` and `parents`, and the assistant follows them. Set them as described in [Nested content elements](/devs/element-development/nested-content-elements), and add an `ai_description` when the structure needs explaining, e.g. "Add one My Tab element per tab".
+For container elements, `get-element-schema` returns `as_parent` and `as_child` as `children` and `parents`, and WPBakery AI MCP follows them. Set them as described in [Nested content elements](/devs/element-development/nested-content-elements), and add an `ai_description` when the structure needs explaining, e.g. "Add one My Tab element per tab".
 
 ## Testing
 
 1. On a local site with WPBakery AI and a license with an active Support Plus plan, open WPBakery > WPBakery AI > MCP. On a local address, the steps there connect your MCP client directly with an application password and the site's endpoint.
-2. Ask the assistant to call `get-element-schema` for your element and check the output.
+2. Ask WPBakery AI MCP to call `get-element-schema` for your element and check the output.
 3. Ask it to build a section with your element and check the result in the editor.
