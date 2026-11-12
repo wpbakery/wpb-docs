@@ -73,7 +73,9 @@ function my_limit_ai_level( $level, $user ) {
 
 ## wpbai_loaded
 
-Action. Fires after WPBakery AI has loaded, on `plugins_loaded`. Use it for code that depends on WPBakery AI, so it doesn't run when the plugin is inactive.
+Action. Fires after WPBakery AI has loaded, on `plugins_loaded`. Use it in a plugin for code that depends on WPBakery AI, so it doesn't run when WPBakery AI is inactive.
+
+A theme loads after `plugins_loaded`, so this action has already fired when the theme's `functions.php` runs. In a theme, check `did_action( 'wpbai_loaded' )` instead (see the second example).
 
 ### Parameters
 
@@ -85,6 +87,13 @@ This action has no parameters.
 add_action( 'wpbai_loaded', 'my_wpbakery_ai_integration' );
 
 function my_wpbakery_ai_integration() {
+	add_filter( 'wpbai_custom_elements_allow_js', '__return_false' );
+}
+```
+
+```php
+// In a theme's functions.php: the action has already fired.
+if ( did_action( 'wpbai_loaded' ) ) {
 	add_filter( 'wpbai_custom_elements_allow_js', '__return_false' );
 }
 ```

@@ -68,7 +68,7 @@ WPBakery AI MCP follows `as_parent` and `as_child` and returns them as `children
 
 ### Render from the attributes alone
 
-WPBakery AI MCP can check its work with a rendered preview of the page. Your shortcode must render correctly from its attributes and content on the frontend, without data that only the editor adds. Escape every attribute you print (`esc_attr()`, `esc_url()`, `wp_kses_post()`), as for any user input.
+WPBakery AI MCP can check its work with a rendered preview of the page. Your shortcode must render correctly from its attributes and content on the frontend, without data that only the editor adds. Escape every value you print, as for any user input: `esc_attr()` inside HTML attributes, `esc_url()` for URLs, `esc_html()` for plain text, and `wp_kses_post()` only for HTML you print as element content (never inside an attribute).
 
 ## Improve the results
 
@@ -98,6 +98,13 @@ function my_pricing_table_map() {
 		'description'    => __( 'Plan name, price and features.', 'my-textdomain' ),
 		'ai_description' => 'Use for one pricing plan. Put two to four of them in the columns of one row to compare plans. Set "featured" on the recommended plan only.',
 		'params'         => [
+			[
+				'type'           => 'textfield',
+				'heading'        => __( 'Plan name', 'my-textdomain' ),
+				'param_name'     => 'plan_name',
+				'admin_label'    => true,
+				'ai_description' => 'Short tier name, e.g. Basic, Pro or Business.',
+			],
 			[
 				'type'           => 'textfield',
 				'heading'        => __( 'Price', 'my-textdomain' ),
