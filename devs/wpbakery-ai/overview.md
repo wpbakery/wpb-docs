@@ -7,7 +7,7 @@ sidebar_label: Overview
 
 ***Since WPBakery AI 1.0.0***
 
-WPBakery AI is a separate plugin (slug `wpbakery-ai`) that adds an MCP server to WPBakery Page Builder. Customers with an active Support Plus subscription connect an AI assistant (Claude, ChatGPT, Cursor or any other MCP client) through WPBakery Cloud, and the assistant builds and edits WPBakery pages, templates, grid items and presets with the elements available on the site.
+WPBakery AI is a separate plugin (slug `wpbakery-ai`) that adds an MCP server to WPBakery Page Builder. Customers with an active Support Plus plan connect an AI assistant (Claude, ChatGPT, Cursor or any other MCP client) through WPBakery Cloud, and the assistant builds and edits WPBakery pages, templates, grid items and presets with the elements available on the site.
 
 Requirements: WPBakery Page Builder 9.0+, WordPress 6.9+, PHP 8.2+.
 
@@ -26,7 +26,7 @@ The assistant uses every element registered with `vc_map()`, including the eleme
 
 ## Custom elements created by the assistant
 
-The assistant can create custom elements. Their shortcode tags start with `wpbc_`, so don't register shortcodes with that prefix in your own code. WPBakery AI owns these elements: they keep working while the plugin is active (also after the subscription ends) and stop rendering when the plugin is removed.
+The assistant can create custom elements. Their shortcode tags start with `wpbc_`, so don't register shortcodes with that prefix in your own code. WPBakery AI owns these elements: they keep working while the plugin is active (also after the Support Plus plan ends) and stop rendering when the plugin is removed.
 
 ## What the assistant can't do
 

@@ -115,6 +115,6 @@ For container elements, `get-element-schema` returns `as_parent` and `as_child` 
 
 ## Testing
 
-1. On a local site with WPBakery AI and an active subscription, open WPBakery > WPBakery AI > MCP. On a local address, the steps there connect your MCP client directly with an application password and the site's endpoint.
+1. On a local site with WPBakery AI and a license with an active Support Plus plan, open WPBakery > WPBakery AI > MCP. On a local address, the steps there connect your MCP client directly with an application password and the site's endpoint.
 2. Ask the assistant to call `get-element-schema` for your element and check the output.
 3. Ask it to build a section with your element and check the result in the editor.

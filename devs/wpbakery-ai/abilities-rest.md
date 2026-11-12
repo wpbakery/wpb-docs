@@ -17,7 +17,7 @@ The REST routes work only for **direct connections**, which WPBakery AI allows o
 
 Public sites connect only through WPBakery Cloud, and there the REST routes refuse the WPBakery tools. There's no setting or filter to change this.
 
-The site also needs an active WPBakery AI subscription, as for every other connection.
+The site's license also needs an active Support Plus plan, as for every other connection.
 
 ## Authentication and permissions
 
@@ -25,7 +25,7 @@ Use an application password created by hand in Users > Profile > Application Pas
 
 Every call is checked in this order:
 
-1. An active subscription.
+1. An active Support Plus plan on the site's license.
 2. A direct connection is allowed on this site (see above).
 3. The user's WPBakery AI level from the WPBakery Role Manager (Disabled by default for every role; see [`wpbai_user_level`](/devs/wpbakery-ai/hooks#wpbai_user_level)).
 4. The tool's own checks: WordPress capabilities, the WPBakery Role Manager and edit rights on the post.
