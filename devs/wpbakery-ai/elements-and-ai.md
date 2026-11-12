@@ -105,6 +105,13 @@ function my_pricing_table_map() {
 				'ai_description' => 'Number only, without the currency sign, e.g. 49 or 49.90. The currency is the "currency" param.',
 			],
 			[
+				'type'           => 'textfield',
+				'heading'        => __( 'Currency', 'my-textdomain' ),
+				'param_name'     => 'currency',
+				'std'            => '$',
+				'ai_description' => 'Currency sign or code shown before the price, e.g. $, € or EUR.',
+			],
+			[
 				'type'           => 'exploded_textarea',
 				'heading'        => __( 'Features', 'my-textdomain' ),
 				'param_name'     => 'features',
