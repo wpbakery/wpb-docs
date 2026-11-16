@@ -5,6 +5,7 @@ sidebar_label: Element design options
 sidebar_position: 3
 hide_table_of_contents: true
 description: Use WPBakery element design options to adjust spacing, borders and backgrounds, copy styles between elements and set device-specific values.
+keywords: [WPBakery element design options]
 ---
 
 Use WPBakery Design Options to adjust an element’s spacing, borders and background. Open the element edit window and select the **Design Options** tab to change the available styling settings.
