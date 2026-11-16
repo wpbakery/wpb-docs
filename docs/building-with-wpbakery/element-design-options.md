@@ -51,5 +51,5 @@ This clears the selected element’s responsive overrides and returns all device
 For more information about device views, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings). To customize global breakpoints, see [WPBakery Page Builder settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/OoJF2jSKhVo?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Element Design Options" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/OoJF2jSKhVo?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Element Design Options" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
