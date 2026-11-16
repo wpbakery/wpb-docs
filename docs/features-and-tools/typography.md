@@ -6,8 +6,6 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
-***Since 8.0***
-
 With an active support tenure, the Typography feature in WPBakery Page Builder allows you to seamlessly integrate fonts from third-party sources such as Google Fonts and Adobe Fonts.
 Follow the steps below to synchronize and apply these fonts to the elements that support them:
 

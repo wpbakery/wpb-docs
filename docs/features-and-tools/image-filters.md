@@ -6,8 +6,6 @@ sidebar_position: 10
 hide_table_of_contents: true
 ---
 
-***Since 4.6***
-
 Starting from WPBakery Page Builder version 4.6 it is possible to add a filter to image elements within WPBakery Page Builder adapted Media Library. There are currently 20+ image filters available for use in any WPBakery Page Builder element which uses Media Library as a source for image display.
 
 **Note:** Image Filters do not replace original image instead of making duplication of the original image and applying a filter to it.
