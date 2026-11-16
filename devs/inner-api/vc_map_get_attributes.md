@@ -4,8 +4,6 @@ sidebar_position: 20
 
 # vc_map_get_attributes()
 
-SINCE 4.6
-
 ```php
 <?php vc_map_get_attributes($tag, $atts = []) ?>
 ```

@@ -6,8 +6,6 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-***Since 9.2***
-
 Starting from version 9.2 WPBakery Page Builder allows you to set styles for each device separately, hide elements on selected devices and change the screen width where each device view starts.
 
 ## Device views

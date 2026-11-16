@@ -6,8 +6,6 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 
-***Since 4.1***
-
 Starting from version 4.1.0 WPBakery Page Builder offers additional design controls for Row, Columns, Text block, Single image and Video block which can be found under element param window 'Design Options' tab.
 
 Within Design Options it is possible to control:

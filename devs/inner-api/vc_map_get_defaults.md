@@ -4,8 +4,6 @@ sidebar_position: 21
 
 # vc_map_get_defaults()
 
-SINCE 4.6
-
 ```php
 <?php vc_map_get_defaults($tag) ?>
 ```

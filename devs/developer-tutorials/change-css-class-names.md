@@ -9,8 +9,6 @@ slug: /developer-tutorials/change-css-class-names-in-output
 
 # Change CSS class names in output
 
-SINCE 3.6
-
 If you are a developer you may want to change class names that are used for default content elements in WPBakery Page Builder by default with help of WordPress filters.
 
 Lets imagine that you are looking into the outputted markup, and you want to change some of the classes.

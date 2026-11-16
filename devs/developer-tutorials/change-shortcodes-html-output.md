@@ -9,7 +9,6 @@ slug: /developer-tutorials/change-shortcodes-html-output
 
 # Change shortcode’s HTML output
 
-SINCE 3.6.5
 If you are looking for a way to change HTML markup that is outputted by WPBakery Page Builder for a certain shortcode, below you will find few examples how you can achieve that.
 
 Override HTML for built in Content elements

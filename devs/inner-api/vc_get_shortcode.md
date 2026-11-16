@@ -4,8 +4,6 @@ sidebar_position: 18
 
 # vc_get_shortcode()
 
-SINCE 4.4.3
-
 ```php
 <?php vc_get_shortcode($tag)?>
 ```

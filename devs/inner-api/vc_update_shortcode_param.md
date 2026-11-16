@@ -4,8 +4,6 @@ sidebar_position: 19
 
 # vc_update_shortcode_param()
 
-Since 4.2
-
 ```php
 <?php vc_update_shortcode_param($name, $attribute = []) ?>
 ```

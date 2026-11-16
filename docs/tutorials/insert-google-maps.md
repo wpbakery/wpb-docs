@@ -7,8 +7,6 @@ hide_table_of_contents: true
 slug: /tutorials/how-to-insert-google-maps
 ---
 
-***Since 8.3***
-
 Starting with version 8.3, WPBakery Page Builder introduced an improved Google Maps element, making it easier to embed a map by simply entering a location instead of an embed iframe code.
 
 The new Google Maps element allows you to display a map for any desired location by typing the address or place name directly. It also includes controls for zoom level, map type, and map height for better customization.

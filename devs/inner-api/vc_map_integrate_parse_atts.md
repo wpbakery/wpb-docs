@@ -4,8 +4,6 @@ sidebar_position: 26
 
 # vc_map_integrate_parse_atts()
 
-SINCE 4.4.2
-
 ```php
 <?php vc_map_integrate_parse_atts($base_shortcode, $integrated_shortcode, $atts, $field_prefix = '')?>
 ```

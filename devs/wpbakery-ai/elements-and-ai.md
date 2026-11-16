@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # Make your elements work with WPBakery AI MCP
 
-***Since WPBakery AI 1.0.0***
-
 When a customer connects [WPBakery AI MCP](/devs/wpbakery-ai/overview) to their AI client, WPBakery AI MCP finds the elements of your theme or add-on by itself and uses them where they fit. Everything it knows about an element comes from your `vc_map()` call. This page explains what it reads, what makes an element usable, and how to improve the results.
 
 ## How WPBakery AI MCP uses your elements
