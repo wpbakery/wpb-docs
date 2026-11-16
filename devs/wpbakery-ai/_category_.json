@@ -1,0 +1,9 @@
+{
+  "label": "WPBakery AI MCP",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}
