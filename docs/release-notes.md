@@ -10,6 +10,19 @@ slug: /release-notes
 
 We are constantly working on new features and improvements for WPBakery Page Builder in order to keep your site and your business at the top. In this section, you can find information on each and every update we created during the lifetime of WPBakery Page Builder.
 
+## Version 9.2 (16.11.2026)
+
+- New: Custom responsive design controls for Design Options attributes
+- New: Option to control breakpoints for devices globally from the WPBakery Dashboard
+- New: Option to hide elements on different devices
+- Fix: "Load more" button is working properly
+- Fix: Call to Action element security improved against XSS vulnerabilities
+- Fix: Progress Bar element security improved against XSS vulnerabilities
+- Fix: Accordion element security improved against XSS vulnerabilities
+- Fix: Hover Box element security improved against XSS vulnerabilities
+- Fix: Improved capability verification to Frontend editor save and preview requests
+- Fix: Improved capability verification to settings preset requests
+
 ## Version 9.1 (02.11.2026)
 
 - New: A completely new Backend editor UI
