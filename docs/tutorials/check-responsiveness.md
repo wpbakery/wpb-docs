@@ -1,6 +1,7 @@
 ---
 id: how-to-check-responsiveness
 title: How to check responsiveness?
+keywords: [check responsiveness in WPBakery]
 sidebar_label: How to check responsiveness?
 sidebar_position: 12
 hide_table_of_contents: true
