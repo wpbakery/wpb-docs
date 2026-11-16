@@ -35,6 +35,8 @@ Supported Design Options attributes display a device icon. Use this control to c
 
 Desktop values apply across devices by default. A value set for a specific device replaces the inherited desktop value for that device. The device selector stays synchronized with the device switch in the Frontend or Backend editor navigation bar.
 
+<img src="/img/screenshots/element-responsive-controls.png" alt="Design Options showing responsive controls and the device selector" />
+
 #### Hide elements on a device
 
 1. In the **Design Options** tab, click the device selector next to **Hide element**.
