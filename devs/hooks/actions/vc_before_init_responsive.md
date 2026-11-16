@@ -5,6 +5,8 @@ hide_table_of_contents: true
 
 # vc_before_init_responsive
 
+***Since 9.2***
+
 Fires before the responsive services are initialized. This hook runs inside the `Vc_Manager::responsive()` method, before the `Wpb_Responsive` instance is created and stored in the factory.
 
 ## Parameters

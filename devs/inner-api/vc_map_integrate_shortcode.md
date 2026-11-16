@@ -4,6 +4,8 @@ sidebar_position: 25
 
 # vc_map_integrate_shortcode()
 
+SINCE 4.4.2
+
 ```php
 <?php vc_map_integrate_shortcode($shortcode, $field_prefix = '', $group_prefix = '', $change_fields = null, $dependency = null)?>
 ```

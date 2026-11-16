@@ -4,6 +4,8 @@ sidebar_position: 27
 
 # vc_add_shortcode_param()
 
+SINCE 4.4
+
 ```php
 <?php vc_add_shortcode_param($name, $form_field_callback, $script_url = null)?>
 ```

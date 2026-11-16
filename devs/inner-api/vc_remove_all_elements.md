@@ -4,6 +4,8 @@ sidebar_position: 22
 
 # vc_remove_all_elements()
 
+SINCE 4.5
+
 ```php
 <?php vc_remove_all_elements() ?>
 ```

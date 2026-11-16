@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Hooks
 
+***Since WPBakery AI 1.0.0***
+
 Hooks of the [WPBakery AI](/devs/wpbakery-ai/overview) plugin. They run only when WPBakery AI is active.
 
 ## wpbai_custom_elements_allow_js

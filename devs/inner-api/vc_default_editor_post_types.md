@@ -4,6 +4,8 @@ sidebar_position: 23
 
 # vc_default_editor_post_types()
 
+SINCE 4.2
+
 ```php
 <?php vc_default_editor_post_types() ?>
 ```

@@ -4,6 +4,8 @@ sidebar_position: 24
 
 # vc_editor_set_post_types()
 
+SINCE 4.4
+
 ```php
 <?php vc_editor_set_post_types($post_types) ?>
 ```
