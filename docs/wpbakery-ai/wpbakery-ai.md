@@ -4,6 +4,8 @@ slug: /features-and-tools/wpbakery-ai
 title: WPBakery AI Assistant
 sidebar_label: WPBakery AI Assistant
 sidebar_position: 1
+description: Use WPBakery AI Assistant to generate, improve and translate text, and create HTML, CSS and JavaScript directly in supported editor fields.
+keywords: [WPBakery AI Assistant]
 hide_table_of_contents: true
 ---
 
