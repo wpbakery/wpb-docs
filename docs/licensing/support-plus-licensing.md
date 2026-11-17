@@ -106,3 +106,7 @@ Yes. You can cancel your Support Plus subscription before the next renewal. Your
 **Do I lose my WPBakery license if Support Plus expires?**
 
 No. Your WPBakery Page Builder license remains valid. However, features tied to an active support period, including one-click updates, ticket support, the Template Library, WPBakery AI, and typography features, require active support.
+
+**Does Support Plus include WPBakery MCP?**
+
+Yes. WPBakery MCP requires an active Support Plus subscription associated with the WPBakery license activated on your website. Install the separate WPBakery AI plugin to connect a compatible AI client. See the WPBakery MCP guide for setup instructions.
