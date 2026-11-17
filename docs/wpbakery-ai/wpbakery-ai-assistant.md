@@ -9,46 +9,51 @@ keywords: [WPBakery AI Assistant]
 hide_table_of_contents: true
 ---
 
-<div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/_94J0hy1bQA?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="WPBakery AI Tutorial | Generate Text, Improve Content, Translate and Generate Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+WPBakery AI Assistant helps you generate, improve and translate text and generate custom code directly within WPBakery Page Builder. Open it using the **AI icon** beside a supported field.
 
-The WPBakery Page Builder AI represents a transformative advancement in website development. An **active support tenure** allows access to AI which is designed to empower you with the ability to effortlessly generate and enhance text and custom code. Whether you need to create compelling textual content or fine-tune intricate custom code, such as HTML, Custom CSS, and JS, the WPBakery Page Builder AI is your partner in streamlining website development.
+Access requires a direct WPBakery license with active support. Each eligible license includes **20,000 AI credits per month**, which renew automatically while support remains active.
 
-Any element field that supports AI generation will have the following icon next to it:
-![AI icon visible on element fields](/img/elements/wpb-AI-icon.png)
+## Generate, improve or translate text
 
-Once that icon is clicked, it will open the WPBakery AI window. The Code generation window available in Custom CSS, Custom JS, Raw HTML, and RAW JS has only one field take query input for code generation The Content generation window has three content types:
+1. Open an element’s settings and click the **AI icon** beside a supported text field.
+2. Choose a content type:
+   - **New content:** Generate text from your instructions.
+   - **Improve existing:** Revise the text already in the field.
+   - **Translate:** Translate existing text into your requested language.
+3. Enter your instructions in **Describe content**.
+4. Adjust **Tone of Voice**, **Length** and **Keywords**, where available.
+5. Click **Generate**.
+6. Review the text in **Output**, then click **Insert** to add it to the field.
 
-1. **New content**:
-This is used to generate new within the field.
+To try another result, adjust your instructions or settings and click **Regenerate**. Longer requests may take more time to process.
 
-2. **Improve existing**:
-Any existing content can be improved using this option.
+## Writing your instructions
 
-3. **Translate**:
-Translate to any language using this option.
+Describe the content’s purpose, audience and intended result. For example:
 
-The **Describe content** field is the field where the AI prompt needs to be entered. Be as descriptive as possible while entering the description.
+> Write a headline for a local cake shop’s wedding cake page. Address couples planning their wedding. Use a warm tone and keep it under 10 words.
 
-Here is an example:
-*Write an eye-catching headline for the sales page of the cake shop.*
+Check generated text for accuracy, relevance and tone before publishing. Review translations before using them on your website.
 
-The other fields such as **Tone of Voice, Length,** and **Keywords** are used to fine-tune the output of generated text.
+## Generate HTML, CSS and JavaScript
 
-Once the **Generate** option is clicked, it will generate the content within the **Output** field. It can then be added to the field using the **Insert** option.
+Use the AI icon in supported code fields to describe the code you need. The code-generation window accepts your instructions and produces code for review and insertion.
 
-If you want an alternative output, you can change the values in the above fields and then **Regenerate** the output again.
+Supported locations include **Raw HTML**, **Raw JS** and the available site-wide or page-specific **Custom CSS** and **Custom JavaScript** fields.
 
-Please note that generating long articles will take longer time as compared to the content in the Title or short description format.
+Be specific about the element and behavior you want to change. For example:
 
-You can also use AI to generate custom CSS and JS code wherever WPBakery allows CSS and JS code to be entered. This includes WPBakery > Custom CSS, WPBakery > Custom JS (for global CSS and JS ) and Page Settings > Custom CSS settings, Page Settings > Custom Javascript ( for local CSS and JS).
+> Write CSS to give buttons with the class “booking-button” a dark blue background and white text.
 
-For a more specific CSS selector, the AI will generate a generic CSS selector prefixed with the class or id 'wpbai'. You will have to change the selector and choose the correct CSS selector depending on the element.
+Check that generated CSS selectors match the intended elements. A placeholder selector such as `wpbai` must be replaced with the appropriate class or ID.
 
-### AI credits:
+Review and test generated code before using it on a live website. Site-wide code can affect multiple pages.
 
-Having an active support tenure of a plugin license will give you 20,000 AI credits per month per license. These credits are utilized when you use AI to generate any content and are automatically renewed every month. It will soon be possible to buy more AI credits if the monthly limit has been exhausted.
+## AI credits and access
 
-If you have a plugin that was received with the theme, then purchasing a [direct license](https://wpbakery.com/wpbakery-page-builder-license/) will provide you with access to the AI feature.
-If the support tenure of the existing license has expired, then it can be renewed under the [licenses section of the account](https://support.wpbakery.com/licenses).
+An eligible WPBakery license with active support includes **20,000 AI credits per month**. Generating content or code uses credits. The allowance renews automatically each month while support remains active.
+
+- **WPBakery included with a theme:** Purchase and activate a [direct WPBakery license](https://wpbakery.com/wpbakery-page-builder-license/) to access AI Assistant with the included active support period.
+- **Support has expired:** Renew support through the [Licenses section of your account](https://support.wpbakery.com/licenses).
+
+For allowance details, see [What is the AI credits usage limit?](/docs/faq/what-is-the-ai-credits-usage-limit).
