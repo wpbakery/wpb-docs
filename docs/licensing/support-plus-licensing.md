@@ -46,7 +46,7 @@ After your initial support period ends, you can continue your WPBakery support i
 
 **Support Plus subscription**
 
-Renews automatically each year and includes priority support, Templatera, Easy Tables and Loyalty Program discounts.
+Renews automatically each year and includes priority support, Templatera, Easy Tables, WPBakery MCP access and Loyalty Program discounts.
 
 **Manual support renewal**
 
