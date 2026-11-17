@@ -68,6 +68,8 @@ If existing elements cannot provide the requested functionality, a connection wi
 
 > Create a new draft landing page for a photography business with a hero section, gallery, testimonials, and contact button. Use existing WPBakery elements and Design Options wherever possible.
 
+![Example instruction in ChatGPT asking WPBakery MCP to create a blank layout page and custom element](/img/screenshots/chatgpt-create-new-wpbakery-page.png)
+
 > Update the About page: replace the introduction with the text below, add a team section, and adjust the spacing for mobile devices. Keep the page as a draft for review.
 
 Identify the page, describe the expected result, and state whether the AI should use existing elements or generate a custom element. Review the result before publishing.
