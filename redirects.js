@@ -84,7 +84,7 @@ const redirects = [
   {from: '/docs/theme-integration-technical', to: '/devs/theme-integration'},
   {from: '/docs/theme-integration-technical/theme-integration-marketing', to: '/devs/theme-integration/marketing'},
   {from: '/docs/theme-integration-technical/theme-integration-technical', to: '/devs/theme-integration/technical'},
-  {from: '/docs/wpbakery-ai', to: '/docs/wpbakery-ai/wpbakery-ai-assistant'},
+  {from: '/docs/wpbakery-ai', to: '/docs/category/wpbakery-ai'},
   {from: '/docs/features-and-tools/wpbakery-ai', to: '/docs/wpbakery-ai/wpbakery-ai-assistant'},
   {from: '/docs/wpbakery-page-builder-how-tos', to: '/docs/tutorials'},
   {from: '/docs/wpbakery-page-builder-how-tos/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support', to: '/docs/tutorials/how-can-i-manually-update-wpbakery-page-builder-if-i-dont-have-an-active-support'},
