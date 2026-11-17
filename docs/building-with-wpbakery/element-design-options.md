@@ -44,6 +44,8 @@ Desktop values apply across devices by default. A value set for a device applies
 2. Select the device where you want to hide the element.
 3. Turn on **Hide element**; this hides the element on the selected device and smaller devices unless a smaller device is set to visible, then click **Save changes**.
 
+**Note:** When you enable Hide element for a specific device, the setting automatically applies to all smaller devices. To change this behavior for a smaller device, switch to that device using the device selector and adjust the Hide element setting individually.
+
 #### Restore automatic responsiveness
 
 1. Open the element edit window.
@@ -57,3 +59,5 @@ For more information about device views, see [Responsive settings](/docs/buildin
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/OoJF2jSKhVo?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Element Design Options" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+<p>Hide element is available since 9.2</p>
