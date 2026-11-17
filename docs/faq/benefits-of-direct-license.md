@@ -14,7 +14,7 @@ If you purchase a direct license for WPBakery Page Builder there are following b
 - Access to [Template Library](/docs/features-and-tools/template-library): Downloadable layout templates with professional templates updated regularly
 - Use WPBakery Page Builder with any theme (not just the one that got WPBakery Page Builder bundled)
 - Manage your licenses at Client Portal
-- Access to [WPBakery AI](/docs/features-and-tools/wpbakery-ai) feature
+- Access to [WPBakery AI](/docs/wpbakery-ai/wpbakery-ai-assistant) feature
 - Typography Management
 - Support your beloved page builder plugin for rapid development
 

@@ -96,7 +96,7 @@ Review generated custom elements separately in Custom elements.
 
 ## Frequently asked questions
 
-### Is WPBakery MCP the same as the built-in AI Assistant features?
+### Is WPBakery MCP the same as the built-in [AI Assistant](/docs/wpbakery-ai/wpbakery-ai-assistant) features?
 
 No. WPBakery MCP connects an external AI client to your website so it can perform supported editing actions. It requires the separate WPBakery AI plugin and its own authorized connection.
 

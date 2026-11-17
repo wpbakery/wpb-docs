@@ -32,8 +32,8 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
     <p>Configure global settings for your page builder including content types, role manager, and editor settings.</p>
   </a>
 
-  <a href="/docs/features-and-tools/wpbakery-ai" className="topic-card">
-    <h3>WPBakery AI</h3>
+  <a href="/docs/wpbakery-ai/wpbakery-ai-assistant" className="topic-card">
+    <h3>WPBakery AI Assistant</h3>
     <p>Leverage AI-powered features to accelerate your content creation and page building workflow.</p>
   </a>
 
