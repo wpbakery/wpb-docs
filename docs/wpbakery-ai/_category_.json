@@ -1,0 +1,9 @@
+{
+  "label": "WPBakery AI",
+  "position": 4.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}
