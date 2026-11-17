@@ -30,6 +30,7 @@ When you purchase a WPBakery Page Builder license, you can get Support Plus from
 
 - Priority support
 - Access to WPBakery Plus products, including Elements Plus
+- WPBakery MCP access through the WPBakery AI plugin, connecting your website to compatible AI clients for content editing, layout changes and custom element generation.
 - Templatera $12
 - Easy Tables $12
 - Automatic yearly renewal
