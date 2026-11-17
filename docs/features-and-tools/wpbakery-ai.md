@@ -1,7 +1,7 @@
 ---
 id: wpbakery-ai
-title: WPBakery AI
-sidebar_label: WPBakery AI
+title: WPBakery AI Assistant
+sidebar_label: WPBakery AI Assistant
 sidebar_position: 1
 hide_table_of_contents: true
 ---

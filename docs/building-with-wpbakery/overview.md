@@ -33,7 +33,7 @@ After installing and enabling WPBakery Page Builder plugin you can start creatin
   </a>
 
   <a href="/docs/features-and-tools/wpbakery-ai" className="topic-card">
-    <h3>WPBakery AI</h3>
+    <h3>WPBakery AI Assistant</h3>
     <p>Leverage AI-powered features to accelerate your content creation and page building workflow.</p>
   </a>
 
