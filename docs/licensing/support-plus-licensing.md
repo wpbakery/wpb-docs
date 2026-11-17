@@ -1,3 +1,4 @@
+---
 sidebar_position: 6
 title: Support Plus
 sidebar_label: Support Plus license
