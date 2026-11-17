@@ -19,6 +19,10 @@ Yes. Starting with WPBakery Page Builder 9.2, you can use **Hide element** in th
 4. Select the device where you want to hide the element.
 5. Turn on **Hide element** and click **Save changes**.
 
+Note: When you enable Hide element for a specific device, the setting automatically applies to all smaller devices. To change this behavior for a smaller device, switch to that device using the device selector and adjust the Hide element setting individually.
+
 The available device views are Desktop, Tablet horizontal, Tablet vertical, Mobile horizontal, and Mobile vertical.
 
-For more information about device views and breakpoints, see [Responsive settings](https://kb.wpbakery.com/docs/building-with-wpbakery/responsive-settings/).
+For more information about device views and breakpoints, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings/).
+
+<p>Available since 9.2</p>
