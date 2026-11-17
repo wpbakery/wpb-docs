@@ -15,3 +15,5 @@ Starting from version 9.2, you can switch between device views in both the Front
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/jSMFSeTQzxM?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How to check responsiveness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+Available since version 9.2.
