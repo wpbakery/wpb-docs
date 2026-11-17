@@ -34,7 +34,7 @@ Supported Design Options attributes display a device icon. Use this control to c
 3. Select a device and enter its value.
 4. Click **Save changes**.
 
-Desktop values apply across devices by default. A value set for a specific device replaces the inherited desktop value for that device. The device selector stays synchronized with the device switch in the Frontend or Backend editor navigation bar.
+Desktop values apply across devices by default. A value set for a device applies to that device and all smaller devices until a smaller device gets its own value. The device selector stays synchronized with the device switch in the Frontend or Backend editor navigation bar.
 
 <img src="/img/screenshots/element-responsive-controls.png" alt="Design Options showing responsive controls and the device selector" />
 
