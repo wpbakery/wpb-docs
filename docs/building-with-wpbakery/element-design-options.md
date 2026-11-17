@@ -48,7 +48,7 @@ Desktop values apply across devices by default. A value set for a device applies
 
 1. Open the element edit window.
 2. Open the menu at the top of the window.
-3. Select **Restore auto responsiveness**.
+3. Select **Restore default responsiveness**.
 
 This clears the selected element’s responsive overrides and returns all device views to its desktop values.
 
