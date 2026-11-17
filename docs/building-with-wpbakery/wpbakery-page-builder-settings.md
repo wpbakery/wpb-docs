@@ -51,7 +51,7 @@ Starting from version 9.2, you can also customize responsive breakpoints in **WP
 
 To change the breakpoints, adjust the **Desktop breakpoint**, **Tablet horizontal breakpoint**, **Tablet vertical breakpoint**, and **Mobile horizontal breakpoint** values, then click **Save Changes**.
 
-For details about device views and device-specific controls, see [Responsive settings](https://kb.wpbakery.com/docs/building-with-wpbakery/responsive-settings/).
+For details about device views and device-specific controls, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
 
 ## Custom CSS
 
