@@ -42,6 +42,8 @@ Connection steps may vary by client. Follow the instructions provided in the plu
 
 Once connected, give your AI client instructions describing what you want to create or change.
 
+![WPBakery MCP server settings with the server URL and ChatGPT connector instructions](/img/screenshots/wpbakery-mcp-setup.png)
+
 ## What you can do with WPBakery MCP installed
 
 Depending on the connection's access level and WordPress user permissions, you can:
@@ -66,7 +68,11 @@ If existing elements cannot provide the requested functionality, a connection wi
 
 > Create a new draft landing page for a photography business with a hero section, gallery, testimonials, and contact button. Use existing WPBakery elements and Design Options wherever possible.
 
+![Example instruction in ChatGPT asking WPBakery MCP to create a blank layout page and custom element](/img/screenshots/chatgpt-create-new-wpbakery-page.png)
+
 > Update the About page: replace the introduction with the text below, add a team section, and adjust the spacing for mobile devices. Keep the page as a draft for review.
+
+![Example instruction in ChatGPT asking WPBakery MCP to update a pricing page](/img/screenshots/chatgpt-edit-existing-wpbakery-page.png)
 
 Identify the page, describe the expected result, and state whether the AI should use existing elements or generate a custom element. Review the result before publishing.
 
@@ -79,6 +85,8 @@ The plugin's MCP screen also lets you review and manage clients connected to the
 ## Connecting a customer's AI client
 
 If the license and Support Plus subscription belong to your account, you need to assist your customer with authorization. Sign in to your Support Portal account and approve the connection yourself. Do not share your account credentials with the customer.
+
+![WPBakery AI section of the Support Portal showing websites, Support Plus status, MCP connections, and authorized AI clients](/img/screenshots/support-portal-mcp-management.png)
 
 ## Review activity
 

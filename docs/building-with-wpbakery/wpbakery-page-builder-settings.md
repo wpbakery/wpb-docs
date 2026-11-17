@@ -1,12 +1,14 @@
 ---
 id: wpbakery-page-builder-settings
 title: WPBakery Page Builder settings
+description: Learn how to configure WPBakery Page Builder settings, manage user access, customize design defaults and add custom CSS or JavaScript.
+keywords: [WPBakery page builder settings]
 sidebar_label: WPBakery Page Builder settings
 sidebar_position: 9
 hide_table_of_contents: true
 ---
 
-General Settings of WPBakery Page Builder can be accessed from your WP Admin Panel -> WPBakery Page Builder and allows editing of WPBakery Page Builder configuration.
+Open **WordPress Dashboard → WPBakery Page Builder** to access the plugin settings. From here, you can configure general options, manage editor permissions, customize default styles, add site-wide CSS or JavaScript and activate your license.
 
 ## General Settings
 
@@ -43,16 +45,13 @@ Control user group role access to the features and options of WPBakery Page Buil
 
 ## Design Options
 
-Design Options allows you to apply a custom visual appearance to WPBakery Page Builder content elements and also control responsive width. By default content elements "stack" one on top other when the screen size is smaller than 640px.
+Design Options allows you to customize the default appearance of WPBakery Page Builder content elements.
 
-Since the 9.2 update this tab also contains the screen width where each device view starts:
+Starting from version 9.2, you can also customize responsive breakpoints in **WP Dashboard → WPBakery Page Builder → Design Options**. These breakpoints define the transitions between Desktop, Tablet horizontal, Tablet vertical, Mobile horizontal, and Mobile vertical device views. They are used by the device switches in both the Frontend and Backend editors.
 
-- Desktop breakpoint (1200px by default);
-- Tablet horizontal breakpoint (1024px by default);
-- Tablet vertical breakpoint (768px by default);
-- Mobile horizontal breakpoint (640px by default).
+To change the breakpoints, adjust the **Desktop breakpoint**, **Tablet horizontal breakpoint**, **Tablet vertical breakpoint**, and **Mobile horizontal breakpoint** values, then click **Save Changes**.
 
-**Note:** values must increase from mobile horizontal to desktop. Read more in [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
+For details about device views and device-specific controls, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
 
 ## Custom CSS
 
