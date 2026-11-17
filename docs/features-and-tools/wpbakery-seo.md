@@ -6,6 +6,8 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
+***Since 7.4***
+
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/aQQyWotxQb4?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How To Increase Website Ranking | WPBakery SEO Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

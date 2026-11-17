@@ -6,6 +6,8 @@ sidebar_position: 10
 hide_table_of_contents: true
 ---
 
+***Since 8.6***
+
 The following are the Keyboard Shortcuts that can be used within the page builder editor:
 
 <table style={{width: '100%'}}>

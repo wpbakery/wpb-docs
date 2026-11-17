@@ -8,6 +8,8 @@ description: Use WPBakery element design options to adjust spacing, borders and 
 keywords: [WPBakery element design options]
 ---
 
+***Since 4.1***
+
 Use WPBakery Design Options to adjust an element’s spacing, borders and background. Open the element edit window and select the **Design Options** tab to change the available styling settings.
 
 #### Styling controls

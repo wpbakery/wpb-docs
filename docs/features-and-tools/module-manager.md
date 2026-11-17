@@ -6,6 +6,8 @@ sidebar_position: 7
 hide_table_of_contents: true
 ---
 
+***Since 7.7***
+
 The WPBakery Page Builder 7.7 update introduced a powerful new feature: the Module Manager. This tool provides a modular approach to managing the plugin's features, allowing users to streamline their workflow by enabling only the features they need. The Module Manager can be accessed under: WPBakery Page Builder – Module Manager, next to General Settings.
 
 ![Module Manager](/img/screenshots/module-manager.png)

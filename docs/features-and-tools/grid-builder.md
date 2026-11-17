@@ -5,6 +5,8 @@ sidebar_label: Grid builder
 sidebar_position: 6
 ---
 
+***Since 4.4***
+
 Starting from version 4.4 WPBakery Page Builder comes together with Grid Builder which allows to create and modify grid element templates for Post Grid, Masonry Post Grid, Media Grid and Masonry Media Grid. Grid Builder can be accessed via WordPress admin "Grid Elements".
 
 ## Interface

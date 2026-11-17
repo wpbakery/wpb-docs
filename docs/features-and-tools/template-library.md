@@ -6,6 +6,8 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
+## ***Since 5.0***
+
 WPBakery Page Builder Template Library allows you to access beautiful predefined templates that have been created by WPBakery Page Builder team in collaboration with top-notch web design professionals. Template Library is being constantly updated by adding new templates that you can access with your direct WPBakery Page Builder license. Every template contains high-res free stock images that you are allowed to use in your projects (including commercial).
 
 ## Access Template Library

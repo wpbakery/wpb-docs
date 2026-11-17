@@ -9,6 +9,8 @@ keywords: [WPBakery AI Assistant]
 hide_table_of_contents: true
 ---
 
+***Since 7.2***
+
 WPBakery AI Assistant helps you generate, improve and translate text and generate custom code directly within WPBakery Page Builder. Open it using the **AI icon** beside a supported field.
 
 Access requires a direct WPBakery license with active support. Each eligible license includes **20,000 AI credits per month**, which renew automatically while support remains active.

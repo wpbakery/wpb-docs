@@ -6,6 +6,8 @@ sidebar_position: 8
 hide_table_of_contents: true
 ---
 
+***Since 4.1***
+
 Starting from WPBakery Page Builder version 4.1.0 it is possible to add 3rd party shortcodes by using build-in Shortcode Mapper which available under WP Dashboard -> WPBakery Page Builder -> My Shortcodes.
 
 ## Working with Shortcode Mapper

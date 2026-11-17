@@ -6,6 +6,8 @@ sidebar_position: 4.5
 hide_table_of_contents: true
 ---
 
+***Since 4.3***
+
 Starting from version 4.3 WPBakery Page Builder allows you to control column width and offset across multiple devices. The settings can be found in the column edit window under the "Responsiveness" tab.
 
 Within the tab it is possible to set column width and offset for the default column size and change them for each device. To hide a column on selected devices use the "Hide element" toggle in the column Design Options tab, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
