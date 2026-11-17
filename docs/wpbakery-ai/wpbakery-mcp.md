@@ -42,6 +42,8 @@ Connection steps may vary by client. Follow the instructions provided in the plu
 
 Once connected, give your AI client instructions describing what you want to create or change.
 
+![WPBakery MCP server settings with the server URL and ChatGPT connector instructions](/img/screenshots/wpbakery-mcp-setup.png)
+
 ## What you can do with WPBakery MCP installed
 
 Depending on the connection's access level and WordPress user permissions, you can:
