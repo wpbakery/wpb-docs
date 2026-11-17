@@ -1,6 +1,6 @@
 ---
 id: wpbakery-ai
-slug: /features-and-tools/wpbakery-ai
+slug: /wpbakery-ai/wpbakery-ai-assistant/
 title: WPBakery AI Assistant
 sidebar_label: WPBakery AI Assistant
 sidebar_position: 1

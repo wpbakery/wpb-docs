@@ -12,7 +12,7 @@ Renewing support tenure provides the following benefits:
 - Access to plugin auto-updates. Update the plugin with one click straight from the dashboard.
 - Contact the support team for help regarding any issues related to WPBakery Page Builder.
 - Uninterrupted access to the [template library](/docs/features-and-tools/template-library) to download pre-built template layouts.
-- Access to AI credits to use [WPBakery AI](/docs/features-and-tools/wpbakery-ai).
+- Access to AI credits to use [WPBakery AI](/docs/wpbakery-ai/wpbakery-ai-assistant).
 - Access to the [typography](/docs/features-and-tools/typography) feature to use custom fonts from Google and Adobe.
 
 You can renew your access automatically through a subscription (recommended) or manually. The subscription provides additional benefits like priority support and upcoming features we will add to make the offer even more valuable for subscribers. To renew your access to [Support Plus](/docs/licensing/support-plus-licensing), log in to your account, navigate to the Licenses section, and follow the instructions there.
