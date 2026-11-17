@@ -1,4 +1,3 @@
----
 sidebar_position: 6
 title: Support Plus
 sidebar_label: Support Plus license
@@ -111,4 +110,4 @@ WPBakery MCP access also stops when Support Plus expires. Connected AI clients c
 
 **Does Support Plus include WPBakery MCP?**
 
-Yes. WPBakery MCP requires an active Support Plus subscription associated with the WPBakery license activated on your website. Install the separate WPBakery AI plugin to connect a compatible AI client. See the WPBakery MCP guide for setup instructions.
+Yes. WPBakery MCP requires an active Support Plus subscription associated with the WPBakery license activated on your website. Install the separate WPBakery AI plugin to connect a compatible AI client. [See the WPBakery MCP guide](https://kb.wpbakery.com/docs/wpbakery-ai/wpbakery-mcp/) for setup instructions.
