@@ -2,6 +2,8 @@
 title: WPBakery MCP
 sidebar_label: WPBakery MCP
 sidebar_position: 1
+description: Connect your WordPress website to compatible AI clients with WPBakery MCP. Learn about setup, Support Plus requirements, permissions and editing.
+keywords: [WPBakery MCP]
 ---
 
 # WPBakery MCP
