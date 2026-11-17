@@ -42,7 +42,7 @@ Desktop values apply across devices by default. A value set for a device applies
 
 1. In the **Design Options** tab, click the device selector next to **Hide element**.
 2. Select the device where you want to hide the element.
-3. Turn on **Hide element** and click **Save changes**.
+3. Turn on **Hide element**; this hides the element on the selected device and smaller devices unless a smaller device is set to visible, then click **Save changes**.
 
 #### Restore automatic responsiveness
 
