@@ -4,31 +4,56 @@ title: Element design options
 sidebar_label: Element design options
 sidebar_position: 3
 hide_table_of_contents: true
+description: Use WPBakery element design options to adjust spacing, borders and backgrounds, copy styles between elements and set device-specific values.
+keywords: [WPBakery element design options]
 ---
 
-Starting from version 4.1.0 WPBakery Page Builder offers additional design controls for Row, Columns, Text block, Single image and Video block which can be found under element param window 'Design Options' tab.
+Use WPBakery Design Options to adjust an element’s spacing, borders and background. Open the element edit window and select the **Design Options** tab to change the available styling settings.
 
-Within Design Options it is possible to control:
+#### Styling controls
 
-- Margins, Paddings and Border for overall element or just left, right, top or bottom part
-- Border style
-- Border color
-- Border radius
+Use the available Design Options controls to adjust:
+
+- Margins and padding for the whole element or individual sides
+- Border width, style, color and radius
 - Background color
-- Background image and position style
+- Background image and its positioning style
 
-## Per device
+#### Copy Design Options
 
-***Since 9.2***
+Copy supported Design Options settings from one element and paste them into another, including elements on different pages. The feature copies Design Options values; it does not copy the element’s content or all of its attributes. Custom attributes added by third-party themes or plugins are not copied automatically.
 
-Design options can be set per device: each option has a device dropdown next to its label, in sync with the device selected in the navigation bar. Option left empty for a device inherits the value of the next larger device and shows it as a placeholder. Read more in [Responsive settings](/docs/building-with-wpbakery/responsive-settings).
+For instructions, see [Can I copy Design Options from one element to another in WPBakery?](/docs/faq/can-i-copy-design-options-between-elements-in-wpbakery).
 
-## Hide element
+#### Responsive Design Options
 
-***Since 9.2***
+Supported Design Options attributes display a device icon. Use this control to change a value for Desktop, Tablet horizontal, Tablet vertical, Mobile horizontal, or Mobile vertical.
 
-"Hide element" toggle at the top of the tab hides the element on the selected device and the smaller ones, or on all devices when Desktop is selected.
+1. Open the element edit window and select **Design Options**.
+2. Click the device icon next to a supported attribute.
+3. Select a device and enter its value.
+4. Click **Save changes**.
+
+Desktop values apply across devices by default. A value set for a device applies to that device and all smaller devices until a smaller device gets its own value. The device selector stays synchronized with the device switch in the Frontend or Backend editor navigation bar.
+
+<img src="/img/screenshots/element-responsive-controls.png" alt="Design Options showing responsive controls and the device selector" />
+
+#### Hide elements on a device
+
+1. In the **Design Options** tab, click the device selector next to **Hide element**.
+2. Select the device where you want to hide the element.
+3. Turn on **Hide element**; this hides the element on the selected device and smaller devices unless a smaller device is set to visible, then click **Save changes**.
+
+#### Restore automatic responsiveness
+
+1. Open the element edit window.
+2. Open the menu at the top of the window.
+3. Select **Restore default responsiveness**.
+
+This clears the selected element’s responsive overrides and returns all device views to its desktop values.
+
+For more information about device views, see [Responsive settings](/docs/building-with-wpbakery/responsive-settings). To customize global breakpoints, see [WPBakery Page Builder settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
 
 <div style={{textAlign: 'center'}}>
-  <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/OoJF2jSKhVo?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Element Design Options" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/OoJF2jSKhVo?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Element Design Options" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
