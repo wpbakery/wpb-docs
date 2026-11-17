@@ -37,8 +37,6 @@ When you purchase a WPBakery Page Builder license, you can get Support Plus from
 - Typography features for Google and Adobe Fonts
 - WPBakery Loyalty Program discounts (see below)
 
-See the [WPBakery MCP guide for setup instructions.](/docs/wpbakery-ai/wpbakery-mcp)
-
 You can add Support Plus when purchasing a license or subscribe when renewing your support [here](https://support.wpbakery.com/).
 
 ## Support Plus vs standard support
