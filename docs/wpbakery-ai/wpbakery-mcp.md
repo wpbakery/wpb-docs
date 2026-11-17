@@ -72,6 +72,8 @@ If existing elements cannot provide the requested functionality, a connection wi
 
 > Update the About page: replace the introduction with the text below, add a team section, and adjust the spacing for mobile devices. Keep the page as a draft for review.
 
+![Example instruction in ChatGPT asking WPBakery MCP to update a pricing page](/img/screenshots/chatgpt-edit-existing-wpbakery-page.png)
+
 Identify the page, describe the expected result, and state whether the AI should use existing elements or generate a custom element. Review the result before publishing.
 
 ## Manage connections
