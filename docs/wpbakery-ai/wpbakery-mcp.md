@@ -86,6 +86,8 @@ The plugin's MCP screen also lets you review and manage clients connected to the
 
 If the license and Support Plus subscription belong to your account, you need to assist your customer with authorization. Sign in to your Support Portal account and approve the connection yourself. Do not share your account credentials with the customer.
 
+![WPBakery AI section of the Support Portal showing websites, Support Plus status, MCP connections, and authorized AI clients](/img/screenshots/support-portal-mcp-management.png)
+
 ## Review activity
 
 The plugin's activity screen records MCP tool calls made on your website. You can review the action, the affected object where applicable, and whether the call succeeded or returned an error.
