@@ -24,6 +24,13 @@ const NO_COMMIT = /^0+$/;
 const [before, after] = process.argv.slice(2);
 const siteUrl = (process.env.SITE_URL || 'https://kb.wpbakery.com').replace(/\/+$/, '');
 
+/**
+ * Runs a git command in the repository root.
+ *
+ * @param {string[]} args Arguments passed to git.
+ * @returns {string} Standard output of the command.
+ * @throws {Error} When git exits with a non-zero code.
+ */
 function git(args) {
   return execFileSync('git', args, {
     cwd: ROOT,
@@ -32,6 +39,12 @@ function git(args) {
   });
 }
 
+/**
+ * Checks that a commit is available in the local repository.
+ *
+ * @param {string} sha Commit SHA or other revision.
+ * @returns {boolean} False when the commit is unknown, never throws.
+ */
 function commitExists(sha) {
   try {
     git(['cat-file', '-e', `${sha}^{commit}`]);
@@ -41,7 +54,14 @@ function commitExists(sha) {
   }
 }
 
-/** Changed markdown files as [{status, file}], where status is A, M or D. */
+/**
+ * Lists the markdown files changed between the two commits.
+ *
+ * @returns {{status: string, file: string}[]} Status is the first letter git
+ *   reports: A (added), D (deleted), M (modified) or, rarely, T (type changed).
+ *   Renames are reported as a deletion and an addition.
+ * @throws {Error} When git diff fails.
+ */
 function changedFiles() {
   const output = git([
     'diff', '--name-status', '--no-renames', before, after, '--', ...CONTENT_DIRS,
@@ -57,7 +77,13 @@ function changedFiles() {
     .filter(({ file }) => /\.mdx?$/.test(file));
 }
 
-/** Map of source file ("docs/faq/x.md") to the title and permalink of its page. */
+/**
+ * Reads the page metadata written by the Docusaurus build.
+ *
+ * @returns {Map<string, {title?: string, permalink: string}>} Pages keyed by
+ *   source file, for example "docs/faq/x.md". Empty when the site isn't built.
+ * @throws {Error} When a metadata file can't be read or parsed.
+ */
 function loadPages() {
   const pages = new Map();
   if (!fs.existsSync(METADATA_DIR)) {
@@ -85,7 +111,12 @@ function loadPages() {
   return pages;
 }
 
-/** Escape text for use as the label of a Slack <url|label> link. */
+/**
+ * Escapes text for use as the label of a Slack <url|label> link.
+ *
+ * @param {string} text Page title or file path.
+ * @returns {string} Single-line label without Slack control characters.
+ */
 function slackLabel(text) {
   return text
     .replace(/&/g, '&amp;')
@@ -96,10 +127,23 @@ function slackLabel(text) {
     .trim();
 }
 
+/**
+ * Builds the public URL of a page.
+ *
+ * @param {string} permalink Site-relative path, for example "/docs/faq/x".
+ * @returns {string} Absolute URL with a trailing slash.
+ */
 function pageUrl(permalink) {
   return `${siteUrl}${permalink.replace(/\/*$/, '/')}`;
 }
 
+/**
+ * Prints the changed pages. Prints nothing when the commit range is missing
+ * or unknown, as for a manually started workflow.
+ *
+ * @returns {void}
+ * @throws {Error} When git diff or reading the metadata fails.
+ */
 function main() {
   if (!before || !after || NO_COMMIT.test(before) || !commitExists(before) || !commitExists(after)) {
     return;
