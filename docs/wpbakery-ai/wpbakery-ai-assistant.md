@@ -60,4 +60,4 @@ An eligible WPBakery license with active support includes **20,000 AI credits pe
 
 For allowance details, see [What is the AI credits usage limit?](/docs/faq/what-is-the-ai-credits-usage-limit).
 
-Available since version 7.2
+Available since version 7.2.

@@ -18,4 +18,4 @@ The intuitive interface of the Module Manager makes it simple to toggle features
 
 Moreover, by disabling unused features, you can keep your site's backend cleaner and more efficient. This modular approach reflects WPBakery's commitment to providing a user-centric tool that adapts to diverse needs.
 
-Available since version 7.7
+Available since version 7.7.

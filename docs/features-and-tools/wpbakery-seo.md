@@ -28,4 +28,4 @@ It has three tabs:
 
 3. **Social:** Manage how your content appears on platforms like Facebook and X. Take charge of titles, descriptions, and images for impactful social media sharing.
 
-Available since version 7.4
+Available since version 7.4.

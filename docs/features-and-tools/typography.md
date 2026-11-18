@@ -33,4 +33,4 @@ If you have an Adobe Fonts setup for a web project, you can add these fonts dire
 4. Paste the **Adobe Web Project ID** into the designated field and synchronize.
 5. The fonts from this project will now be available within WPBakery Page Builder elements that support custom font options.
 
-Available since version 8.0
+Available since version 8.0.

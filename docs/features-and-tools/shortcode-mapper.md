@@ -46,4 +46,4 @@ Each of the param contains **param name** which is actual parameter name accordi
 
 **Default value**, if you need any and **description** which will be displayed under field in your shortcode element window.
 
-Available since version 4.1
+Available since version 4.1.

@@ -32,4 +32,4 @@ A quick step by step guide:
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/TB98sklo8Kw?start=150&feature=oembed&modestbranding=1&showinfo=0&rel=0" title="WPBakery Page Builder Tutorial For Beginners (2024)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-Available since version 5.0
+Available since version 5.0.

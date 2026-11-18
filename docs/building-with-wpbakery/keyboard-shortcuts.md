@@ -71,4 +71,4 @@ The following are the Keyboard Shortcuts that can be used within the page builde
 </tbody>
 </table>
 
-Available since version 8.6
+Available since version 8.6.

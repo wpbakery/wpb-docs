@@ -61,4 +61,4 @@ Column width and offset are set per device in the column edit window under "Resp
 
 <p>Available since 9.2</p>
 
-Available since version 9.2
+Available since version 9.2.

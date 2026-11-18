@@ -64,4 +64,4 @@ For more information about device views, see [Responsive settings](/docs/buildin
 
 <p>Hide element is available since 9.2</p>
 
-Available since version 4.1
+Available since version 4.1.
