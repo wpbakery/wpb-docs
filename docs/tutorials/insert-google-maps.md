@@ -40,3 +40,5 @@ Now you can go to your WordPress site and add Google Maps element for WPBakery P
 That's it – now you will have Google Maps on your WordPress site with just 3 simple steps.
 
 After that, you can set additional parameters for your newly added Google Map and Save it. Now you have your created Google Map on your WordPress site backed up by WPBakery Page Builder.
+
+Available since version 8.3

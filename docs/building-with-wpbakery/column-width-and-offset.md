@@ -17,3 +17,5 @@ Within the tab it is possible to set column width and offset for the default col
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/r66uCgEkv0M?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="A walkthrough through the WPBakery responsive settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+Available since version 4.3

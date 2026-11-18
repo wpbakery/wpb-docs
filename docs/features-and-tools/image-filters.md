@@ -44,3 +44,5 @@ In the video below you can see how you can quickly add Image Filters to your Wor
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/MaZUdjxTBXE?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="Image Filter Adding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+Available since version 4.6
