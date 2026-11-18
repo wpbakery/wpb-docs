@@ -6,8 +6,6 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
-***Since 7.1***
-
 With the Copy/Paste feature available since the 7.1 release, users can effortlessly duplicate elements and rows within the same page, across different pages within the same site, and even between pages of different sites.
 This feature is available in both backend and frontend editing modes, offering the utmost flexibility and convenience.
 
