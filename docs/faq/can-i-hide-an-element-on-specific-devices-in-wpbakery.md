@@ -11,7 +11,7 @@ keywords:
 
 # Can I hide an element on specific devices in WPBakery?
 
-Yes. Starting with WPBakery Page Builder 9.2, you can use **Hide element** in the Design Options tab to hide an element on a selected device.
+Yes, you can use **Hide element** in the Design Options tab to hide an element on a selected device.
 
 1. Open the element edit window.
 2. Select the **Design Options** tab.
