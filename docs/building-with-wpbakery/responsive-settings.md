@@ -90,4 +90,4 @@ These breakpoints are used by the device switches in both editors.
 
 For more information, see [Element design options](/docs/building-with-wpbakery/element-design-options) and [WPBakery Page Builder settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
 
-<p>Device-specific Design Options, Hide element, Restore default responsiveness, custom breakpoints, and device switching in the Backend Editor are available starting with WPBakery Page Builder 9.2.</p>
+<p>Device-specific Design Options, Hide element, Restore auto responsiveness, custom breakpoints, and device switching in the Backend Editor are available starting with WPBakery Page Builder 9.2.</p>
