@@ -12,7 +12,7 @@ WPBakery Page Builder automatically adapts page layouts to different screen size
 
 ## Column layouts
 
-Open the column edit window and select **Width & Responsiveness** to adjust column width, offset and visibility for different devices. Use the default column values or change the settings for a particular device. Columns can also be hidden on selected device types.
+Open the column edit window and select **Width & Responsiveness** to adjust column width and offset for different devices. Use the default column values or change the settings for a particular device. To hide a column on selected device types, use **Hide element** in the **Design Options** tab.
 
 You can also apply these responsive settings to inner columns.
 
