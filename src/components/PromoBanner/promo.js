@@ -9,7 +9,7 @@
 export const PROMO = {
   start: '2026-11-22T23:59:00+02:00',
   end: '2026-12-06T23:59:00+02:00',
-  url: 'https://wpbakery.com/wpbakery-page-builder-license/',
+  url: 'https://wpbakery.com/black-friday/',
 };
 
 /** Attribute set on <html> while the banner is visible. */
