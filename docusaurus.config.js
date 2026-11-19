@@ -3,6 +3,7 @@
 import dotenv from 'dotenv';
 import {themes as prismThemes} from 'prism-react-renderer';
 import redirects from './redirects.js';
+import {promoHeadScript} from './src/components/PromoBanner/promo.js';
 
 dotenv.config({path: '.env.local'});
 
@@ -64,6 +65,15 @@ const config = {
   ],
 
   clientModules: ['./src/clientModules/routeWatcher.js'],
+
+  // Shows the promo banner before the first paint while it is scheduled.
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: promoHeadScript,
+    },
+  ],
 
   plugins: [
     [
