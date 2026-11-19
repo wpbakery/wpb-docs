@@ -34,22 +34,25 @@ export function isPromoActive(now, search) {
 }
 
 /**
- * Measures how far the visitor's clock is from the server's.
+ * Reads the server time and ties it to performance.now(), which keeps running
+ * steadily even if the visitor's system clock is changed while the page is
+ * open.
  *
  * Reads the Date header of an uncached HEAD request to the KB. The header has
  * one-second precision, so the result is accurate to about a second.
  *
- * @returns {Promise<number|null>} Milliseconds to add to Date.now() to get
- *   server time, or null if the server time couldn't be read.
+ * @returns {Promise<number|null>} Server time, in milliseconds since the epoch,
+ *   at performance.now() === 0: add performance.now() to get the current
+ *   server time. Null if the server time couldn't be read.
  */
-export async function fetchServerTimeOffset() {
+export async function fetchServerClockBase() {
   try {
-    const sent = Date.now();
-    const response = await fetch(`/?promo-time=${sent}`, {
+    const sent = performance.now();
+    const response = await fetch(`/?promo-time=${Date.now()}`, {
       method: 'HEAD',
       cache: 'no-store',
     });
-    const received = Date.now();
+    const received = performance.now();
     const serverTime = Date.parse(response.headers.get('Date'));
     if (Number.isNaN(serverTime)) {
       return null;

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {PROMO, PROMO_ATTRIBUTE, fetchServerTimeOffset, isPromoActive} from './promo';
+import {PROMO, PROMO_ATTRIBUTE, fetchServerClockBase, isPromoActive} from './promo';
 import styles from './styles.module.css';
 
 // setTimeout can't wait longer than about 24.8 days.
@@ -22,6 +22,8 @@ function Star() {
  *
  * Starts with the visitor's clock, then switches to the server time once it
  * is known. If the server time can't be read, the visitor's clock is kept.
+ * The server time is read again whenever the tab becomes visible, since timers
+ * and performance.now() can fall behind while the computer is asleep.
  */
 function usePromoSchedule() {
   useEffect(() => {
@@ -29,13 +31,13 @@ function usePromoSchedule() {
     const {search} = window.location;
     const start = Date.parse(PROMO.start);
     const end = Date.parse(PROMO.end);
-    let offset = 0;
+    let getNow = () => Date.now();
     let timer;
     let cancelled = false;
 
     const update = () => {
       clearTimeout(timer);
-      const now = Date.now() + offset;
+      const now = getNow();
       if (isPromoActive(now, search)) {
         root.setAttribute(PROMO_ATTRIBUTE, 'on');
       } else {
@@ -48,19 +50,31 @@ function usePromoSchedule() {
       }
     };
 
-    update();
+    const syncWithServer = () => {
+      fetchServerClockBase().then((base) => {
+        if (cancelled || base === null) {
+          return;
+        }
+        getNow = () => base + performance.now();
+        update();
+      });
+    };
 
-    fetchServerTimeOffset().then((serverOffset) => {
-      if (cancelled || serverOffset === null) {
-        return;
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        update();
+        syncWithServer();
       }
-      offset = serverOffset;
-      update();
-    });
+    };
+
+    update();
+    syncWithServer();
+    document.addEventListener('visibilitychange', onVisibilityChange);
 
     return () => {
       cancelled = true;
       clearTimeout(timer);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
     };
   }, []);
 }
