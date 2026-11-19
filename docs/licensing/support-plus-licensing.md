@@ -30,6 +30,7 @@ When you purchase a WPBakery Page Builder license, you can get Support Plus from
 
 - Priority support
 - Access to WPBakery Plus products, including Elements Plus
+- WPBakery MCP access through the WPBakery AI plugin, connecting your website to compatible AI clients for content editing, layout changes and custom element generation.
 - Templatera $12
 - Easy Tables $12
 - Automatic yearly renewal
@@ -45,7 +46,7 @@ After your initial support period ends, you can continue your WPBakery support i
 
 **Support Plus subscription**
 
-Renews automatically each year and includes priority support, Templatera, Easy Tables and Loyalty Program discounts.
+Renews automatically each year and includes priority support, Templatera, Easy Tables, WPBakery MCP access and Loyalty Program discounts.
 
 **Manual support renewal**
 
@@ -105,3 +106,9 @@ Yes. You can cancel your Support Plus subscription before the next renewal. Your
 **Do I lose my WPBakery license if Support Plus expires?**
 
 No. Your WPBakery Page Builder license remains valid. However, features tied to an active support period, including one-click updates, ticket support, the Template Library, WPBakery AI, and typography features, require active support.
+
+WPBakery MCP access also stops when Support Plus expires. Connected AI clients can no longer interact with your website through MCP.
+
+**Does Support Plus include WPBakery MCP?**
+
+Yes. WPBakery MCP requires an active Support Plus subscription associated with the WPBakery license activated on your website. Install the separate WPBakery AI plugin to connect a compatible AI client. [See the WPBakery MCP guide](https://kb.wpbakery.com/docs/wpbakery-ai/wpbakery-mcp/) for setup instructions.

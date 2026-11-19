@@ -43,3 +43,5 @@ Each of the param contains **param name** which is actual parameter name accordi
 **Note:** Hidden field type means that this shortcode param will not be displayed in Element Parameters Window and will use Default value.
 
 **Default value**, if you need any and **description** which will be displayed under field in your shortcode element window.
+
+Available since version 4.1.

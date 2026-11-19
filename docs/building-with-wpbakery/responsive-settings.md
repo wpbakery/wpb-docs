@@ -6,7 +6,7 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-Starting from version 9.2 WPBakery Page Builder allows you to set styles for each device separately, hide elements on selected devices and change the screen width where each device view starts.
+WPBakery Page Builder allows you to set styles for each device separately, hide elements on selected devices and change the screen width where each device view starts.
 
 ## Device views
 
@@ -49,10 +49,14 @@ A value set for a device is used by that device and all smaller devices, until a
 
 ## Hide element
 
-"Hide element" toggle at the top of the Design Options tab hides the element on the selected device and the smaller ones, unless a smaller device is set to visible. With Desktop selected it hides the element on all devices. Element hidden on all devices is not displayed on your site at all. In the editors hidden elements remain visible but dimmed.
+"Hide element" toggle at the top of the Design Options tab hides the element on the selected device and the smaller ones. To override this behavior on a smaller device, select that device using the device selector and adjust the Hide element setting individually. With Desktop selected it hides the element on all devices. Element hidden on all devices is not displayed on your site at all. In the editors hidden elements remain visible but dimmed.
 
 **Note:** "Hide row" and "Hide section" toggles and column hide checkboxes are replaced with "Hide element" toggle. Existing pages keep working, old values are displayed as "Hide element" setting when you open the element edit window.
 
 ## Column width and offset
 
 Column width and offset are set per device in the column edit window under "Responsiveness" tab, see [Column width and offset](/docs/building-with-wpbakery/column-width-and-offset). To hide a column use "Hide element" toggle in the column Design Options tab.
+
+<p>Available since 9.2</p>
+
+Available since version 9.2.

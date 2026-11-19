@@ -1,0 +1,116 @@
+/* Hidden unless the schedule (or ?promo-preview) sets data-wpb-promo on <html>. */
+.banner {
+  display: none;
+  /* The layout below adapts to the banner's own width, which is narrower beside the docs sidebar. */
+  container-type: inline-size;
+  background-color: #005fb1;
+  color: #fff;
+}
+
+:global(html[data-wpb-promo]) .banner {
+  display: block;
+}
+
+.inner {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1100px;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 16px 20px 16px 30px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin: 0;
+  /* The site colours all paragraphs dark. */
+  color: #fff;
+  font-family: var(--wpb-font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.star {
+  flex: none;
+  width: 16px;
+  height: 16px;
+}
+
+.button {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  height: 45px;
+  padding: 0 24px;
+  border: 2px solid #0c263d;
+  border-radius: 78px;
+  background-color: #10c248;
+  color: #121817;
+  font-family: var(--wpb-font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #0ea83f;
+  color: #121817;
+  text-decoration: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* On docs pages the sidebar is fixed on the left: keep the banner beside it, like the navbar. */
+@media (min-width: 997px) {
+  :global(html.docs-wrapper) .banner {
+    margin-left: var(--doc-sidebar-width);
+  }
+}
+
+/* Smaller text before the line gets too long to fit beside the button. */
+@container (max-width: 1000px) {
+  .text {
+    column-gap: 14px;
+    font-size: 15px;
+  }
+}
+
+/* Button below the text. */
+@container (max-width: 860px) {
+  .inner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+  }
+}
+
+/* Phones: one item per line, without the stars. */
+@container (max-width: 660px) {
+  .text {
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .star {
+    display: none;
+  }
+}

@@ -25,3 +25,5 @@ It has three tabs:
 2. **Content Analysis:** This section analyzes the content and recommends changes to improve the content.
 
 3. **Social:** Manage how your content appears on platforms like Facebook and X. Take charge of titles, descriptions, and images for impactful social media sharing.
+
+Available since version 7.4.

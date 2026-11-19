@@ -57,3 +57,5 @@ An eligible WPBakery license with active support includes **20,000 AI credits pe
 - **Support has expired:** Renew support through the [Licenses section of your account](https://support.wpbakery.com/licenses).
 
 For allowance details, see [What is the AI credits usage limit?](/docs/faq/what-is-the-ai-credits-usage-limit).
+
+Available since version 7.2.
