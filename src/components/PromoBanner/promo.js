@@ -2,7 +2,9 @@
  * Schedule and link of the promo banner shown at the top of every page.
  *
  * Times are in Riga time (EET, UTC+2). The banner switches on and off in the
- * visitor's browser, so no deploy is needed at the start or end.
+ * visitor's browser, so no deploy is needed at the start or end. The time used
+ * is the server's (from the Date header of a request to the KB), so a wrong
+ * clock on the visitor's computer doesn't change when the banner shows.
  *
  * Add `?promo-preview` to any page URL to see the banner outside the schedule.
  */
@@ -32,8 +34,39 @@ export function isPromoActive(now, search) {
 }
 
 /**
+ * Measures how far the visitor's clock is from the server's.
+ *
+ * Reads the Date header of an uncached HEAD request to the KB. The header has
+ * one-second precision, so the result is accurate to about a second.
+ *
+ * @returns {Promise<number|null>} Milliseconds to add to Date.now() to get
+ *   server time, or null if the server time couldn't be read.
+ */
+export async function fetchServerTimeOffset() {
+  try {
+    const sent = Date.now();
+    const response = await fetch(`/?promo-time=${sent}`, {
+      method: 'HEAD',
+      cache: 'no-store',
+    });
+    const received = Date.now();
+    const serverTime = Date.parse(response.headers.get('Date'));
+    if (Number.isNaN(serverTime)) {
+      return null;
+    }
+    // The header is rounded down to the second; assume it was sent halfway
+    // through the request.
+    return serverTime + 500 - (sent + received) / 2;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
  * Script inlined in <head>. It sets the attribute before the page is painted,
- * so the banner doesn't push the page down after it loads.
+ * so the banner doesn't push the page down after it loads. It can't wait for
+ * the server time, so it uses the visitor's clock; the banner component then
+ * corrects it with the server time.
  */
 export const promoHeadScript = `(function () {
   try {

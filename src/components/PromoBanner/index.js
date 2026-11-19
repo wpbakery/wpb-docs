@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {PROMO, PROMO_ATTRIBUTE, isPromoActive} from './promo';
+import {PROMO, PROMO_ATTRIBUTE, fetchServerTimeOffset, isPromoActive} from './promo';
 import styles from './styles.module.css';
 
 // setTimeout can't wait longer than about 24.8 days.
@@ -19,6 +19,9 @@ function Star() {
 /**
  * Keeps the banner in step with the schedule while the page stays open:
  * shows it at the start time and hides it at the end time.
+ *
+ * Starts with the visitor's clock, then switches to the server time once it
+ * is known. If the server time can't be read, the visitor's clock is kept.
  */
 function usePromoSchedule() {
   useEffect(() => {
@@ -26,10 +29,13 @@ function usePromoSchedule() {
     const {search} = window.location;
     const start = Date.parse(PROMO.start);
     const end = Date.parse(PROMO.end);
+    let offset = 0;
     let timer;
+    let cancelled = false;
 
     const update = () => {
-      const now = Date.now();
+      clearTimeout(timer);
+      const now = Date.now() + offset;
       if (isPromoActive(now, search)) {
         root.setAttribute(PROMO_ATTRIBUTE, 'on');
       } else {
@@ -43,7 +49,19 @@ function usePromoSchedule() {
     };
 
     update();
-    return () => clearTimeout(timer);
+
+    fetchServerTimeOffset().then((serverOffset) => {
+      if (cancelled || serverOffset === null) {
+        return;
+      }
+      offset = serverOffset;
+      update();
+    });
+
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
   }, []);
 }
 
