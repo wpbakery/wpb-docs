@@ -4,59 +4,90 @@ title: Responsive settings
 sidebar_label: Responsive settings
 sidebar_position: 4
 hide_table_of_contents: true
+keywords: [WPBakery responsive settings]
+description: Learn how to configure WPBakery responsive settings to adjust column layouts, set device-specific styles, hide elements and customize breakpoints.
 ---
 
-WPBakery Page Builder allows you to set styles for each device separately, hide elements on selected devices and change the screen width where each device view starts.
+WPBakery Page Builder automatically adapts page layouts to different screen sizes. Use responsive settings to adjust column width, offset and visibility.
+
+## Column layouts
+
+Open the column edit window and select **Responsiveness** to adjust column width and offset for different devices. Use the default column values or change the settings for a particular device. To hide a column on selected device types, use **Hide element** in the **Design options** tab.
+
+You can also apply these responsive settings to inner columns.
 
 ## Device views
 
-| Device | Screen width (default) | Editor preview (default) |
-|-------------------|------------------------|--------------------------|
-| Desktop | From 1200px | Full width |
-| Tablet horizontal | Up to 1200px | 1024px |
-| Tablet vertical | Up to 1024px | 768px |
-| Mobile horizontal | Up to 768px | 640px |
-| Mobile vertical | Up to 640px | 480px |
+WPBakery Page Builder supports five device views:
 
-Screen widths and preview sizes are set by the [breakpoints](#breakpoints) in the plugin settings: each device view starts at its breakpoint, ends at the next one and the editors preview it at its breakpoint width. Mobile vertical covers everything below the mobile horizontal breakpoint and is previewed at 480px, or narrower when that breakpoint is lower.
+- Desktop
+- Tablet horizontal
+- Tablet vertical
+- Mobile horizontal
+- Mobile vertical
 
-## Breakpoints
+Select a view using the device switch in the Frontend or Backend Editor navigation bar.
 
-The screen width where each device view starts can be changed in WP Dashboard -> WPBakery Page Builder -> Design Options tab:
+In the Backend Editor, the schematic layout changes to reflect responsive stacking. The device selector in element settings stays synchronized with the device switch in the navigation bar.
 
-- Desktop breakpoint (1200px by default);
-- Tablet horizontal breakpoint (1024px by default);
-- Tablet vertical breakpoint (768px by default);
-- Mobile horizontal breakpoint (640px by default).
+import ZoomImage from '@site/src/components/ZoomImage';
 
-<img src="/img/screenshots/responsive-breakpoints-settings.png" alt="Breakpoint fields in the Design Options tab of the plugin settings" style={{width: '40%', minWidth: '280px', maxWidth: '100%'}} />
+<ZoomImage src="/img/screenshots/responsive-settings-device-views.png" alt="The Backend Editor device switch showing Desktop, tablet and mobile views" />
 
-Once saved, the device dropdown in both editors shows the new screen widths and previews each device at its new width.
+## Device-specific Design Options
 
-**Note:** values must increase from mobile horizontal to desktop. Invalid value is rejected on save and the previous one is kept.
+Supported attributes in an element’s **Design Options** tab display a device icon. Use this control to set a value for a selected device.
 
-Column widths follow new breakpoints after saving the settings with "Use custom design options" enabled. Breakpoints changed in earlier versions are kept.
+1. Open the element edit window.
+2. Select the **Design Options** tab.
+3. Click the device icon next to a supported attribute.
+4. Select a device and enter its value.
+5. Click **Save changes**.
 
-## Editing per device
+Desktop values apply across devices by default. A value set for a specific device applies to that device and all smaller devices until a smaller device gets its own value.
 
-Some params can have a different value for each device, for example the ones in the Design Options tab. To set a value for a device, select that device in the device dropdown in the navigation bar, then set the value. The editor previews the page at the width of the selected device. Desktop is selected by default. The same device dropdown is also shown next to each of these params in the element edit window, so you can switch the device there too. Both dropdowns always show the same device.
+<ZoomImage src="/img/screenshots/responsive-settings-device-specific-options.png" alt="The Design Options tab with a device selector for responsive values" />
 
-To remove all device-specific values of an element and return to its Desktop values, use "Restore default responsiveness" in the "Element Settings" menu of the element edit window, available for elements with params that support responsiveness.
+## Hide elements on a device
 
-## Inheritance
+Use **Hide element** in the **Design Options** tab to hide an element on a selected device.
 
-A value set for a device is used by that device and all smaller devices, until a smaller device gets its own value. For example, a value set for Tablet horizontal applies to Tablet horizontal, Tablet vertical, Mobile horizontal and Mobile vertical, unless one of them has its own value. A param with no value of its own shows the inherited value as a placeholder, and values set with Desktop selected apply to all devices that have no value of their own.
+1. In the **Design Options** tab, click the device selector next to **Hide element**.
+2. Select the device where you want to hide the element.
+3. Turn on **Hide element** and click **Save changes**.
 
-## Hide element
+**Note:** When you enable **Hide element** for a specific device, the setting automatically applies to all smaller devices. To change this behavior for a smaller device, switch to that device using the device selector and adjust the **Hide element** setting individually.
 
-"Hide element" toggle at the top of the Design Options tab hides the element on the selected device and the smaller ones. To override this behavior on a smaller device, select that device using the device selector and adjust the Hide element setting individually. With Desktop selected it hides the element on all devices. Element hidden on all devices is not displayed on your site at all. In the editors hidden elements remain visible but dimmed.
+## Restore automatic responsiveness
 
-**Note:** "Hide row" and "Hide section" toggles and column hide checkboxes are replaced with "Hide element" toggle. Existing pages keep working, old values are displayed as "Hide element" setting when you open the element edit window.
+To remove an element’s device-specific customizations:
 
-## Column width and offset
+1. Open the element edit window.
+2. Open the menu at the top of the window.
+3. Select **Restore auto responsiveness**.
 
-Column width and offset are set per device in the column edit window under "Responsiveness" tab, see [Column width and offset](/docs/building-with-wpbakery/column-width-and-offset). To hide a column use "Hide element" toggle in the column Design Options tab.
+This clears the selected element’s responsive overrides and returns all device views to its desktop values.
 
-<p>Available since 9.2</p>
+<ZoomImage src="/img/screenshots/responsive-settings-restore-auto-responsiveness.png" alt="The element settings menu with Restore auto responsiveness selected" />
 
-Available since version 9.2.
+## Custom breakpoints
+
+Responsive breakpoints define the transitions between device views. You can customize these values in the WPBakery admin dashboard.
+
+1. Go to **WP Dashboard → WPBakery Page Builder → Design Options**.
+2. Adjust the Desktop breakpoint, Tablet horizontal breakpoint, Tablet vertical breakpoint and Mobile horizontal breakpoint values.
+3. Enable **Use custom design options** to apply the new breakpoints to column widths, then click **Save Changes**.
+
+These breakpoints are used by the device switches in both editors.
+
+**Note:** The values shown in the screenshot are examples and can be changed.
+
+<ZoomImage src="/img/screenshots/responsive-settings-custom-breakpoints.png" alt="WPBakery Design Options settings showing the responsive breakpoint fields" />
+
+<div style={{textAlign: 'center'}}>
+  <iframe style={{maxWidth: '800px', width: '100%'}} height="450" src="https://www.youtube.com/embed/r66uCgEkv0M?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="A walkthrough through the WPBakery responsive settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+For more information, see [Element design options](/docs/building-with-wpbakery/element-design-options) and [WPBakery Page Builder settings](/docs/building-with-wpbakery/wpbakery-page-builder-settings).
+
+<p>Device-specific Design Options, Hide element, Restore auto responsiveness, custom breakpoints, and device switching in the Backend Editor are available starting with WPBakery Page Builder 9.2.</p>
