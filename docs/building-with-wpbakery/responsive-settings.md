@@ -4,7 +4,7 @@ title: Responsive settings
 sidebar_label: Responsive settings
 sidebar_position: 4
 hide_table_of_contents: true
-kw: WPBakery responsive settings
+keywords: [WPBakery responsive settings]
 description: Learn how to configure WPBakery responsive settings to adjust column layouts, set device-specific styles, hide elements and customize breakpoints.
 ---
 
