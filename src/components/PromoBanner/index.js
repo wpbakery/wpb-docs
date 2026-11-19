@@ -22,8 +22,11 @@ function Star() {
  *
  * Starts with the visitor's clock, then switches to the server time once it
  * is known. If the server time can't be read, the visitor's clock is kept.
- * The server time is read again whenever the tab becomes visible, since timers
- * and performance.now() can fall behind while the computer is asleep.
+ *
+ * Timers and performance.now() can fall behind while the computer is asleep,
+ * so whenever the tab becomes visible the server time is read again. Until it
+ * arrives, or if it can't be read, the visitor's clock is used with the
+ * difference from the server measured last time.
  */
 function usePromoSchedule() {
   useEffect(() => {
@@ -31,7 +34,9 @@ function usePromoSchedule() {
     const {search} = window.location;
     const start = Date.parse(PROMO.start);
     const end = Date.parse(PROMO.end);
-    let getNow = () => Date.now();
+    // Server time minus the visitor's clock, from the last successful sync.
+    let offset = 0;
+    let getNow = () => Date.now() + offset;
     let timer;
     let cancelled = false;
 
@@ -55,6 +60,7 @@ function usePromoSchedule() {
         if (cancelled || base === null) {
           return;
         }
+        offset = base + performance.now() - Date.now();
         getNow = () => base + performance.now();
         update();
       });
@@ -62,6 +68,7 @@ function usePromoSchedule() {
 
     const onVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
+        getNow = () => Date.now() + offset;
         update();
         syncWithServer();
       }
