@@ -335,3 +335,5 @@ See how easy it is to create grid element template from scratch by using WPBaker
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/ER2njPVmsnk?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="WPBakery Page Builder Grid Element Builder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+Available since version 4.4.

@@ -22,3 +22,5 @@ When copying rows between pages of different sites, media files like images and 
 <div style={{textAlign: 'center'}}>
   <iframe style={{maxWidth: '700px', width: '100%'}} height="450" src="https://www.youtube.com/embed/_GYaGn07lOQ?feature=oembed&modestbranding=1&showinfo=0&rel=0" title="How To Copy and Paste Between WPBakery Websites (And Within The Same Site)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+Available since version 7.1.

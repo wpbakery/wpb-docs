@@ -46,3 +46,5 @@ In order delete preset:
 
 </div>
 </div>
+
+Available since version 5.2.
