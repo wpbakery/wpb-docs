@@ -68,3 +68,5 @@ The following are the Keyboard Shortcuts that can be used within the page builde
 </tr>
 </tbody>
 </table>
+
+Available since version 8.6.
