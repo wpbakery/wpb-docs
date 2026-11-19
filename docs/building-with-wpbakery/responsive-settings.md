@@ -76,7 +76,7 @@ Responsive breakpoints define the transitions between device views. You can cust
 
 1. Go to **WP Dashboard → WPBakery Page Builder → Design Options**.
 2. Adjust the Desktop breakpoint, Tablet horizontal breakpoint, Tablet vertical breakpoint and Mobile horizontal breakpoint values.
-3. Click **Save Changes**.
+3. Enable **Use custom design options** to apply the new breakpoints to column widths, then click **Save Changes**.
 
 These breakpoints are used by the device switches in both editors.
 
