@@ -44,7 +44,7 @@ Supported attributes in an element’s **Design Options** tab display a device i
 4. Select a device and enter its value.
 5. Click **Save changes**.
 
-Desktop values apply across devices by default. A value set for a specific device replaces the inherited desktop value for that device.
+Desktop values apply across devices by default. A value set for a specific device applies to that device and all smaller devices until a smaller device gets its own value.
 
 <ZoomImage src="/img/screenshots/responsive-settings-device-specific-options.png" alt="The Design Options tab with a device selector for responsive values" />
 
