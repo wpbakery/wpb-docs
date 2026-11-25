@@ -290,15 +290,6 @@ There are multiple attribute types available, this field is used to "tell" WPBak
 'type' => 'checkbox',
 ```
 
-### loop
-
-* Type - String
-* Description - Loop builder. Lets your users to construct loop which can later be used during the shortcode's output.
-* Example:
-```php
-'type' => 'loop',
-```
-
 ### css_editor
 
 * Type - String

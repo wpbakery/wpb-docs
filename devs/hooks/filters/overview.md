@@ -216,7 +216,6 @@ function your_custom_function($value, $additional_params) {
 | [`wpb_enqueue_frontend_editor_css`](/devs/hooks/filters/wpb_enqueue_frontend_editor_css) | Filters the list of CSS stylesheet handles to enqueue in the frontend editor. |
 | [`wpb_get_ai_icon_template`](/devs/hooks/filters/wpb_get_ai_icon_template) | Filters the template path used to render the AI icon for a given field. |
 | [`wpb_is_post_custom_layout_blank`](/devs/hooks/filters/wpb_is_post_custom_layout_blank) | Filters whether the current post uses a blank custom layout. |
-| [`wpb_loop_query_build_args`](/devs/hooks/filters/wpb_loop_query_build_args) | Filters the WP_Query arguments built by the loop parameter type before the query is executed. |
 | [`wpb_module_ai_element_param_types`](/devs/hooks/filters/wpb_module_ai_element_param_types) | Filters the list of element parameter types that display the AI icon in the editor. |
 | [`wpb_module_ai_text_field_words`](/devs/hooks/filters/wpb_module_ai_text_field_words) | Filters the list of keywords used to determine whether a `textfield` parameter should display the AI icon. |
 | [`wpb_module_ai_type_response_route_lib`](/devs/hooks/filters/wpb_module_ai_type_response_route_lib) | Filters the routing configuration that maps element parameter types to their AI response handler classes and API endpoints. |
